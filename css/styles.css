@@ -9,7 +9,63 @@
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+
+
+
+
+
+razmer slidera
+ width: 362px;
+     height: 500px;
+
+     razmer karuseli
+height: 513px;
  */
+
+
+
+
+
+ #carousel3d .carousel-3d-slide {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   text-align: center;
+   background-color: #fff;
+   padding: 10px;
+   -webkit-transition: all .4s;
+   transition: all .4s;
+   width: 666px;
+       height: 666px;
+ }
+
+ #carousel3d .carousel-3d-slide.current {
+   background-color: #333;
+   color: #fff;
+
+   width: 666px;
+       height: 666px;
+ }
+
+ #carousel3d .carousel-3d-slide.current span {
+
+   font-size: 20px;
+   font-weight: 500;
+ }
+
+
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10463,4 +10519,34 @@ section#contact form#contactForm :-ms-input-placeholder {
   .logopadding {
     padding-left: 12rem;
   }
+}
+
+
+
+
+
+.testerov{
+  width: 500px;
+      height: 500px;
+}
+
+.carousel-3d-slide.current{
+  width: 362px;
+      height: 500px;
+
+}
+.portfolio-item {
+
+  width: 362px;
+      height: 500px;
+}
+
+.s-container {
+  height: 600px;
+
+}
+
+.slide{
+  width: 666px;
+      height: 666px;
 }

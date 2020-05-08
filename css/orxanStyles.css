@@ -1,0 +1,41 @@
+.carousel-3d-slide img  {
+  height: 34rem;
+}
+
+.img-fluid {
+  height: 34rem;
+
+    margin-left: -3rem;
+}
+
+.carousel-3d-slide .senturoViorica {
+  height: 32rem;
+        width: 90%;
+    margin-left: -3rem;
+}
+
+
+#carousel3d .carousel-3d-slide.current {
+    background-color: #fff;
+    color: #0f0e0e;
+    width: 666px;
+    height: 666px;
+}
+
+.senturoHoverText {
+  color: black;
+
+}
+
+/* menaem cvet menyu vo vrmeya perexoda v razdel portfolio
+ */
+
+/* eto menaet cvet odnogo iz nav itemov, esli dobavit klass cvet drugim to on toje maxnet) */
+
+#mainNav .navbar-nav .nav-item .cvet {
+  color: #fff;
+}
+
+.toppadding {
+  padding-top: 5rem;
+}

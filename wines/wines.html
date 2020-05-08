@@ -72,6 +72,8 @@
 
       <div class="col-lg-9 col-sm-9 mb-9" id="two12">
 
+        <!-- Carousel -->
+
         <div class="moytest" id="carousel3d">
 
           <carousel-3d :perspective="0" :space="200" :display="5" :controls-visible="true" :controls-prev-html="'❬'" :controls-next-html="'❭'" :controls-width="30" :controls-height="60" :clickable="true" :autoplay="false" :autoplay-timeout="5000"
@@ -79,10 +81,10 @@
             <slide :index="0" style="height: 572px;">
 
 
-              <span class="title">Web Design</span>
+              <span class="title">Viorica Cabernet Sauvignon</span>
               <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
-                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                  <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                     <div class="portfolio-hover">
                       <div class="portfolio-hover-content"><h1>Подробнее</h1></div>
                     </div>
@@ -277,49 +279,31 @@
     </div>
   </footer>
   <!-- Portfolio Modals-->
-  <!-- Modal 1-->
+
   <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
+        <div class="close-modal" data-dismiss="modal"><img src="../assets/img/close-icon.svg" /></div>
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-6">
+            <div class="col-12">
               <div class="modal-body">
                 <!-- Project Details Go Here-->
-                <h2 class="text-uppercase">Viorica</h2>
-                <p class="item-intro text-muted"></p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/viorica.jpg" alt="" />
-                <p>Виорика - это имя молдавской девушки, оно происходит от одноименного названия цветка. Вино с большой индивидуальностью и характером, производится из местного селекционного винограда Виорика. Приготовлено по специальной технологии
-                  из отборного винограда сорта Виорика, выращенного на виноградниках в регионе Штефан Водэ (Юго-Восток) Молдовы. Восхитительный, гармоничный, мягкий вкус вина раскрывается нюансами аромата чайной розы, цукатных фруктов, оттенками меда
-                  и муската. Виноград выращен на виноградниках в регионе Штефан Водэ (Юго-Восток) Молдовы.</p>
-                <ul class="list-inline">
-                  <li>Год урожая: 2018</li>
-                  <li>Тип вина: Белое сухое</li>
-                  <li>Виноград: 100% Виорика</li>
-                  <li>Сочетание вина с едой: Брускеты, Карпачо из лосося, Мягкие сыры</li>
-                </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Закрыть</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal 2-->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" /></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <div class="modal-body">
-                <!-- Project Details Go Here-->
-                <h2 class="text-uppercase">Viorica</h2>
+          <div class="row">
+            <div class="col-6">
+
+
+                          <h2 class="text-uppercase">Viorica</h2>
                 <p class="item-intro text-muted">Cabernet Sauvignon</p>
-                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/viorica_cabernet_sauvignon.jpg" alt="" />
+                <img class="img-fluid d-block mx-auto" src="../assets\img\viorica\VioricaCabernetSauvignon.png" alt="" />
+  </div>
+
+
+<div class="col-6" style="
+    margin-top: 8rem;
+">
+
+
                 <p>Это выразительное вино насыщенного рубинового цвета с оттенками бронзы.  В богатом сложном аромате присутствуют тона ягод чёрной смородины, ежевики, чернослива, вишни. Вино с хорошей текстурой, его танины не агрессивные. Вкус
                   гармоничный, сбалансированный, с умеренной терпкостью и смородиновыми нотками, послевкусие длинное, фруктовое.  Виноград для него был выращен и бережно собран на виноградниках в регионе Штефан Водэ (Юго-Восток) Молдовы.</p>
                 <ul class="list-inline">
@@ -328,14 +312,17 @@
                   <li>Виноград: 100% Каберне Совиньон</li>
                   <li>Сочетание вина с едой: Стейк из говядины, Свинины, Твердые сыры</li>
                 </ul>
+                  </div>
+                      </div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button"><i class="fas fa-times mr-1"></i>Закрыть</button>
-              </div>
+
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
   <!-- Modal 3-->
   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">

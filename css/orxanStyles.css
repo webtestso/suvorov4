@@ -24,7 +24,7 @@
 .page-section {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  
+
 }
 
 /* menaem cvet menyu vo vrmeya perexoda v razdel portfolio
@@ -39,3 +39,7 @@
 .toppadding {
   padding-top: 5rem;
 }
+
+#logo-scroll{
+  display:none; 
+ }

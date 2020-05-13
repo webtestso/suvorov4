@@ -52,7 +52,7 @@
 
 
 
-@media all and (max-width: 433px) and (min-width: 285px) {
+@media all and (max-width: 502px) and (min-width: 285px) {
   header.masthead {
 
     width: 503px;
@@ -75,7 +75,7 @@
     width: 505px;
 }
 #portfolio {
-padding: 0 0 0 71.8px;
+padding: 0 0 131px 71.8px;
     width: 502px;
 }
 

@@ -10187,13 +10187,13 @@ header.masthead .masthead-heading {
   }
 }
 
-  @media all and (max-width: 480px) and (min-width: 300px) {
+  /* @media all and (max-width: 480px) and (min-width: 300px) {
     header.masthead {
       padding-top: 8rem;
   padding-bottom: 7rem;
   width: 30rem;
 
-    }
+    } */
 
 
 

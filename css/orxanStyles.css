@@ -52,7 +52,7 @@
 
 
 
-@media all and (max-width: 433px) and (min-width: 300px) {
+@media all and (max-width: 433px) and (min-width: 285px) {
   header.masthead {
 
     width: 503px;
@@ -73,6 +73,14 @@
 
 #services {
     width: 505px;
+}
+#portfolio {
+padding: 0 0 0 71.8px;
+    width: 502px;
+}
+
+:root{
+  width: 502px
 }
 
 }

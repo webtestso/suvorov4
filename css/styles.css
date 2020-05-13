@@ -10177,6 +10177,27 @@ header.masthead .masthead-heading {
     padding-top: 40rem;
     padding-bottom: 12.5rem;
   }
+}
+
+  @media all and (max-width: 991px) and (min-width: 300px) {
+    #mainNav {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      background-color: #a5477e42;
+  }
+}
+
+  @media all and (max-width: 480px) and (min-width: 300px) {
+    header.masthead {
+      padding-top: 8rem;
+  padding-bottom: 7rem;
+  width: 30rem;
+
+    }
+
+
+
+  }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;

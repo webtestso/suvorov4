@@ -1,37 +1,32 @@
-.carousel-3d-slide img  {
+.carousel-3d-slide img {
   height: 34rem;
 }
 
-
 .carousel-3d-slide .senturoViorica {
   height: 32rem;
-        width: 90%;
-    margin-left: -3rem;
+  width: 90%;
+  margin-left: -3rem;
 }
 
-
 #carousel3d .carousel-3d-slide.current {
-    background-color: #fff;
-    color: #0f0e0e;
-    width: 666px;
-    height: 666px;
+  background-color: #fff;
+  color: #0f0e0e;
+  width: 666px;
+  height: 666px;
 }
 
 .senturoHoverText {
   color: black;
-
 }
+
 .page-section {
   margin-top: 0rem;
   margin-bottom: 0rem;
-
 }
 
 /* menaem cvet menyu vo vrmeya perexoda v razdel portfolio
  */
-
 /* eto menaet cvet odnogo iz nav itemov, esli dobavit klass cvet drugim to on toje maxnet) */
-
 #mainNav .navbar-nav .nav-item .cvet {
   color: #fff;
 }
@@ -40,6 +35,62 @@
   padding-top: 5rem;
 }
 
-#logo-scroll{
-  display:none;
- }
+#logo-scroll {
+  display: none;
+}
+
+
+
+/* FOTKI NA HEADERE  */
+
+/* padding-top: 8rem;
+    padding-bottom: 20rem;
+    width: 62rem;
+    height: 262px;
+    margin: 0px 0 2px 2.4px; */
+    /* <-- xorowie nastroyki tut do 554 */
+
+
+
+@media all and (max-width: 433px) and (min-width: 300px) {
+  header.masthead {
+    padding-top: 8rem;
+       padding-bottom: 20rem;
+       width: 62rem;
+       height: 262px;
+       margin: 0px 0 2px 2.4px;
+  }
+
+  #mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #21252900;
+}
+
+
+}
+
+@media all and (max-width: 650px) and (min-width: 576px) {
+  header.masthead {
+    padding-top: 8rem;
+       padding-bottom: 20rem;
+       width: 62rem;
+       height: 262px;
+       margin: 0px 0 2px 2.4px;
+    ;
+  }
+}
+
+@media all and (max-width: 880px) and (min-width: 651px) {
+  header.masthead {
+    padding-top: 8rem;
+       padding-bottom: 20rem;
+       width: 62rem;
+       height: 262px;
+       margin: 0px 0 2px 2.4px;
+  }
+
+  /* .navbar-expand-lg .navbar-collapse {
+    margin: -15px 0px 1px 0px;
+  } */
+}

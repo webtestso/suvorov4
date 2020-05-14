@@ -10151,7 +10151,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/africaheader.png");
+  background-image: url("../assets/img/header_last.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10345,8 +10345,8 @@ header.masthead .masthead-heading {
   position: absolute;
   z-index: 100;
   left: 0;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   margin-left: 0;
   text-align: center;
   color: white;
@@ -10397,13 +10397,13 @@ header.masthead .masthead-heading {
   }
   .timeline > li {
     min-height: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 0;
   }
   .timeline > li .timeline-panel {
-    float: left;
+    float: none;
     width: 41%;
     padding: 0 20px 20px 30px;
-    text-align: right;
+    text-align: justify;
   }
   .timeline > li .timeline-image {
     left: 50%;
@@ -10419,7 +10419,7 @@ header.masthead .masthead-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     padding: 0 30px 20px 20px;
-    text-align: left;
+    text-align: justify;
   }
 }
 @media (min-width: 992px) {
@@ -10573,7 +10573,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 #about {
-  background-color: #fbe8e7;
+  background-color: #30475e;
 }
 
 #services {

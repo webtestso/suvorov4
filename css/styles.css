@@ -2513,29 +2513,29 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #222831;
+  border-color: #222831;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #fec810;
-  border-color: #fec503;
+  background-color: #30475e;
+  border-color: #30475e;
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #fec810;
-  border-color: #fec503;
+  background-color: #30475e;
+  border-color: #30475e;
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #30475e;
+  border-color: #30475e;
 }
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #fec503;
-  border-color: #f3bd01;
+  background-color: #30475e;
+  border-color: #30475e;
 }
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
@@ -10072,7 +10072,7 @@ img::-moz-selection {
   justify-content: center;
   padding: 0;
   border-radius: 100%;
-  background-color: #ffc4d0;
+  background-color: #222831;
   font-size: 1.5rem;
 }
 
@@ -10151,7 +10151,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header_last.jpg");
+  background-image: url("../assets/img/africaheader.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10462,6 +10462,7 @@ header.masthead .masthead-heading {
     padding: 0 100px 20px 20px;
   }
 }
+
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
@@ -10577,13 +10578,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 #services {
-  background-color: #fcf5ee;
+  background-color: #c1a57b;
 }
 
 #portfolio {
-  background-color: #fbe8e7;
+  background-color: white;
 }
 
 #team {
-  background-color: #fcf5ee;
+  background-color: #30475e;
 }

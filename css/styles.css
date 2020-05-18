@@ -10036,12 +10036,12 @@ p {
   }
 }
 ::-moz-selection {
-  background: #fed136;
+  background: black;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: black;
   text-shadow: none;
 }
 
@@ -10072,7 +10072,7 @@ img::-moz-selection {
   justify-content: center;
   padding: 0;
   border-radius: 100%;
-  background-color: red;
+  background-color: #3f729b;
   font-size: 1.5rem;
 }
 

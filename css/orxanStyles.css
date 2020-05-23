@@ -1,12 +1,31 @@
-.carousel-3d-slide img {
-  height: 34rem;
+
+
+
+
+
+.topTekstKollekcii {
+  display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
 }
 
-.carousel-3d-slide .senturoViorica {
+
+
+
+
+
+
+/* .carousel-3d-slide img {
+  height: 34rem;
+} */
+
+/* .carousel-3d-slide .senturoViorica {
   height: 32rem;
   width: 90%;
   margin-left: -3rem;
-}
+} */
 
 #carousel3d .carousel-3d-slide.current {
   background-color: #fff;
@@ -51,6 +70,37 @@
     /* <-- xorowie nastroyki tut do 554 */
 
 
+
+/* @media (max-width: 991px) and (min-width: 992px) */
+
+
+@media (min-width: 992px){
+
+  .carousel-3d-slide .senturoViorica {
+    width: 75%;
+        margin-top: -179.2px;
+
+}
+}
+
+
+@media all and (max-width: 991px) and (min-width: 576px)  {
+  .carousel-3d-slide .senturoViorica {
+    width: 75%;
+    margin-top: -128px;
+  }
+
+}
+
+/* @media all and (min-width: 576px) {
+  .carousel-3d-slide .senturoViorica {
+
+    width: 75%;
+      margin-top: -128px;
+
+  }
+
+} */
 
 @media all and (max-width: 502px) and (min-width: 285px) {
   header.masthead {
@@ -108,4 +158,86 @@ padding: 0 0 131px 71.8px;
   /* .navbar-expand-lg .navbar-collapse {
     margin: -15px 0px 1px 0px;
   } */
+}
+
+
+
+
+
+/* Modals stili */
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7.3rem;
+    outline: 0;
+}
+
+.modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0rem 8rem;
+    border-bottom: none;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+    background-color: #ff00001c;
+}
+
+/* znacok zakritiyaa  */
+.close {
+    float: right;
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 0.5;
+    padding: 0 0 0 0px;
+    padding: 1rem 1rem;
+    margin: -1rem -2rem -2rem auto;
+}
+
+    .tekstModalVerxniy {
+
+      letter-spacing: 0.5px;
+    width: 93%;
+    font-size: 1.9rem;
+    line-height: 127%;
+    padding: 0px 0px 0 0;
+    margin: 42px 0 0 -49px;
+    font-style: oblique;
+    font-family: monospace;
+}
+
+  .tekstModalNijniy {
+
+width: 83%;
+line-height: 157%;
+font-size: 1.4rem;
+margin: 0px 0 0 -55px;
+padding: 88.1px 0px 0px 0px;
+text-align: left;
+font-weight: 600;
+
+  }
+
+  .modal-body {
+    background-color: #ff00001c;
+  }
+
+  .svg-inline--fa.fa-w-8 {
+  width: 37.5em;
+  height: 3em;
+}
+
+.wirinaModalButilki{
+
+width: 80%;
+
 }

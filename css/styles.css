@@ -52,7 +52,7 @@ height: 513px;
 
  #carousel3d .carousel-3d-slide.current {
    background-color: #fff;
-   color: #fff;
+   /* color: #fff; */
 
    width: 666px;
        height: 666px;
@@ -532,6 +532,8 @@ mark,
 }
 
 .img-fluid {
+  /* margin-top: -177px; */
+    margin-right: 3px;
   max-width: 100%;
   height: auto;
 }

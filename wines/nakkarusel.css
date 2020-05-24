@@ -1,0 +1,60 @@
+
+
+.news-events-page--list-page{
+  text-align: center
+}
+@media (min-width: 768px){
+  .modal-dialog
+    width: 980px
+}
+
+    @media (min-width: 320px)
+      top: 20%
+
+    @media (min-width: 480px)
+      top: 25%
+}
+    @media (min-width: 768px)
+      top: 30%
+}
+    @media (min-width: 992px)
+      top: 35%
+}
+#sync1 .item {
+  background: #0c83e7
+  margin: 5px
+  color: #FFF
+  -webkit-border-radius: 3px
+  -moz-border-radius: 3px
+  border-radius: 3px
+  text-align: center
+}
+#sync2
+  .owl-item
+    .item
+    {
+      background: #333
+      margin: 5px
+      color: #FFF
+      -webkit-border-radius: 3px
+      -moz-border-radius: 3px
+      border-radius: 3px
+      text-align: center
+      cursor: pointer
+      img
+        opacity: 0.5
+
+    &.synced
+      .item
+        img
+          opacity: 1
+}
+.modal.in .modal-dialog
+  border-radius: 0px
+
+  .modal-content
+    border-radius: 0px
+
+    .modal-header
+      border-radius: 0px
+      text-align: center

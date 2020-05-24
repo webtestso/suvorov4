@@ -1,7 +1,101 @@
 
+/* modal vnutr karusel i td vnizu */
+@media (min-width: 992px) {
+
+  .svg-inline--fa.fa-w-8 {
+    width: 49%;
+    height: 3em;
+}
+
+  .tekstModalVerxniy {
+    letter-spacing: 0.5px;
+        width: 124%;
+        font-size: 1.9rem;
+        line-height: 126%;
+        padding: 0px 0px 0 0;
+        margin: 42px 0 0 -106px;
+        font-style: oblique;
+        font-family: monospace;
+  }
+
+  .tekstModalNijniy {
+
+    width: 80%;
+    line-height: 157%;
+    font-size: 1.4rem;
+    margin: -67px 0 0 -89px;
+    padding: 88.1px 0px 0px 0px;
+    text-align: left;
+    font-weight: 600;
+
+  }
 
 
 
+
+.HeaderOfModalImage{
+  letter-spacing: 0.5px;
+    width: 93%;
+    font-size: 1.9rem;
+    line-height: 127%;
+    padding: 0px 0px 0 0;
+    margin: 0px 0px 0px 40px;
+    font-style: oblique;
+    font-family: monospace;
+}
+
+
+}
+
+@media (max-width: 991px) {
+
+  .svg-inline--fa.fa-w-8 {
+    width: 49%;
+    height: 3em;
+}
+
+  .tekstModalVerxniy {
+    letter-spacing: 0.5px;
+    width: 114%;
+    font-size: 1.4rem;
+    line-height: 114%;
+    padding: 0px 0px 0 0;
+    margin: 42px 0 0 -52px;
+    font-style: oblique;
+    font-family: monospace;
+}
+
+  .tekstModalNijniy {
+
+    width: 80%;
+    line-height: 157%;
+    font-size: 1.4rem;
+    margin: -67px 0 0 -89px;
+    padding: 88.1px 0px 0px 0px;
+    text-align: left;
+    font-weight: 600;
+
+  }
+
+
+
+
+.HeaderOfModalImage{
+  letter-spacing: 0.5px;
+      width: 100%;
+      font-size: 1.4rem;
+      line-height: 127%;
+      padding: 0px 0px 0 0;
+      margin: 3px 0px 0px 12px;
+      font-style: oblique;
+      font-family: monospace;
+}
+
+
+}
+
+
+/* modal vnutr karusel i td naverxu */
 
 .topTekstKollekcii {
   display: block;
@@ -206,41 +300,20 @@ padding: 0 0 131px 71.8px;
     margin: -1rem -2rem -2rem auto;
 }
 
-    .tekstModalVerxniy {
 
-      letter-spacing: 0.5px;
-    width: 93%;
-    font-size: 1.9rem;
-    line-height: 127%;
-    padding: 0px 0px 0 0;
-    margin: 42px 0 0 -49px;
-    font-style: oblique;
-    font-family: monospace;
-}
 
-  .tekstModalNijniy {
-
-width: 83%;
-line-height: 157%;
-font-size: 1.4rem;
-margin: 0px 0 0 -55px;
-padding: 88.1px 0px 0px 0px;
-text-align: left;
-font-weight: 600;
-
-  }
 
   .modal-body {
     background-color: #ff00001c;
   }
 
-  .svg-inline--fa.fa-w-8 {
+  /* .svg-inline--fa.fa-w-8 {
   width: 37.5em;
   height: 3em;
-}
+} */
 
 .wirinaModalButilki{
 
 width: 80%;
-
+margin-top: 2.3rem;
 }

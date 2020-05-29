@@ -72,9 +72,9 @@ $(document).ready(function() {
           sync5.trigger('owl.prev');
         })
 
-        var sync6 = $("#sync6");
+        var sync7 = $("#sync7");
 
-        sync6.owlCarousel({
+        sync7.owlCarousel({
           singleItem : true,
           slideSpeed : 1000,
           pagination:false,
@@ -83,12 +83,11 @@ $(document).ready(function() {
         });
 
           $(".next").click(function(){
-          sync6.trigger('owl.next');
+          sync7.trigger('owl.next');
         })
         $(".prev").click(function(){
-          sync6.trigger('owl.prev');
+          sync7.trigger('owl.prev');
         })
-
 
   sync2.owlCarousel({
     items : 6,

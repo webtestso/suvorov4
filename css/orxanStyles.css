@@ -10,7 +10,7 @@
   .tekstModalVerxniy {
     letter-spacing: 0.5px;
         width: 124%;
-        font-size: 1.9rem;
+        font-size: 1.3rem;
         line-height: 126%;
         padding: 0px 0px 0 0;
         margin: 42px 0 0 -106px;
@@ -32,7 +32,7 @@
 .HeaderOfModalImage{
     letter-spacing: 0.5px;
     width: 93%;
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     line-height: 127%;
     padding: 0px 0px 0 0;
     margin: 0px 0px 0px 40px;
@@ -92,7 +92,7 @@
 .topTekstKollekcii {
   display: block;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: "Comfortaa";
     font-weight: 700;
 }
@@ -149,7 +149,7 @@ height: 572px !important;
 
   .carousel-3d-slide .senturoViorica {
     width: 75%;
-    margin-top: -179.2px;
+    /* margin-top: -179.2px; */
 
 }
 }
@@ -158,7 +158,7 @@ height: 572px !important;
 @media all and (max-width: 991px) and (min-width: 576px)  {
   .carousel-3d-slide .senturoViorica {
     width: 75%;
-    margin-top: -128px;
+    /* margin-top: -128px; */
   }
 
 }

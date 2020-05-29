@@ -18,6 +18,78 @@ $(document).ready(function() {
     sync1.trigger('owl.prev');
   })
 
+
+
+    var sync3 = $("#sync3");
+
+    sync3.owlCarousel({
+      singleItem : true,
+      slideSpeed : 1000,
+      pagination:false,
+      afterAction : syncPosition,
+      responsiveRefreshRate : 200,
+    });
+
+      $(".next").click(function(){
+      sync3.trigger('owl.next');
+    })
+    $(".prev").click(function(){
+      sync3.trigger('owl.prev');
+    })
+
+
+        var sync4 = $("#sync4");
+
+        sync4.owlCarousel({
+          singleItem : true,
+          slideSpeed : 1000,
+          pagination:false,
+          afterAction : syncPosition,
+          responsiveRefreshRate : 200,
+        });
+
+          $(".next").click(function(){
+          sync4.trigger('owl.next');
+        })
+        $(".prev").click(function(){
+          sync4.trigger('owl.prev');
+        })
+
+        var sync5 = $("#sync5");
+
+        sync5.owlCarousel({
+          singleItem : true,
+          slideSpeed : 1000,
+          pagination:false,
+          afterAction : syncPosition,
+          responsiveRefreshRate : 200,
+        });
+
+          $(".next").click(function(){
+          sync5.trigger('owl.next');
+        })
+        $(".prev").click(function(){
+          sync5.trigger('owl.prev');
+        })
+
+        var sync6 = $("#sync6");
+
+        sync6.owlCarousel({
+          singleItem : true,
+          slideSpeed : 1000,
+          pagination:false,
+          afterAction : syncPosition,
+          responsiveRefreshRate : 200,
+        });
+
+          $(".next").click(function(){
+          sync6.trigger('owl.next');
+        })
+        $(".prev").click(function(){
+          sync6.trigger('owl.prev');
+        })
+
+
   sync2.owlCarousel({
     items : 6,
     itemsDesktop      : [1199,6],

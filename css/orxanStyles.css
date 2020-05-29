@@ -1,4 +1,11 @@
 
+.SliderTitle{
+  padding-bottom: 3rem;
+}
+
+
+
+
 /* modal vnutr karusel i td vnizu */
 @media (min-width: 992px) {
 

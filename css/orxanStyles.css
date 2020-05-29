@@ -1,6 +1,24 @@
 
+@media (min-width: 400px) and (max-width:881px) {
+.page-section{
+  width:1000px !important;
+}
+
+.masthead{
+  width:1000px !important
+}
+
+}
+
+
 .SliderTitle{
   padding-bottom: 3rem;
+}
+
+.carousel-3d-slide img {
+margin-top: -57px;
+}
+
 }
 
 
@@ -172,8 +190,10 @@ height: 695px !important;
 
 @media all and (max-width: 991px) and (min-width: 576px)  {
   .carousel-3d-slide .senturoViorica {
-    width: 75%;
+    /* width: 75%; */
     /* margin-top: -128px; */
+    width: 100%;
+        margin-top: -45.2px;
   }
 
 }

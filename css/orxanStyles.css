@@ -2,6 +2,11 @@
 /* modal vnutr karusel i td vnizu */
 @media (min-width: 992px) {
 
+
+#portfolio{
+  padding: 50px 50px 240px 80px;
+}
+
   .svg-inline--fa.fa-w-8 {
     width: 49%;
     height: 3em;
@@ -98,7 +103,7 @@
 }
 
 #vysota {
-height: 572px !important;
+height: 695px !important;
 }
 
 
@@ -115,8 +120,11 @@ height: 572px !important;
 #carousel3d .carousel-3d-slide.current {
   background-color: #fff;
   color: #0f0e0e;
-  width: 666px;
-  height: 666px;
+  width: 388px !important;
+      height: 677px !important;
+  }
+
+
 }
 
 .senturoHoverText {
@@ -148,8 +156,8 @@ height: 572px !important;
 @media (min-width: 992px){
 
   .carousel-3d-slide .senturoViorica {
-    width: 75%;
-    /* margin-top: -179.2px; */
+    width: 100%;
+        margin-top: -45.2px;
 
 }
 }

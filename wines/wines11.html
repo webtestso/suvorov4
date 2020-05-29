@@ -69,7 +69,7 @@
         <div class="moaytest" id="carousel3d">
           <span class="topTekstKollekcii">Наши коллекции</span>
 
-          <carousel-3d :perspective="0" :space="200" :display="4" :controls-visible="true" :controls-prev-html="'❬'" :controls-next-html="'❭'" :controls-width="30" :controls-height="60" :clickable="true" :autoplay="false" :autoplay-timeout="5000"
+          <carousel-3d :perspective="0" :space="200" :display="5" :controls-visible="true" :controls-prev-html="'❬'" :controls-next-html="'❭'" :controls-width="30" :controls-height="60" :clickable="true" :autoplay="false" :autoplay-timeout="5000"
             style=height:572px; id="vysota">
 
             <slide :index="0" style="height: 572px;" id="vysota">
@@ -176,7 +176,7 @@
     new Vue({
       el: '#carousel3d',
       data: {
-        slides: 4
+        slides: 5
       },
       components: {
         'carousel-3d': Carousel3d.Carousel3d,

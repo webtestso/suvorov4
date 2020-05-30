@@ -52,6 +52,14 @@ padding: 66px 0 0 0 !important;
         margin: 42px 0 0 -106px;
   }
 
+  .tekstModalVerxniyViorica {
+  letter-spacing: 0.5px;
+        width: 124%;
+        font-size: 1.3rem;
+        line-height: 126%;
+        padding: 0px 0px 0 0;
+        margin: 42px 0 0 -106px;
+  }
   .tekstModalNijniy {
 
     width: 80%;
@@ -93,6 +101,15 @@ padding: 66px 0 0 0 !important;
     line-height: 114%;
     padding: 0px 0px 0 0;
     margin: 42px 0 0 -52px;
+}
+
+.tekstModalVerxniyViorica {
+  letter-spacing: 0.5px;
+  width: 114%;
+  font-size: 1.3rem;
+  line-height: 114%;
+  padding: 0px 0px 0 0;
+  margin: 42px 0 0 -52px;
 }
 
   .tekstModalNijniy {
@@ -186,6 +203,13 @@ height: 695px !important;
 
 
 @media (min-width: 992px){
+
+
+
+  .wirinaModalButilki {
+      width: 100%;
+      margin-top: -0.6rem;
+    }
 
   .carousel-3d-slide .senturoViorica {
     width: 100%;
@@ -310,11 +334,11 @@ height: 695px !important;
   height: 3em;
 } */
 
-.wirinaModalButilki{
+/* .wirinaModalButilki{
 
 width: 80%;
 margin-top: 2.3rem;
-}
+} */
 
 .SliderTitle {
 

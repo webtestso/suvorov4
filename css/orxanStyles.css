@@ -16,7 +16,7 @@
 }
 
 .carousel-3d-slide img {
-margin-top: -57px;
+  margin-top: -57px;
 }
 
 }
@@ -38,7 +38,7 @@ margin-top: -57px;
 }
 
   .tekstModalVerxniy {
-    letter-spacing: 0.5px;
+  letter-spacing: 0.5px;
         width: 124%;
         font-size: 1.3rem;
         line-height: 126%;
@@ -50,7 +50,7 @@ margin-top: -57px;
 
     width: 80%;
     line-height: 157%;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin: -67px 0 0 -89px;
     padding: 88.1px 0px 0px 0px;
     text-align: left;
@@ -62,7 +62,9 @@ margin-top: -57px;
 .HeaderOfModalImage{
     letter-spacing: 0.5px;
     width: 93%;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-family: Comfortaa;
+    font-weight: 700;
     line-height: 127%;
     padding: 0px 0px 0 0;
     margin: 0px 0px 0px 40px;
@@ -81,23 +83,21 @@ margin-top: -57px;
   .tekstModalVerxniy {
     letter-spacing: 0.5px;
     width: 114%;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 114%;
     padding: 0px 0px 0 0;
     margin: 42px 0 0 -52px;
-    font-style: oblique;
-    font-family: monospace;
 }
 
   .tekstModalNijniy {
 
     width: 80%;
     line-height: 157%;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin: -67px 0 0 -89px;
     padding: 88.1px 0px 0px 0px;
     text-align: left;
-    font-weight: 600;
+    font-weight: 400;
 
   }
 
@@ -105,12 +105,12 @@ margin-top: -57px;
 .HeaderOfModalImage{
   letter-spacing: 0.5px;
       width: 100%;
-      font-size: 1.4rem;
+      font-size: 1.5rem;
+      font-family: Comfortaa;
+      font-weight: 700;
       line-height: 127%;
       padding: 0px 0px 0 0;
       margin: 3px 0px 0px 12px;
-      font-style: oblique;
-      font-family: monospace;
 }
 
 
@@ -122,9 +122,10 @@ margin-top: -57px;
 .topTekstKollekcii {
   display: block;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     font-family: "Comfortaa";
     font-weight: 700;
+    margin-bottom: 4rem;
 }
 
 #vysota {
@@ -307,4 +308,11 @@ height: 695px !important;
 
 width: 80%;
 margin-top: 2.3rem;
+}
+
+.SliderTitle {
+
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Comfortaa";
 }

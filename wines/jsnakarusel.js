@@ -89,6 +89,22 @@ $(document).ready(function() {
           sync7.trigger('owl.prev');
         })
 
+
+        var sync8 = $("#sync8");
+
+        sync8.owlCarousel({
+          items:1,
+     loop:true,
+     margin:10,
+     autoPlay:true,
+     autoplayTimeout:100,
+     autoplayHoverPause:false
+        });
+
+
+
+
+
   sync2.owlCarousel({
     items : 6,
     itemsDesktop      : [1199,6],

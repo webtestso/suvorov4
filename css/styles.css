@@ -61,7 +61,7 @@ height: 513px;
  #carousel3d .carousel-3d-slide.current span {
 
    font-size: 20px;
-   font-weight: 500;
+   font-weight: 400;
  }
 
 
@@ -10101,7 +10101,7 @@ img::-moz-selection {
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: 'Comfortaa', cursive;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-transform: none;
   color: white;
   font-weight: bold;

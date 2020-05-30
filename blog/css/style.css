@@ -7762,6 +7762,7 @@ header {
       right: 20px; }
     .owl-carousel.home-slider .owl-dots {
       position: absolute;
+      display: none;
       left: 0;
       right: 0;
       bottom: 10px;

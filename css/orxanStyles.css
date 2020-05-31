@@ -2,6 +2,20 @@
 padding: 66px 0 0 0 !important;
 } */
 
+@media (min-width: 992px) {
+.tekstModalVerxniy {
+  font-style: italic;
+    margin-bottom: 2rem;
+    font-family: 'Jura', sans-serif;
+    font-size: 1.3rem;
+    padding: 25% 0% 5% 0%;
+    margin-left: -21%;
+}
+.svg-inline--fa.fa-w-8 {
+  width: 49%;
+  height: 3em;
+}
+}
 
 @media (min-width: 400px) and (max-width:881px) {
 .page-section{
@@ -43,14 +57,20 @@ padding: 66px 0 0 0 !important;
     height: 3em;
 }
 
-  .tekstModalVerxniy {
+  /* .tekstModalVerxniy {
   letter-spacing: 0.5px;
         width: 124%;
         font-size: 1.3rem;
         line-height: 126%;
         padding: 0px 0px 0 0;
         margin: 42px 0 0 -106px;
-  }
+        font-style: italic;
+            margin-bottom: 2rem;
+            font-family: 'Jura', sans-serif;
+            font-size: 1.3rem;
+            padding: 25% 0% 5% 0%;
+            margin-left: -21%;
+  } */
 
   .tekstModalVerxniyViorica {
   letter-spacing: 0.5px;

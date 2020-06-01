@@ -93,14 +93,13 @@ $(document).ready(function() {
         var sync8 = $("#sync8");
 
         sync8.owlCarousel({
-          items:1,
-     loop:true,
-     margin:10,
-     autoPlay:true,
-     autoplayTimeout:100,
-     autoplayHoverPause:false
+          autoPlay : true,
+          singleItem : true,
+          slideSpeed : 1000,
+          pagination:false,
+          afterAction : syncPosition,
+          responsiveRefreshRate : 200,
         });
-
 
 
 

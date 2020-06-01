@@ -1,3 +1,17 @@
+@media (min-width: 992px){
+#sendMessageButton{
+  margin-left: 0.1rem;
+}
+}
+
+
+@media (max-width: 991px){
+  #sendMessageButton {
+    margin-left: -2.5rem;
+
+}
+
+
 /* .page-section {
 padding: 66px 0 0 0 !important;
 } */
@@ -92,6 +106,23 @@ padding: 66px 0 0 0 !important;
 
   }
 
+
+.BBdiv {
+  margin-top: 4rem;
+}
+
+
+.tekstModalNijniyBB {
+
+    width: 80%;
+    line-height: 157%;
+    font-size: 1.3rem;
+    margin: -67px 0 0 81px;
+    padding: 88.1px 0px 0px 0px;
+    text-align: left;
+    font-weight: 600;
+
+  }
 
 .HeaderOfModalImage{
     letter-spacing: 0.5px;
@@ -224,12 +255,27 @@ height: 695px !important;
 
 @media (min-width: 992px){
 
+.SliderZagolovok{
+  padding-bottom: 4rem;
+}
 
+.SliderZagolovokBB{
+  padding-bottom: 0.9rem;
+}
+  .wirinaModalButilkiBB {
+      width: 100%;
+      margin-top: -4.6rem;
+    }
 
   .wirinaModalButilki {
       width: 100%;
       margin-top: -0.6rem;
     }
+
+    .wirinaModalButilkiBB {
+        width: 100%;
+        margin-top: -4.6rem;
+      }
 
   .carousel-3d-slide .senturoViorica {
     width: 100%;

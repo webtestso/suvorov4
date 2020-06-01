@@ -38,27 +38,77 @@
 
 <body id="page-top">
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top WinesSpecialNav" style="
+    padding: 0 0 0 0;
+"
+ id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top"><img id="logo-scroll" class="logopadding" src="../assets\img\logo2.png" /></a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars ml-1"></i></button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="index.html">Главная</a></li>
-          <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="#about">О нас</a></li>
-          <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="wines\wines11.html">Вина</a></li>
-          <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="#team">Команда</a></li>
-          <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="blog/index.html">Блог</a></li>
-          <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="#contact">Контакты</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger cvet" href="#about">О нас</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger cvet" href="">Вина</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger cvet" href="#team">Команда</a></li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger cvet" href="#contact">Контакты</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Masthead-->
-    <header class="masthead">
+  <div id="sync8" class="owl-carousel">
 
-  </header>
+    <div class="item">
+
+      <div class="row">
+
+<div class="col-12">
+        <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\africaheader.png" alt="" />
+        </div>
+        </div>
+
+
+        </div>
+
+
+
+
+
+    <div class="item">
+      <div class="row">
+
+
+
+
+        <div class="col-12">
+                <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\indexImages\Espania_Fet_Neagra_2.png" alt="" />
+                </div>
+</div>
+
+
+  </div>
+
+  <div class="item">
+    <div class="row">
+
+
+
+
+      <div class="col-12">
+              <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\indexImages\Japan_Viorica_2.png" alt="" />
+              </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+</div>
 
   <!-- Portfolio Grid-->
   <section class="page-section bg-light container2" id="portfolio">
@@ -80,7 +130,7 @@
             <slide :index="0" style="height: 572px;" id="vysota">
 
 
-              <span class="title SliderTitle">Viorica</span>
+              <span class="title SliderTitle SliderZagolovok">Viorica</span>
               <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
                   <a class="portfolio-link" data-toggle="modal" href="#carouselModal">
@@ -99,7 +149,7 @@
 
             <slide :index="1" style="height: 572px;" id="vysota">
 
-              <span class="title SliderTitle">Kazayak</span>
+              <span class="title SliderTitle SliderZagolovok">Kazayak</span>
               <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
                   <a class="portfolio-link" data-toggle="modal" href="#carouselModal2">
@@ -116,7 +166,7 @@
 
             <slide :index="2" style="height: 572px;" id="vysota">
 
-              <span class="title SliderTitle">Barza</span>
+              <span class="title SliderTitle SliderZagolovok">Barza</span>
               <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
                   <a class="portfolio-link" data-toggle="modal" href="#carouselModal3">
@@ -133,7 +183,7 @@
 
             <slide :index="3" style="height: 572px;" id="vysota">
 
-              <span class="title SliderTitle">B&B</span>
+              <span class="title SliderTitle SliderZagolovokBB">B&B</span>
               <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
                   <a class="portfolio-link" data-toggle="modal" href="#carouselModal4">
@@ -150,7 +200,7 @@
 
             <slide :index="4" style="height: 572px;" id="vysota">
 
-              <span class="title SliderTitle">1,5L</span>
+              <span class="title SliderTitle SliderZagolovok">1,5L</span>
               <div class="col-lg-4 col-sm-6 mb-4">
                 <div class="portfolio-item">
                   <a class="portfolio-link" data-toggle="modal" href="#carouselModal6">
@@ -245,7 +295,10 @@
 
 <!-- Viorica -->
   <div class="modal fade" id="carouselModal" tabindex="-1" role="dialog" aria-labelledby="carouselModalLabel">
-  <div class="modal-dialog modal-lg" role="document">
+  <div class="modal-dialog modal-lg" role="document" style="
+    max-width: 1383px;
+    margin: 6% 6% 6% 6%;
+">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -261,14 +314,23 @@
 
               <div class="col-6">
 
-              <span class="HeaderOfModalImage"> Viorica </span>
+                <h2 class="text-uppercase" style="
+    margin-left: 37%;">Viorica</h2>
+                <p class="item-intro" style="
+    margin-left: 39%;">Sauvignon</p>
               <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\Viorica\viorica_sauvignon.png" alt="" />
               </div>
 
               <div class="col-6">
 
 
-              <p class="tekstModalVerxniy">Виорика - это имя молдавской девушки, оно происходит от одноименного названия цветка. Вино с большой индивидуальностью и характером, производится из местного селекционного винограда Виорика.
+              <p class="tekstModalVerxniy" style="
+              font-style: italic;
+                  margin-bottom: 2rem;
+                  font-family: 'Jura', sans-serif;
+                  font-size: 1.3rem;
+                  padding: 25% 0% 5% 0%;
+                  margin-left: -21%;" >Виорика - это имя молдавской девушки, оно происходит от одноименного названия цветка. Вино с большой индивидуальностью и характером, производится из местного селекционного винограда Виорика.
 
               Приготовлено по специальной технологии из отборного винограда сорта Виорика, выращенного на виноградниках в регионе Штефан Водэ (юго-восток) Молдовы. Восхитительный, гармоничный, мягкий вкус вина раскрывается нюансами аромата чайной розы, цукатных фруктов, оттенками меда и муската.
               Виноград выращен на виноградниках в регионе Штефан Водэ (юго-восток) Молдовы.
@@ -294,7 +356,10 @@
 
                     <div class="col-6">
 
-<span class="HeaderOfModalImage"> Fetrasca Neagra </span>
+                      <h2 class="text-uppercase" style="
+                  margin-left: 37%;">Viorica</h2>
+                      <p class="item-intro" style="
+                  margin-left: 39%;">Fetrasca Neagra</p>
 
 
 
@@ -325,7 +390,11 @@
 
                 <div class="col-6">
 
-<span class="HeaderOfModalImage"> Merlot Rose </span>
+                  <h2 class="text-uppercase" style="
+            margin-left: 37%;">Viorica</h2>
+                  <p class="item-intro" style="
+            margin-left: 39%;">Merlot Rose</p>
+
         <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\Viorica\VioricaMerlotRoseTRNT.png" alt="" />
   </div>
 
@@ -348,7 +417,10 @@
     <div class="row">
 
             <div class="col-6">
-<span class="HeaderOfModalImage"> Feteasca Regala </span>
+              <h2 class="text-uppercase" style="
+        margin-left: 37%;">Viorica</h2>
+              <p class="item-intro" style="
+        margin-left: 39%;">Fetrasca Regala</p>
 
     <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\Viorica\VioricaFetrascaRegalaTRNT.png" alt="" />
 </div>
@@ -372,7 +444,11 @@
 
 
     <div class="col-6">
-    <span class="HeaderOfModalImage"> Viorica Cabernet Sauvignon </span>
+      <h2 class="text-uppercase" style="
+margin-left: 37%;">Viorica</h2>
+      <p class="item-intro" style="
+margin-left: 39%;">Cabernet Sauvignon</p>
+
 
     <img class="img-fluid d-block mx-auto wirinaModalButilki" src="../assets\img\Viorica\VioricaCabernetSauvignonTRNT.png" alt="" />
     </div>
@@ -402,7 +478,11 @@
 
           <div class="col-6">
 
-            <span class="HeaderOfModalImage"> Merlot </span>
+            <h2 class="text-uppercase" style="
+      margin-left: 37%;">Viorica</h2>
+            <p class="item-intro" style="
+      margin-left: 39%;">Merlot</p>
+
 
   <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\Viorica\VioricaMerlotTRNT.png" alt="" />
 </div>
@@ -440,7 +520,10 @@
 <!-- Kazayak mmodal -->
 
 <div class="modal fade" id="carouselModal2" tabindex="-1" role="dialog" aria-labelledby="carouselModalLabel">
-<div class="modal-dialog modal-lg" role="document">
+<div class="modal-dialog modal-lg" role="document" style="
+    max-width: 1383px;
+    margin: 6% 6% 6% 6%;
+" >
   <div class="modal-content">
     <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -454,8 +537,12 @@
 
           <div class="row">
 
-                  <div class="col-6">
-<span class="HeaderOfModalImage"> Sauvignon Blanc </span>
+
+                    <div class="col-6">
+                      <h2 class="text-uppercase" style="
+                margin-left: 37%;">Viorica</h2>
+                      <p class="item-intro" style="
+                margin-left: 39%;">Cabernet Sauvignon</p>
 
           <img class="img-fluid d-block mx-auto wirinaModalButilki" src="../assets\img\gusy\gusy_sauvignon_blanc.png" alt="" />
     </div>
@@ -484,8 +571,11 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
         <div class="item">
           <div class="row">
 
-                  <div class="col-6">
-    <span class="HeaderOfModalImage"> Chardonnay </span>
+            <div class="col-6">
+              <h2 class="text-uppercase" style="
+        margin-left: 37%;">Viorica</h2>
+              <p class="item-intro" style="
+        margin-left: 39%;">Cabernet Sauvignon</p>
 
           <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\gusy\GUSY ChardonnayTRNT.png" alt="" />
     </div>
@@ -511,8 +601,11 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
     <div class="item">
       <div class="row">
 
-              <div class="col-6">
-    <span class="HeaderOfModalImage"> Pinot Noir </span>
+        <div class="col-6">
+          <h2 class="text-uppercase" style="
+    margin-left: 37%;">Viorica</h2>
+          <p class="item-intro" style="
+    margin-left: 39%;">Cabernet Sauvignon</p>
 
       <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\gusy\Gusu-Pinot NoirTRNT.png" alt="" />
 </div>
@@ -537,9 +630,11 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 <div class="item">
   <div class="row">
 
-          <div class="col-6">
-
-  <span class="HeaderOfModalImage"> Codru  </span>
+    <div class="col-6">
+      <h2 class="text-uppercase" style="
+margin-left: 37%;">Viorica</h2>
+      <p class="item-intro" style="
+margin-left: 39%;">Cabernet Sauvignon</p>
 
   <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\gusy\Gusy - CodruTRNT.png" alt="" />
 </div>
@@ -564,8 +659,11 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 <div class="item">
 <div class="row">
 
-        <div class="col-6">
-  <span class="HeaderOfModalImage"> Cabernet Sauvignon  </span>
+  <div class="col-6">
+    <h2 class="text-uppercase" style="
+margin-left: 37%;">Viorica</h2>
+    <p class="item-intro" style="
+margin-left: 39%;">Cabernet Sauvignon</p>
 
 <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\gusy\Gusy - Cabernet SauvignonTRNT.png" alt="" />
 </div>
@@ -603,7 +701,10 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 
 <!-- Barza modaly -->
 <div class="modal fade" id="carouselModal3" tabindex="1" role="dialog" aria-labelledby="carouselModalLabel">
-<div class="modal-dialog modal-lg" role="document">
+<div class="modal-dialog modal-lg" role="document" style="
+    max-width: 1383px;
+    margin: 6% 6% 6% 6%;
+">
   <div class="modal-content">
     <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -617,8 +718,11 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 
           <div class="row">
 
-                  <div class="col-6">
-<span class="HeaderOfModalImage"> Chardonnay </span>
+            <div class="col-6">
+              <h2 class="text-uppercase" style="
+        margin-left: 37%;">Viorica</h2>
+              <p class="item-intro" style="
+        margin-left: 39%;">Cabernet Sauvignon</p>
 
           <img class="img-fluid d-block mx-auto wirinaModalButilki" src="../assets\img\Barza\barza_chardonnay.png" alt="" />
     </div>
@@ -643,8 +747,11 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
         <div class="item">
           <div class="row">
 
-                  <div class="col-6">
-<span class="HeaderOfModalImage"> Muscat </span>
+            <div class="col-6">
+              <h2 class="text-uppercase" style="
+        margin-left: 37%;">Viorica</h2>
+              <p class="item-intro" style="
+        margin-left: 39%;">Cabernet Sauvignon</p>
 
           <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\Barza\BarzaMuscatTRNT.png" alt="" />
     </div>
@@ -668,8 +775,11 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
     <div class="item">
       <div class="row">
 
-              <div class="col-6">
-<span class="HeaderOfModalImage"> Merlot Rose </span>
+        <div class="col-6">
+          <h2 class="text-uppercase" style="
+    margin-left: 37%;">Viorica</h2>
+          <p class="item-intro" style="
+    margin-left: 39%;">Cabernet Sauvignon</p>
 
       <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\Barza\BarzaMerlotRoseTRNT.png" alt="" />
 </div>
@@ -692,8 +802,11 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 <div class="item">
   <div class="row">
 
-          <div class="col-6">
-<span class="HeaderOfModalImage"> Muscat Rose </span>
+    <div class="col-6">
+      <h2 class="text-uppercase" style="
+margin-left: 37%;">Viorica</h2>
+      <p class="item-intro" style="
+margin-left: 39%;">Cabernet Sauvignon</p>
 
   <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\Barza\BarzaMuscatTRNT.png" alt="" />
 </div>
@@ -716,9 +829,11 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 <div class="item">
 <div class="row">
 
-        <div class="col-6">
-
-  <span class="HeaderOfModalImage"> Sauvignon Cabernet </span>
+  <div class="col-6">
+    <h2 class="text-uppercase" style="
+margin-left: 37%;">Viorica</h2>
+    <p class="item-intro" style="
+margin-left: 39%;">Cabernet Sauvignon</p>
 <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\Barza\BarzaSauvignonCabernetTRNT.png" alt="" />
 </div>
 
@@ -752,7 +867,10 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 
 <!-- B&B 3l MODALY -->
 <div class="modal fade" id="carouselModal4" tabindex="2" role="dialog" aria-labelledby="carouselModalLabel">
-<div class="modal-dialog modal-lg" role="document">
+<div class="modal-dialog modal-lg" role="document" style="
+    max-width: 1383px;
+    margin: 6% 6% 6% 6%;
+">
   <div class="modal-content">
     <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -766,24 +884,24 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 
           <div class="row">
 
-                  <div class="col-6">
-<span class="HeaderOfModalImage"> Chardonnay </span>
+            <div class="col-6">
+              <h2 class="text-uppercase" style="
+        margin-left: 37%;">Viorica</h2>
+              <p class="item-intro" style="
+        margin-left: 39%;">Cabernet Sauvignon</p>
 
-          <img class="img-fluid d-block mx-auto wirinaModalButilki" src="../assets\img\B&B\B&BChardonnay.png" alt="" />
-          <div class="customNavigation">
-            <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-            <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-          </div>
+          <img class="img-fluid d-block mx-auto wirinaModalButilkiBB" src="../assets\img\B&B\B&BChardonnay.png" alt="" />
+
     </div>
 
-<div class="col-6">
+<div class="col-6 BBdiv">
 
 
           <p class="tekstModalVerxniy">Полусладкое вино соломенного цвета. Природная кислотность винограда придает вину свежий,
              полный и гармоничный вкус цитрусовых и сладких фруктов. Вино, которое создает настоящую праздничную атмосферу. Подавать охлажденным до 7-10 т
 
 </p>
-          <ul class="list-inline tekstModalNijniy">
+          <ul class="list-inline tekstModalNijniyBB">
             <li>Год урожая: 2018</li>
             <li>Тип вина: Белое полусладкое </li>
             <li>100% Шардоне </li>
@@ -791,19 +909,22 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
           </ul>
 
     </div>
+
+
+
       </div>
         </div>
         <div class="item">
           <div class="row">
 
-                  <div class="col-6">
-<span class="HeaderOfModalImage"> Alb Sec </span>
+            <div class="col-6">
+              <h2 class="text-uppercase" style="
+        margin-left: 37%;">Viorica</h2>
+              <p class="item-intro" style="
+        margin-left: 39%;">Cabernet Sauvignon</p>
 
-          <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\B&B\B&BAlbSec.png" alt="" />
-          <div class="customNavigation">
-            <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-            <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-          </div>
+          <img class="img-fluid d-block mx-auto wirinaModalButilkiBB" src="..\assets\img\B&B\B&BAlbSec.png" alt="" />
+
     </div>
 
 <div class="col-6">
@@ -811,7 +932,7 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 
           <p class="tekstModalVerxniy">Белое сухое вино. Изготовлено из качественного винограда собранного с юга Молдовы. Вино обладает сложным ароматом сладких фруктов, с тонкими оттенками меда и идеально сбалансированным свежим вкусом. Вино, которое создает настоящую праздничную атмосферу. Подавать охлажденным 7-10 т.
 </p>
-          <ul class="list-inline tekstModalNijniy">
+          <ul class="list-inline tekstModalNijniyBB">
             <li>Год урожая: 2018</li>
             <li>Тип вина: Белое сухое</li>
             <li>Виноград: Совиньон, Алиготе, Рислинг</li>
@@ -824,22 +945,21 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
     <div class="item">
       <div class="row">
 
-              <div class="col-6">
+        <div class="col-6">
+          <h2 class="text-uppercase" style="
+    margin-left: 37%;">Viorica</h2>
+          <p class="item-intro" style="
+    margin-left: 39%;">Cabernet Sauvignon</p>
+      <img class="img-fluid d-block mx-auto wirinaModalButilkiBB" src="..\assets\img\B&B\B&BMuscatel.png" alt="" />
 
-<span class="HeaderOfModalImage"> Muscatel </span>
-      <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\B&B\B&BMuscatel.png" alt="" />
-      <div class="customNavigation">
-        <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-        <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      </div>
 </div>
 
-<div class="col-6">
+<div class="col-6 BBdiv">
 
 
       <p class="tekstModalVerxniy">Полусладкое белое вино. Это вино высшего качества, полусладкое, мягкое с нежной кислотностью, которое развивает разнообразную палитру ароматов герани и базилика. Вино, которое создает настоящую праздничную атмосферу. Подавать охлажденным до 7-10 т
 </p>
-      <ul class="list-inline tekstModalNijniy">
+      <ul class="list-inline tekstModalNijniyBB">
         <li>Год урожая: 2018</li>
         <li>Тип вина: Полусладкое белое </li>
         <li>Виноград: 100% Мускат</li>
@@ -852,21 +972,21 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 <div class="item">
   <div class="row">
 
-          <div class="col-6">
-<span class="HeaderOfModalImage"> Cabernet Sauvignon demidulce</span>
+    <div class="col-6">
+      <h2 class="text-uppercase" style="
+margin-left: 37%;">Viorica</h2>
+      <p class="item-intro" style="
+margin-left: 39%;">Cabernet Sauvignon</p>
 
-  <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\B&B\B&BCabernetSauvignon.png" alt="" />
-  <div class="customNavigation">
-    <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-  </div>
+  <img class="img-fluid d-block mx-auto wirinaModalButilkiBB" src="..\assets\img\B&B\B&BCabernetSauvignon.png" alt="" />
+
 </div>
 
 <div class="col-6">
 
 
   <p class="tekstModalVerxniy">Рубиновое полусладкое красное вино с оттенком граната. Аромат полон тонов спелой смородины, сливы и вишни, с оттенками ванили и шоколада. Вкус округлый, бархатистый с нотками фруктов, слегка сладковатый и сбалансированный. Вино, которое создает настоящую праздничную атмосферу. Подавать по 15-18 т.</p>
-  <ul class="list-inline tekstModalNijniy">
+  <ul class="list-inline tekstModalNijniyBB">
     <li>Год урожая: 2018</li>
     <li>Тип вина: Красное полусладкое</li>
     <li>Виноград: 100% Каберне Совиньон </li>
@@ -879,22 +999,22 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 <div class="item">
 <div class="row">
 
-        <div class="col-6">
-<span class="HeaderOfModalImage"> Cabernet Sauvignon sec  </span>
+  <div class="col-6">
+    <h2 class="text-uppercase" style="
+margin-left: 37%;">Viorica</h2>
+    <p class="item-intro" style="
+margin-left: 39%;">Cabernet Sauvignon</p>
 
-<img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\B&B\B&BCabernetSauvignonVinSecRosu.png" alt="" />
-<div class="customNavigation">
-  <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-  <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-</div>
+<img class="img-fluid d-block mx-auto wirinaModalButilkiBB" src="..\assets\img\B&B\B&BCabernetSauvignonVinSecRosu.png" alt="" />
+
 </div>
 
-<div class="col-6">
+<div class="col-6 BBdiv">
 
 
 <p class="tekstModalVerxniy">Красное сухое вино. Вино обладает интенсивным рубиново-красным цветом. Аромат насыщенный, сложный с нотами ягодного джема, черной смородины, ежевики. У вина округлый вкус, хороший объем и бархатистая текстура. Вино, которое создает настоящую праздничную атмосферу. Подавать охлажденным до 15-18 т.
 </p>
-<ul class="list-inline tekstModalNijniy">
+<ul class="list-inline tekstModalNijniyBB">
   <li>Год урожая: 2018</li>
   <li>Тип вина: Красное сухое</li>
   <li>Виноград: 100% Каберне Совиньон</li>
@@ -909,6 +1029,11 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 
 
     </div>
+    <div class="customNavigation col 12">
+      <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+      <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    </div>
+
   </div>
 </div>
 </div>
@@ -916,7 +1041,10 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 <!-- 1,5L -->
 
 <div class="modal fade" id="carouselModal6" tabindex="2" role="dialog" aria-labelledby="carouselModalLabel">
-<div class="modal-dialog modal-lg" role="document">
+<div class="modal-dialog modal-lg" role="document" style="
+    max-width: 1383px;
+    margin: 6% 6% 6% 6%;
+">
   <div class="modal-content">
     <div class="modal-header">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -930,14 +1058,13 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 
           <div class="row">
 
-                  <div class="col-6">
-<span class="HeaderOfModalImage"> Chardonnay </span>
-
+            <div class="col-6">
+              <h2 class="text-uppercase" style="
+        margin-left: 37%;">Viorica</h2>
+              <p class="item-intro" style="
+        margin-left: 39%;">Cabernet Sauvignon</p>
           <img class="img-fluid d-block mx-auto wirinaModalButilki" src="../assets\img\1.5L\1.5ChardonnayTRNT.png" alt="" />
-          <div class="customNavigation">
-            <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-            <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-          </div>
+
     </div>
 
 <div class="col-6">
@@ -961,14 +1088,14 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
         <div class="item">
           <div class="row">
 
-                  <div class="col-6">
-<span class="HeaderOfModalImage"> Alb Sec </span>
+            <div class="col-6">
+              <h2 class="text-uppercase" style="
+        margin-left: 37%;">Viorica</h2>
+              <p class="item-intro" style="
+        margin-left: 39%;">Cabernet Sauvignon</p>
 
           <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\1.5L\1.5AlbSecTRNT.png" alt="" />
-          <div class="customNavigation">
-            <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-            <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-          </div>
+
     </div>
 
 <div class="col-6">
@@ -990,14 +1117,13 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
     <div class="item">
       <div class="row">
 
-              <div class="col-6">
-
-<span class="HeaderOfModalImage"> Muscatel </span>
+        <div class="col-6">
+          <h2 class="text-uppercase" style="
+    margin-left: 37%;">Viorica</h2>
+          <p class="item-intro" style="
+    margin-left: 39%;">Cabernet Sauvignon</p>
       <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\1.5L\1.5MuscatelTRNT.png" alt="" />
-      <div class="customNavigation">
-        <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-        <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-      </div>
+
 </div>
 
 <div class="col-6">
@@ -1018,14 +1144,14 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 <div class="item">
   <div class="row">
 
-          <div class="col-6">
-<span class="HeaderOfModalImage"> Isabella </span>
+    <div class="col-6">
+      <h2 class="text-uppercase" style="
+margin-left: 37%;">Viorica</h2>
+      <p class="item-intro" style="
+margin-left: 39%;">Cabernet Sauvignon</p>
 
   <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\1.5L\1.5CabernetSauvignonTRNT.png" alt="" />
-  <div class="customNavigation">
-    <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-    <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-  </div>
+
 </div>
 
 <div class="col-6">
@@ -1046,14 +1172,13 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 <div class="item">
 <div class="row">
 
-        <div class="col-6">
-<span class="HeaderOfModalImage"> Cabernet Sauvignon   </span>
-
+  <div class="col-6">
+    <h2 class="text-uppercase" style="
+margin-left: 37%;">Viorica</h2>
+    <p class="item-intro" style="
+margin-left: 39%;">Cabernet Sauvignon</p>
 <img class="img-fluid d-block mx-auto wirinaModalButilki" src="..\assets\img\1.5L\1.5CabernetSauvignonVinSecRoseTRNT.png" alt="" />
-<div class="customNavigation">
-  <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-  <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-</div>
+
 </div>
 
 <div class="col-6">
@@ -1077,6 +1202,11 @@ Sauvignon Blanc  желто-зеленоватого цвета, с перели
 
 
     </div>
+    <div class="customNavigation col 12">
+      <a class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+      <a class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+    </div>
+
   </div>
 </div>
 </div>

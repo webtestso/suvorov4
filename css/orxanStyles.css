@@ -187,6 +187,34 @@ padding: 66px 0 0 0 !important;
       margin: 3px 0px 0px 12px;
 }
 
+.SliderZagolovok{
+  padding-bottom: 4rem;
+}
+
+.SliderZagolovokBB{
+  padding-bottom: 0.9rem;
+}
+  .wirinaModalButilkiBB {
+      width: 100%;
+      margin-top: -4.6rem;
+    }
+
+  .wirinaModalButilki {
+      width: 100%;
+      margin-top: -0.6rem;
+    }
+
+    .wirinaModalButilkiBB {
+        width: 100%;
+        margin-top: -4.6rem;
+      }
+
+  .carousel-3d-slide .senturoViorica {
+    width: 100%;
+        margin-top: -45.2px;
+
+}
+
 
 }
 

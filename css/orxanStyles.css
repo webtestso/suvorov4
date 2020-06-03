@@ -23,8 +23,13 @@ margin-left: -17%;
 @media (min-width: 992px){
 #sendMessageButton{
   margin-left: 0.1rem;
+
 }
 
+.RazmerPortfolioButilki {
+    width: 377px !important;
+    height: 500px !important;
+}
 .portfolio-item {
     width: 228px;
     height: 500px;

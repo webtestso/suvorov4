@@ -1,9 +1,50 @@
+
+
+
+@media (min-width: 1400px){
+  .WirinaSpiska{
+margin-left: -17%;
+    margin-right: -15%;
+}
+}
+
+
+
+@media (min-width: 1580px){
+  .WirinaSpiska{
+
+
+    margin-left: -33%;
+        margin-right: -15%;
+}
+}
+
+
 @media (min-width: 992px){
 #sendMessageButton{
   margin-left: 0.1rem;
 }
+
+.portfolio-item {
+    width: 228px;
+    height: 500px;
 }
 
+.MarginProceeModalItem{
+  padding-left: 1%;
+      padding-right: 1%;
+  }
+
+.PortfolioGlavniy{
+  margin-bottom: 9rem;
+  margin-right: 15rem;
+}
+
+.PaddingNijnieFotkiPortfolio{
+ padding: 2rem;
+
+}
+}
 
 @media (max-width: 991px){
   #sendMessageButton {
@@ -17,6 +58,14 @@ padding: 66px 0 0 0 !important;
 } */
 
 @media (min-width: 992px) {
+
+.senturoBB  {
+    max-width: 107%;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    padding: 0 0 0 0;
+    margin: -40px 0 0 0;
+}
 
 .tekstModalVerxniyBB {
   font-style: italic;
@@ -239,7 +288,7 @@ padding: 66px 0 0 0 !important;
     font-size: 2.5rem;
     font-family: "Comfortaa";
     font-weight: 700;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
 }
 
 #vysota {
@@ -295,8 +344,15 @@ height: 695px !important;
 
 @media (min-width: 992px){
 
+.RazmeryVinRazdela{
+
+  width: 70%;
+}
+
+
 .SliderZagolovok{
   padding-bottom: 4rem;
+  margin-left: 3.8rem;
 }
 
 .SliderZagolovokBB{
@@ -310,6 +366,7 @@ height: 695px !important;
   .wirinaModalButilki {
       width: 100%;
       margin-top: -0.6rem;
+      margin-left: -0rem !important;
     }
 
     .wirinaModalButilkiBB {

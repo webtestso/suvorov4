@@ -533,8 +533,8 @@ mark,
 
 .img-fluid {
   /* margin-top: -177px; */
-    margin-right: 3px;
-  max-width: 100%;
+  margin-right: 3px;
+  max-width: 85%;
   height: auto;
 }
 
@@ -10224,8 +10224,8 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 85%;
+  height: 85%;
   background: rgba(254, 20, 20, 0.38)s;
   align-items: center;
   justify-content: center;

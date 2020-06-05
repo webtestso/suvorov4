@@ -10152,7 +10152,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header2.jpg");
+  background-image: url("../assets/img/bg2.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10175,7 +10175,7 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 40rem;
+    padding-top: 50rem;
     padding-bottom: 12.5rem;
   }
 }

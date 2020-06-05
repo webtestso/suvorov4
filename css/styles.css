@@ -116,7 +116,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: 'Jura', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
@@ -10025,7 +10025,7 @@ p {
   font-size: 1.3rem;
   font-weight: 400;
   font-style: italic;
-  font-family: 'Jura', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   margin-bottom: 4rem;
 }
 
@@ -10201,7 +10201,6 @@ header.masthead .masthead-heading {
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
-    font-style: italic;
     line-height: 2.25rem;
     margin-bottom: 2rem;
   }
@@ -10252,8 +10251,7 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-style: italic;
-  font-family: 'Jura', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 1.3rem;
 }
 
@@ -10271,9 +10269,8 @@ header.masthead .masthead-heading {
   line-height: 3rem;
 }
 .portfolio-modal .modal-content p.item-intro {
-  font-style: italic;
   margin-bottom: 2rem;
-  font-family: 'Jura', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-size: 1.3rem;
 }
 .portfolio-modal .modal-content p {
@@ -10515,22 +10512,22 @@ section#contact form#contactForm .form-control:focus {
   box-shadow: none;
 }
 section#contact form#contactForm ::-webkit-input-placeholder {
-  font-family: 'Jura', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-moz-placeholder {
-  font-family: 'Jura', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm ::-moz-placeholder {
-  font-family: 'Jura', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   color: #ced4da;
 }
 section#contact form#contactForm :-ms-input-placeholder {
-  font-family: 'Jura', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   font-weight: 700;
   color: #ced4da;
 }
@@ -10539,17 +10536,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-color: white;
   text-align: center;
   font-size: 1.2rem;
-  font-family: 'Jura', sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 
 
 /* NAWI STILI */
-
-@media (min-width: 992px) {
-  .logopadding {
-    padding-left: 2rem;
-  }
-}
 
 .testerov{
   width: 500px;

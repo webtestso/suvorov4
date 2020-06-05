@@ -7268,9 +7268,9 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #dee2e6 !important; } }
 
 body {
-  font-family: "Jura";
+  font-family: "Montserrat Alternates", sans-serif;
   background: #fff;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 400;
   color: #737373; }
   body.menu-show {

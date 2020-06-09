@@ -10566,3 +10566,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 666px;
   height: 666px;
 }
+
+.suvorov-fluid {
+  /* margin-top: -177px; */
+  margin-right: 3px;
+  max-width: 80%;
+  height: auto;
+}

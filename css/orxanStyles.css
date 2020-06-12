@@ -121,18 +121,6 @@ padding: 66px 0 0 0 !important;
 /* modal vnutr karusel i td vnizu */
 @media (min-width: 992px) {
 
-
-
-
-#portfolio{
-  padding: 50px 50px 240px 80px;
-}
-
-  .svg-inline--fa.fa-w-8 {
-    width: 49%;
-    height: 3em;
-}
-
   /* .tekstModalVerxniy {
   letter-spacing: 0.5px;
         width: 124%;
@@ -411,25 +399,6 @@ height: 695px !important;
   margin: 0px 0 2px 2.4px;
   padding: 0 0 0 0;
   }
-
-  #about {
-
-      width: 505px;
-  }
-
-  #services {
-      width: 505px;
-  }
-  #portfolio {
-  padding: 0 0 0 0;
-      width: 502px;
-  }
-
-:root{
-  width: 502px
-}
-
-}
 
 @media all and (max-width: 650px) and (min-width: 576px) {
   header.masthead {

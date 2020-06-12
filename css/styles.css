@@ -10014,8 +10014,8 @@ p {
 }
 
 .page-section {
-  padding: 8rem;
 }
+
 .page-section h2.section-heading {
   font-size: 2.5rem;
   margin-top: 0;
@@ -10031,7 +10031,7 @@ p {
 
 @media (min-width: 768px) {
   section {
-    padding: 9rem 0;
+    padding: 5rem 0;
   }
 }
 ::-moz-selection {

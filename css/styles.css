@@ -10538,33 +10538,83 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat Alternates", sans-serif;
 }
 
-
-/* NAWI STILI */
-
-.testerov{
-  width: 500px;
-  height: 500px;
-}
-
-.carousel-3d-slide.current{
-  width: 362px;
-  height: 500px;
-
-}
-
-.s-container {
-  height: 600px;
-
-}
-
-.slide{
-  width: 666px;
-  height: 666px;
-}
-
 .suvorov-fluid {
   /* margin-top: -177px; */
   margin-right: 3px;
   max-width: 80%;
   height: auto;
+}
+
+.contact4 {
+  font-family: "Comfortaa";
+	color: #8d97ad;
+  font-weight: 400;
+}
+
+.contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
+  color: #3e4555;
+}
+
+.contact4 .font-weight-medium {
+	font-weight: 400;
+}
+
+.contact4 .form-control {
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.contact4 .form-control:focus {
+  border-color: #ffffff;
+}
+
+.contact4 input::-webkit-input-placeholder,
+.contact4 textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input:-ms-input-placeholder,
+.contact4 textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 input::placeholder,
+.contact4 textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.contact4 .right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.contact4.bg-info {
+    background-color: #882935e6 !important;
+}
+
+.contact4 .text-inverse {
+    color: #3e4555 !important;
+}
+
+@media (min-width: 1024px) {
+	.contact4 .contact-box {
+    padding: 80px 105px 80px 0px;
+    margin: 0 0 0 -8rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact4 .contact-box {
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.contact4 .right-image {
+			position: relative;
+			bottom: -95px;
+	}
 }

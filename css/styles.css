@@ -10626,17 +10626,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 
-@media (max-width: 1023px){
-  #sendMessageButton {
-    margin-left: 10rem;
-
-  }
-}
-
 .service-26 {
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 400;
   color: #212529;
+  text-align: justify;
 }
 
 .service-26 h1, .service-26 h2, .service-26 h3, .service-26 h4, .service-26 h5, .service-26 h6 {

@@ -10600,8 +10600,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 @media (min-width: 1024px) {
 	.contact4 .contact-box {
-    padding: 80px 105px 80px 0px;
-    margin: 0 0 0 -8rem;
+    padding: 80px 80px 80px 115px;
+    margin: 0 0 0 -10rem;
 	}
 }
 
@@ -10619,9 +10619,55 @@ section#contact form#contactForm :-ms-input-placeholder {
 	}
 }
 
-@media (max-width: 991px){
+@media (max-width: 767px){
   #sendMessageButton {
-    margin-left: -2.5rem;
+    margin-left: 0.5rem;
 
+  }
 }
+
+@media (max-width: 1023px){
+  #sendMessageButton {
+    margin-left: 10rem;
+
+  }
+}
+
+.service-26 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  color: #212529;
+}
+
+.service-26 h1, .service-26 h2, .service-26 h3, .service-26 h4, .service-26 h5, .service-26 h6 {
+  color: #212529;
+  font-family: "Comfortaa";
+}
+
+.service-26 .font-weight-medium {
+	font-weight: 400;
+}
+
+.service-26 .badge {
+	line-height: 14px;
+}
+
+.service-26 .badge-info {
+	background: #188ef4;
+}
+
+.service-26 .wrap-service-26 .max-box {
+  max-width: 580px;
+}
+
+.service-26 a {
+	text-decoration: none;
+}
+
+.service-26 .linking {
+	color: #3e4555;
+}
+
+.service-26 .linking:hover {
+	color: #316ce8;
 }

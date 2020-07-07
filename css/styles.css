@@ -10544,13 +10544,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   height: auto;
 }
 
-.img.about-fluid {
-  margin-right: 3px;
-  max-width: 100%;
-  height: auto;
-  box-shadow: 10px 5px gainsboro;
-}
-
 .contact4 {
   font-family: "Comfortaa";
 	color: #8d97ad;

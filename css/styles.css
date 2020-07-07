@@ -10690,5 +10690,5 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .card {
-  padding: 0 0 0 100px;
+  padding: 0 0 0 100px !important;
 }

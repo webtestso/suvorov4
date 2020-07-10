@@ -116,7 +116,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -10021,10 +10021,9 @@ p {
   margin-bottom: 1rem;
 }
 .page-section h3.section-subheading {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 400;
-  font-style: italic;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 4rem;
 }
 
@@ -10250,7 +10249,7 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.3rem;
 }
 
@@ -10267,12 +10266,12 @@ header.masthead .masthead-heading {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin-bottom: 2rem;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.3rem;
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.2rem;
 }
 .portfolio-modal .modal-content ul.list-inline {
@@ -10626,7 +10625,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .service-26 {
-  font-family: "Montserrat Alternates", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #212529;
   text-align: justify;
@@ -10642,7 +10641,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .service-26 .badge {
-	line-height: 14px;
+	line-height: #882935e6 !important;
 }
 
 .service-26 .badge-info {
@@ -10690,5 +10689,5 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .card {
-  padding: 0 0 0 100px !important;
+  align-items: center;
 }

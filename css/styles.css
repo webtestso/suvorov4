@@ -116,8 +116,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.1rem;
+  font-family: 'Noah-Regular';
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -10021,9 +10021,9 @@ p {
   margin-bottom: 1rem;
 }
 .page-section h3.section-subheading {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 400;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noah-Regular';
   margin-bottom: 4rem;
 }
 
@@ -10249,8 +10249,8 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.3rem;
+  font-family: 'Noah-Regular';
+  font-size: 1.4rem;
 }
 
 .portfolio-modal .modal-dialog {
@@ -10266,17 +10266,17 @@ header.masthead .masthead-heading {
 }
 .portfolio-modal .modal-content p.item-intro {
   margin-bottom: 2rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noah-Regular';
   font-size: 1.3rem;
 }
 .portfolio-modal .modal-content p {
   margin-bottom: 2rem;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2rem;
+  font-family: 'Noah-Regular';
+  font-size: 1.3rem;
 }
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .portfolio-modal .modal-content img {
   margin-bottom: 2rem;
@@ -10532,8 +10532,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 .footer {
   background-color: white;
   text-align: center;
-  font-size: 1.2rem;
-  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.3rem;
+  font-family: 'Noah-Regular';
 }
 
 .suvorov-fluid {
@@ -10625,7 +10625,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .service-26 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Noah-Regular';
   font-weight: 400;
   color: #212529;
   text-align: justify;
@@ -10633,7 +10633,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .service-26 h1, .service-26 h2, .service-26 h3, .service-26 h4, .service-26 h5, .service-26 h6 {
   color: #212529;
-  font-family: "Comfortaa";
+  font-family: 'Noah-Regular';
 }
 
 .service-26 .font-weight-medium {
@@ -10665,7 +10665,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .contact3 {
-  font-family: "Comfortaa";
+  font-family: 'Noah-Regular';
   color: #212529;
   font-weight: 400;
 }
@@ -10690,4 +10690,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .card {
   align-items: center;
+}
+
+    @font-face {
+  font-family: 'Noah-Regular';
+  src: url('/Users/alex/github/suvorov4/css/Noah/Noah-Regular.eot');
+  src: local('Noah Regular'), local('Noah Regular'),
+    url("/Users/alex/github/suvorov4/css/Noah/Noah-Regular.woff") format("woff"),
+    url("/Users/alex/github/suvorov4/css/Noah/Noah-Regular.otf") format("opentype"),
+    url("NoahRegular.svg#noah") format("svg");
 }

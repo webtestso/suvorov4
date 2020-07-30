@@ -10700,3 +10700,9 @@ section#contact form#contactForm :-ms-input-placeholder {
     url("/Users/alex/github/suvorov4/css/Noah/Noah-Regular.otf") format("opentype"),
     url("NoahRegular.svg#noah") format("svg");
 }
+
+@font-face {
+  font-family: 'Noah-Regular';
+  src: url("/Users/alex/github/suvorov4/css/Noah/Noah-Regular.woff");
+  font-weight: 400;
+}

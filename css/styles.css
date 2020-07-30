@@ -10692,15 +10692,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   align-items: center;
 }
 
-    @font-face {
-  font-family: 'Noah-Regular';
-  src: url('/Users/alex/github/suvorov4/css/Noah/Noah-Regular.eot');
-  src: local('Noah Regular'), local('Noah Regular'),
-    url("/Users/alex/github/suvorov4/css/Noah/Noah-Regular.woff") format("woff"),
-    url("/Users/alex/github/suvorov4/css/Noah/Noah-Regular.otf") format("opentype"),
-    url("NoahRegular.svg#noah") format("svg");
-}
-
 @font-face {
   font-family: 'Noah-Regular';
   src: url("/Users/alex/github/suvorov4/css/Noah/Noah-Regular.woff");

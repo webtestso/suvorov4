@@ -10648,8 +10648,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 font-family: "Noah-Regular";
 src: url("css/noah/Noah-Regular.eot");
 src:
-url("css/noah/Noah-Regular.woff") format("woff"),
-url("css/noah/Noah-Regular.otf") format("opentype");
+url("/noah/Noah-Regular.woff") format("woff"),
+url("/noah/Noah-Regular.otf") format("opentype");
 }
 
 .wine-slider {

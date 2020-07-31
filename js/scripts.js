@@ -36,20 +36,56 @@
 
   });
 
-  // logo poyavlaetsya posle scrula
-
-  var $logo = $('#logo-scroll');
-  $(document).scroll(function() {
-    $logo.css({
-      display: $(this).scrollTop() > 100 ? "block" : "none"
-    });
-  });
-
   // Activate scrollspy to add active class to navbar items on scroll
   $("body").scrollspy({
     target: "#mainNav",
     offset: 74,
   });
+
+  // Wine slider
+
+  var slidePosition = 0,
+    numOfSlide = $(".slide").length,
+    currentSlide = Math.floor(numOfSlide / 2),
+    slideWidth = $(".slide").outerWidth(true);
+
+moveSlide(currentSlide);
+$(".slide-" + currentSlide).addClass("active");
+
+$(".slide-container").css("width", numOfSlide * slideWidth);
+
+$(".previous").click(function(){
+
+  $(".slide-" + currentSlide).removeClass("active");
+  if ((currentSlide - 1) >= 0) {
+    currentSlide--;
+  } else {
+    currentSlide = (numOfSlide - 1);
+  }
+  $(".slide-" + currentSlide).addClass("active");
+
+  moveSlide(currentSlide);
+
+});
+
+$(".next").click(function(){
+
+  $(".slide-" + currentSlide).removeClass("active");
+  if ((currentSlide + 1) < numOfSlide) {
+    currentSlide++;
+  } else {
+    currentSlide = 0;
+  }
+  $(".slide-" + currentSlide).addClass("active");
+
+  moveSlide(currentSlide);
+
+});
+
+function moveSlide(slideNumber) {
+  var slidePosition = -1 * (slideNumber * slideWidth);
+  $(".slide-container").css({"transform":"translateX("+ slidePosition +"px)"});
+}
 
   // Collapse Navbar
   var navbarCollapse = function() {

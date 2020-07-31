@@ -10,59 +10,11 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 
+*/
 
 
 
 
-
-razmer slidera
- width: 362px;
-     height: 500px;
-
-     razmer karuseli
-height: 513px;
- */
-
-
-
-
-
- #carousel3d .carousel-3d-slide {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-flex: 1;
-   -ms-flex: 1;
-   flex: 1;
-   -webkit-box-orient: vertical;
-   -webkit-box-direction: normal;
-   -ms-flex-direction: column;
-   flex-direction: column;
-   -webkit-box-pack: center;
-   -ms-flex-pack: center;
-   justify-content: center;
-   text-align: center;
-   background-color: #fff;
-   padding: 10px;
-   -webkit-transition: all .4s;
-   transition: all .4s;
-   width: 666px;
-       height: 666px;
- }
-
- #carousel3d .carousel-3d-slide.current {
-   background-color: #fff;
-   /* color: #fff; */
-
-   width: 666px;
-       height: 666px;
- }
-
- #carousel3d .carousel-3d-slide.current span {
-
-   font-size: 20px;
-   font-weight: 400;
- }
 
 
 
@@ -10694,8 +10646,56 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 @font-face {
 font-family: "Noah-Regular";
-src: url("/users/alex/github/suvorov4/css/noah/Noah-Regular.eot");
+src: url("css/noah/Noah-Regular.eot");
 src:
-url("/users/alex/github/suvorov4/css/noah/Noah-Regular.woff") format("woff"),
-url("/users/alex/github/suvorov4/css/noah/Noah-Regular.otf") format("opentype");
+url("css/noah/Noah-Regular.woff") format("woff"),
+url("css/noah/Noah-Regular.otf") format("opentype");
+}
+
+.wine-slider {
+  position:relative;
+  max-width:1260px;
+  margin:auto;
+  .slide-container {
+    position:relative;
+    height:420px;
+    left:50%;
+    margin-left:-90px;
+    transition:transform 0.2s;
+    a[class*='slide'] {
+      float:left;
+      display:block;
+      height:340px;
+      width:100px;
+      background-size:cover;
+      background-position:center;
+      margin:40px;
+      filter: blur(5px);
+      transition:all 0.2s;
+      &.active {
+        filter: blur(0px);
+        transform:scale(1.2);
+      }
+    }
+  }
+  .arrow {
+    position:absolute;
+    top:50%;
+    font-size:40px;
+    font-weight:bold;
+    cursor:pointer;
+    &.previous {
+      left:0px;
+    }
+    &.next {
+      right:0px;
+    }
+  }
+}
+
+.output {
+  position:fixed;
+  bottom:0px;
+  width:100%;
+  text-align:center;
 }

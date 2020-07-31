@@ -10697,6 +10697,5 @@ font-family: "Noah-Regular";
 src: url("/Users/alex/github/suvorov4/css/Noah/Noah-Regular.eot");
 src:
 url("/Users/alex/github/suvorov4/css/Noah/Noah-Regular.woff") format("woff"),
-url("/Users/alex/github/suvorov4/css/Noah/Noah-Regular.otf") format("opentype"),
-url("css/fonts/Harabara.svg#filename") format("svg");
+url("/Users/alex/github/suvorov4/css/Noah/Noah-Regular.otf") format("opentype");
 }

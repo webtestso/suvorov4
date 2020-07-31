@@ -10649,6 +10649,7 @@ font-family: "Noah-Regular";
 src: url("css/noah/Noah-Regular.eot");
 src:
 url("/noah/Noah-Regular.woff") format("woff"),
+url("/noah/Noah-Regular.ttf") format('truetype'),
 url("/noah/Noah-Regular.otf") format("opentype");
 }
 

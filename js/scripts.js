@@ -42,50 +42,20 @@
     offset: 74,
   });
 
-  // Wine slider
-
-  var slidePosition = 0,
-    numOfSlide = $(".slide").length,
-    currentSlide = Math.floor(numOfSlide / 2),
-    slideWidth = $(".slide").outerWidth(true);
-
-moveSlide(currentSlide);
-$(".slide-" + currentSlide).addClass("active");
-
-$(".slide-container").css("width", numOfSlide * slideWidth);
-
-$(".previous").click(function(){
-
-  $(".slide-" + currentSlide).removeClass("active");
-  if ((currentSlide - 1) >= 0) {
-    currentSlide--;
-  } else {
-    currentSlide = (numOfSlide - 1);
-  }
-  $(".slide-" + currentSlide).addClass("active");
-
-  moveSlide(currentSlide);
-
+  // Slick Slider
+$(function() {
+  $('.multiple-items').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: false,
+    centerMode: true,
+    centerPadding: '0',
+  });
 });
-
-$(".next").click(function(){
-
-  $(".slide-" + currentSlide).removeClass("active");
-  if ((currentSlide + 1) < numOfSlide) {
-    currentSlide++;
-  } else {
-    currentSlide = 0;
-  }
-  $(".slide-" + currentSlide).addClass("active");
-
-  moveSlide(currentSlide);
-
-});
-
-function moveSlide(slideNumber) {
-  var slidePosition = -1 * (slideNumber * slideWidth);
-  $(".slide-container").css({"transform":"translateX("+ slidePosition +"px)"});
-}
 
   // Collapse Navbar
   var navbarCollapse = function() {

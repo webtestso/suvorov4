@@ -10653,50 +10653,38 @@ url("/noah/Noah-Regular.ttf") format('truetype'),
 url("/noah/Noah-Regular.otf") format("opentype");
 }
 
-.wine-slider {
-  position:relative;
-  max-width:1260px;
-  margin:auto;
-  .slide-container {
-    position:relative;
-    height:420px;
-    left:50%;
-    margin-left:-90px;
-    transition:transform 0.2s;
-    a[class*='slide'] {
-      float:left;
-      display:block;
-      height:340px;
-      width:100px;
-      background-size:cover;
-      background-position:center;
-      margin:40px;
-      filter: blur(5px);
-      transition:all 0.2s;
-      &.active {
-        filter: blur(0px);
-        transform:scale(1.2);
-      }
-    }
-  }
-  .arrow {
-    position:absolute;
-    top:50%;
-    font-size:40px;
-    font-weight:bold;
-    cursor:pointer;
-    &.previous {
-      left:0px;
-    }
-    &.next {
-      right:0px;
-    }
-  }
+.kazayak_slick {
+display: flex;
 }
 
-.output {
-  position:fixed;
-  bottom:0px;
-  width:100%;
-  text-align:center;
+.kazayak_slick .items {
+max-width: 80%;
+height: auto;
+margin: 50px;
+position: relative;
+}
+
+.kazayak_slick .items .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 80%;
+  height: auto;
+  background: #882935e6;
+}
+
+.kazayak_slick .items img {
+  max-width: 80%;
+  height: auto;
+  transform: all linear .4s;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}
+
+.kazayak_slick .slick-center img {
+transform: scale(1.2);
+}
+
+.kazayak_slick .slick-center .overlay {
+  opacity: 0;
 }

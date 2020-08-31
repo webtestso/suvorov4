@@ -10425,9 +10425,9 @@ header.masthead .masthead-heading {
   transition: all 0.8s ease 0s; */
 }
 
-.team-member img ._active {
+/* .team-member img ._active {
   transform: scale(1);
-}
+} */
 
 .team-member h4 {
   margin-top: 1.5rem;

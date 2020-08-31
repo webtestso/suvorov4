@@ -10421,8 +10421,8 @@ header.masthead .masthead-heading {
   width: 16rem;
   height: 16rem;
   box-shadow: 10px 5px gainsboro;
-  transform: scale(0);
-  transition: all 0.8s ease 0s;
+  /* transform: scale(0);
+  transition: all 0.8s ease 0s; */
 }
 
 .team-member img ._active {

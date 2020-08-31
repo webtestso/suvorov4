@@ -81,6 +81,7 @@ if (animItems.length > 0) {
           animItem.classList.remove('_active');
       }
     }
+  }
 }
 function offset(el) {
   const rect = el.getBoundingClientRect(),

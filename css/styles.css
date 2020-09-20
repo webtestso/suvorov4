@@ -10075,7 +10075,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 4.9rem;
+    height: 5rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
@@ -10088,7 +10088,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 3.9rem;
+    height: 3rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -10694,6 +10694,10 @@ transform: scale(1.2);
 
 .kazayak_slick .slick-center .overlay {
   opacity: 0;
+}
+
+.items {
+  position: relative;
 }
 
 .anim_about {

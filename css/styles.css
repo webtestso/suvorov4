@@ -10700,6 +10700,32 @@ transform: scale(1.2);
   position: relative;
 }
 
+.kazayak_slick .prev_arrow {
+  position: absolute;
+  bottom: 0px;
+  font-size: 50px;
+  left: 30%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.kazayak_slick .next_arrow {
+  position: absolute;
+  bottom: 0px;
+  font-size: 50px;
+  right: 30%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
 .anim_about {
   transform: translate(0px, 120%);
   opacity: 0;

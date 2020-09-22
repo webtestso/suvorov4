@@ -301,8 +301,8 @@ main {
 }
 
 .details__price {
-	font-size: 3em;
-	font-weight: bold;
+	font-family: 'Noah-Regular';
+  font-size: 1.3rem;
 	color: var(--color-price);
 }
 

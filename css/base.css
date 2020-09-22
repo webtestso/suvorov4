@@ -476,11 +476,11 @@ main {
 
 @font-face {
 font-family: "Noah-Regular";
-src: url("/Users/alex/github/suvorov4/noah/Noah-Regular.eot");
+src: url("/noah/Noah-Regular.eot");
 src:
-url("/Users/alex/github/suvorov4/noah/Noah-Regular.woff") format("woff"),
-url("/Users/alex/github/suvorov4/noah/Noah-Regular.ttf") format('truetype'),
-url("/Users/alex/github/suvorov4/noah/Noah-Regular.otf") format("opentype");
+url("/noah/Noah-Regular.woff") format("woff"),
+url("/noah/Noah-Regular.ttf") format('truetype'),
+url("/noah/Noah-Regular.otf") format("opentype");
 }
 
 .list-inline {

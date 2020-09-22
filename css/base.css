@@ -168,7 +168,7 @@ main {
 }
 
 .grid__item:nth-child(odd) .product {
-	margin-top: -8em;
+	/* margin-top: -8em; */
 }
 
 .product {
@@ -179,13 +179,13 @@ main {
 }
 
 .product__bg {
-	height: 30em;
+	height: 25em;
 	background: var(--details-bg-down);
 	position: relative;
 }
 
 .product__img {
-	max-height: 40em;
+	max-height: 35em;
 	margin: 0 auto;
 	display: block;
 	position: absolute;

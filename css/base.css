@@ -50,7 +50,7 @@ a {
 
 a:hover,
 a:focus {
-	color: var(--color-link-hover);
+	color: #212529;
 	outline: none;
 }
 
@@ -199,7 +199,7 @@ main {
 	position: relative;
 	margin: 0.5em 0 0;
 	font-size: 1.75em;
-	color: var(--color-product-title);
+	color: #212529;
 	font-family: "Comfortaa";
 	font-weight: 700;
 }
@@ -207,7 +207,7 @@ main {
 .product__subtitle {
 	position: relative;
 	margin: 0;
-	color: var(--color-product-subtitle);
+	color: #212529;
 	font-family: 'Noah-Regular';
 	font-size: 1.4rem;
 }
@@ -278,7 +278,7 @@ main {
 .details__title {
 	margin: -1.5em 0 0.1em;
 	font-size: 4.5em;
-	color: var(--color-details-title);
+	color: #212529;
 	font-family: "Comfortaa";
 	font-weight: 700;
 }
@@ -288,7 +288,7 @@ main {
 	margin: 0.75em 0 1em 0;
 	letter-spacing: 0.115em;
 	font-size: 1.75em;
-	color: var(--color-details-subtitle);
+	color: #212529;
 	font-family: 'Noah-Regular';
 }
 

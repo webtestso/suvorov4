@@ -160,13 +160,13 @@ main {
 	max-width: 1000px;
 	display: grid;
 	grid-template-columns: repeat(var(--grid-columns), 1fr);
-	overflow-x: hidden;
-	overflow-y: auto;
 }
 
 .grid__item {
 	padding: 0 4vw;
 	margin: 0 0 12vh;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 .grid__item:nth-child(odd) .product {

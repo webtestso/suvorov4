@@ -160,6 +160,8 @@ main {
 	max-width: 1000px;
 	display: grid;
 	grid-template-columns: repeat(var(--grid-columns), 1fr);
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 .grid__item {

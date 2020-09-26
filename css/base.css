@@ -71,14 +71,6 @@ button:focus {
 	background: #333;
 }
 
-.js .loading::after {
-	background: url(../img/electric-guitar.svg) no-repeat 50% 50%;
-	background-size: 5em;
-	pointer-events: none;
-	opacity: 0.1;
-	animation: loaderAnim 1s linear infinite alternate forwards;
-}
-
 @keyframes loaderAnim {
 	to {
 		opacity: 1;
@@ -165,8 +157,6 @@ main {
 .grid__item {
 	padding: 0 4vw;
 	margin: 0 0 12vh;
-	overflow-x: hidden;
-	overflow-y: auto;
 }
 
 .grid__item:nth-child(odd) .product {
@@ -236,6 +226,8 @@ main {
 	flex-direction: column;
 	align-items: flex-start;
 	pointer-events: none;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 .details--open {

@@ -297,13 +297,13 @@ main {
   font-size: 1.3rem;
 	max-width: 50%;
 	margin: 2em 0 0 0;
-	color: var(--color-details-desc);
+	color: #212529;
 }
 
 .details__price {
 	font-family: 'Noah-Regular';
   font-size: 1.3rem;
-	color: var(--color-price);
+	color: #212529;
 }
 
 .details__addtocart {

@@ -10693,7 +10693,6 @@ position: relative;
   left: 0;
   max-width: 70%;
   height: auto;
-  background: #882935e6;
 }
 
 .kazayak_slick .items img {
@@ -10705,7 +10704,7 @@ position: relative;
 }
 
 .kazayak_slick .slick-center img {
-transform: scale(1.2);
+
 }
 
 .kazayak_slick .slick-center .overlay {

@@ -10187,7 +10187,7 @@ header.masthead .masthead-heading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  display: flex;
+  display: none;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -10255,7 +10255,6 @@ header.masthead .masthead-heading {
   width: 3rem;
   height: 3rem;
   cursor: pointer;
-  background-color: transparent;
 }
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;

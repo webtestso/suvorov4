@@ -10680,7 +10680,7 @@ display: flex;
 }
 
 .kazayak_slick .items {
-max-width: 90%;
+max-width: 100%;
 height: auto;
 margin: 50px;
 position: relative;
@@ -10690,12 +10690,12 @@ position: relative;
   position: absolute;
   top: 0;
   left: 0;
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
 }
 
 .kazayak_slick .items img {
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   margin-bottom: 4rem;
   margin-top: 4rem;

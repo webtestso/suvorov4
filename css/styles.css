@@ -10697,7 +10697,6 @@ position: relative;
 .kazayak_slick .items img {
   max-width: 100%;
   height: auto;
-  transform: all linear .4s;
   margin-bottom: 4rem;
   margin-top: 4rem;
 }

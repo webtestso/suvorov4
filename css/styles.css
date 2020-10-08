@@ -10533,7 +10533,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .contact4 .form-control {
   background: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
 }
 
 .contact4 .form-control:focus {

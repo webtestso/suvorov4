@@ -53,7 +53,6 @@ $(function() {
     autoplaySpeed: 3000,
     dots: false,
     centerMode: false,
-    centerPadding: '0',
     adaptiveHeight: true,
     prevArrow: '<span class="prev_arrow"><i class="fas fa-angle-left"></i></span>',
     nextArrow: '<span class="next_arrow"><i class="fas fa-angle-right"></i></span>',

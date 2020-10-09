@@ -10700,11 +10700,10 @@ position: relative;
   height: auto;
   margin-bottom: 4rem;
   margin-top: 4rem;
-  transform: scale(1);
 }
 
 .kazayak_slick .slick-center img {
-
+transform: none;
 }
 
 .kazayak_slick .slick-center .overlay {

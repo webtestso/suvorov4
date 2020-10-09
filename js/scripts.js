@@ -52,7 +52,7 @@ $(function() {
     autoplay: true,
     autoplaySpeed: 3000,
     dots: false,
-    centerMode: false,
+    centerMode: true,
     centerPadding: '0',
     prevArrow: '<span class="prev_arrow"><i class="fas fa-angle-left"></i></span>',
     nextArrow: '<span class="next_arrow"><i class="fas fa-angle-right"></i></span>',

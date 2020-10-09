@@ -10725,6 +10725,7 @@ position: relative;
   line-height: 50px;
   display: inline-block;
   cursor: pointer;
+  z-index: 1;
 }
 
 .kazayak_slick .next_arrow {

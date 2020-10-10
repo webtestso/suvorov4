@@ -10687,28 +10687,16 @@ margin: 50px;
 position: relative;
 }
 
-.kazayak_slick .items .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 100%;
-  height: auto;
-}
-
 .kazayak_slick .items img {
   max-width: 100%;
   height: auto;
   margin-bottom: 4rem;
   margin-top: 4rem;
-  transform: none;
+  transition: all linear .4s;
 }
 
 .kazayak_slick .slick-center img {
-transform: none;
-}
-
-.kazayak_slick .slick-center .overlay {
-  opacity: 0;
+transform: scale(1.2);
 }
 
 .items {

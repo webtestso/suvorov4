@@ -432,15 +432,17 @@ main {
 	}
 	.details__title {
 		font-size: 2em;
+		margin-left: -2rem;
 	}
 	.details__subtitle {
 		font-size: 1em;
 	}
 	.details__price {
 		font-size: 1.5em;
+		margin-top: 30rem;
 	}
 	.details__description {
-		max-width: 70%;
+		max-width: 100%;
 		font-size: 0.85em;
 		margin: 1em 0 0 0;
 	}
@@ -449,7 +451,7 @@ main {
 		width: 4em;
 	}
 	.details__img {
-		right: -12vh;
+		
 	}
 	.details__magnifier {
 		right: 7vh;

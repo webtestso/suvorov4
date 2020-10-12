@@ -454,6 +454,9 @@ main {
 	.details__img {
 		margin-right: -4rem;
 	}
+	.details__close {
+		margin-right: 6rem;
+	}
 	.details__magnifier {
 		right: 7vh;
 	}

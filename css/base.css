@@ -436,6 +436,7 @@ main {
 	}
 	.details__subtitle {
 		font-size: 1em;
+		margin-left: -2rem;
 	}
 	.details__price {
 		font-size: 1.5em;
@@ -451,7 +452,7 @@ main {
 		width: 4em;
 	}
 	.details__img {
-		
+		margin-right: -4rem;
 	}
 	.details__magnifier {
 		right: 7vh;

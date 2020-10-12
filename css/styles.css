@@ -10144,14 +10144,6 @@ header.masthead .masthead-heading {
     padding-bottom: 12.5rem;
   }
 }
-
-  @media all and (max-width: 991px) and (min-width: 300px) {
-    #mainNav {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      background-color: #882935e6;
-  }
-}
  @media all and (max-width: 480px) and (min-width: 300px) {
    header.masthead {
      padding-top: 7.5rem;
@@ -10164,6 +10156,18 @@ header.masthead .masthead-heading {
      background-size: cover;
    }
   }
+  @media all and (max-width: 480px) and (min-width: 300px) {
+    header.masthead_wines {
+      padding-top: 7.5rem;
+      padding-bottom: 4rem;
+      text-align: center;
+      color: #fff;
+      background-image: url("../assets/img/africaheader.png");
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+    }
+   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     line-height: 2.25rem;

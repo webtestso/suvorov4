@@ -10152,17 +10152,17 @@ header.masthead .masthead-heading {
       background-color: #882935e6;
   }
 }
-
-  /* @media all and (max-width: 480px) and (min-width: 300px) {
-    header.masthead {
-      padding-top: 8rem;
-  padding-bottom: 7rem;
-  width: 30rem;
-
-    } */
-
-
-
+ @media all and (max-width: 480px) and (min-width: 300px) {
+   header.masthead {
+     padding-top: 7.5rem;
+     padding-bottom: 4rem;
+     text-align: center;
+     color: #fff;
+     background-image: url("../assets/img/africaheader.png");
+     background-repeat: no-repeat;
+     background-attachment: scroll;
+     background-size: cover;
+   }
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;

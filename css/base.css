@@ -439,12 +439,12 @@ main {
 		margin-left: -2rem;
 	}
 	.details__price {
-		font-size: 1.5em;
+		font-size: 1em;
 		margin-top: 30rem;
 	}
 	.details__description {
 		max-width: 100%;
-		font-size: 0.85em;
+		font-size: 1em;
 		margin: 1em 0 0 0;
 	}
 	.details__deco {
@@ -455,7 +455,7 @@ main {
 		margin-right: -4rem;
 	}
 	.details__close {
-		margin-right: 6rem;
+		margin-right: 4rem;
 	}
 	.details__magnifier {
 		right: 7vh;

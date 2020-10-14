@@ -107,7 +107,7 @@ if (animItems.length > 0) {
       if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
         animItem.classList.add('_active');
       } else {
-        if (!animItem.classList.contains('_anim-mo-hide')) {
+        if (!animItem.classList.contains('_anim-no-hide')) {
           animItem.classList.remove('_active');
       }
     }

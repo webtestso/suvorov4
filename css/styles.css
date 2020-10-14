@@ -10440,13 +10440,13 @@ header.masthead .masthead-heading {
   width: 16rem;
   height: 16rem;
   box-shadow: 10px 5px gainsboro;
-  /* transform: scale(0);
-  transition: all 0.8s ease 0s; */
+  transform: scale(0);
+  transition: all 0.8s ease 0s;
 }
 
-/* .team-member img ._active {
+.team-member img._active {
   transform: scale(1);
-} */
+}
 
 .team-member h4 {
   margin-top: 1.5rem;
@@ -10734,25 +10734,14 @@ transform: scale(1.2);
   cursor: pointer;
 }
 
-.anim_about {
+._anim_show {
   transform: translate(0px, 120%);
   opacity: 0;
   transition: all 0.8s ease 0s;
 }
 
-.anim_about._active {
-  transform: translate(0px, 0px);
-  opacity: 1;
-}
-
-.anim_show {
-  transform: translate(0px, 120%);
-  opacity: 0;
-  transition: all 0.8s ease 0s;
-}
-
-.anim_show._active,
-._active .anim_show {
+._anim_show._active,
+._active ._anim_show {
   transform: translate(0px, 0px);
   opacity: 1;
 }

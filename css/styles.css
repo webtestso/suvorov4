@@ -10095,8 +10095,6 @@ img::-moz-selection {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/africaheader.png");
@@ -10106,8 +10104,6 @@ header.masthead {
   background-size: cover;
 }
 header.masthead_wines {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/africaheader.png");
@@ -10131,43 +10127,66 @@ header.masthead .masthead-heading {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767.98px) {
   header.masthead {
-    padding-top: 41rem;
-    padding-bottom: 12.5rem;
+    padding-top: 14rem;
+    padding-bottom: 11rem;
+  }
+}
+@media (max-width: 767.98px) {
+  header.masthead_wines {
+    padding-top: 14rem;
+    padding-bottom: 11rem;
   }
 }
 
-@media (min-width: 768px) {
-  header.masthead_wines {
-    padding-top: 41rem;
-    padding-bottom: 12.5rem;
-  }
-}
  @media all and (max-width: 480px) and (min-width: 300px) {
    header.masthead {
      padding-top: 7.5rem;
      padding-bottom: 4rem;
-     text-align: center;
-     color: #fff;
-     background-image: url("../assets/img/africaheader.png");
-     background-repeat: no-repeat;
-     background-attachment: scroll;
-     background-size: cover;
    }
   }
   @media all and (max-width: 480px) and (min-width: 300px) {
     header.masthead_wines {
       padding-top: 7.5rem;
       padding-bottom: 4rem;
-      text-align: center;
-      color: #fff;
-      background-image: url("../assets/img/africaheader.png");
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-size: cover;
     }
    }
+
+   @media (max-width: 991.98px) {
+     header.masthead {
+     padding-top: 20rem;
+     padding-bottom: 11rem;
+     margin-top: -138px;
+     background-position: none;
+     background-size: contain;
+   }
+ }
+ @media (max-width: 991.98px) {
+   header.masthead_wines {
+   padding-top: 20rem;
+   padding-bottom: 11rem;
+   margin-top: -138px;
+   background-position: none;
+   background-size: contain;
+ }
+}
+
+@media (max-width: 1199.98px) {
+  header.masthead {
+  padding-top: 29rem;
+  padding-bottom: 9rem;
+  margin-top: -138px;
+}
+}
+@media (max-width: 1199.98px) {
+  header.masthead_wines {
+  padding-top: 29rem;
+  padding-bottom: 9rem;
+  margin-top: -138px;
+}
+}
+
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     line-height: 2.25rem;

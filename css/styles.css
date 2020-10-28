@@ -10718,9 +10718,8 @@ header.masthead .masthead-heading {
 
 @media all and (max-width: 480px) and (min-width: 300px) {
   header.masthead {
-    padding-top: 12rem;
+    padding-top: 10rem;
     padding-bottom: 0rem;
-    margin-top: 0rem;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");
@@ -10732,9 +10731,8 @@ header.masthead .masthead-heading {
 
 @media all and (max-width: 480px) and (min-width: 300px) {
   header.masthead_wines {
-    padding-top: 12rem;
+    padding-top: 10rem;
     padding-bottom: 0rem;
-    margin-top: 0rem;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");
@@ -10747,8 +10745,7 @@ header.masthead .masthead-heading {
 @media (min-width: 576px) {
   header.masthead {
     padding-top: 11rem;
-    padding-bottom: 7rem;
-    margin-top: 0rem;
+    padding-bottom: 8rem;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");
@@ -10761,8 +10758,7 @@ header.masthead .masthead-heading {
 @media (min-width: 576px) {
   header.masthead_wines {
     padding-top: 11rem;
-    padding-bottom: 7rem;
-    margin-top: 0rem;
+    padding-bottom: 8rem;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");
@@ -10774,9 +10770,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 16rem;
+    padding-top: 17rem;
     padding-bottom: 8rem;
-    margin-top: 0rem;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");
@@ -10788,9 +10783,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead_wines {
-    padding-top: 16rem;
+    padding-top: 17rem;
     padding-bottom: 8rem;
-    margin-top: 0rem;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");
@@ -10803,7 +10797,7 @@ header.masthead .masthead-heading {
 @media (min-width: 992px) {
   header.masthead {
     padding-top: 21rem;
-    padding-bottom: 10rem;
+    padding-bottom: 12rem;
     margin-top: -9rem;
     text-align: center;
     color: #fff;
@@ -10817,7 +10811,7 @@ header.masthead .masthead-heading {
 @media (min-width: 992px) {
   header.masthead_wines {
     padding-top: 21rem;
-    padding-bottom: 10rem;
+    padding-bottom: 12rem;
     margin-top: -9rem;
     text-align: center;
     color: #fff;
@@ -10830,9 +10824,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 1200px) {
   header.masthead {
-    padding-top: 27rem;
-    padding-bottom: 10rem;
-    margin-top: -9rem;
+    padding-top: 34rem;
+    padding-bottom: 12rem;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");
@@ -10844,9 +10837,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 1200px) {
   header.masthead_wines {
-    padding-top: 27rem;
-    padding-bottom: 10rem;
-    margin-top: -9rem;
+    padding-top: 34rem;
+    padding-bottom: 12rem;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");
@@ -10858,9 +10850,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 2560px) {
   header.masthead {
-    padding-top: 39rem;
-    padding-bottom: 35rem;
-    margin-top: -9rem;
+    padding-top: 48rem;
+    padding-bottom: 33rem;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");
@@ -10872,9 +10863,8 @@ header.masthead .masthead-heading {
 
 @media (min-width: 2560px) {
   header.masthead_wines {
-    padding-top: 39rem;
-    padding-bottom: 35rem;
-    margin-top: -9rem;
+    padding-top: 48rem;
+    padding-bottom: 33rem;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");

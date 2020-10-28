@@ -10095,22 +10095,24 @@ img::-moz-selection {
   }
 }
 header.masthead {
+  padding: 27rem 0 27rem 0;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/africaheader.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  background-size: contain;
+  margin-top: -138px;
 }
 header.masthead_wines {
+  padding: 27rem 0 27rem 0;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/africaheader.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
+  background-size: contain;
+  margin-top: -138px;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10131,12 +10133,26 @@ header.masthead .masthead-heading {
   header.masthead {
     padding-top: 14rem;
     padding-bottom: 11rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/africaheader.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
   }
 }
 @media (max-width: 767.98px) {
   header.masthead_wines {
     padding-top: 14rem;
     padding-bottom: 11rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/africaheader.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
   }
 }
 
@@ -10144,12 +10160,15 @@ header.masthead .masthead-heading {
    header.masthead {
      padding-top: 7.5rem;
      padding-bottom: 4rem;
+     margin-top: -138px;
+
    }
   }
   @media all and (max-width: 480px) and (min-width: 300px) {
     header.masthead_wines {
       padding-top: 7.5rem;
       padding-bottom: 4rem;
+      margin-top: -138px;
     }
    }
 
@@ -10160,6 +10179,11 @@ header.masthead .masthead-heading {
      margin-top: -138px;
      background-position: none;
      background-size: contain;
+     text-align: center;
+     color: #fff;
+     background-image: url("../assets/img/africaheader.png");
+     background-repeat: no-repeat;
+     background-attachment: scroll;
    }
  }
  @media (max-width: 991.98px) {
@@ -10169,6 +10193,11 @@ header.masthead .masthead-heading {
    margin-top: -138px;
    background-position: none;
    background-size: contain;
+   text-align: center;
+   color: #fff;
+   background-image: url("../assets/img/africaheader.png");
+   background-repeat: no-repeat;
+   background-attachment: scroll;
  }
 }
 
@@ -10177,6 +10206,13 @@ header.masthead .masthead-heading {
   padding-top: 29rem;
   padding-bottom: 9rem;
   margin-top: -138px;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/africaheader.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 }
 @media (max-width: 1199.98px) {
@@ -10184,6 +10220,13 @@ header.masthead .masthead-heading {
   padding-top: 29rem;
   padding-bottom: 9rem;
   margin-top: -138px;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/africaheader.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
 }
 }
 

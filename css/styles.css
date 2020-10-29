@@ -10649,8 +10649,7 @@ img::-moz-selection {
   font-size: 1.5rem;
   text-transform: none;
   color: white;
-  font-weight: bold;
-  letter-spacing: 0.0625em;
+  letter-spacing: 0.0925em;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {

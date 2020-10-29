@@ -10719,6 +10719,7 @@ header.masthead .masthead-heading {
 header.masthead {
   padding-top: 36rem;
   padding-bottom: 17rem;
+  margin-top: -138px;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/africaheader.png");
@@ -10730,6 +10731,7 @@ header.masthead {
 header.masthead_wines {
 padding-top: 36rem;
 padding-bottom: 17rem;
+margin-top: -138px;
 text-align: center;
 color: #fff;
 background-image: url("../assets/img/africaheader.png");

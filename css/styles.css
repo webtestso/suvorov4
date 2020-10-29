@@ -10744,6 +10744,7 @@ background-size: cover;
   header.masthead {
     padding-top: 12rem;
     padding-bottom: 0rem;
+    margin-top: 0;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");
@@ -10757,6 +10758,7 @@ background-size: cover;
   header.masthead_wines {
     padding-top: 12rem;
     padding-bottom: 0rem;
+    margin-top: 0;
     text-align: center;
     color: #fff;
     background-image: url("../assets/img/africaheader.png");
@@ -10764,6 +10766,32 @@ background-size: cover;
     background-attachment: scroll;
     background-size: cover;
   }
+}
+
+@media screen and (max-width: 768px) {
+header.masthead {
+  padding-top: 14rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/africaheader.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+}
+
+@media screen and (max-width: 768px) {
+header.masthead_wines {
+padding-top: 14rem;
+padding-bottom: 10rem;
+text-align: center;
+color: #fff;
+background-image: url("../assets/img/africaheader.png");
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+}
 }
 
 header.masthead .masthead-subheading {
@@ -11344,7 +11372,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .kazayak_slick .items {
   max-width: 100%;
-  height: auto;
+  height: 500px;
   margin: 50px;
   position: relative;
 }

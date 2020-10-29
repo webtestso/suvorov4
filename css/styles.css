@@ -11352,7 +11352,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .kazayak_slick .items img {
   transition: all linear .4s;
   max-width: 100%;
-  height: auto;
+  height: 500px;
   margin-bottom: 4rem;
   margin-top: 4rem;
 }

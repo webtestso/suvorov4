@@ -171,13 +171,13 @@ main {
 }
 
 .product__bg {
-	height: 25em;
+	height: 23em;
 	background: var(--details-bg-down);
 	position: relative;
 }
 
 .product__img {
-	max-height: 35em;
+	max-height: 33em;
 	margin: 0 auto;
 	display: block;
 	position: absolute;
@@ -190,7 +190,7 @@ main {
 .product__title {
 	position: relative;
 	margin: 0.5em 0 0;
-	font-size: 1.6em;
+	font-size: 1.5rem;
 	color: #212529;
 	font-family: "Noah-Regular";
 	font-weight: 700;
@@ -205,7 +205,7 @@ main {
 }
 
 .product:hover .product__subtitle {
-	color: var(--color-link);
+	color: #212529;
 }
 
 .product__description,

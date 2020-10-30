@@ -11488,3 +11488,15 @@ section#contact form#contactForm :-ms-input-placeholder {
   transform: translate(0px, 0px);
   opacity: 1;
 }
+
+.kazayak_team {
+  transform: translate(0px, 50%);
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.kazayak_team._active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  transition: all 0.8s ease 0.6s;
+}

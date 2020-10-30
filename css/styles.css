@@ -11165,7 +11165,7 @@ header.masthead .masthead-heading {
 .team-member img {
   width: 16rem;
   height: 16rem;
-  box-shadow: 10px 5px gainsboro;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transform: scale(0);
   transition: all 0.8s ease 0s;
 }
@@ -11453,7 +11453,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   bottom: 0px;
   font-size: 50px;
   left: -2%;
-  top: 35%;
+  top: 50%;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -11468,7 +11468,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   bottom: 0px;
   font-size: 50px;
   right: -2%;
-  top: 35%;
+  top: 50%;
   width: 50px;
   height: 50px;
   text-align: center;

@@ -10739,7 +10739,7 @@ background-attachment: scroll;
 background-size: cover;
 }
 
-@media all and (max-width: 480px) and (min-width: 300px) {
+@media screen and (max-width: 480px) {
   header.masthead {
     padding-top: 12rem;
     padding-bottom: 0rem;
@@ -10753,7 +10753,7 @@ background-size: cover;
   }
 }
 
-@media all and (max-width: 480px) and (min-width: 300px) {
+@media screen and (max-width: 480px) {
   header.masthead_wines {
     padding-top: 12rem;
     padding-bottom: 0rem;

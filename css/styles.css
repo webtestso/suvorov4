@@ -10767,7 +10767,7 @@ background-size: cover;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 792px) {
+@media screen and (min-width: 768px) and (max-width: 900px) {
 header.masthead {
   padding-top: 14rem;
   padding-bottom: 10rem;
@@ -10780,10 +10780,36 @@ header.masthead {
 }
 }
 
-@media screen and (min-width: 768px) and (max-width: 792px) {
+@media screen and (min-width: 768px) and (max-width: 900px) {
 header.masthead_wines {
 padding-top: 14rem;
 padding-bottom: 10rem;
+text-align: center;
+color: #fff;
+background-image: url("../assets/img/africaheader.png");
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+}
+}
+
+@media screen and (min-width: 901px) and (max-width: 991px) {
+header.masthead {
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/africaheader.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+}
+
+@media screen and (min-width: 901px) and (max-width: 991px) {
+header.masthead_wines {
+padding-top: 14rem;
+padding-bottom: 14rem;
 text-align: center;
 color: #fff;
 background-image: url("../assets/img/africaheader.png");

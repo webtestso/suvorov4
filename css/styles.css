@@ -11338,8 +11338,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 @media (max-width: 1023px) {
   .contact4 .right-image {
-    position: relative;
-    bottom: -95px;
   }
 }
 

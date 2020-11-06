@@ -11444,7 +11444,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-top: 4rem;
 }
 
-@media screen and (min-width: 1023px) and (max-width: 1180px) {
+@media screen and (min-width: 992px) and (max-width: 1180px) {
 .kazayak_slick .items img {
   transition: all linear .4s;
   max-width: 100%;

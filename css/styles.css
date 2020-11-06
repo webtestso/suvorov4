@@ -10797,6 +10797,7 @@ background-size: cover;
 header.masthead {
   padding-top: 14rem;
   padding-bottom: 14rem;
+  margin-top: 0;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/africaheader.png");
@@ -10810,6 +10811,7 @@ header.masthead {
 header.masthead_wines {
 padding-top: 14rem;
 padding-bottom: 14rem;
+margin-top: 0;
 text-align: center;
 color: #fff;
 background-image: url("../assets/img/africaheader.png");

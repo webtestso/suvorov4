@@ -10879,6 +10879,34 @@ background-size: cover;
   }
 }
 
+@media screen and (min-width: 741px) and (max-width: 767px) {
+  header.masthead {
+    padding-top: 14rem;
+    padding-bottom: 9rem;
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/africaheader.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 741px) and (max-width: 767px) {
+  header.masthead_wines {
+    padding-top: 14rem;
+    padding-bottom: 9rem;
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/africaheader.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 900px) {
 header.masthead {
   padding-top: 14rem;
@@ -10976,6 +11004,62 @@ header.masthead {
 header.masthead_wines {
 padding-top: 17rem;
 padding-bottom: 15rem;
+text-align: center;
+color: #fff;
+background-image: url("../assets/img/africaheader.png");
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+ }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1370px) {
+header.masthead {
+  padding-top: 20rem;
+  padding-bottom: 17rem;
+  margin-top: -138px;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/africaheader.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+ }
+}
+
+@media screen and (min-width: 1081px) and (max-width: 1370px) {
+header.masthead_wines {
+padding-top: 20rem;
+padding-bottom: 17rem;
+margin-top: -138px;
+text-align: center;
+color: #fff;
+background-image: url("../assets/img/africaheader.png");
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+ }
+}
+
+@media screen and (min-width: 1371px) and (max-width: 1580px) {
+header.masthead {
+  padding-top: 26rem;
+  padding-bottom: 17rem;
+  margin-top: -138px;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/africaheader.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+ }
+}
+
+@media screen and (min-width: 1371px) and (max-width: 1580px) {
+header.masthead_wines {
+padding-top: 26rem;
+padding-bottom: 17rem;
+margin-top: -138px;
 text-align: center;
 color: #fff;
 background-image: url("../assets/img/africaheader.png");

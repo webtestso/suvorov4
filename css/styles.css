@@ -10911,6 +10911,7 @@ background-size: cover;
 header.masthead {
   padding-top: 14rem;
   padding-bottom: 10rem;
+  margin-top: 0;
   text-align: center;
   color: #fff;
   background-image: url("../assets/img/africaheader.png");
@@ -10924,6 +10925,7 @@ header.masthead {
 header.masthead_wines {
 padding-top: 14rem;
 padding-bottom: 10rem;
+margin-top: 0;
 text-align: center;
 color: #fff;
 background-image: url("../assets/img/africaheader.png");
@@ -11013,7 +11015,7 @@ background-size: cover;
  }
 }
 
-@media screen and (min-width: 1081px) and (max-width: 1370px) {
+@media screen and (min-width: 1181px) and (max-width: 1370px) {
 header.masthead {
   padding-top: 20rem;
   padding-bottom: 17rem;
@@ -11027,7 +11029,7 @@ header.masthead {
  }
 }
 
-@media screen and (min-width: 1081px) and (max-width: 1370px) {
+@media screen and (min-width: 1181px) and (max-width: 1370px) {
 header.masthead_wines {
 padding-top: 20rem;
 padding-bottom: 17rem;

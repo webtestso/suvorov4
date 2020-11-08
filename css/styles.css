@@ -11683,11 +11683,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
  }
 
- @media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
  .kazayak_slick .items img {
    transition: all linear .4s;
    max-width: 100%;
-   height: 300px;
+   height: 250px;
    margin-top: 4rem;
  }
   }
@@ -11723,6 +11723,72 @@ section#contact form#contactForm :-ms-input-placeholder {
   line-height: 50px;
   display: inline-block;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.kazayak_slick .prev_arrow {
+  position: absolute;
+  bottom: 0px;
+  font-size: 50px;
+  left: -2%;
+  top: 25%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1;
+ }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+.kazayak_slick .next_arrow {
+  position: absolute;
+  bottom: 0px;
+  font-size: 50px;
+  right: -2%;
+  top: 25%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+ }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1180px) {
+.kazayak_slick .prev_arrow {
+  position: absolute;
+  bottom: 0px;
+  font-size: 50px;
+  left: -2%;
+  top: 40%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1;
+ }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1180px) {
+.kazayak_slick .next_arrow {
+  position: absolute;
+  bottom: 0px;
+  font-size: 50px;
+  right: -2%;
+  top: 40%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+ }
 }
 
 ._anim_show {

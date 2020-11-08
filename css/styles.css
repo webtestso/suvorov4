@@ -11651,7 +11651,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 @font-face {
-  font-family: "Botera-RegularStencil";
+  font-family: "andara_script";
   src:
     url("/noah/andara_script.ttf") format('truetype'),
     url("/noah/andara_script.otf") format("opentype");

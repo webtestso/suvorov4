@@ -366,7 +366,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: 'Marta-Regular';
+  font-family: 'Alegreya';
   font-weight: 700;
   line-height: 1.2;
 }
@@ -10624,7 +10624,7 @@ img::-moz-selection {
 
 #mainNav .navbar-toggler {
   padding: 0.75rem;
-  font-family: 'Marta-Regular';
+  font-family: 'Alegreya';
   text-transform: none;
   font-size: 0.75rem;
   color: #fff;
@@ -10634,7 +10634,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: black;
-  font-family: 'Marta-Regular';
+  font-family: 'Alegreya';
   font-weight: 400;
   text-transform: none;
   letter-spacing: 0.0925em;;
@@ -10645,7 +10645,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: 'Marta-Regular';
+  font-family: 'Alegreya';
   font-size: 1.5rem;
   text-transform: none;
   color: black;
@@ -11582,7 +11582,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .service-26 h1, .service-26 h2, .service-26 h3, .service-26 h4, .service-26 h5, .service-26 h6 {
   color: #212529;
-  font-family: 'Marta-Regular';
+  font-family: 'Alegreya';
 }
 
 .service-26 .font-weight-medium {
@@ -11648,12 +11648,6 @@ section#contact form#contactForm :-ms-input-placeholder {
     url("/noah/Noah-Regular.woff") format("woff"),
     url("/noah/Noah-Regular.ttf") format('truetype'),
     url("/noah/Noah-Regular.otf") format("opentype");
-}
-
-@font-face {
-  font-family: "Marta-Regular";
-  src:
-    url("/noah/Marta-Regular.otf") format("opentype");
 }
 
 .kazayak_slick {

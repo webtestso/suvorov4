@@ -11844,7 +11844,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .end { margin-right: 0 !important; }
 /* Column Grids End */
 
-.wrapper { max-width: 100%; margin: 30px auto; position: relative; padding: 0 1em; margin-bottom: 28rem;}
+.wrapper { max-width: 100%; margin: 30px auto; position: relative; padding: 0 1em; margin-bottom: 28rem; text-align: center;}
 .counter { background-color: #882935e6; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); padding: 20px 0; border-radius: 0px; height: 250px;}
 .count-title { font-size: 2.5rem; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }
 .count-text { font-size: 1.2rem; font-weight: normal;  margin-top: 10px; margin-bottom: 0; text-align: center; }

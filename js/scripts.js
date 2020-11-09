@@ -186,6 +186,15 @@ jQuery(function ($) {
   }
 });
 
+<script>
+$(document).ready(function(){
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1200
+  });
+});
+</script>
+
   // Animation
   const animItems = document.querySelectorAll('._anim-items');
 

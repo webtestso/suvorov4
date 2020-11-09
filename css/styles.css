@@ -10628,7 +10628,6 @@ img::-moz-selection {
   text-transform: none;
   font-size: 0.75rem;
   color: #fff;
-  background-color: black;
   border: 0;
 }
 
@@ -11415,7 +11414,7 @@ header.masthead .masthead-heading {
 }
 
 section#contact {
-  background-color: #212529;
+  background-color: black;
   background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -11501,7 +11500,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
-  color: #212529;
+  color: black;
 }
 
 .contact4 .font-weight-medium {
@@ -11615,7 +11614,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .contact3 {
   font-family: 'Noah-Regular';
-  color: #212529;
+  color: black;
   font-weight: 400;
 }
 
@@ -11625,7 +11624,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .contact3 h4,
 .contact3 h5,
 .contact3 h6 {
-  color: #212529;
+  color: black;
 }
 
 .contact3 .font-weight-medium {

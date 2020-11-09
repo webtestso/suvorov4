@@ -172,58 +172,42 @@
           </div>
       </main>
       <!-- Achievements -->
+      <div class="text-center">
+        <h2 class="section-heading" style="margin-bottom: 4rem;">Медали и Награды</h2>
+      </div>
       <div class="counter-up">
         <div class="content">
           <div class="box">
             <div class="icon"><i class="fas fa-history"></i></div>
-            <div class="counter">724</div>
-            <div class="text">Working Hours</div>
+            <div class="counter">18</div>
+            <div class="text">Более выставок посещяется ежегодно</div>
           </div>
           <div class="box">
             <div class="icon"><i class="fas fa-gift"></i></div>
-            <div class="counter">508</div>
-            <div class="text">Completed Projects</div>
+            <div class="counter">62</div>
+            <div class="text">Более медалей получено за последние 3 года</div>
           </div>
           <div class="box">
             <div class="icon"><i class="fas fa-users"></i></div>
-            <div class="counter">436</div>
-            <div class="text">Happy Clients</div>
+            <div class="counter">30</div>
+            <div class="text">Из них более золотых медалей</div>
           </div>
           <div class="box">
             <div class="icon"><i class="fas fa-award"></i></div>
-            <div class="counter">120</div>
-            <div class="text">Awards Received</div>
+            <div class="counter">19</div>
+            <div class="text">Из них более серебрянных медалей</div>
           </div>
         </div>
       </div>
-      <div class="text-center">
-        <h2 class="section-heading" style="margin-bottom: 4rem;">Медали и Награды</h2>
-      </div>
-      <div class="wrapper">
-        <div class="counter col_fourth">
-          <img src="https://img.icons8.com/ios/100/000000/exhibitor.png" />
-          <h2 class="timer count-title count-number" data-to="18" data-speed="3000"></h2>
-          <p class="count-text ">Более выставок посещяется ежегодно</p>
-        </div>
 
-        <div class="counter col_fourth">
-          <img src="https://img.icons8.com/ios/100/000000/prize--v1.png" />
-          <h2 class="timer count-title count-number" data-to="62" data-speed="3000"></h2>
-          <p class="count-text ">Более медалей получено за последние 3 года</p>
-        </div>
-
-        <div class="counter col_fourth">
-          <img src="https://img.icons8.com/ios/100/000000/medal2--v1.png" />
-          <h2 class="timer count-title count-number" data-to="30" data-speed="3000"></h2>
-          <p class="count-text ">Из них более золотых медалей</p>
-        </div>
-
-        <div class="counter col_fourth end">
-          <img src="https://img.icons8.com/ios/100/000000/medal-second-place--v1.png" />
-          <h2 class="timer count-title count-number" data-to="19" data-speed="3000"></h2>
-          <p class="count-text ">Из них более серебрянных медалей</p>
-        </div>
-      </div>
+      <script>
+        $(document).ready(function() {
+          $('.counter').counterUp({
+            delay: 10,
+            time: 1200
+          });
+        });
+      </script>
       <!-- Contact-->
       <div class="bg-info contact4 overflow-hiddedn position-relative" id="contact">
         <div class="row no-gutters">

@@ -11818,7 +11818,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .counter-up{
-  background: url("images/bg-2.jpeg") no-repeat;
   min-height: 50vh;
   background-size: cover;
   background-attachment: fixed;
@@ -11834,7 +11833,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0,0,0,0.8);
 }
 .counter-up .content{
   z-index: 1;
@@ -11847,7 +11845,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   justify-content: space-between;
 }
 .counter-up .content .box{
-  border: 1px dashed rgba(255,255,255,0.6);
+  border: 1px dashed black;
   width: calc(25% - 30px);
   border-radius: 5px;
   display: flex;
@@ -11861,14 +11859,14 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #e6e6e6;
 }
 .content .box .counter{
-  font-size: 50px;
-  font-weight: 500;
-  color: #f2f2f2;
-  font-family: sans-serif;
+  font-size: 2.5rem;
+  color: black;
+  font-family: "Noah-Bold";
 }
 .content .box .text{
-  font-weight: 400;
-  color: #ccc;
+  font-size: 1.2rem;
+  font-family: "Noah-Regular";
+  color: black;
 }
 @media screen and (max-width: 1036px) {
   .counter-up{

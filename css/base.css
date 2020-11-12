@@ -191,21 +191,20 @@ main {
 	position: relative;
 	margin: 0.5em 0 0;
 	font-size: 1.5rem;
-	color: #212529;
-	font-family: "Noah-Regular";
-	font-weight: 700;
+	color: black;
+	font-family: "Noah-Bold";
 }
 
 .product__subtitle {
 	position: relative;
 	margin: 0;
-	color: #212529;
+	color: black;
 	font-family: 'Noah-Regular';
 	font-size: 1.4rem;
 }
 
 .product:hover .product__subtitle {
-	color: #212529;
+	color: black;
 }
 
 .product__description,
@@ -271,10 +270,9 @@ main {
 
 .details__title {
 	margin: -1.5em 0 0.1em;
-	font-size: 4.5em;
-	color: #212529;
-	font-family: "Noah-Regular";
-	font-weight: 700;
+	font-size: 3rem;
+	color: black;
+	font-family: "Noah-Bold";
 }
 
 .details__subtitle {
@@ -282,7 +280,7 @@ main {
 	margin: 0.75em 0 1em 0;
 	letter-spacing: 0.115em;
 	font-size: 1.75em;
-	color: #212529;
+	color: black;
 	font-family: 'Noah-Regular';
 }
 
@@ -291,13 +289,13 @@ main {
   font-size: 1.3rem;
 	max-width: 50%;
 	margin: 2em 0 0 0;
-	color: #212529;
+	color: black;
 }
 
 .details__price {
 	font-family: 'Noah-Regular';
-  font-size: 1.3rem;
-	color: #212529;
+  font-size: 1.2rem;
+	color: black;
 }
 
 .details__addtocart {
@@ -481,6 +479,15 @@ src:
 url("/noah/Noah-Regular.woff") format("woff"),
 url("/noah/Noah-Regular.ttf") format('truetype'),
 url("/noah/Noah-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Noah-Bold";
+  src: url("css/noah/Noah-Bold.eot");
+  src:
+    url("/noah/Noah-Bold.woff") format("woff"),
+    url("/noah/Noah-Bold.ttf") format('truetype'),
+    url("/noah/Noah-Bold.otf") format("opentype");
 }
 
 .list-inline {

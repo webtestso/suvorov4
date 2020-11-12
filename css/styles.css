@@ -11580,7 +11580,7 @@ header.masthead .masthead-heading {
   justify-content: space-between;
 }
 .counter-up .content .box{
-  border: 1px dashed black;
+  box-shadow: 0 5px 25px 0 rgba(0,0,0, .25)
   width: calc(25% - 30px);
   border-radius: 5px;
   display: flex;
@@ -11595,7 +11595,7 @@ header.masthead .masthead-heading {
 }
 .content .box .counter{
   font-size: 2.5rem;
-  color: black;
+  color: #882935e6;
   font-family: "Noah-Bold";
 }
 .content .box .text{

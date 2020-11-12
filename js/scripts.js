@@ -50,7 +50,7 @@
       slidesToScroll: 1,
       arrows: true,
       autoplay: true,
-      autoplaySpeed: 3000,
+      autoplaySpeed: 4000,
       dots: false,
       centerMode: true,
       centerPadding: '0',
@@ -85,7 +85,7 @@
       ]
     });
   });
-  
+
   // Animation
   const animItems = document.querySelectorAll('._anim-items');
 

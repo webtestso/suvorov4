@@ -10617,8 +10617,6 @@ img::-moz-selection {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
   background-color: #882935e6;
 }
 
@@ -11580,7 +11578,7 @@ header.masthead .masthead-heading {
   justify-content: space-between;
 }
 .counter-up .content .box{
-  box-shadow: 0 5px 25px 0 rgba(0,0,0, .25)
+  box-shadow: 0 5px 25px 0 rgba(0,0,0, .25);
   width: calc(25% - 30px);
   border-radius: 5px;
   display: flex;

@@ -10709,7 +10709,7 @@ header.masthead .masthead-heading {
 }
 
 header.masthead {
-  padding-top: 36rem;
+  padding-top: 37rem;
   padding-bottom: 17rem;
   margin-top: -138px;
   text-align: center;
@@ -10721,7 +10721,7 @@ header.masthead {
 }
 
 header.masthead_wines {
-padding-top: 36rem;
+padding-top: 37rem;
 padding-bottom: 17rem;
 margin-top: -138px;
 text-align: center;
@@ -11010,7 +11010,7 @@ background-size: cover;
 
 @media screen and (min-width: 1181px) and (max-width: 1370px) {
 header.masthead {
-  padding-top: 20rem;
+  padding-top: 22rem;
   padding-bottom: 17rem;
   margin-top: -138px;
   text-align: center;
@@ -11024,7 +11024,7 @@ header.masthead {
 
 @media screen and (min-width: 1181px) and (max-width: 1370px) {
 header.masthead_wines {
-padding-top: 20rem;
+padding-top: 22rem;
 padding-bottom: 17rem;
 margin-top: -138px;
 text-align: center;
@@ -11038,7 +11038,7 @@ background-size: cover;
 
 @media screen and (min-width: 1371px) and (max-width: 1580px) {
 header.masthead {
-  padding-top: 26rem;
+  padding-top: 31rem;
   padding-bottom: 17rem;
   margin-top: -138px;
   text-align: center;
@@ -11052,7 +11052,7 @@ header.masthead {
 
 @media screen and (min-width: 1371px) and (max-width: 1580px) {
 header.masthead_wines {
-padding-top: 26rem;
+padding-top: 31rem;
 padding-bottom: 17rem;
 margin-top: -138px;
 text-align: center;

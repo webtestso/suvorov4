@@ -63,10 +63,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: 'Noah-Regular';
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: black;
   text-align: left;
   background-color: #fff;
 }
@@ -366,7 +366,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: 'Noah-Bold';
+  font-family: 'Caveat';
   font-weight: 700;
   line-height: 1.2;
 }
@@ -10607,15 +10607,6 @@ img::-moz-selection {
   font-weight: 700;
 }
 
-.btn-social {
-  width: 3.5rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  border-radius: 100%;
-}
-
 #mainNav {
   background-color: #882935e6;
 }
@@ -10642,8 +10633,8 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: 'Noah-Bold';
-  font-size: 1.5rem;
+  font-family: 'Caveat';
+  font-size: 2rem;
   text-transform: none;
   color: black;
   letter-spacing: 0.0925em;
@@ -11206,8 +11197,9 @@ header.masthead .masthead-heading {
 .footer {
   background-color: white;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-family: 'Caveat' , cursive;
+  margin-bottom: 1rem;
 }
 
 .suvorov-fluid {
@@ -11233,7 +11225,7 @@ header.masthead .masthead-heading {
 .contact4 .form-control {
   background: transparent;
   border: 3px solid rgba(255, 255, 255, 0.5);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .contact4 .form-control:focus {
@@ -11298,13 +11290,13 @@ header.masthead .masthead-heading {
 .service-26 {
   font-family: 'Noah-Regular';
   font-weight: 400;
-  color: #212529;
+  color: black;
   text-align: justify;
 }
 
 .service-26 h1, .service-26 h2, .service-26 h3, .service-26 h4, .service-26 h5, .service-26 h6 {
-  color: #212529;
-  font-family: 'Noah-Bold';
+  color: black;
+  font-family: 'Caveat';
 }
 
 .service-26 .font-weight-medium {

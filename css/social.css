@@ -1,5 +1,6 @@
 .wrapper{
   display: inline-flex;
+  margin-left: 6rem;
 }
 .wrapper .icon{
   margin: 0 20px;

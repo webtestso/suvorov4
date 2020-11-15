@@ -11605,3 +11605,11 @@ header.masthead .masthead-heading {
     padding: 30px 20px 0 20px;
   }
 }
+
+.svg-inline--fa {
+  vertical-align: -1.5rem;
+}
+
+.svg-inline--fa.fa-stack-2x {
+  width: 1em;
+}

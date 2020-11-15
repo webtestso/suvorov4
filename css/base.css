@@ -200,7 +200,7 @@ main {
 	margin: 0;
 	color: black;
 	font-family: 'Noah-Regular';
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 }
 
 .product:hover .product__subtitle {
@@ -270,7 +270,7 @@ main {
 
 .details__title {
 	margin: -1.5em 0 0.1em;
-	font-size: 2rem;
+	font-size: 3rem;
 	color: black;
 	font-family: "Caveat";
 }
@@ -279,7 +279,7 @@ main {
 
 	margin: 0.75em 0 1em 0;
 	letter-spacing: 0.115em;
-	font-size: 1.6em;
+	font-size: 1.6rem;
 	color: black;
 	font-family: 'Noah-Regular';
 }

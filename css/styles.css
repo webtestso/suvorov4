@@ -10613,9 +10613,9 @@ img::-moz-selection {
 
 #mainNav .navbar-toggler {
   padding: 0.75rem;
-  font-family: 'Noah-Bold';
+  font-family: 'Caveat';
   text-transform: none;
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: #fff;
   border: 0;
 }

@@ -11619,3 +11619,7 @@ header.masthead .masthead-heading {
   width: 50px;
   margin-right: 1rem;
 }
+
+.ul {
+  list-style-type: none;
+}

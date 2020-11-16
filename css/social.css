@@ -5,7 +5,7 @@
 .wrapper .icon{
   margin: 0 30px;
   text-align: center;
-  cursor: pointer;
+  cursor: alias;
   display: flex;
   align-items: center;
   justify-content: center;

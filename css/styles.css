@@ -11613,3 +11613,9 @@ header.masthead .masthead-heading {
 .svg-inline--fa.fa-stack-2x {
   width: 1em;
 }
+
+.kazayak_icons {
+  height: 50px;
+  width: 50px;
+  margin-right: 1rem;
+}

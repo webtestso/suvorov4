@@ -50,8 +50,8 @@
 }
 
 html {
-  font-family: sans-serif;
   line-height: 1.15;
+    overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -69,7 +69,6 @@ body {
   color: black;
   text-align: left;
   background-color: #fff;
-  overflow-x: hidden;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10627,7 +10626,7 @@ img::-moz-selection {
   font-family: 'Noah-Bold';
   font-weight: 400;
   text-transform: none;
-  letter-spacing: 0.0925em;;
+  letter-spacing: 0.0925em;
 }
 
 #mainNav .navbar-brand img {
@@ -10636,7 +10635,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: 'Caveat';
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-transform: none;
   color: black;
   letter-spacing: 0.0925em;
@@ -10658,7 +10657,7 @@ img::-moz-selection {
 
   #mainNav .navbar-brand img {
     height: 5rem;
-    transition: height 0.3s ease-in-out;
+    margin: 0 0 0 -4em;
   }
 
   #mainNav.navbar-shrink {
@@ -11103,7 +11102,7 @@ header.masthead .masthead-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'Caveat';
   font-weight: 700;
   margin-bottom: 0;
@@ -11183,22 +11182,13 @@ header.masthead .masthead-heading {
 .team-member h4 {
   margin-top: 1.5rem;
   margin-bottom: 0;
-  transform: translate(0px, 50%);
-  opacity: 0;
-  transition: all 0.3s ease 0s;
-}
-
-.team-member h4._active {
-  transform: translate(0px, 0px);
-  opacity: 1;
-  transition: all 0.8s ease 0.6s;
 }
 
 .footer {
   background-color: white;
   text-align: center;
   font-size: 1.6rem;
-  font-family: 'Caveat' , cursive;
+  font-family: 'Caveat';
   margin-bottom: 1rem;
 }
 
@@ -11385,7 +11375,6 @@ header.masthead .masthead-heading {
 }
 
 .kazayak_slick .items img {
-  transition: all linear .4s;
   max-width: 100%;
   height: 500px;
   margin-top: 4rem;
@@ -11393,7 +11382,6 @@ header.masthead .masthead-heading {
 
 @media screen and (min-width: 992px) and (max-width: 1180px) {
 .kazayak_slick .items img {
-  transition: all linear .4s;
   max-width: 100%;
   height: 400px;
   margin-top: 4rem;
@@ -11402,7 +11390,6 @@ header.masthead .masthead-heading {
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
  .kazayak_slick .items img {
-   transition: all linear .4s;
    max-width: 100%;
    height: 250px;
    margin-top: 4rem;
@@ -11410,7 +11397,6 @@ header.masthead .masthead-heading {
   }
 
 .kazayak_slick .slick-center img {
-  transform: scale(1.2);
 }
 
 .kazayak_slick .prev_arrow {
@@ -11578,7 +11564,7 @@ header.masthead .masthead-heading {
   font-family: "Noah-Bold";
 }
 .content .box .text{
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-family: "Noah-Regular";
   color: black;
 }

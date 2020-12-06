@@ -367,7 +367,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: 'Caveat';
+  font-family: 'Marck Script', cursive;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -10614,7 +10614,7 @@ img::-moz-selection {
 
 #mainNav .navbar-toggler {
   padding: 0.75rem;
-  font-family: 'Caveat';
+  font-family: 'Marck Script', cursive;
   text-transform: none;
   font-size: 1rem;
   color: #fff;
@@ -10623,7 +10623,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: black;
-  font-family: 'Noah-Bold';
+  font-family: 'Marck Script', cursive;
   font-weight: 400;
   text-transform: none;
   letter-spacing: 0.0925em;
@@ -10634,8 +10634,8 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: 'Caveat';
-  font-size: 2.5rem;
+  font-family: 'Marck Script', cursive;
+  font-size: 2rem;
   text-transform: none;
   color: black;
   letter-spacing: 0.0925em;
@@ -11103,8 +11103,8 @@ header.masthead .masthead-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 2rem;
-  font-family: 'Caveat';
+  font-size: 1.6rem;
+  font-family: 'Marck Script', cursive;
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -11189,7 +11189,7 @@ header.masthead .masthead-heading {
   background-color: white;
   text-align: center;
   font-size: 1.6rem;
-  font-family: 'Caveat';
+  font-family: 'Marck Script', cursive;
   margin-bottom: 1rem;
 }
 
@@ -11287,7 +11287,7 @@ header.masthead .masthead-heading {
 
 .service-26 h1, .service-26 h2, .service-26 h3, .service-26 h4, .service-26 h5, .service-26 h6 {
   color: black;
-  font-family: 'Caveat';
+  font-family: 'Marck Script', cursive;
 }
 
 .service-26 .font-weight-medium {

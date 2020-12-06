@@ -11599,15 +11599,15 @@ header.masthead .masthead-heading {
 
  /* Social Icons  */
  .social {
- 	margin: 0 auto;
+ 	margin: 0;
  	width: 500px;
  	text-align: center;
  	padding: 50px;
  }
 
  [class^="icon-btn"] /*.icon-btn*/ {
- 	height: 75px;
- 	width: 75px;
+ 	height: 85px;
+ 	width: 85px;
  	border: 0;
  	color: #fff;
  	cursor: pointer;
@@ -11615,7 +11615,7 @@ header.masthead .masthead-heading {
  	line-height: 75px;
  	transition: ease-in-out .3s;
  	border-radius: 50px;
- 	margin-left: 20px;
+ 	margin-left: 30px;
  	background-color: #882935e6;
  }
 

@@ -52,7 +52,7 @@
       autoplay: true,
       autoplaySpeed: 4000,
       dots: false,
-      centerMode: true,
+      centerMode: false,
       centerPadding: '0',
       prevArrow: '<span class="prev_arrow"><i class="fas fa-angle-left"></i></span>',
       nextArrow: '<span class="next_arrow"><i class="fas fa-angle-right"></i></span>',
@@ -85,6 +85,19 @@
       ]
     });
   });
+
+  // Slick Single
+  $(document).ready(function(){
+  $('.single-item').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    dots: false,
+  });
+});
 
   // Animation
   const animItems = document.querySelectorAll('._anim-items');

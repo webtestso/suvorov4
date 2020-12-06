@@ -10704,7 +10704,7 @@ header.masthead {
   padding-bottom: 17rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
+  background-image: url("../assets/img/spainheader.png"), url("../assets/img/africaheader.png"), url("../assets/img/japanheader.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
@@ -10715,7 +10715,7 @@ padding-top: 37rem;
 padding-bottom: 17rem;
 text-align: center;
 color: #fff;
-background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
+background-image: url("../assets/img/spainheader.png"), url("../assets/img/africaheader.png"), url("../assets/img/japanheader.png");
 background-repeat: no-repeat;
 background-attachment: scroll;
 background-size: cover;

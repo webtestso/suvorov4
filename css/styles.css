@@ -11598,93 +11598,48 @@ header.masthead .masthead-heading {
 }
 
  /* Social Icons  */
- #social {
-   display: table-cell;
-   vertical-align: middle;
+ .social {
+ 	margin: 0 auto;
+ 	width: 500px;
+ 	text-align: center;
+ 	padding: 50px;
  }
 
- #social ul {
-   text-align: center;
-   padding-left: 0px;
-   margin: 0 auto;
+ [class^="icon-btn"] /*.icon-btn*/ {
+ 	height: 75px;
+ 	width: 75px;
+ 	border: 0;
+ 	color: #fff;
+ 	cursor: pointer;
+ 	font-size: 40px;
+ 	line-height: 75px;
+ 	transition: ease-in-out .3s;
+ 	border-radius: 50px;
+ 	margin-left: 20px;
+ 	background-color: #fff;
  }
-
- #social li {
-   display: inline-block;
-   list-style-type: none;
-   margin-left: 30px;
- }
-
- /** Facebook **/
 
  .facebook {
-   width: 50px;
-   height: 50px;
+ 	color: #3B5998;
  }
-
- .facebook .border {
-   background: transparent;
-   outline: none;
-   color:rgba(255,255,255, 0.3);
-   width: 50px;
-   height: 50px;
-   -webkit-border-radius: 100px;
-   -moz-border-radius: 100px;
-   border-radius: 100px;
-   border: 2px solid rgba(255,255,255, 0.3);
-   transition: all .2s ease-in-out;
- }
-
- .facebook .border:hover {
-   background: #3b5998;
-   border-color: #436aaf;
-   color: rgba(255,255,255, 0.9);
-   transform: scale(1.2);
- }
-
- .fa.fa-facebook {
-   font-size: 25px;
- }
-
- /** Instagram **/
 
  .instagram {
-   width: 50px;
-   height: 50px;
+ 	color: #5C3D2E;
  }
 
- .instagram .border {
-   background: transparent;
-   outline: none;
-   color:rgba(255,255,255, 0.3);
-   width: 50px;
-   height: 50px;
-   -webkit-border-radius: 100px;
-   -moz-border-radius: 100px;
-   border-radius: 100px;
-   border: 2px solid rgba(255,255,255, 0.3);
-   transition: all .2s ease-in-out;
+ .icon-btn:hover {
+ 	transform: scale(1.10);
+ 	color: #FFFFFF;
  }
 
- .instagram .border:hover {
-   background: #517fa4;
-   border-color: #7495af;
-   color: rgba(255,255,255, 0.9);
-   transform: scale(1.2);
+ .facebook:hover {
+ 	background-color: #3B5998;
  }
 
- .fa.fa-instagram {
-   font-size: 25px;
+ .instagram:hover {
+ 	background-color: #5C3D2E;
  }
 
- #social ul li {
-   transition: ease .3s;
- }
-
- #social ul:hover > li {
-   opacity: 0.5;
- }
-
- #social ul:hover > li:hover {
-   opacity: 1;
+ a.link {
+ 	color: inherit;
  }

@@ -50,7 +50,7 @@
       slidesToScroll: 1,
       arrows: true,
       autoplay: true,
-      autoplaySpeed: 4000,
+      autoplaySpeed: 3000,
       dots: false,
       centerMode: false,
       centerPadding: '0',
@@ -94,8 +94,11 @@
     slidesToScroll: 1,
     arrows: false,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     dots: false,
+    speed: 500,
+    cssEase: 'linear',
+    fade: true,
   });
 });
 

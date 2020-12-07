@@ -11049,6 +11049,11 @@ background-size: cover;
  }
 }
 
+.slick-slide img {
+  display: block;
+  width: 100%;
+}
+
 header.masthead .masthead-subheading {
   font-size: 2.25rem;
   line-height: 2.25rem;

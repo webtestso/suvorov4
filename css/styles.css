@@ -11659,5 +11659,5 @@ header.masthead .masthead-heading {
  }
 
 @import AOS from 'aos';
-@import 'aos/dist/aos.css';
+@import 'aos-master/dist/aos.css';
 AOS.init();

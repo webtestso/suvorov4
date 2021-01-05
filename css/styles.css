@@ -10641,6 +10641,16 @@ img::-moz-selection {
   letter-spacing: 0.0925em;
 }
 
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: 'Marck Script', cursive;
+  font-size: 1.5rem;
+  text-transform: none;
+  color: black;
+  letter-spacing: 0.0925em;
+ }
+}
+
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: black;
 }
@@ -11611,8 +11621,8 @@ header.masthead .masthead-heading {
  }
 
  [class^="icon-btn"] /*.icon-btn*/ {
- 	height: 95px;
- 	width: 95px;
+ 	height: 85px;
+ 	width: 85px;
  	border: 0;
  	cursor: pointer;
  	font-size: 40px;
@@ -11647,3 +11657,7 @@ header.masthead .masthead-heading {
  a.link {
  	color: inherit;
  }
+
+@import AOS from 'aos';
+@import 'aos/dist/aos.css';
+AOS.init();

@@ -158,7 +158,14 @@
       'achievments2': 'We are proud of what we have achieved through our joint efforts',
       'products': 'Products',
       'products2': 'As a source of our inspiration',
-      'contact2': 'Contact us'
+      'contact2': 'Contact us',
+      'message': 'Send',
+      'address': 'Address',
+      'winery': 'Winery',
+      'phone': 'Phone number',
+      'name': 'Your name *',
+      'email': 'Your email *',
+      'message2': 'Your message'
     },
     'ru': {
       'home': 'Главная',
@@ -171,7 +178,14 @@
       'achievments2': 'Мы гордимся тем, чего достигли, нашими совместными усилиями',
       'products': 'Продукция',
       'products2': 'Как источник нашего вдохновления',
-      'contact2': 'Связаться с нами'
+      'contact2': 'Связаться с нами',
+      'message': 'Отправить',
+      'address': 'Адрес',
+      'winery': 'Винзавод',
+      'phone': 'Номер телефона',
+      'name': 'Ваше имя *',
+      'email': 'Ваш email *',
+      'message2': 'Ваше сообщение *'
     },
     'ro': {
       'home': 'Acasă',
@@ -184,7 +198,14 @@
       'achievments2': 'Suntem mândri de ceea ce am obținut, datorită eforturilor noastre commune',
       'products': 'Produse',
       'products2': 'Ca sursă a inspirației noastre',
-      'contact2': 'Contactează-ne'
+      'contact2': 'Contactează-ne',
+      'message': 'Trimiteți un mesaj',
+      'address': 'Adresa',
+      'winery': 'Vinăria',
+      'phone': 'Telefon',
+      'name': 'Nume *',
+      'email': 'Email *',
+      'message2': 'Mesaj *'
     }
   }
 

@@ -10659,6 +10659,7 @@ img::-moz-selection {
   #mainNav {
     border: none;
     background-color: transparent;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
 
   #mainNav .navbar-brand {

@@ -157,7 +157,7 @@
       'achievments': 'Achievements',
       'achievments2': 'We are proud of what we have achieved through our joint efforts',
       'products': 'Products',
-      'products2': 'As a source of our inspiration'
+      'products2': 'As a source of our inspiration',
       'contact2': 'Contact us'
     },
     'ru': {

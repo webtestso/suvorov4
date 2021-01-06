@@ -163,9 +163,19 @@
       'address': 'Address',
       'winery': 'Winery',
       'phone': 'Phone number',
-      'name': 'Your name',
-      'email': 'Your email',
-      'message2': 'Your message'
+      'name2': 'Your name',
+      'email2': 'Your email',
+      'message2': 'Your message',
+      'team1': 'Alexandr Neruh',
+      'position1': 'Chief director',
+      'experience1': 'Work experience 50 years',
+      'team2': 'Adrian Cojocaru',
+      'position2': 'Head of sales department',
+      'experience2': 'Work experience 16 years',
+      'team3': 'Victor Florica',
+      'position3': 'Executive director Kazayak Vin',
+      'experience3': 'Work experience 24 years',
+      'teaminfo': 'More than 300 employees work in the factories to create first-class wines. Every day, each of us makes an invaluable contribution to the development of the company. It is our unity of thought, ideas and boundless love for wine production that helps us achieve our goals and be one big family'
     },
     'ru': {
       'home': 'Главная',
@@ -183,9 +193,19 @@
       'address': 'Адрес',
       'winery': 'Винзавод',
       'phone': 'Номер телефона',
-      'name': 'Ваше имя',
-      'email': 'Ваш email',
-      'message2': 'Ваше сообщение'
+      'name2': 'Ваше имя',
+      'email2': 'Ваш email',
+      'message2': 'Ваше сообщение',
+      'team1': 'Александр Нерух',
+      'position1': 'Главный директор',
+      'experience1': 'Опыт работы 50 лет',
+      'team2': 'Адриан Кожокару',
+      'position2': 'Начальник отдела продаж',
+      'experience2': 'Опыт работы 16 лет',
+      'team3': 'Виктор Флорика',
+      'position3': 'Исполнительный директор Kazayak Vin',
+      'experience3': 'Опыт работы 24 года',
+      'teaminfo': 'Более 300 сотрудников трудится на предприятиях для создания первоклассных вин. Изо дня в день каждый из нас вносит неоценимый вклад в развитие компании. Именно наше единство мысли, идей и безграничной любви к производству вина помогает нам достигать поставленных целей и быть единным целым'
     },
     'ro': {
       'home': 'Acasă',
@@ -203,9 +223,19 @@
       'address': 'Adresa',
       'winery': 'Vinăria',
       'phone': 'Telefon',
-      'name': 'Nume',
-      'email': 'Email',
-      'message2': 'Mesaj'
+      'name2': 'Nume',
+      'email2': 'Email',
+      'message2': 'Mesaj',
+      'team1': 'Alexandr Neruh',
+      'position1': 'Director',
+      'experience1': 'Experiență profesională de 50 de ani',
+      'team2': 'Adrian Cojocaru',
+      'position2': 'Sef departament vanzari',
+      'experience2': 'Experiență profesională de 16 ani',
+      'team3': 'Victor Florica',
+      'position3': 'Director executiv Kazayak Vin',
+      'experience3': 'Experiență profesională 24 de ani',
+      'teaminfo': 'Compania noastra are mai mult de 300 de angajati orientați la crearea produselor de vin de primă clasă. În fiecare zi, fiecare dintre noi contribuie integral la dezvoltarea întreprinderii. Suntem un întreg, care este ținut împreună, datorită unității de gândire, unitatea de idei și de iubire fără margini pentru producerea vinului'
     }
   }
 

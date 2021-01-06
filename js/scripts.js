@@ -178,7 +178,11 @@
       'teaminfo': 'More than 300 employees work in the factories to create first-class wines. Every day, each of us makes an invaluable contribution to the development of the company. It is our unity of thought, ideas and boundless love for wine production that helps us achieve our goals and be one big family',
       'service1': 'High product quality',
       'service2': 'Fair pricing policy',
-      'service3': 'Efficiency of order fulfillment'
+      'service3': 'Efficiency of order fulfillment',
+      'serviceinfo1': 'The most modern technological complex for the processing of grapes and grape must, allows to preserve and transfer wine all the useful substances, vitamins in grapes, as well as the special organic power laid by nature in the soil',
+      'serviceinfo2': 'Our company closely monitors changes in market conditions. Each product has an honest firm price, confirmed by quality and high technology',
+      'serviceinfo3': 'Most of the wines are bottled in exclusive bottles of excellent design, and the trade policy is focused on any clients requests, up to the possibility of issuing an authors assortment with the execution of an order within 25 days'
+
     },
     'ru': {
       'home': 'Главная',
@@ -211,7 +215,10 @@
       'teaminfo': 'Более 300 сотрудников трудится на предприятиях для создания первоклассных вин. Изо дня в день каждый из нас вносит неоценимый вклад в развитие компании. Именно наше единство мысли, идей и безграничной любви к производству вина помогает нам достигать поставленных целей и быть единным целым',
       'service1': 'Высокое качество продукции',
       'service2': 'Честная ценовая политика',
-      'service3': 'Оперативность выполнения заказов'
+      'service3': 'Оперативность выполнения заказов',
+      'serviceinfo1': 'Самый современный технологический комплекс по переработке винограда и виноградного сусла, позволяет сохранить и передать вину все имеющиеся в винограде полезные вещества, витамины, а также особую органическую силу заложенную природой в почву',
+      'serviceinfo2': 'Наша компания внимательно следит за изменениями условий рынка. За каждым продуктом стоит честная твердая цена, подтверждающаяся качеством и высшими технологиями',
+      'serviceinfo3': 'Большая часть вин разливается в эксклюзивные бутылки, отменного дизайна, а торговая политика ориентирована на любые запросы клиента, вплоть до возможности выпуска авторского ассортимента с выполнением заказа в течение 25 дней'
     },
     'ro': {
       'home': 'Acasă',
@@ -244,7 +251,10 @@
       'teaminfo': 'Compania noastra are mai mult de 300 de angajati orientați la crearea produselor de vin de primă clasă. În fiecare zi, fiecare dintre noi contribuie integral la dezvoltarea întreprinderii. Suntem un întreg, care este ținut împreună, datorită unității de gândire, unitatea de idei și de iubire fără margini pentru producerea vinului',
       'service1': 'Calitate ridicată a produsului',
       'service2': 'Politica corectă de prețuri',
-      'service3': 'Eficiența îndeplinirii comenzii'
+      'service3': 'Eficiența îndeplinirii comenzii',
+      'serviceinfo1': 'Cel mai modern complex tehnologic pentru prelucrarea strugurilor și mustului de struguri, vă permite să păstrați și să transferați vinului toate substanțele utile, vitaminele din struguri, precum și puterea organică specială depusă de natură în sol',
+      'serviceinfo2': 'Compania noastră monitorizează îndeaproape schimbările în condițiile pieței. Fiecare produs are un preț ferm onest, confirmat de calitate și tehnologie înaltă',
+      'serviceinfo3': 'Majoritatea vinurilor sunt îmbuteliate în sticle exclusive de design excelent, iar politica comercială se concentrează pe cererile oricărui client, până la posibilitatea emiterii unui sortiment de autor cu executarea comenzii în termen de 25 de zile'
     }
   }
 

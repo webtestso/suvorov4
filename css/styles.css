@@ -10693,6 +10693,12 @@ img::-moz-selection {
   }
 }
 
+.translate {
+  background: transparent;
+  border: none;
+  margin-left: 12px;
+}
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;

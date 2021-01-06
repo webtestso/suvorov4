@@ -145,6 +145,34 @@
     }, 300);
   }
 
+  // Languages
+  var arrLang = {
+    'en': {
+      'home': 'Home',
+      'about': 'About',
+      'wines': 'Wines',
+      'team': 'Team',
+      'blog': 'Blog',
+      'contact': 'Contact us'
+    },
+    'ru': {
+      'home': 'Главная',
+      'about': 'О нас',
+      'wines': 'Вина',
+      'team': 'Команда',
+      'blog': 'Блог',
+      'contact': 'Контакты'
+    },
+    'ro': {
+      'home': 'Acasă',
+      'about': 'Despre noi',
+      'wines': 'Vinuri',
+      'team': 'Echipă',
+      'blog': 'Blog',
+      'contact': 'Contacte',
+    }
+  }
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {

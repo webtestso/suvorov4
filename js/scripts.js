@@ -153,7 +153,12 @@
       'wines': 'Wines',
       'team': 'Team',
       'blog': 'Blog',
-      'contact': 'Contact us'
+      'contact': 'Contact us',
+      'achievments': 'Achievements',
+      'achievments2': 'We are proud of what we have achieved through our joint efforts',
+      'products': 'Products',
+      'products2': 'As a source of our inspiration'
+      'contact2': 'Contact us'
     },
     'ru': {
       'home': 'Главная',
@@ -161,7 +166,12 @@
       'wines': 'Вина',
       'team': 'Команда',
       'blog': 'Блог',
-      'contact': 'Контакты'
+      'contact': 'Контакты',
+      'achievments': 'Достижения',
+      'achievments2': 'Мы гордимся тем, чего достигли, нашими совместными усилиями',
+      'products': 'Продукция',
+      'products2': 'Как источник нашего вдохновления',
+      'contact2': 'Связаться с нами'
     },
     'ro': {
       'home': 'Acasă',
@@ -170,6 +180,11 @@
       'team': 'Echipă',
       'blog': 'Blog',
       'contact': 'Contacte',
+      'achievments': 'Premii și realizări',
+      'achievments2': 'Suntem mândri de ceea ce am obținut, datorită eforturilor noastre commune',
+      'products': 'Produse',
+      'products2': 'Ca sursă a inspirației noastre',
+      'contact2': 'Contactează-ne'
     }
   }
 

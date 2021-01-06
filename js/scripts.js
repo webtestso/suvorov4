@@ -159,12 +159,12 @@
       'products': 'Products',
       'products2': 'As a source of our inspiration',
       'contact2': 'Contact us',
-      'message': 'Send',
+      'message': 'Send message',
       'address': 'Address',
       'winery': 'Winery',
       'phone': 'Phone number',
-      'name': 'Your name *',
-      'email': 'Your email *',
+      'name': 'Your name',
+      'email': 'Your email',
       'message2': 'Your message'
     },
     'ru': {
@@ -183,9 +183,9 @@
       'address': 'Адрес',
       'winery': 'Винзавод',
       'phone': 'Номер телефона',
-      'name': 'Ваше имя *',
-      'email': 'Ваш email *',
-      'message2': 'Ваше сообщение *'
+      'name': 'Ваше имя',
+      'email': 'Ваш email',
+      'message2': 'Ваше сообщение'
     },
     'ro': {
       'home': 'Acasă',
@@ -199,13 +199,13 @@
       'products': 'Produse',
       'products2': 'Ca sursă a inspirației noastre',
       'contact2': 'Contactează-ne',
-      'message': 'Trimiteți un mesaj',
+      'message': 'Trimiteți mesaj',
       'address': 'Adresa',
       'winery': 'Vinăria',
       'phone': 'Telefon',
-      'name': 'Nume *',
-      'email': 'Email *',
-      'message2': 'Mesaj *'
+      'name': 'Nume',
+      'email': 'Email',
+      'message2': 'Mesaj'
     }
   }
 

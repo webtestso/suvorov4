@@ -187,7 +187,11 @@
       'about3': 'Marked the rise of the company to a new level, becoming a leader in the production and export of bottled wines from the Republic of Moldova, with an annual volume of about 10 million bottles and 20% of the total export volume. Our wines have found vocation in countries such as Poland, Germany, Czech Republic, Slovakia, Lithuania, Latvia, Romania, Croatia, Bosnia, Belarus, Ukraine, Russia, Kazakhstan, Israel, Greece, Ghana, Nigeria, China, Japan, USA, and of course same in Moldova',
       'about3.1': '2008 for „Suvorov – Vin”',
       'about4': 'Our wines are produced in strict accordance with European winemaking requirements. Since 2015, red wines have been granted the IGP category (Protected Geographical Indications). The company applies modern methods and technologies for processing grapes using membrane filtration, cold processing and sterile bottling processes. The production process is subject to constant monitoring in combination with the secular traditions of Moldovan winemaking, practical experience and innovative technologies',
-      'about4.1': 'Category „IGP"'
+      'about4.1': 'Category „IGP"',
+      'barza1': 'Dry white wine with a floral, balanced aroma, with a pleasant taste, well-defined, full of finesse, with high freshness',
+      'barza1.1': 'Vintage: 2018',
+      'barza1.2': 'Wine type: White dry',
+      'barza1.3': 'Grapes: 100% Chardonnay'
 
     },
     'ru': {
@@ -230,7 +234,11 @@
       'about3': 'знаменовал подъем компании на новый уровень, став лидером в производстве и экспорте бутылочных вин из Республики Молдова, с годовым объёмом около 10 000 000 бутылок и 20% от общего объёма экспорта. Наши вина нашли призвание в таких странах как Польша, Германия, Чехия, Словакия, Литва, Латвия, Румыния, Хорватия, Босния, Беларусь, Украина, Росиия, Казахстан, Израиль, Греция, Гана, Нигерия, Китай, Япония, США, и конечно же в Молдове',
       'about3.1': '2008 год для „Suvorov – Vin”',
       'about4': 'Наши вина производятся в строгом соответствии с европейскими требованиями виноделия. С 2015 года красным винам предоставили категорию IGP ( защищенные географические обозначения ). Компания применяет современые методы и технологии переработки винограда, используя мембранную фильтрацию, холодную обработку и стерильные процессы розлива. Производственный процесс подлежит постоянному контролю в сочетании со светскими традициями молдавского виноделия, практического опыта и инновационных технологий',
-      'about4.1': 'Категория „IGP"'
+      'about4.1': 'Категория „IGP"',
+      'barza1': 'Белое сухое вино с цветочным, сбалансированным ароматом, приятным вкусом, четко очерченным, полным утонченности и свежим послевкусием',
+      'barza1.1': 'Год урожая: 2018',
+      'barza1.2': 'Тип вина: Белое сухое',
+      'barza1.3': 'Виноград: 100% Шардоннэ'
     },
     'ro': {
       'home': 'Acasă',
@@ -272,7 +280,11 @@
       'about3': 'A marcat creșterea companiei la un nou nivel, devenind lider în producția și exportul de vinuri îmbuteliate din Republica Moldova, cu un volum anual de aproximativ 10 milioane de sticle și 20% din volumul total al exporturilor. Vinurile noastre și-au găsit vocația în țări precum Polonia, Germania, Republica Cehă, Slovacia, Lituania, Letonia, România, Croația, Bosnia, Belarus, Ucraina, Rusia, Kazahstan, Israel, Grecia, Ghana, Nigeria, China, Japonia, SUA și bineînțeles la fel și în Moldova',
       'about3.1': '2008 pentru „Suvorov – Vin”',
       'about4': 'Vinurile noastre sunt produse în strictă conformitate cu cerințele europene de vinificare. Din 2015, vinurilor roșii li se acordă categoria IGP (Indicații geografice protejate). Compania aplică metode și tehnologii moderne pentru prelucrarea strugurilor folosind filtrarea prin membrană, procesarea la rece și procesele de îmbuteliere sterile. Procesul de producție este supus unei monitorizări constante în combinație cu tradițiile seculare ale vinificației moldovenești, experiența practică și tehnologiile inovatoare',
-      'about4.1': 'Categoria „IGP"'
+      'about4.1': 'Categoria „IGP"',
+      'barza1': 'Vin sec alb cu o aromă de tip floral, echilibrat, cu un gust plăcut, bine conturat, plin de fineţe, cu prospeţimea ridicată',
+      'barza1.1': 'Anul recoltei: 2018',
+      'barza1.2': 'Tipul de vin: Alb sec',
+      'barza1.3': 'Soi: 100% Chardonnay'
     }
   }
 

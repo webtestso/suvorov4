@@ -146,6 +146,9 @@
   }
 
   // Languages
+
+  document.addEventListener(type:'DOMContentLoaded', getLocalLang)
+  
   var arrLang = {
     'en': {
       'home': 'Home',
@@ -325,7 +328,7 @@
       'barza1.1': 'Anul recoltei: 2018',
       'barza1.2': 'Tipul de vin: Alb sec',
       'barza1.3': 'Soi: 100% Chardonnay',
-      'alb1': 'Acest “ALB”, distins printr-o culoare galben pai cu tente verzi și strălucitoare, reflectă combinația grațioasă dintre Afinitatea Aligote și Feminitatea Muscat Ottonel, subliniată frumos de Gentilul Sauvignon Blanc. Sufletul citric, cu intonaţii profunde de flori albe de salcâm, se înveleşte în arome plăcute de busuioc și fructe exotice. Gustul complex, proaspăt și mineral, dezvelind stropi de coajă de grapefruit și limetă, invadează exploziv papilele gustative. În schimb, postgustul revine cu arome de cireșe albe și agrișe, sporite de inflexiuni citrice și exotice',
+      'alb1': 'Acest ALB, distins printr-o culoare galben pai cu tente verzi și strălucitoare, reflectă combinația grațioasă dintre Afinitatea Aligote și Feminitatea Muscat Ottonel, subliniată frumos de Gentilul Sauvignon Blanc. Sufletul citric, cu intonaţii profunde de flori albe de salcâm, se înveleşte în arome plăcute de busuioc și fructe exotice. Gustul complex, proaspăt și mineral, dezvelind stropi de coajă de grapefruit și limetă, invadează exploziv papilele gustative. În schimb, postgustul revine cu arome de cireșe albe și agrișe, sporite de inflexiuni citrice și exotice',
       'alb2': 'Anul recoltei: 2019',
       'alb3': 'Tipul de vin: Alb sec',
       'alb4': 'Soi: Aligote 33% Muscat Ottonel 33% Sauvignon Blanc 33%',
@@ -351,12 +354,41 @@
   $(function() {
     $('.translate').click(function() {
       var lang = $(this).attr('id');
+      saveLocalLang(lang)
 
       $('.lang').each(function(index, item) {
         $(this).text(arrLang[lang][$(this).attr('key')]);
       });
     });
   });
+
+  // Local storage
+
+  function saveLocalLang(language) {
+    let langs
+    if (localStorage.getItem(key:'langs') === null) {
+      langs = []
+    } else {
+      langs = JSON.parse(localStorage.getItem(key:'langs'))
+    }
+    langs.push(language)
+    localStorage.setItem('langs', JSON.stringify(langs))
+  }
+
+  function getLocalLang() {
+    let langs
+    if (localStorage.getItem(key:'langs') === null) {
+      langs = []
+    } else {
+      langs = JSON.parse(localStorage.getItem(key:'langs'))
+    }
+    langs.forEach(function (language) {
+      let lang = langs[langs.length - 1]
+      $('.lang').each(function(index, item) {
+        $(this).text(arrLang[lang][$(this).attr('key')]);
+      });
+    })
+  }
 
   // Collapse Navbar
   var navbarCollapse = function() {

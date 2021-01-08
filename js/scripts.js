@@ -147,7 +147,7 @@
 
   // Languages
 
-  document.addEventListener(type:'DOMContentLoaded', getLocalLang)
+  document.addEventListener('DOMContentLoaded', getLocalLang)
 
   var arrLang = {
     'en': {

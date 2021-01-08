@@ -11220,6 +11220,8 @@ header.masthead .masthead-heading {
   height: auto;
 }
 
+/* CONTACT PART */
+
 .contact4 {
   font-family: 'Noah-Regular';
   color: #8d97ad;
@@ -11299,6 +11301,8 @@ header.masthead .masthead-heading {
   }
 }
 
+/* ABOUT PART */
+
 .service-26 {
   font-family: 'Noah-Regular';
   font-weight: 400;
@@ -11367,6 +11371,8 @@ header.masthead .masthead-heading {
   align-items: center;
 }
 
+/* NOAH */
+
 @font-face {
   font-family: "Noah-Regular";
   src: url("css/noah/Noah-Regular.eot");
@@ -11384,6 +11390,8 @@ header.masthead .masthead-heading {
     url("/noah/Noah-Bold.ttf") format('truetype'),
     url("/noah/Noah-Bold.otf") format("opentype");
 }
+
+/* SLICK */
 
 .kazayak_slick {
   display: flex;
@@ -11522,6 +11530,8 @@ header.masthead .masthead-heading {
  }
 }
 
+/* CUSTOM ANIM */
+
 ._anim_show {
   transform: translate(0px, 120%);
   opacity: 0;
@@ -11533,6 +11543,8 @@ header.masthead .masthead-heading {
   transform: translate(0px, 0px);
   opacity: 1;
 }
+
+/* AWARDS PART */
 
 .counter-up{
   min-height: 50vh;
@@ -11568,7 +11580,7 @@ header.masthead .masthead-heading {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  padding: 50px;
+  padding: 60px;
 }
 .content .box .icon{
   font-size: 48px;
@@ -11622,6 +11634,7 @@ header.masthead .masthead-heading {
 }
 
  /* Social Icons  */
+
  .social {
  	margin: 0;
  	width: 500px;

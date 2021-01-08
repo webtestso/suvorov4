@@ -383,7 +383,6 @@
     }
     langs.forEach(function (language) {
       let lang = langs[langs.length - 1]
-      setTimeout( handler: () => {
       $('.lang').each(function(index, item) {
         $(this).text(arrLang[lang][$(this).attr('key')]);
       });

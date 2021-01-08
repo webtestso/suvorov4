@@ -10695,7 +10695,6 @@ img::-moz-selection {
 }
 
 .translate {
-  display: block;
   background: transparent;
   border: none;
   margin-left: 12px;

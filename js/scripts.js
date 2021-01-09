@@ -214,7 +214,13 @@
       'rosu2': 'Vintage: 2018 Wine aged',
       'rosu3': 'Wine type: Red dry',
       'rosu4': 'Grapes: Feteasca Neagra 40% Cabernet Sauvignon 30% Merlot 30%',
-      'rosu5': 'Wine pairing with food: The perfect gastronomic challenge for this wine is pork chop with baked potatoes, steak with a light hot sauce, tender beef steak'
+      'rosu5': 'Wine pairing with food: The perfect gastronomic challenge for this wine is pork chop with baked potatoes, steak with a light hot sauce, tender beef steak',
+      'awards': 'Medals and Awards',
+      'awardsinfo': 'Kazayak Vin and Suvorov Vin annually attend exhibitions such as: International Wine & Spirit Competition, International Wine Challenge, Eurasia Wine & Spirits Competition, Mundus Vini, Decanter World Wine Awards, Concours Mondial de Bruxelles, Challenge International du Vin, Wine Official Selection Fair in Transylvania, etc.',
+      'counter1': 'Exhibitions visited annually',
+      'counter2': 'Medals for the last 20 years',
+      'counter3': 'Of which gold medals',
+      'counter4': 'Of which silver medals'
 
     },
     'ru': {
@@ -281,7 +287,13 @@
       'rosu2': 'Год урожая: 2018 Вино выдержанное',
       'rosu3': 'Тип вина: Красное сухое',
       'rosu4': 'Виноград: Feteasca Neagra 40% Cabernet Sauvignon 30% Merlot 30%',
-      'rosu5': 'Сочетание вина с едой: Идеальный гастрономический вызов для этого вина - свиная отбивная с запеченным картофелем, стейк с легким острым соусом, нежный стейк из говядины'
+      'rosu5': 'Сочетание вина с едой: Идеальный гастрономический вызов для этого вина - свиная отбивная с запеченным картофелем, стейк с легким острым соусом, нежный стейк из говядины',
+      'awards': 'Медали и Награды',
+      'awardsinfo': 'Kazayak Vin и Suvorov Vin ежегодно посещают такие выставки, как: International Wine & Spirit Competition, International Wine Challenge, Eurasia Wine & Spirits Competition, Mundus Vini, Decanter World Wine Awards, Concours Mondial de Bruxelles, Challenge International du Vin, Wine Official Selection Fair in Transylvania и др.',
+      'counter1': 'Выставок посещяется ежегодно',
+      'counter2': 'Медалей за последние 20 лет',
+      'counter3': 'Из них золотые медали',
+      'counter4': 'Из них серебрянные медали'
     },
     'ro': {
       'home': 'Acasă',
@@ -347,7 +359,13 @@
       'rosu2': 'Anul recoltei: 2018 Imbătrânit cu vin',
       'rosu3': 'Tipul de vin: Roșu sec',
       'rosu4': 'Soi: Feteasca Neagra 40% Cabernet Sauvignon 30% Merlot 30%',
-      'rosu5': 'Combinarea vinurilor cu mâncarea: Provocarea gastronomică perfectă pentru acest vin - cotlet de porc cu cartofi la cuptor, steak cu sos puțin condimentat, friptură fragedă de vită'
+      'rosu5': 'Combinarea vinurilor cu mâncarea: Provocarea gastronomică perfectă pentru acest vin - cotlet de porc cu cartofi la cuptor, steak cu sos puțin condimentat, friptură fragedă de vită',
+      'awards': 'Medalii și Premii',
+      'awardsinfo': 'Kazayak Vin și Suvorov Vin participă anual la expoziții precum: International Wine & Spirit Competition, International Wine Challenge, Eurasia Wine & Spirits Competition, Mundus Vini, Decanter World Wine Awards, Concours Mondial de Bruxelles, Challenge International du Vin, Wine Official Selection Fair in Transylvania, etc.',
+      'counter1': 'Expoziții vizitate anual',
+      'counter2': 'Medalii din ultimii 20 de ani',
+      'counter3': 'Din care medalii de aur',
+      'counter4': 'Din care medalii de argint'
     }
   }
 

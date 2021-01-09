@@ -219,8 +219,8 @@
       'awardsinfo': 'Kazayak Vin and Suvorov Vin annually attend exhibitions such as: International Wine & Spirit Competition, International Wine Challenge, Eurasia Wine & Spirits Competition, Mundus Vini, Decanter World Wine Awards, Concours Mondial de Bruxelles, Challenge International du Vin, Wine Official Selection Fair in Transylvania, etc.',
       'counter1': 'Exhibitions visited annually',
       'counter2': 'Medals for the last 20 years',
-      'counter3': 'Of which gold medals',
-      'counter4': 'Of which silver medals'
+      'counter3': 'Gold medals for the last 20 years',
+      'counter4': 'Silver medals for the last 20 years'
 
     },
     'ru': {
@@ -292,8 +292,8 @@
       'awardsinfo': 'Kazayak Vin и Suvorov Vin ежегодно посещают такие выставки, как: International Wine & Spirit Competition, International Wine Challenge, Eurasia Wine & Spirits Competition, Mundus Vini, Decanter World Wine Awards, Concours Mondial de Bruxelles, Challenge International du Vin, Wine Official Selection Fair in Transylvania и др.',
       'counter1': 'Выставок посещяется ежегодно',
       'counter2': 'Медалей за последние 20 лет',
-      'counter3': 'Из них золотые медали',
-      'counter4': 'Из них серебрянные медали'
+      'counter3': 'Золотых медалей за последие 20 лет',
+      'counter4': 'Серебряных медалей за последние 20 лет'
     },
     'ro': {
       'home': 'Acasă',
@@ -364,8 +364,8 @@
       'awardsinfo': 'Kazayak Vin și Suvorov Vin participă anual la expoziții precum: International Wine & Spirit Competition, International Wine Challenge, Eurasia Wine & Spirits Competition, Mundus Vini, Decanter World Wine Awards, Concours Mondial de Bruxelles, Challenge International du Vin, Wine Official Selection Fair in Transylvania, etc.',
       'counter1': 'Expoziții vizitate anual',
       'counter2': 'Medalii din ultimii 20 de ani',
-      'counter3': 'Din care medalii de aur',
-      'counter4': 'Din care medalii de argint'
+      'counter3': 'Medalii de aur din ultimii 20 de ani',
+      'counter4': 'Medalii de argint din ultimii 20 de ani'
     }
   }
 

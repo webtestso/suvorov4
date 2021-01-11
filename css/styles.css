@@ -11412,7 +11412,7 @@ header.masthead .masthead-heading {
   transition-timing-function: linear;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1180px) {
+@media screen and (min-width: 992px) and (max-width: 1199px) {
 .kazayak_slick .items img {
   max-width: 100%;
   height: 400px;

@@ -11652,8 +11652,23 @@ header.masthead .masthead-heading {
  	transition: ease-in-out .3s;
  	border-radius: 50px;
  	margin-left: 30px;
- 	background-color: #882935e6;
+ 	background-color: transparent;
  }
+
+@media screen and (min-width: 375px) and (max-width: 430px) {
+  [class^="icon-btn"] /*.icon-btn*/ {
+   height: 85px;
+   width: 85px;
+   border: 0;
+   cursor: pointer;
+   font-size: 40px;
+   line-height: 85px;
+   transition: ease-in-out .3s;
+   border-radius: 50px;
+   margin-left: 30px;
+   background-color: transparent;
+  }
+}
 
  .facebook {
  	color: #3B5998;

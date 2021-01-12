@@ -11404,8 +11404,8 @@ header.masthead .masthead-heading {
 @font-face {
   font-family: "ColorTube-Regular";
   src:
-    url("noah/ColorTube-Regular.ttf") format('truetype'),
-    url("noah/ColorTube-Regular.otf") format("opentype");
+    url("/noah/ColorTube-Regular.ttf") format('truetype'),
+    url("/noah/ColorTube-Regular.otf") format("opentype");
 }
 
 /* SLICK */

@@ -11180,6 +11180,16 @@ header.masthead .masthead-heading {
   z-index: 1;
 }
 
+.modal_fix_info {
+  margin-top: 15rem;
+}
+
+@media screen and (min-width: 375px) and (max-width: 430px) {
+  .modal_fix_info {
+    margin-top: 0rem;
+  }
+}
+
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
@@ -11642,7 +11652,7 @@ header.masthead .masthead-heading {
  	padding: 50px;
  }
 
- [class^="icon-btn"] /*.icon-btn*/ {
+ .icon-btn {
  	height: 85px;
  	width: 85px;
  	border: 0;
@@ -11656,7 +11666,7 @@ header.masthead .masthead-heading {
  }
 
 @media screen and (min-width: 375px) and (max-width: 430px) {
-  [class^="icon-btn"] /*.icon-btn*/ {
+  .icon-btn {
    height: 85px;
    width: 85px;
    border: 0;

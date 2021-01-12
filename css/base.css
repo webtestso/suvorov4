@@ -190,9 +190,9 @@ main {
 .product__title {
 	position: relative;
 	margin: 0.5em 0 0;
-	font-size: 2rem;
+	font-size: 1.8rem;
 	color: black;
-	font-family: 'Marck Script', cursive;
+	font-family: 'Raleway';
 }
 
 .product__subtitle {
@@ -272,7 +272,7 @@ main {
 	margin: -1.5em 0 0.1em;
 	font-size: 3rem;
 	color: black;
-	font-family: 'Marck Script', cursive;
+	font-family: 'Raleway';
 }
 
 .details__subtitle {

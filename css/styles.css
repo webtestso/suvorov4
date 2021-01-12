@@ -367,7 +367,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: 'Marck Script', cursive;
+  font-family: 'Raleway';
   font-weight: 700;
   line-height: 1.2;
 }
@@ -377,7 +377,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h3, .h3 {
@@ -385,7 +385,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 h5, .h5 {
@@ -10614,7 +10614,7 @@ img::-moz-selection {
 
 #mainNav .navbar-toggler {
   padding: 0.75rem;
-  font-family: 'Marck Script', cursive;
+  font-family: 'Raleway';
   text-transform: none;
   font-size: 1rem;
   color: #fff;
@@ -10623,7 +10623,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   color: black;
-  font-family: 'Marck Script', cursive;
+  font-family: 'Raleway';
   font-weight: 400;
   text-transform: none;
   letter-spacing: 0.0925em;
@@ -10634,8 +10634,8 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: 'Marck Script', cursive;
-  font-size: 1.7rem;
+  font-family: 'Raleway';
+  font-size: 1.6rem;
   text-transform: none;
   color: black;
   letter-spacing: 0.0925em;
@@ -10643,7 +10643,7 @@ img::-moz-selection {
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 #mainNav .navbar-nav .nav-item .nav-link {
-  font-family: 'Marck Script', cursive;
+  font-family: 'Raleway';
   font-size: 1.2rem;
   text-transform: none;
   color: black;
@@ -10659,7 +10659,7 @@ img::-moz-selection {
   #mainNav {
     border: none;
     background-color: transparent;
-    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
   }
 
   #mainNav .navbar-brand {
@@ -11125,8 +11125,8 @@ header.masthead .masthead-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.5rem;
-  font-family: 'Marck Script', cursive;
+  font-size: 1.4rem;
+  font-family: 'Raleway';
   font-weight: 700;
   margin-bottom: 0;
 }
@@ -11220,7 +11220,7 @@ header.masthead .masthead-heading {
   background-color: white;
   text-align: center;
   font-size: 1.6rem;
-  font-family: 'Marck Script', cursive;
+  font-family: 'Raleway';
   margin-bottom: 1rem;
 }
 
@@ -11322,7 +11322,7 @@ header.masthead .masthead-heading {
 
 .service-26 h1, .service-26 h2, .service-26 h3, .service-26 h4, .service-26 h5, .service-26 h6 {
   color: black;
-  font-family: 'Marck Script', cursive;
+  font-family: 'Raleway';
 }
 
 .service-26 .font-weight-medium {

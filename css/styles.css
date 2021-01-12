@@ -11401,13 +11401,6 @@ header.masthead .masthead-heading {
     url("/noah/Noah-Bold.otf") format("opentype");
 }
 
-@font-face {
-  font-family: "ColorTube-Regular";
-  src:
-    url("/noah/ColorTube-Regular.ttf") format('truetype'),
-    url("/noah/ColorTube-Regular.otf") format("opentype");
-}
-
 /* SLICK */
 
 .kazayak_slick {

@@ -379,6 +379,10 @@
     });
   });
 
+  $('button').on('click', function() {
+    $('input').attr("placeholder", "Email *");
+});
+
   // Local storage
 
   function saveLocalLang(language) {

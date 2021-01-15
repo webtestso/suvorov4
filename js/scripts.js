@@ -379,9 +379,9 @@
     });
   });
 
-  $('button').on('click', function() {
-    $('input').attr("placeholder", "Email *");
-});
+$('input:text').attr('placeholder','Your name *');
+$('input:email').attr('placeholder','Email *');
+
 
   // Local storage
 

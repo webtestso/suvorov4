@@ -20,6 +20,7 @@
   <link href="css/demo.css" rel="stylesheet" />
   <link href="css/base.css" rel="stylesheet" />
   <link href="css/pater.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 
@@ -447,26 +448,34 @@
       </div>
       <div class="counter-up">
         <div class="content">
+          <div data-aos="flip-up">
           <div class="box">
             <img src="https://img.icons8.com/ios/60/000000/exhibitor.png"/>
             <div class="counter">18</div>
             <div class="text lang" key="counter1">Выставок посещяется ежегодно</div>
           </div>
+        </div>
+        <div data-aos="flip-down">
           <div class="box">
             <img src="https://img.icons8.com/ios/60/000000/prize--v1.png"/>
             <div class="counter">189</div>
             <div class="text lang" key="counter2">Медалей за последние 20 лет</div>
           </div>
+        </div>
+          <div data-aos="flip-up">
           <div class="box">
             <img src="https://img.icons8.com/ios/60/000000/medal2--v1.png"/>
             <div class="counter">70</div>
             <div class="text lang" key="counter3">Золотых медалей за последие 20 лет</div>
           </div>
+        </div>
+        <div data-aos="flip-down">
           <div class="box">
             <img src="https://img.icons8.com/ios/60/000000/medal-second-place--v1.png"/>
             <div class="counter">67</div>
             <div class="text lang" key="counter4">Серебряных медалей за последние 20 лет</div>
           </div>
+        </div>
         </div>
       </div>
       <div class="row">
@@ -585,10 +594,9 @@
       <script src="js/anime.min.js"></script>
       <script src="js/main.js"></script>
       <!-- Contact form JS-->
-      <script src="assets/mail/jqBootstrapValidation.js"></script>
-      <script src="assets/mail/contact_me.js"></script>
       <!-- Core theme JS-->
       <script src="js/scripts.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
       <script>
       $(document).ready(function() {
@@ -598,7 +606,8 @@
         });
       });
       </script>
-
+      <script>
+        AOS.init();
+      </script>
   </body>
-
 </html>

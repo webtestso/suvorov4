@@ -11643,6 +11643,11 @@ header.masthead .masthead-heading {
   margin-bottom: -3rem;
 }
 
+.awards_info {
+  font-size: 1.3rem;
+  font-family: "Noah-Regular";
+  font-weight: 400;
+}
  /* Social Icons  */
 
  .social {

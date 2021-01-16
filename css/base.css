@@ -190,7 +190,7 @@ main {
 .product__title {
 	position: relative;
 	margin: 0.5em 0 0;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	color: black;
 	font-family: 'Raleway';
 }
@@ -286,7 +286,7 @@ main {
 
 .details__description {
 	font-family: 'Noah-Regular';
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 	max-width: 50%;
 	margin: 2em 0 0 0;
 	color: black;

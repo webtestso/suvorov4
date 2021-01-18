@@ -10659,11 +10659,12 @@ img::-moz-selection {
   #mainNav {
     border: none;
     background-color: transparent;
-    transition: height 0.3s ease-in-out;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
 
   #mainNav .navbar-brand {
     font-size: 1.5em;
+    transition: font-size 0.3s ease-in-out;
   }
 
   #mainNav .navbar-brand img {

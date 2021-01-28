@@ -10699,6 +10699,7 @@ img::-moz-selection {
   background: transparent;
   border: none;
   margin-left: 12px;
+  outline: none !important;
 }
 
 header.masthead .masthead-subheading {
@@ -11714,9 +11715,3 @@ header.masthead .masthead-heading {
 @import AOS from 'aos';
 @import 'aos-master/dist/aos.css';
 AOS.init();
-
-/* Button Outline */
-
-.button {
-  outline: none !important;
-}

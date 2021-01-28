@@ -11714,9 +11714,3 @@ header.masthead .masthead-heading {
 @import AOS from 'aos';
 @import 'aos-master/dist/aos.css';
 AOS.init();
-
-/* Default styles */
-
-.remove-all-styles {
-   all: revert;
- }

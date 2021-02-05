@@ -11744,7 +11744,7 @@ AOS.init();
   font-size: 75px;
 }
 
-§.done {
+&.done {
   opacity: 0;
   visibility: hidden;
 }

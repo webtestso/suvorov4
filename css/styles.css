@@ -11744,7 +11744,7 @@ AOS.init();
   font-size: 75px;
 }
 
-&.done {
+.preloader.done {
   opacity: 0;
   visibility: hidden;
 }

@@ -11715,3 +11715,36 @@ header.masthead .masthead-heading {
 @import AOS from 'aos';
 @import 'aos-master/dist/aos.css';
 AOS.init();
+
+/* Preloader */
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 2;
+  transition: 1s all;
+  opacity: 1;
+  visibility: visible;
+  background: url(http://robinmastromarino.com/images/generics/loader-hd.gif) center no-repeat;
+  background-color: #110F11;
+}
+
+.loader {
+  width: 100%;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75px;
+}
+
+§.done {
+  opacity: 0;
+  visibility: hidden;
+}

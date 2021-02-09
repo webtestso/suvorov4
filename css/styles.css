@@ -11843,7 +11843,7 @@ AOS.init();
   }
 }
 
-.loader.container {
+.loader-container {
   background-color: #d35400;
   transition: all 0.3s;
   position: fixed;

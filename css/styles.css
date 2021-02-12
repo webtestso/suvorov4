@@ -10555,7 +10555,7 @@ body {
 }
 
 p {
-  line-height: normal;
+  line-height: 1.5;
 }
 
 .page-section {}

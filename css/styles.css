@@ -11725,15 +11725,14 @@ AOS.init();
   justify-content: center;
   align-items: center;
   transition: opacity 1s ease 3s;
-}
-
-.textpreload {
-  position: absolute;
-  top: 75%;
-  transform: translateY(-75%);
-  color: white;
-  font-size: 40px;
-  font-family: sans-serif;
+  h3 {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-75%);
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+  }
 }
 
 .preload-finish {
@@ -11777,7 +11776,6 @@ AOS.init();
   from {
     transform: translateY(0px);
   }
-
   to {
     transform: translateY(50px);
   }
@@ -11787,7 +11785,6 @@ AOS.init();
   from {
     right: 0%;
   }
-
   to {
     right: 130%;
   }

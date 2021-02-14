@@ -409,11 +409,10 @@ $('#email2').attr('placeholder','Email *');
 }
 
 // Preloader
-const loaderContainer = document.querySelector('.loader-container');
-
-window.addEventListener('load',() => {
-  loaderContainer.classList.add('hide');
-})
+window.addEventListener("load", () => {
+  const preload = document.querySelector(".preload");
+  preload.classList.add("preload-finish");
+});
 
   // Collapse Navbar
   var navbarCollapse = function() {

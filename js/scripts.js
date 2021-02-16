@@ -21,7 +21,7 @@
         $("html, body").animate({
             scrollTop: target.offset().top - 72,
           },
-          1000,
+          2000,
           "easeInOutExpo"
         );
         return false;

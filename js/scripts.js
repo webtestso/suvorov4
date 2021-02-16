@@ -409,6 +409,12 @@ $('#email2').attr('placeholder','Email *');
 }
 
 // Preloader
+$(document).ready(function() {
+  setTimeout(function() {
+    $('.wrapper').addClass('loaded');
+
+  }, 3000);
+});
 
   // Collapse Navbar
   var navbarCollapse = function() {

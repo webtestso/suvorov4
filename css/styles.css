@@ -10702,7 +10702,19 @@ img::-moz-selection {
   outline: none !important;
 }
 
-header.masthead .masthead-subheading {
+@media screen and (min-width: 992px) and (max-width: 1980px) {
+.single-item {
+  padding: 100px 0 0 0;
+}
+}
+
+@media screen and (min-width: 375px) and (max-width: 991px) {
+.single-item {
+  padding: 57px 0 0 0;
+}
+}
+
+/* header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.5rem;
@@ -11066,14 +11078,14 @@ background-repeat: no-repeat;
 background-attachment: scroll;
 background-size: cover;
  }
-}
+} */
 
 .slick-slide img {
   display: block;
   width: 100%;
 }
 
-header.masthead .masthead-subheading {
+/* header.masthead .masthead-subheading {
   font-size: 2.25rem;
   line-height: 2.25rem;
   margin-bottom: 2rem;
@@ -11085,7 +11097,7 @@ header.masthead .masthead-heading {
   line-height: 4.5rem;
   margin-bottom: 4rem;
  }
-}
+} */
 
 #portfolio .portfolio-item {
   max-width: 25rem;

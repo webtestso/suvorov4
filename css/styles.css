@@ -11861,6 +11861,14 @@ AOS.init();
     -webkit-transition: all 0.3s 1s ease-out;
     transition: all 0.3s 1s ease-out;
 }
+
+.no-js #loader-wrapper {
+    display: none;
+}
+.no-js h1 {
+    color: #222222;
+}
+
 /* Box-Shadow */
 
 .shadow-dreamy {

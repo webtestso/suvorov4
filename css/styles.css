@@ -10704,7 +10704,7 @@ img::-moz-selection {
 
 @media screen and (min-width: 992px) and (max-width: 1980px) {
 .single-item {
-  margin: -450px 0 0 0;
+  margin: 100px 0 0 0;
 }
 }
 
@@ -11816,9 +11816,6 @@ AOS.init();
     height: 100%;
     background: white;
     z-index: 1600;
-    -webkit-transform: translateX(0);  /* Chrome, Opera 15+, Safari 3.1+ */
-    -ms-transform: translateX(0);  /* IE 9 */
-    transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */
 }
 
 #loader-wrapper .loader-section.section-left {

@@ -409,15 +409,17 @@ $('#email2').attr('placeholder','Email *');
 }
 
 // Preloader
-$(document).ready(function() {
-
-    setTimeout(function(){
-        $('body').addClass('loaded');
-        $('h1').css('color','#222222');
-    }, 3000);
-
-});
-
+window.addEventListener('DOMContentLoaded', function() {
+    new QueryLoader2(document.querySelector("body"), {
+        barColor: "#efefef",
+        backgroundColor: "#111",
+        percentage: true,
+        barHeight: 1,
+        minimumTime: 200,
+        fadeOutTime: 1000
+      });
+  });
+  
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {

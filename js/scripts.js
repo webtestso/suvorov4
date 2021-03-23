@@ -533,10 +533,6 @@ $('#email2').attr('placeholder','Email *');
   })
 }
 
-// Wines Page Fix
-var d = document.getElementById("wine");
-d.className += " lang"
-
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {

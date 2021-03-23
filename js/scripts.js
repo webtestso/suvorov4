@@ -535,7 +535,7 @@ $('#email2').attr('placeholder','Email *');
 
 // Wines Page Fix
 var d = document.getElementById("wine");
-d.className += " lang";
+d.className += " lang"
 
   // Collapse Navbar
   var navbarCollapse = function() {

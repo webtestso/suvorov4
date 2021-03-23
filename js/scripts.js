@@ -219,7 +219,23 @@
       'counter1': 'Exhibitions visited annually',
       'counter2': 'Medals for the last 20 years',
       'counter3': 'Gold medals for the last 20 years',
-      'counter4': 'Silver medals for the last 20 years'
+      'counter4': 'Silver medals for the last 20 years',
+      'barza2': 'The wine with a fine aroma opening by the primary floral aromas, then evolves with a remarkable Muscat aroma. It has a rich, full-bodied taste, with an elegant taste of fresh grapes',
+      'barza2.1': 'Vintage: 2018',
+      'barza2.2': 'Wine type: White semisweet',
+      'barza2.3': 'Grapes: 100% Muscat',
+      'barza3': 'The wine impresses with its fine variety aroma, delicate pink color and fresh taste with nuances of berries. Obtained from merlot grapes. Perfect for fine fish, cheese and fruit dishes. Prefered to be consumed at the temperature of 10-12 t.',
+      'barza3.1': 'Vintage: 2018',
+      'barza3.2': 'Wine type: Rose semidry',
+      'barza3.3': 'Grapes: 100% Merlot',
+      'barza4': 'Semi-sweet muscat rose wine stands out especially for its delicate pink color and the aroma of muscat with floral shades. Balanced acidity forms a fresh and fine taste',
+      'barza4.1': 'Vintage: 2018',
+      'barza4.2': 'Wine type: Rose semisweet',
+      'barza4.3': 'Grapes: 100% Muscat',
+      'barza5': 'Cabernet Sauvignon has an intense ruby ​​red color with an elegant aroma rich in berries, complemented by subtle hints of sweet spices. The complex taste is combined with notes of ripe red fruits',
+      'barza5.1': 'Vintage: 2018',
+      'barza5.2': 'Wine type: Red dry',
+      'barza5.3': 'Grapes: 100% Cabernet Sauvignon'
 
     },
     'ru': {
@@ -292,7 +308,26 @@
       'counter1': 'Выставок посещяется ежегодно',
       'counter2': 'Медалей за последние 20 лет',
       'counter3': 'Золотых медалей за последие 20 лет',
-      'counter4': 'Серебряных медалей за последние 20 лет'
+      'counter4': 'Серебряных медалей за последние 20 лет',
+      'barza2': 'Вино с тонким ароматом раскрывается первичными цветочными ароматами, а затем развивается в мускатные ноты. Обладает насыщенным вкусом, с элегантным характером свежего винограда',
+      'barza2.1': 'Год урожая: 2018',
+      'barza2.2': 'Тип вина: Белое полусладкое',
+      'barza2.3': 'Виноград: 100% Мускат',
+      'barza3': 'Вино поражает своим тонким разнообразным ароматом, нежным розовым цветом и свежим вкусом с нюансами ягод. Производится из винограда сорта Мерло. Идеально подходит для изысканных блюд из рыбы, сыра и
+        фруктов. Потребляется при температуре 10-12 градусов',
+      'barza3.1': 'Год урожая: 2018',
+      'barza3.2': 'Тип вина: Розовое полусухое',
+      'barza3.3': 'Виноград: 100% Мерло',
+      'barza4': 'Мускатное полусладкое розовое вино отличается особенно нежным розовым цветом и ароматом муската с цветочными оттенками. Сбалансированная кислотность формирует свежий и тонкий вкус',
+      'barza4.1': 'Год урожая: 2018',
+      'barza4.2': 'Тип вина: Розовое полусладкое',
+      'barza4.3': 'Виноград: 100% Мускат',
+      'barza5': 'Каберне Совиньон обладает интенсивным рубиново-красным цветом с элегантным ароматом, богатым ягодами, дополненным тонкими оттенками сладких пряностей. Сложный вкус сочетается с нотами спелых красных
+        фруктов',
+      'barza5.1': 'Год урожая: 2018',
+      'barza5.2': 'Тип вина: Красное сухое',
+      'barza5.3': 'Виноград: 100% Каберне Совиньон'
+
     },
     'ro': {
       'home': 'Acasă',
@@ -364,7 +399,24 @@
       'counter1': 'Expoziții vizitate anual',
       'counter2': 'Medalii din ultimii 20 de ani',
       'counter3': 'Medalii de aur din ultimii 20 de ani',
-      'counter4': 'Medalii de argint din ultimii 20 de ani'
+      'counter4': 'Medalii de argint din ultimii 20 de ani',
+      'barza2': 'Vinul cu o aroma de finețe este deschis prin aromele florale primare, apoi evoluează cu o aromă remarcabilă de Muscat. Are gust bogat, corpulent, cu un gust elegant de struguri proaspeți',
+      'barza2.1': 'Anul recoltei: 2018',
+      'barza2.2': 'Tipul de vin: Alb demidulce',
+      'barza2.3': 'Soi: 100% Muscat',
+      'barza3': 'Vinul impresionează prin aroma fina de soi, culoarea roz delicată și gustul proaspăt cu nuanțe de fructe de pădure. Obținut din struguri de soiul merlot. Perfect pentru bucate fine din pește, cașcavaluri și fructe. Se consumă la temperatura de 10-12 t.',
+      'barza3.1': 'Anul recoltei: 2018',
+      'barza3.2': 'Tipul de vin: Rose demisec',
+      'barza3.3': 'Soi: 100% Merlot',
+      'barza4': 'Vin demidulce roz Muscat se remarca in special prin culoarea sa delicata roz si aroma evidentiata de muscat cu nuante florale. Aciditatea echilibrata formeaza un gust proaspat si fin',
+      'barza4.1': 'Anul recoltei: 2018',
+      'barza4.2': 'Tipul de vin: Rose demidulce',
+      'barza4.3': 'Soi: 100% Muscat',
+      'barza5': 'Cabernet Sauvignon are o culoare rosie rubinie intensa cu o aroma eleganta, bogata de fructe de padure completata de nuante fine de condimente dulcege. Gustul complex vine cu note de fructe rosii coapte',
+      'barza5.1': 'Anul recoltei: 2018',
+      'barza5.2': 'Tipul de vin: Rosu sec',
+      'barza5.3': 'Soi: 100% Cabernet Sauvignon'
+
     }
   }
 

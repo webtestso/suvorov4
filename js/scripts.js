@@ -459,15 +459,8 @@ $('#email2').attr('placeholder','Email *');
 }
 
 // Wines Page Fix
-function myFunction() {
-  var element, name, arr;
-  element = document.getElementById("wine");
-  name = "lang";
-  arr = element.className.split(" ");
-  if (arr.indexOf(name) == -1) {
-    element.className += " " + name;
-  }
-}
+var d = document.getElementById("wine");
+d.className += " lang";
 
   // Collapse Navbar
   var navbarCollapse = function() {

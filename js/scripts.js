@@ -458,6 +458,17 @@ $('#email2').attr('placeholder','Email *');
   })
 }
 
+// Wines Page Fix
+function myFunction() {
+  var element, name, arr;
+  element = document.getElementById("wine");
+  name = "lang";
+  arr = element.className.split(" ");
+  if (arr.indexOf(name) == -1) {
+    element.className += " " + name;
+  }
+}
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {

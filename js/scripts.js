@@ -315,7 +315,17 @@
       'vioricacabernet2': 'Vintage: 2017',
       'vioricacabernet3': 'Wine type: Red dry',
       'vioricacabernet4': 'Grapes: 100% Cabernet Sauvignon',
-      'vioricacabernet5': 'Wine pairing with food: Beef steak, pork, hard cheeses'
+      'vioricacabernet5': 'Wine pairing with food: Beef steak, pork, hard cheeses',
+      'vioricamalbec1': 'Dark ruby ​​red wine with a rich fruity bouquet with notes of prunes and blackberries. The taste is full, velvety, with fresh aromas of red currant and black cherry combined with sweet rounded tannins. The finish is long with hints of cinnamon and cloves. Superior quality wine to make your celebrations happy',
+      'vioricamalbec2': 'Vintage: 2019',
+      'vioricamalbec3': 'Wine type: Red dry',
+      'vioricamalbec4': 'Grapes: 100% Malbec',
+      'vioricamalbec5': 'Wine pairing with food: Served with oven pizza, lasagna, Mexican cuisine, game, meat dishes',
+      'vioricariton1': 'Riton offers everything you would expect from a young white wine, and maybe more: subtle aroma, freshness, acidity and some structure. White wine with a greenish tint. Sauvignon Blanc emphasized a complex delicate aroma with hints of black currant, passion fruit, against the background of a pronounced citrus aroma. This wine has everything you are looking for: fresh taste, unforgettable aroma and freshness!',
+      'vioricariton2': 'Vintage: 2019',
+      'vioricariton3': 'Wine type: White dry',
+      'vioricariton4': 'Grapes: Sauvignon Blanc 60% Riton 40%',
+      'vioricariton5': 'Wine pairing with food: Served with fish, asparagus and seafood ( oysters and shrimps )'
 
     },
     'ru': {
@@ -484,7 +494,17 @@
       'vioricacabernet2': 'Год урожая: 2017',
       'vioricacabernet3': 'Тип вина: Красное сухое',
       'vioricacabernet4': 'Виноград: 100% Каберне Совиньон',
-      'vioricacabernet5': 'Сочетание вина с едой: Стейк из говядины, свинины, твердые сыры'
+      'vioricacabernet5': 'Сочетание вина с едой: Стейк из говядины, свинины, твердые сыры',
+      'vioricamalbec1': 'Темно-рубиново-красное вино с богатым фруктовым букетом с нотками чернослива и ежевики. Вкус полный, бархатистый, со свежими ароматами красной смородины и черной вишни в сочетании со сладкими округлыми танинами. Послевкусие долгое с нотками корицы и гвоздики. Вино превосходного качества для радости праздничных мероприятий',
+      'vioricamalbec2': 'Год урожая: 2019',
+      'vioricamalbec3': 'Тип вина: Красное сухое',
+      'vioricamalbec4': 'Виноград: 100% Malbec',
+      'vioricamalbec5': 'Сочетание вина с едой: Подают к пицце из печи, лазаньи, мексиканской кухне, дичи, мясным блюдам',
+      'vioricariton1': 'Riton предлагает все, что вы ожидаете от молодого белого вина, а может быть и больше: тонкий аромат, свежесть, кислотность и некоторую структуру. Белое вино с зеленоватым оттенком. Совиньон Блан подчеркнул сложный тонкий аромат с оттенками черной смородины, плода маракуйи, на фоне ярко выраженного цитрусового аромата. В этом вине есть все, что вы ищете: свежий вкус, незабываемый аромат и свежесть!',
+      'vioricariton2': 'Год урожая: 2019',
+      'vioricariton3': 'Тип вина: Белое сухое',
+      'vioricariton4': 'Виноград: Sauvignon Blanc 60% Riton 40%',
+      'vioricariton5': 'Сочетание вина с едой: Подают к рыбе, спарже и морепродуктам ( устрицам и креветкам )'
 
     },
     'ro': {
@@ -653,7 +673,17 @@
       'vioricacabernet2': 'Anul recoltei: 2017',
       'vioricacabernet3': 'Tipul de vin: Roșu sec',
       'vioricacabernet4': 'Soi: 100% Cabernet Sauvignon',
-      'vioricacabernet5': 'Combinarea vinurilor cu mâncarea: Friptură de vită, porc, brânzeturi tari'
+      'vioricacabernet5': 'Combinarea vinurilor cu mâncarea: Friptură de vită, porc, brânzeturi tari',
+      'vioricamalbec1': 'Vin roșu rubiniu închis, cu un bogat buchet fructat, cu note de prune uscate și mure. Gustul este plin, catifelat, cu arome proaspete de coacăz roșu și cireș negru combinate cu taninuri dulci rotunjite. Finalul este lung, cu note de scorțișoară și cuișoare. Vin de calitate excelentă pentru bucuria sărbătorilor',
+      'vioricamalbec2': 'Anul recoltei: 2019',
+      'vioricamalbec3': 'Tipul de vin: Roșu sec',
+      'vioricamalbec4': 'Soi: 100% Malbec',
+      'vioricamalbec5': 'Combinarea vinurilor cu mâncarea: Servit cu pizza la cuptor, lasagna, bucătărie mexicană, vânat, preparate din carne',
+      'vioricariton1': 'Riton oferă tot ce vă așteptați de la un vin alb tânăr și poate mai mult: aromă subtilă, prospețime, aciditate și o anumită structură. Vin alb cu o nuanță verzuie. Sauvignon Blanc a subliniat o aromă delicată complexă, cu note de coacăz negru, fruct de pasiune, pe fundalul unei arome pronunțate de citrice. Acest vin are tot ce căutați: gust proaspăt, aromă de neuitat și prospețime!',
+      'vioricariton2': 'Anul recoltei: 2019',
+      'vioricariton3': 'Tipul de vin: Alb sec',
+      'vioricariton4': 'Soi: Sauvignon Blanc 60% Riton 40%',
+      'vioricariton5': 'Combinarea vinurilor cu mâncarea: Servit cu pește, sparanghel și fructe de mare ( stridii și creveți )'
 
     }
   }
@@ -667,9 +697,6 @@
       });
     });
   });
-
-$('#name2').attr('placeholder','Your name *');
-$('#email2').attr('placeholder','Email *');
 
   // Local storage
   function saveLocalLang(language) {

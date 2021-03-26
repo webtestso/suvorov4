@@ -628,7 +628,7 @@
       'viorica2': 'Anul recoltei: 2018',
       'viorica3': 'Tipul de vin: Alb sec',
       'viorica4': 'Soi: 100% Viorica',
-      'viorica5': 'Combinarea vinurilor cu mâncarea: Poate fi însoţi de carnea albă; peşte sau fructe de mare, poate fi un aperitiv excelent sau poate fi servit cu pâine sau gustări uşor picante',
+      'viorica5': 'Combinarea vinurilor cu mâncarea: Bruschete, carpaccio de somon, brânzeturi moi',
       'vioricaregala1': 'Vinul sec alb cu o aromă elegantă, de tip floral, echilibrat, cu un gust plăcut, bine conturat, plin de finețe, cu prospețimea ridicată. Feteasca Regală se asociază foarte bine cu gustările servite la începutul mesei, ca aperitiv, sau pot acompania majoritatea mâncărurilor pe bază de pește sau fructe de mare. Peștele de apă dulce, cum ar fi crapul, păstrăvul, șalăul, aproape întotdeauna mai delicat. Se recomandă ca vinul sa se servească la temperatura de 10-12 grade Celsius',
       'vioricaregala2': 'Anul recoltei: 2018',
       'vioricaregala3': 'Tipul de vin: Alb sec',

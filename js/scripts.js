@@ -633,7 +633,7 @@
       'vioricaregala2': 'Anul recoltei: 2018',
       'vioricaregala3': 'Tipul de vin: Alb sec',
       'vioricaregala4': 'Soi: 100% Feteasca Regală',
-      'vioricaregala5': 'Combinarea vinurilor cu mâncarea: Vinul se asociază cu brânzeturi dulci nefermentate, cu fructe proaspete la sfârşitul meselor',
+      'vioricaregala5': 'Combinarea vinurilor cu mâncarea: Pește la grătar, salată de rucola',
       'vioricarose1': ' Impresionează cu o aromă variată rafinată şi o culoare delicată roz. Catifea cu nuanţe de o mulţime de fructe de padure, cum ar fi căpşuni şi cornelian. Fabricat din struguri Merlot, colectat până la maturitate completă. Gustul este un corp plin, armonios, moale, cu gust de boabe, cu aciditate redusă şi cu un gust persistent. Recomandat pentru toate ocaziile! Bine pe cont propriu!',
       'vioricarose2': 'Anul recoltei: 2018',
       'vioricarose3': 'Tipul de vin: Rose sec',

@@ -729,15 +729,15 @@
 function readMore() {
   var dots = document.getElementById("dots");
   var more = document.getElementById("more");
-  var btn = document.getElementById("btn");
+  var btn = document.getElementById("btn-more");
 
   if(dots.style.display === "none") {
     dots.style.display="inline";
-    btn.innerHTML="Подробнее";
+    btn-more.innerHTML="Подробнее";
     more.style.display="none";
   } else {
-    dots.style.display="dots";
-    btn.innerHTML="Скрыть";
+    dots.style.display="none";
+    btn-more.innerHTML="Скрыть";
     more.style.display="inline";
   }
 }

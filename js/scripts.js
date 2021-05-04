@@ -725,16 +725,6 @@
   })
 }
 
-// More, Less info
-function readFunction() {
-  var x = document.getElementById("more_less");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {

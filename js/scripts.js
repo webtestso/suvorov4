@@ -726,19 +726,12 @@
 }
 
 // More, Less info
-function readMore() {
-  var dots = document.getElementById("dots");
-  var more = document.getElementById("more");
-  var btn = document.getElementById("btn-more");
-
-  if(dots.style.display === "none") {
-    dots.style.display="inline";
-    btn-more.innerHTML="Подробнее";
-    more.style.display="none";
+function readFunction() {
+  var x = document.getElementById("more_less");
+  if (x.style.display === "none") {
+    x.style.display = "block";
   } else {
-    dots.style.display="none";
-    btn-more.innerHTML="Скрыть";
-    more.style.display="inline";
+    x.style.display = "none";
   }
 }
 

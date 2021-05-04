@@ -11750,3 +11750,9 @@ AOS.init();
 #more_less{
   display: none;
 }
+
+/* No blue lines */
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}

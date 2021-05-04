@@ -11753,6 +11753,6 @@ AOS.init();
 
 /* No blue lines */
 
-input:focus, textarea:focus, select:focus {
+button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
     outline: none;
 }

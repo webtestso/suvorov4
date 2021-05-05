@@ -534,10 +534,26 @@
                           телятины. Идеально подходит для долгих летних вечеров или романтических мероприятий!</li>
                       </div>
                     </ul>
-                    <button class="btn-more btn-6 btn-6c"onclick="readFunction()">Узнать больше</button>
-                    <div id="more_less"><p class="item-intro lang" key="rose1">Как и другие вина в этой коллекции, это розовое вино представляет собой кристаллический купаж, характерный для розовой винификации сортов Мерло и Каберне-Совиньон, собранных при полной
+                    <a class="content_toggle" href="#">Узнать больше</a>
+                    <div class="content_block" style="display: none;">
+                    <p class="item-intro lang" key="rose1">Как и другие вина в этой коллекции, это розовое вино представляет собой кристаллический купаж, характерный для розовой винификации сортов Мерло и Каберне-Совиньон, собранных при полной
                       зрелости. В результате получается вино с собственным характером, приятной кислотностью, энергичным, фруктовым и пленительным вкусом. Приятный и тонкий аромат цветов шиповника, а также красных ягод ( клубники и малины ). Вкус
-                      тонкий и минеральный, но в то же время насыщенный, фруктовые ноты спелой клубники и персика гармонично сочетаются с легкими цитрусовыми ощущениями</p></div>
+                      тонкий и минеральный, но в то же время насыщенный, фруктовые ноты спелой клубники и персика гармонично сочетаются с легкими цитрусовыми ощущениями</p>
+                    </div>
+                      <script>
+                        $(document).ready(function() {
+                          $('.content_toggle').click(function() {
+                            $('.content_block').slideToggle(300, function() {
+                              if ($(this).is(':hidden')) {
+                                $('.content_toggle').html('Узнать больше');
+                              } else {
+                                $('.content_toggle').html('Скрыть');
+                              }
+                            });
+                            return false;
+                          });
+                        });
+                      </script>
                       <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="560.7" height="315" type="text/html" src="https://www.youtube.com/embed/UOf8N3-uyi8?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd720&origin=https://youtubeembedcode.com"></iframe>
                   </div>
                 </div>

@@ -11750,21 +11750,18 @@ AOS.init();
 .content_toggle {
 	display: inline-block;
 	padding: 15px 20px;
-	background: #672cc5;
-	font-size: 16px;
-	text-decoration: none;
+	background: #882935e6;
 	color: #fff;
 	margin-bottom: 20px;
-	border-radius: 5px;
-	border-bottom: 3px solid #32145a;
+	border-bottom: 3px solid;
 }
 .content_toggle:hover {
 	color: #fff;
-	background: #7c4acc;
-	border-bottom: 3px solid #32145a;
+	background: #882935e6;
+	border-bottom: 3px solid;
 }
 .content_toggle:active {
-	background: #34106d;
+	background: #882935e6;
 }
 
 /* No blue lines */

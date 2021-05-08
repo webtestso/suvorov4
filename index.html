@@ -30,6 +30,20 @@
         });
     });
 </script>
+<script>
+  $(document).ready(function() {
+    $('.content_toggle').click(function() {
+      $('.content_block').slideToggle(300, function() {
+        if ($(this).is(':hidden')) {
+          $('.content_toggle').html('Узнать больше');
+        } else {
+          $('.content_toggle').html('Скрыть');
+        }
+      });
+      return false;
+    });
+  });
+</script>
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="css/styles.css" rel="stylesheet">
   <link href="css/component.css" rel="stylesheet">
@@ -441,20 +455,6 @@
                       нотами барбариса, цитрусовых и экзотических фруктов. Обладает свежим, полным, гармоничным вкусом, в котором сбалансированная кислотность и карамельные оттенки находятся в идеальном равновесии. Послевкусие приходит к вам с
                       ароматами белой вишни и крыжовника, усиленными цитрусовыми и экзотическими нотками</p>
                     </div>
-                    <script>
-                      $(document).ready(function() {
-                        $('.content_toggle').click(function() {
-                          $('.content_block').slideToggle(300, function() {
-                            if ($(this).is(':hidden')) {
-                              $('.content_toggle').html('Узнать больше');
-                            } else {
-                              $('.content_toggle').html('Скрыть');
-                            }
-                          });
-                          return false;
-                        });
-                      });
-                    </script>
                     <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="560.7" height="315" type="text/html" src="https://www.youtube.com/embed/N8VUQpl8Rbs?autoplay=0&fs=1&iv_load_policy=3&showinfo=0&rel=0&cc_load_policy=0&start=0&end=0&vq=hd720&origin=https://youtubeembedcode.com"></iframe>
                   </div>
                 </div>
@@ -614,7 +614,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <script src="js/classie.js"></script>
   <script src="js/modernizr.custom.js"></script>
-  <!-- Contact form JS-->
   <!-- Core theme JS-->
   <script src="js/scripts.js"></script>
   <script src="js/slick.min.js"></script>

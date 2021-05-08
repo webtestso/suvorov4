@@ -11747,37 +11747,24 @@ AOS.init();
 
 /* More, Less info */
 
-#more_less{
-  display: none;
+.content_toggle {
+	display: inline-block;
+	padding: 15px 20px;
+	background: #672cc5;
+	font-size: 16px;
+	text-decoration: none;
+	color: #fff;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border-bottom: 3px solid #32145a;
 }
-
-.trigger {
-  input[type="checkbox"] {
-
-    /* // Hide content via default */
-    & + span {
-      visibility: hidden;
-      opacity: 0;
-
-      transition: visibility 0s linear 0.33s, opacity 0.33s linear;
-    }
-    /* // Show if checkbox is clicked */
-    &:checked + span {
-      visibility: visible;
-      opacity: 1;
-
-      transition-delay: 0s;
-    }
-  }
+.content_toggle:hover {
+	color: #fff;
+	background: #7c4acc;
+	border-bottom: 3px solid #32145a;
 }
-/* // Simple styling for message. */
-.msg {
-  display: block;
-  margin-top: 8px;
-  padding: 8px 12px;
-
-  border: 1px solid #ddd;
-  border-radius: 3px;
+.content_toggle:active {
+	background: #34106d;
 }
 
 /* No blue lines */

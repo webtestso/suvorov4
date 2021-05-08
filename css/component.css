@@ -27,23 +27,6 @@
 	transition: all 0.3s;
 }
 
-.btn-more {
-	border: none;
-	color: inherit;
-	background: none;
-	cursor: pointer;
-	font-size: 1.3rem;
-	padding: 15px 60px;
-	display: inline-block;
-	margin: 15px 140px;
-	font-weight: 700;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-}
-
 .btn:after {
 	content: '';
 	position: absolute;

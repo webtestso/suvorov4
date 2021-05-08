@@ -14,19 +14,14 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/js/jquery.min.js"></script>
   <script>
-    $(document).ready(function() {
-      $('.content_toggle').click(function() {
-        $('.content_block').slideToggle(300, function() {
-          if ($(this).is(':hidden')) {
-            $('.content_toggle').html('Узнать больше');
-          } else {
-            $('.content_toggle').html('Скрыть');
-          }
-        });
-        return false;
-      });
-    });
+  $(document).ready(function(){
+  	$('.content_toggle').click(function(){
+  		$('.content_block').slideToggle(300);
+  		return false;
+  	});
+  });
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <!-- Core theme JS-->

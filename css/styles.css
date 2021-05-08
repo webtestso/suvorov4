@@ -11755,6 +11755,18 @@ AOS.init();
 	margin: 0px 0px 20px 170px;
 	border-bottom: 3px solid;
 }
+
+@media screen and (min-width: 375px) and (max-width: 430px) {
+  .content_toggle {
+  	display: inline-block;
+  	padding: 15px 20px;
+  	background: #882935e6;
+  	color: #fff;
+  	margin: 0px 0px 20px 60px;
+  	border-bottom: 3px solid;
+  }
+}
+
 .content_toggle:hover {
 	color: #fff;
 	background: #882935e6;

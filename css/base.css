@@ -390,7 +390,6 @@ main {
 @media screen and (max-width: 40em) {
 	.grid {
 		padding: 0 0vw;
-		grid-template-columns: repeat(var(--grid-columns), 1fr) 1fr;
 	}
 	.grid__item {
 		padding: 0 1vw;

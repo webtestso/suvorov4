@@ -2823,7 +2823,6 @@ ul.trx_addons_list_asterisk>li:before {
     font-size: 11px;
     font-weight: 700;
     line-height: 1.5em;
-    text-transform: uppercase;
     letter-spacing: 1px;
     padding: 1.4em 0.875em 1.4em 4.9em;
     margin-bottom: 1.875em
@@ -2955,7 +2954,6 @@ ul.trx_addons_list_asterisk>li:before {
 .woocommerce .button, .woocommerce-page .button, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button.woocommerce #respond input#submit, .woocommerce input[type="button"], .woocommerce-page input[type="button"], .woocommerce input[type="submit"], .woocommerce-page input[type="submit"] {
     font-size: 12px;
     line-height: 1.3em;
-    text-transform: uppercase;
     border: 2px solid #ddd;
     -webkit-border-radius: 0!important;
     -moz-border-radius: 0!important;
@@ -3102,7 +3100,6 @@ ul.trx_addons_list_asterisk>li:before {
     font-style: normal;
     font-weight: bold;
     padding: 1em 4em;
-    text-transform: uppercase;
     margin-top: 0
 }
 
@@ -3716,11 +3713,10 @@ div.pp_woocommerce .pp_arrow_next, div.pp_woocommerce .pp_arrow_previous {
 
 .single-product div.product .trx-stretch-width .woocommerce-tabs .wc-tabs li a {
     position: relative;
-    font-size: 11px;
+    font-size: 13px;
     font-style: normal;
     font-weight: bold;
     padding: 1em 4em;
-    text-transform: uppercase;
     letter-spacing: 1px;
     border: 2px solid #000;
     -webkit-box-sizing: border-box;

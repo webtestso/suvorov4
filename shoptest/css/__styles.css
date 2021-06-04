@@ -703,7 +703,7 @@
     font-size: 1.5em;
     line-height: 1.4em;
     margin: 0 0 0.5em;
-    text-transform: uppercase;
+    text-transform: none;
     text-align: center
 }
 
@@ -1335,14 +1335,14 @@
     font-size: 0.8667em;
     line-height: 1.7333em;
     font-weight: 500;
-    text-transform: uppercase
+    text-transform: none
 }
 
 .slider_swiper .slide_info.slide_info_large .slide_title {
     font-size: 1.3158em;
     font-weight: 900;
     line-height: 1.5em;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 2px;
     margin: 0.5em 0
 }
@@ -1444,7 +1444,7 @@ aside .trx_addons_tabs .trx_addons_tabs_titles li {
     font-weight: 700;
     font-style: normal;
     line-height: 1.3em;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px
 }
 
@@ -1816,7 +1816,7 @@ ul.trx_addons_list_asterisk>li:before {
 }
 
 .sc_item_button a {
-    font-size: 11px;
+    font-size: 13px;
     line-height: 1.4em;
     font-weight: bold;
     border: 2px solid #000;
@@ -1845,7 +1845,7 @@ ul.trx_addons_list_asterisk>li:before {
     font-size: 12px;
     font-weight: 700;
     line-height: 1.3em;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px;
     padding: 1em 0;
     border-style: dotted
@@ -1861,7 +1861,7 @@ ul.trx_addons_list_asterisk>li:before {
 .sc_action_item_link {
     font-size: 11px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px;
     padding: 1em 4em
 }
@@ -1894,7 +1894,7 @@ ul.trx_addons_list_asterisk>li:before {
 #toc_menu .toc_menu_description {
     font-size: 10px;
     font-weight: 700;
-    text-transform: uppercase
+    text-transform: none
 }
 
 #toc_menu .toc_menu_icon {
@@ -1952,7 +1952,7 @@ ul.trx_addons_list_asterisk>li:before {
 }
 
 .sc_item_button .sc_button_simple {
-    font-size: 0.7368em;
+    font-size: 13px;
     line-height: 1.4em;
     font-weight: 700
 }
@@ -1997,7 +1997,7 @@ ul.trx_addons_list_asterisk>li:before {
     margin-top: 6em;
     font-size: 0.8571em;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 3px;
     padding: 1.3em 1.9em
 }
@@ -2063,7 +2063,7 @@ ul.trx_addons_list_asterisk>li:before {
     font-size: 0.7368em;
     font-weight: 700;
     line-height: 1.3em;
-    text-transform: uppercase
+    text-transform: none
 }
 
 .sc_events_detailed .sc_events_item_title {
@@ -2130,7 +2130,7 @@ ul.trx_addons_list_asterisk>li:before {
 
 .sc_form button {
     display: inline-block;
-    text-transform: uppercase;
+    text-transform: none;
     white-space: nowrap;
     padding: 1em 3.3em;
     font-size: 12px;
@@ -2198,7 +2198,7 @@ ul.trx_addons_list_asterisk>li:before {
     font-size: 12px;
     font-weight: 700;
     font-style: normal;
-    text-transform: uppercase
+    text-transform: none
 }
 
 [class*="sc_input_hover_"] label.required:after {
@@ -2333,7 +2333,7 @@ ul.trx_addons_list_asterisk>li:before {
     line-height: 1.3em;
     font-weight: 700;
     font-style: normal;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px
 }
 
@@ -2371,7 +2371,7 @@ ul.trx_addons_list_asterisk>li:before {
     font-size: 1em;
     line-height: 1.3em;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px
 }
 
@@ -2395,7 +2395,7 @@ ul.trx_addons_list_asterisk>li:before {
 
 .sc_price_link {
     display: inline-block;
-    text-transform: uppercase;
+    text-transform: none;
     white-space: nowrap;
     padding: 1em 4.5em;
     font-size: 11px;
@@ -2448,7 +2448,7 @@ ul.trx_addons_list_asterisk>li:before {
 }
 
 .sc_skills .sc_skills_item_title, .sc_skills_pie.sc_skills_compact_off .sc_skills_item_title {
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px;
     font-weight: 700;
     font-size: 0.7368em;
@@ -2495,7 +2495,7 @@ ul.trx_addons_list_asterisk>li:before {
     border-color: transparent!important;
     font-size: 12px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
     padding: 0
 }
 
@@ -2517,7 +2517,7 @@ ul.trx_addons_list_asterisk>li:before {
 .sc_table table th {
     font-size: 12px;
     font-weight: 400;
-    text-transform: uppercase
+    text-transform: none
 }
 
 .sc_testimonials_item_content {
@@ -2599,7 +2599,7 @@ ul.trx_addons_list_asterisk>li:before {
 
 .sc_team_default .sc_team_item_button {
     margin: 2.6em 0 0;
-    text-transform: uppercase;
+    text-transform: none;
     font-size: 0.8571em;
     font-weight: bold;
     letter-spacing: 3px
@@ -3132,7 +3132,7 @@ ul.trx_addons_list_asterisk>li:before {
     right: 10%;
     margin: 0;
     padding: 0;
-    text-transform: uppercase
+    text-transform: none
 }
 
 .woocommerce ul.products li.product .post_header .post_tags {
@@ -3362,7 +3362,7 @@ span.amount>.decimals {
     list-style-type: none;
     font-size: 12px;
     font-weight: bold;
-    text-transform: uppercase;
+    text-transform: none;
     margin-top: 2.7em;
     text-align: center
 }
@@ -3447,7 +3447,7 @@ span.amount>.decimals {
     height: 5.5em;
     margin: 0;
     padding: 0;
-    text-transform: uppercase
+    text-transform: none
 }
 
 .woocommerce div.product div.images, .woocommerce #content div.product div.images, .woocommerce-page div.product div.images, .woocommerce-page #content div.product div.images {
@@ -3553,7 +3553,7 @@ div.pp_woocommerce .pp_arrow_next, div.pp_woocommerce .pp_arrow_previous {
     font-size: 12px;
     font-weight: bold;
     text-decoration: underline;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px
 }
 
@@ -3802,7 +3802,7 @@ div.pp_woocommerce .pp_arrow_next, div.pp_woocommerce .pp_arrow_previous {
     font-style: normal;
     font-weight: bold;
     padding: 1em 4em;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px;
     border: 2px solid #000;
     -webkit-box-sizing: border-box;
@@ -4423,7 +4423,7 @@ aside.woocommerce .product-title, aside.woocommerce .mini_cart_item>a:not(.remov
     font-size: 11px;
     font-weight: bold;
     line-height: 1.5em;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px
 }
 
@@ -4580,7 +4580,7 @@ aside.woocommerce .product-title, aside.woocommerce .mini_cart_item>a:not(.remov
     font-weight: 700;
     font-style: normal;
     line-height: 1.5em;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px
 }
 
@@ -4722,7 +4722,7 @@ aside.woocommerce .product-title, aside.woocommerce .mini_cart_item>a:not(.remov
     padding: 1.8em 0!important;
     font-weight: bold;
     letter-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: none;
     position: relative;
     border: 2px solid #ddd!important
 }
@@ -4912,7 +4912,7 @@ aside.woocommerce .product-title, aside.woocommerce .mini_cart_item>a:not(.remov
 
 #tribe-events .tribe-events-button, .tribe-events-button, .tribe-events-cal-links a, .tribe-events-sub-nav li a {
     display: inline-block;
-    text-transform: uppercase;
+    text-transform: none;
     white-space: nowrap;
     padding: 1.4em 2.4em;
     margin-bottom: 0;
@@ -4928,7 +4928,7 @@ aside.woocommerce .product-title, aside.woocommerce .mini_cart_item>a:not(.remov
 }
 
 .tribe-events-read-more {
-    text-transform: uppercase;
+    text-transform: none;
     white-space: nowrap;
     font-size: 12px;
     font-weight: bold;
@@ -4963,7 +4963,7 @@ aside.woocommerce .product-title, aside.woocommerce .mini_cart_item>a:not(.remov
     font-size: 1em;
     font-weight: 700;
     line-height: 1.6em;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 4px
 }
 
@@ -5069,7 +5069,7 @@ aside.woocommerce .product-title, aside.woocommerce .mini_cart_item>a:not(.remov
 .tribe-events-schedule h2 {
     font-size: 12px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px;
     margin: 0;
     display: block;

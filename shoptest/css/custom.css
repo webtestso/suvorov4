@@ -11,7 +11,7 @@
   background-image: url('../images/image-20.jpg')!important;
 }
 .vc_custom_1469089433188 {
-  background-image: url('../images/bg-021793.jpg')!important;
+  background-image: url('../images/background_shop.jpg')!important;
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: cover!important;
@@ -185,7 +185,7 @@
 }
 .vc_message_box {
   border-width: 2px;
-	font-family: "Lato",sans-serif;
+	font-family: "Red Hat Display",sans-serif;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -208,10 +208,10 @@
   border-radius:0px 0px 0px 0px
 }
 .tp-caption.shop_slider_title,.shop_slider_title{color:rgba(0,0,0,1.00);font-size:56px;line-height:60px;font-weight:700;font-style:normal;font-family:"Times New Roman",Times,serif;padding:0px 0px 0px 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px;max-width:500px !important}
-.tp-caption.shop_slider_content,.shop_slider_content{color:rgba(0,0,0,1.00);font-size:17px;line-height:28px;font-weight:400;font-style:normal;font-family:Lato;padding:0px 0px 0px 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px;max-width:550px !important}
+.tp-caption.shop_slider_content,.shop_slider_content{color:rgba(0,0,0,1.00);font-size:17px;line-height:28px;font-weight:400;font-style:normal;font-family:'Red Hat Display';padding:0px 0px 0px 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px;max-width:550px !important}
 .tp-caption.shop_slider_image,.shop_slider_image{color:rgba(255,255,255,1.00);font-size:20px;line-height:22px;font-weight:400;font-style:normal;font-family:Arial;padding:0px 0px 0px 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px}
 .tp-caption.shop_slider_tags,.shop_slider_tags{color:rgba(0,0,0,1.00);font-size:56px;line-height:60px;font-weight:700;font-style:normal;font-family:"Times New Roman",Times,serif;padding:0px 0px 0px 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:none;border-width:0px;border-radius:0px 0px 0px 0px;max-width:500px !important}
-.tp-caption.shop_slider_add_to_cart,.shop_slider_add_to_cart{color:rgba(0,0,0,1.00);font-size:30px;line-height:42px;font-weight:700;font-style:normal;font-family:Lato;padding:0px 0px 0px 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:solid;border-width:0px;border-radius:0px 0px 0px 0px}
+.tp-caption.shop_slider_add_to_cart,.shop_slider_add_to_cart{color:rgba(0,0,0,1.00);font-size:30px;line-height:42px;font-weight:700;font-style:normal;font-family:'Red Hat Display';padding:0px 0px 0px 0px;text-decoration:none;text-align:left;background-color:transparent;border-color:transparent;border-style:solid;border-width:0px;border-radius:0px 0px 0px 0px}
 .tp-caption.shop_slider_label,.shop_slider_label{color:rgba(255,255,255,1.00);font-size:48px;line-height:40px;font-weight:700;font-style:normal;font-family:"Times New Roman",Times,serif;padding:0px 0px 0px 0px;text-decoration:none;text-align:center;background-color:rgba(227,154,49,1.00);border-color:transparent;border-style:none;border-width:0px;border-radius:150px 150px 150px 150px;-webkit-box-shadow:-8px 8px 20px 0px rgba(0,0,0,0.15);-moz-box-shadow:-8px 8px 20px 0px rgba(0,0,0,0.15);-ms-box-shadow:-8px 8px 20px 0px rgba(0,0,0,0.15);box-shadow:-8px 8px 20px 0px rgba(0,0,0,0.15)}
 
 .vc_column_container {
@@ -239,7 +239,7 @@
     min-height: 100vh!important;
   }
   .scheme_dark.site_footer_wrap {
-    min-height: 100vh!important;
+    min-height: 60vh!important;
   }
 }
 .single .nav-links a .nav-arrow {

@@ -203,7 +203,7 @@ table td {
 table th {
   font-size: 12px;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   font-style: normal;
   padding: 1em 1.5em;
   text-align: center;
@@ -764,7 +764,7 @@ figure.alignleft,figure.alignright {
 .sticky .post_title {
   margin-top: .5em;
   margin-bottom: 0;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px
 }
 
@@ -2092,7 +2092,7 @@ body:not(.expand_content):not(.body_style_fullwide):not(.body_style_fullscreen) 
   font-size: 1.7857em;
   font-style: normal;
   line-height: 1.3em;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 4px
 }
 
@@ -2119,7 +2119,7 @@ body:not(.expand_content):not(.body_style_fullwide):not(.body_style_fullscreen) 
   font-size: .8421em;
   font-weight: 600;
   line-height: 2em;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   max-width: 70%;
   margin-left: auto;
@@ -2304,7 +2304,7 @@ body:not(.expand_content):not(.body_style_fullwide):not(.body_style_fullscreen) 
   width: 16.3636em;
   padding: 2.3em 0;
   line-height: 1.5em;
-  text-transform: uppercase;
+  text-transform: none;
   text-align: center;
   border: 2px solid #ddd;
   -webkit-box-sizing: border-box;
@@ -2500,7 +2500,8 @@ body.mobile_layout.menu_style_side {
 .menu_mobile_button_text {
   border: 0;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: 'Red Hat Display';
   text-align: center;
   height: auto
 }
@@ -2602,7 +2603,7 @@ body.mobile_layout.menu_style_side {
 }
 
 .menu_mobile .menu_mobile_nav_area li>a {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5em;
   padding: .5em 0;
   letter-spacing: 2px
@@ -3006,7 +3007,7 @@ aside .post_item+.post_item {
   font-size: 10px;
   font-weight: 700;
   line-height: 1.5em;
-  text-transform: uppercase;
+  text-transform: none;
   margin-top: -0.4em;
   margin-bottom: 1em;
   position: relative;
@@ -3139,14 +3140,14 @@ aside .post_item+.post_item {
 
 .post_item .more-link {
   display: inline-block;
-  text-transform: uppercase;
+  text-transform: none;
   white-space: nowrap;
   padding: .5em 3em;
   margin-top: 2.5em;
   font-size: 12px;
   line-height: 1.75em;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: none;
   border: 2px solid #000
 }
 
@@ -3156,7 +3157,7 @@ aside .post_item+.post_item {
   font-size: 12px;
   line-height: 1.4em;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px;
   text-align: center;
   margin: 0 0 4em
@@ -3721,12 +3722,12 @@ aside .post_item+.post_item {
   font-size: 12px;
   line-height: 1.5em;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   margin-top: .4em
 }
 
 .post_share .social_items {
-  text-transform: uppercase;
+  text-transform: none;
   font-size: .9286em
 }
 
@@ -4062,7 +4063,7 @@ aside .post_item+.post_item {
 .nav-links-more {
   font-size: .7368em;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: none;
   margin-top: 2.3em;
   letter-spacing: 1px;
   text-align: center
@@ -4128,7 +4129,7 @@ aside .post_item+.post_item {
   overflow: hidden;
   font-size: .7368em;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px;
   margin-top: 2em
 }
@@ -4174,7 +4175,7 @@ body[class*="blog_style_portfolio"] .nav-links-old,body[class*="blog_style_class
 .nav-links,.page_links {
   font-size: 12px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: none;
   margin-top: 3.4em;
   text-align: center
 }
@@ -4576,7 +4577,7 @@ body[class*="blog_style_portfolio"] .nav-links-old,body[class*="blog_style_class
 
 .related_wrap .post_categories {
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: 12px
 }
 
@@ -4648,7 +4649,7 @@ body[class*="blog_style_portfolio"] .nav-links-old,body[class*="blog_style_class
   font-size: 10px;
   font-weight: bold;
   line-height: 1.4em;
-  text-transform: uppercase
+  text-transform: none
 }
 
 
@@ -4745,7 +4746,7 @@ body[class*="blog_style_portfolio"] .nav-links-old,body[class*="blog_style_class
   font-size: 12px;
   line-height: 1.6em;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px
 }
 
@@ -4812,7 +4813,7 @@ body[class*="blog_style_portfolio"] .nav-links-old,body[class*="blog_style_class
 .comments_list_wrap .comment_reply {
   font-size: 12px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: none;
   line-height: 1.6em;
   letter-spacing: 1px;
   margin-top: 2.1em
@@ -4873,7 +4874,7 @@ body[class*="blog_style_portfolio"] .nav-links-old,body[class*="blog_style_class
   display: none;
   font-size: 1.3333em;
   line-height: 1.7333em;
-  text-transform: uppercase;
+  text-transform: none;
   text-align: left;
   margin: 0
 }
@@ -4941,7 +4942,7 @@ body[class*="blog_style_portfolio"] .nav-links-old,body[class*="blog_style_class
   font-style: normal;
   font-weight: bold;
   padding: 1em 4em;
-  text-transform: uppercase;
+  text-transform: none;
   -webkit-transition: all ease .3s;
   -moz-transition: all ease .3s;
   -ms-transition: all ease .3s;
@@ -5030,7 +5031,7 @@ form .error_field {
 .post_item_404 .page_description {
   margin-top: 1em;
   margin-bottom: 2em;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 1px;
   line-height: 2em
 }
@@ -5041,7 +5042,7 @@ form .error_field {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 1em 4em;
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 2px;
   font-size: .8571em;
   font-style: normal;
@@ -5159,7 +5160,7 @@ aside li:before {
 
 .widget_calendar caption {
   padding-bottom: .5em;
-  text-transform: uppercase
+  text-transform: none
 }
 
 .widget_calendar table>thead>tr {
@@ -5356,7 +5357,7 @@ aside li:before {
 .widget_text .mc4wp-form input[type="submit"] {
   border: 2px solid #292929;
   padding: .5em 1em;
-  text-transform: uppercase;
+  text-transform: none;
   font-size: .9333em;
   font-style: normal;
   font-weight: bold;
@@ -5509,7 +5510,7 @@ ul.instagram-pics li:before {
 }
 
 .logo_footer_wrap_inner img {
-  max-width: 50%
+  max-width: 30%
 }
 
 .logo_footer_text {
@@ -5578,7 +5579,7 @@ ul.instagram-pics li:before {
 .menu_footer_nav_area ul li {
   display: inline-block;
   vertical-align: baseline;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   letter-spacing: 1px
 }
@@ -5599,8 +5600,9 @@ ul.instagram-pics li:before {
 }
 
 .copyright_wrap_inner {
-  font-size: .8889em;
-  font-style: italic;
+  font-size: 16px;
+  font-family: "Red Hat Display";
+  font-weight: 700;
   /*padding: 2em 0 7.5em;*/
   padding: 2em 0;
   overflow: hidden;

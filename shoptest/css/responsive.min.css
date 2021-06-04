@@ -2931,7 +2931,7 @@
 
   .product_awards {
     line-height: 1.4em;
-    text-transform: uppercase
+    text-transform: none
   }
 
   .woocommerce-main-image .product_awards {
@@ -4596,7 +4596,7 @@
 
   .product_awards {
     line-height: 1.4em;
-    text-transform: uppercase
+    text-transform: none
   }
 
   .woocommerce-main-image .product_awards {
@@ -5231,7 +5231,7 @@
   }
 
   .menu_footer_nav_area ul li {
-    font-size: 10px
+    font-size: 14px
   }
 
   .menu_footer_nav_area ul li+li:before {
@@ -5671,7 +5671,9 @@
   }
 
   .copyright_wrap .copyright_text {
-    font-size: .9167em
+    font-size: 16px;
+    font-family: "Red Hat Display";
+    font-style: normal;
   }
 
   aside {
@@ -6408,7 +6410,7 @@
 
   .product_awards {
     line-height: 1.4em;
-    text-transform: uppercase
+    text-transform: none
   }
 
   .woocommerce-main-image .product_awards {

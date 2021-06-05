@@ -2203,7 +2203,7 @@ body:not(.expand_content):not(.body_style_fullwide):not(.body_style_fullscreen) 
 }
 
 .menu_header_nav_area,.menu_main_nav_area {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.5em;
   position: relative;
   display: inline-block;
@@ -4204,7 +4204,7 @@ body[class*="blog_style_portfolio"] .nav-links-old,body[class*="blog_style_class
   padding-top: 5.45em;
   border-top: 1px dotted #ddd;
   overflow: hidden;
-  text-transform: none
+  text-transform: none;
 }
 
 .single .nav-links a {
@@ -4649,7 +4649,7 @@ body[class*="blog_style_portfolio"] .nav-links-old,body[class*="blog_style_class
   font-size: 10px;
   font-weight: bold;
   line-height: 1.4em;
-  text-transform: none
+  text-transform: none;
 }
 
 
@@ -5160,7 +5160,7 @@ aside li:before {
 
 .widget_calendar caption {
   padding-bottom: .5em;
-  text-transform: none
+  text-transform: none;
 }
 
 .widget_calendar table>thead>tr {
@@ -5241,7 +5241,7 @@ aside li:before {
   font-size: .7895em !important;
   font-style: italic !important;
   font-weight: 600 !important;
-  text-transform: none !important
+  text-transform: none !important;
 }
 
 .widget_calendar td#prev {

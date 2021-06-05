@@ -1335,7 +1335,7 @@
     font-size: 0.8667em;
     line-height: 1.7333em;
     font-weight: 500;
-    text-transform: none
+    text-transform: none;
 }
 
 .slider_swiper .slide_info.slide_info_large .slide_title {
@@ -1414,7 +1414,7 @@ aside.widget_bg_image {
     font-weight: 700;
     line-height: 1.35em;
     letter-spacing: 2px;
-    text-transform: none
+    text-transform: none;
 }
 
 .trx_addons_audio_player .audio_author+.audio_caption {
@@ -1715,7 +1715,8 @@ body.expand_content .sc_recent_news_style_news-announce .post_size_medium, body.
 }
 
 .trx_addons_tiny_text {
-    letter-spacing: 2px
+    letter-spacing: 2px;
+    text-transform: none;
 }
 
 blockquote.trx_addons_blockquote_style_1 {
@@ -1816,9 +1817,10 @@ ul.trx_addons_list_asterisk>li:before {
 }
 
 .sc_item_button a {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.4em;
     font-weight: bold;
+    text-transform: none;
     border: 2px solid #000;
     letter-spacing: 1px;
     padding: 1.5em 3.1em
@@ -1894,7 +1896,7 @@ ul.trx_addons_list_asterisk>li:before {
 #toc_menu .toc_menu_description {
     font-size: 10px;
     font-weight: 700;
-    text-transform: none
+    text-transform: none;
 }
 
 #toc_menu .toc_menu_icon {
@@ -2063,7 +2065,7 @@ ul.trx_addons_list_asterisk>li:before {
     font-size: 0.7368em;
     font-weight: 700;
     line-height: 1.3em;
-    text-transform: none
+    text-transform: none;
 }
 
 .sc_events_detailed .sc_events_item_title {
@@ -2198,7 +2200,7 @@ ul.trx_addons_list_asterisk>li:before {
     font-size: 12px;
     font-weight: 700;
     font-style: normal;
-    text-transform: none
+    text-transform: none;
 }
 
 [class*="sc_input_hover_"] label.required:after {
@@ -2517,7 +2519,7 @@ ul.trx_addons_list_asterisk>li:before {
 .sc_table table th {
     font-size: 12px;
     font-weight: 400;
-    text-transform: none
+    text-transform: none;
 }
 
 .sc_testimonials_item_content {
@@ -3096,7 +3098,7 @@ ul.trx_addons_list_asterisk>li:before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    font-size: 11px;
+    font-size: 13px;
     font-style: normal;
     font-weight: bold;
     padding: 1em 4em;
@@ -3132,7 +3134,7 @@ ul.trx_addons_list_asterisk>li:before {
     right: 10%;
     margin: 0;
     padding: 0;
-    text-transform: none
+    text-transform: none;
 }
 
 .woocommerce ul.products li.product .post_header .post_tags {
@@ -3447,7 +3449,7 @@ span.amount>.decimals {
     height: 5.5em;
     margin: 0;
     padding: 0;
-    text-transform: none
+    text-transform: none;
 }
 
 .woocommerce div.product div.images, .woocommerce #content div.product div.images, .woocommerce-page div.product div.images, .woocommerce-page #content div.product div.images {
@@ -4850,7 +4852,7 @@ aside.woocommerce .product-title, aside.woocommerce .mini_cart_item>a:not(.remov
     left: -2em;
     width: 32.5em;
     z-index: 10000;
-    text-transform: none
+    text-transform: none;
 }
 
 .tribe-events-tooltip .tribe-events-arrow {

@@ -1,7 +1,7 @@
 /* 15. Styles for custom blocks
 -------------------------------------------------------------- */
 .vc_custom_1465549560104 {
-  background-image: url('../images/bg-017efd.jpg')!important;
+  background-image: url('../images/wineyard.jpg')!important;
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: cover!important;
@@ -56,13 +56,13 @@
   padding-left: 0px!important;
 }
 .vc_custom_1464696736303 {
-  background-image: url('../images/image-194137.jpg')!important;
+  background-image: url('../images/contactsuvorov.jpg')!important;
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: cover!important;
 }
 .vc_custom_1466154433105 {
-  background-image: url('../images/bg-03ac16.jpg')!important;
+  background-image: url('../images/slider_online.jpg')!important;
   background-position: center!important;
   background-repeat: no-repeat!important;
   background-size: cover!important;
@@ -362,4 +362,16 @@ body.menu_style_side {
 
 a.link {
  color: inherit;
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .kazayak_shop {
+    height: 340px !important;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .kazayak_shop_related {
+    height: 430px !important;
+  }
 }

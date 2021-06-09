@@ -239,7 +239,7 @@
     min-height: 100vh!important;
   }
   .scheme_dark.site_footer_wrap {
-    min-height: 60vh!important;
+    min-height: 0vh!important;
   }
 }
 .single .nav-links a .nav-arrow {

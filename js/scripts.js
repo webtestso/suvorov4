@@ -38,7 +38,7 @@
   });
 
 // Swiper
-new Swiper('image-slider', {
+const swiper = new Swiper('.image-slider', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev'
@@ -47,10 +47,7 @@ new Swiper('image-slider', {
   slidesPerView: 3,
   watchOverflow: true,
   spaceBetween: 30,
-  observer: true,
-  observeParents: true,
   slidesPerGroup: 1,
-  debugger: true,
   speed: 3000,
   autoplay: {
     delay: 3000,
@@ -70,11 +67,9 @@ new Swiper('image-slider', {
   },
 });
 
-new Swiper('header-slider', {
+new Swiper('.header-slider', {
   slidesPerView: 1,
   slidesPerGroup: 1,
-  observer: true,
-  observeParents: true,
   speed: 3000,
   autoplay: {
     delay: 3000,

@@ -11801,8 +11801,3 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   color: #882935e6;
   font-size: 80px;
 }
-
-.swiper-container {
-  width: 600px;
-  height: 300px;
-}

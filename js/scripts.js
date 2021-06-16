@@ -50,6 +50,7 @@ new Swiper('image-slider', {
   observer: true,
   observeParents: true,
   slidesPerGroup: 1,
+  debugger: true,
   speed: 3000,
   autoplay: {
     delay: 3000,

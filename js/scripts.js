@@ -47,6 +47,8 @@ new Swiper('image-slider', {
   slidesPerView: 3,
   watchOverflow: true,
   spaceBetween: 30,
+  observer: true,
+  observeParents: true,
   slidesPerGroup: 1,
   speed: 3000,
   autoplay: {
@@ -70,6 +72,8 @@ new Swiper('image-slider', {
 new Swiper('header-slider', {
   slidesPerView: 1,
   slidesPerGroup: 1,
+  observer: true,
+  observeParents: true,
   speed: 3000,
   autoplay: {
     delay: 3000,

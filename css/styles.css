@@ -11802,7 +11802,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   font-size: 80px;
 }
 
-.image-slider {
+.swiper-slide img {
   width: 100%;
   height: 500px;
 }

@@ -44,6 +44,7 @@ const swiper = new Swiper('.image-slider', {
     prevEl: '.swiper-button-prev'
   },
   slidesPerView: 3,
+  autoHeight: true,
   watchOverflow: true,
   spaceBetween: 30,
   slidesPerGroup: 1,

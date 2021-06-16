@@ -44,7 +44,7 @@ const swiper = new Swiper('.image-slider', {
     prevEl: '.swiper-button-prev'
   },
   autoHeight: true,
-  slidesPerView: 3,
+  slidesPerView: 4,
   watchOverflow: true,
   spaceBetween: 30,
   slidesPerGroup: 1,
@@ -62,7 +62,7 @@ const swiper = new Swiper('.image-slider', {
       slidesPerView: 2,
     },
     992: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     }
   },
 });

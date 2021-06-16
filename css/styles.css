@@ -11815,6 +11815,6 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 }
 
 .image-slider-bottles {
-  width: 100%;
+  width: 600px;
   height: auto;
 }

@@ -11245,7 +11245,7 @@ header.masthead .masthead-heading {
 
 .suvorov-fluid {
   margin-right: 3px;
-  max-width: 100%;
+  max-width: 85%;
   height: auto;
 }
 
@@ -11815,6 +11815,5 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 }
 
 .image-slider-bottles {
-  width: 400px;
-  height: 700px;
+  height: 600px;
 }

@@ -46,6 +46,7 @@ const swiper = new Swiper('.image-slider', {
   slidesPerView: 3,
   autoHeight: true,
   watchOverflow: true,
+  loop: true,
   spaceBetween: 30,
   slidesPerGroup: 1,
   speed: 3000,
@@ -70,9 +71,9 @@ const swiper = new Swiper('.image-slider', {
 new Swiper('.header-slider', {
   slidesPerView: 1,
   slidesPerGroup: 1,
-  speed: 3000,
+  speed: 2000,
   autoplay: {
-    delay: 3000,
+    delay: 2000,
     stopOnLastSlide: false,
     disableOnInteraction: true
   },

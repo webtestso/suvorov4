@@ -11813,3 +11813,8 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
     margin-top: 0;
   }
 }
+
+.image-slider-bottles {
+  width: 100%;
+  height: auto;
+}

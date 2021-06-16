@@ -1,8 +1,3 @@
-/*!
- * Start Bootstrap - Agency v6.0.0 (https://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
- */
 (function($) {
   "use strict"; // Start of use strict
 
@@ -100,6 +95,51 @@
     cssEase: 'linear',
     fade: true,
   });
+});
+
+// Swiper
+new Swiper('image-slider', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  autoHeight: true,
+  slidesPerView: 3,
+  watchOverflow: true,
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  speed: 3000,
+  autoplay: true {
+    delay: 3000,
+    stopOnLastSlide: false,
+    disableOnInteraction: true
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 3,
+    }
+  },
+});
+
+new Swiper('header-slider', {
+  slidesPerView: 1,
+  slidesPerGroup: 1,
+  speed: 3000,
+  autoplay: true {
+    delay: 3000,
+    stopOnLastSlide: false,
+    disableOnInteraction: true
+  },
+  effect: 'fade',
+  fadeEffect: {
+    crossFade: true
+  },
 });
 
   // Animation

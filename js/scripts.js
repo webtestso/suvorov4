@@ -109,7 +109,7 @@ new Swiper('image-slider', {
   spaceBetween: 30,
   slidesPerGroup: 1,
   speed: 3000,
-  autoplay: true {
+  autoplay: {
     delay: 3000,
     stopOnLastSlide: false,
     disableOnInteraction: true
@@ -131,7 +131,7 @@ new Swiper('header-slider', {
   slidesPerView: 1,
   slidesPerGroup: 1,
   speed: 3000,
-  autoplay: true {
+  autoplay: {
     delay: 3000,
     stopOnLastSlide: false,
     disableOnInteraction: true

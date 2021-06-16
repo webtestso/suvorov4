@@ -11421,7 +11421,7 @@ header.masthead .masthead-heading {
 
 /* SLICK */
 
-.kazayak_slick {
+/* .kazayak_slick {
   display: flex;
 }
 
@@ -11556,7 +11556,7 @@ header.masthead .masthead-heading {
   display: inline-block;
   cursor: pointer;
  }
-}
+} */
 
 /* CUSTOM ANIM */
 
@@ -11795,6 +11795,8 @@ AOS.init();
 button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
     outline: none;
 }
+
+/* SWIPER */
 
 .image-slider .swiper-button-next::after,
 .image-slider .swiper-button-prev::after {

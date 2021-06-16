@@ -34,7 +34,7 @@
   <link href="css/slick.css" rel="stylesheet">
   <link href="css/base.css" rel="stylesheet">
   <link href="css/pater.css" rel="stylesheet">
-
+  <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -59,10 +59,18 @@
     </div>
   </nav>
   <!-- Masthead-->
-  <div class="single-item">
-    <div><img src="assets/img/spainheader.png" alt=""></div>
-    <div><img src="assets/img/africaheader.png" alt=""></div>
-    <div><img src="assets/img/japanheader.png" alt=""></div>
+  <div class="header-slider swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class="header-images" src="assets/img/spainheader.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="header-images" src="assets/img/africaheader.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img class="header-images" src="assets/img/japanheader.png" alt="">
+      </div>
+    </div>
   </div>
   <!-- Portfolio Grid-->
   <svg class="hidden">
@@ -943,7 +951,7 @@
     <script src="js/main.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <script src="js/slick.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
       $(document).ready(function() {
         $('.counter').counterUp({

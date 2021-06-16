@@ -11801,3 +11801,18 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   color: #882935e6;
   font-size: 80px;
 }
+
+.block {
+  display: flex;
+}
+
+.block__side {
+  flex: 0 0 300px;
+
+}
+
+.block__body {
+  padding: 0 0 0 30px;
+  flex: 1 1 auto;
+  min-width: 0;
+}

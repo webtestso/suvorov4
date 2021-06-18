@@ -11806,13 +11806,13 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 
 .header-images {
   width: 100%;
-  margin-top: 6rem;
+  margin-top: 7rem;
 }
 
 @media screen and (min-width: 1px) and (max-width: 992px) {
-  .header_images {
+  .header-images {
     width: 100%;
-    margin-top: 0;
+    margin-top: 3.5rem;
   }
 }
 

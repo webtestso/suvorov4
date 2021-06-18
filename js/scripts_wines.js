@@ -37,153 +37,21 @@
     offset: 74,
   });
 
-  // Slick Slider
-  $(function() {
-    $('.multiple-items').slick({
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      arrows: true,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      dots: false,
-      centerMode: false,
-      centerPadding: '0',
-      prevArrow: '<span class="prev_arrow"><i class="fas fa-angle-left"></i></span>',
-      nextArrow: '<span class="next_arrow"><i class="fas fa-angle-right"></i></span>',
-      responsive: [{
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-            dots: false
-          }
-        },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2
-          }
-        },
-        {
-          breakpoint: 577,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ]
-    });
-  });
-
-  // Slick Single
-  $(document).ready(function(){
-  $('.single-item').slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    dots: false,
-    speed: 500,
-    cssEase: 'linear',
-    fade: true,
-  });
-});
-
-// Swiper
-new Swiper('image-slider', {
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
-  },
-  autoHeight: true,
-  slidesPerView: 3,
-  watchOverflow: true,
-  spaceBetween: 30,
-  slidesPerGroup: 1,
-  speed: 3000,
-  autoplay: {
-    delay: 3000,
-    stopOnLastSlide: false,
-    disableOnInteraction: true
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
+  // SWIPER
+  new Swiper('.header-slider', {
+    slidesPerView: 1,
+    slidesPerGroup: 1,
+    speed: 2000,
+    autoplay: {
+      delay: 2000,
+      stopOnLastSlide: false,
+      disableOnInteraction: true
     },
-    480: {
-      slidesPerView: 2,
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
     },
-    992: {
-      slidesPerView: 3,
-    }
-  },
-});
-
-new Swiper('header-slider', {
-  slidesPerView: 1,
-  slidesPerGroup: 1,
-  speed: 3000,
-  autoplay: {
-    delay: 3000,
-    stopOnLastSlide: false,
-    disableOnInteraction: true
-  },
-  effect: 'fade',
-  fadeEffect: {
-    crossFade: true
-  },
-});
-
-  // Animation
-  const animItems = document.querySelectorAll('._anim-items');
-
-  if (animItems.length > 0) {
-    window.addEventListener('scroll', animOnScroll);
-
-    function animOnScroll() {
-      for (let index = 0; index < animItems.length; index++) {
-        const animItem = animItems[index];
-        const animItemHeight = animItem.offsetHeight;
-        const animItemOffset = offset(animItem).top;
-        const animStart = 4;
-
-        let animItemPoint = window.innerHeight - animItemHeight / animStart;
-        if (animItemHeight > window.innerHeight) {
-          animItemPoint = window.innerHeight - window.innerHeight / animStart;
-        }
-
-        if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
-          animItem.classList.add('_active');
-        } else {
-          if (!animItem.classList.contains('_anim-no-hide')) {
-            animItem.classList.remove('_active');
-          }
-        }
-      }
-    }
-
-    function offset(el) {
-      const rect = el.getBoundingClientRect(),
-        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      return {
-        top: rect.top + scrollTop,
-        left: rect.left + scrollLeft
-      }
-    }
-
-    setTimeout(() => {
-      animOnScroll();
-    }, 300);
-  }
+  });
 
   // Languages
   document.addEventListener('DOMContentLoaded', getLocalLang)

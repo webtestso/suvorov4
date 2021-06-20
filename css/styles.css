@@ -11133,9 +11133,9 @@ header.masthead .masthead-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption {
-  padding: 1.5rem;
-  text-align: center;
-  background-color: white;
+position: relative;
+white-space: nowrap;
+left: 55px;
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
@@ -11583,6 +11583,7 @@ header.masthead .masthead-heading {
 }
 .counter-up .content .box{
   width: calc(25% - 30px);
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;

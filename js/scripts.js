@@ -46,7 +46,7 @@ const swiper = new Swiper('.image-slider', {
   slidesPerView: 3,
   watchOverflow: true,
   loop: true,
-  spaceBetween: 40,
+  spaceBetween: 20,
   slidesPerGroup: 1,
   speed: 2000,
   autoplay: {
@@ -72,7 +72,7 @@ new Swiper('.viorica-slider', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev'
   },
-  slidesPerView: 4,
+  slidesPerView: 3,
   watchOverflow: true,
   spaceBetween: 20,
   slidesPerGroup: 1,
@@ -90,7 +90,7 @@ new Swiper('.viorica-slider', {
       slidesPerView: 2,
     },
     992: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     }
   },
 });

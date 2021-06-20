@@ -77,11 +77,6 @@ new Swiper('.viorica-slider', {
   spaceBetween: 20,
   slidesPerGroup: 1,
   speed: 2000,
-  autoplay: {
-    delay: 3000,
-    stopOnLastSlide: false,
-    disableOnInteraction: false
-  },
   breakpoints: {
     320: {
       slidesPerView: 1,

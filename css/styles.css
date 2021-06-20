@@ -11424,6 +11424,12 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   font-size: 80px;
 }
 
+.gussy-slider .swiper-button-next::after,
+.gussy-slider .swiper-button-prev::after {
+  color: #882935e6;
+  font-size: 80px;
+}
+
 .header-images {
   width: 100%;
   margin-top: 7rem;

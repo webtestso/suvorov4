@@ -76,6 +76,40 @@ new Swiper('.viorica-slider', {
   watchOverflow: true,
   slidesPerGroup: 1,
   speed: 2000,
+  autoplay: {
+    delay: 5000,
+    stopOnLastSlide: false,
+    disableOnInteraction: true
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 3,
+    }
+  },
+  observer: true,
+  observeParents: true,
+});
+
+new Swiper('.gussy-slider', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  slidesPerView: 3,
+  watchOverflow: true,
+  slidesPerGroup: 1,
+  speed: 2000,
+  autoplay: {
+    delay: 5000,
+    stopOnLastSlide: false,
+    disableOnInteraction: true
+  },
   breakpoints: {
     320: {
       slidesPerView: 1,

@@ -10714,391 +10714,6 @@ img::-moz-selection {
 }
 }
 
-/* header.masthead .masthead-subheading {
-  font-size: 1.5rem;
-  font-style: italic;
-  line-height: 1.5rem;
-  margin-bottom: 25px;
-  font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-header.masthead .masthead-heading {
-  font-size: 3.25rem;
-  font-weight: 700;
-  line-height: 3.25rem;
-  margin-bottom: 2rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-header.masthead {
-  padding-top: 37rem;
-  padding-bottom: 17rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/spainheader.png"), url("../assets/img/africaheader.png"), url("../assets/img/japanheader.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
-
-header.masthead_wines {
-padding-top: 37rem;
-padding-bottom: 17rem;
-text-align: center;
-color: #fff;
-background-image: url("../assets/img/spainheader.png"), url("../assets/img/africaheader.png"), url("../assets/img/japanheader.png");
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-size: cover;
-}
-
-@media screen and (min-width: 375px) and (max-width: 430px) {
-  header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 0rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 375px) and (max-width: 430px) {
-  header.masthead_wines {
-    padding-top: 12rem;
-    padding-bottom: 0rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 431px) and (max-width: 480px) {
-  header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 1rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 431px) and (max-width: 480px) {
-  header.masthead_wines {
-    padding-top: 12rem;
-    padding-bottom: 1rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 550px) {
-  header.masthead {
-    padding-top: 14rem;
-    padding-bottom: 1rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 550px) {
-  header.masthead_wines {
-    padding-top: 14rem;
-    padding-bottom: 1rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 551px) and (max-width: 630px) {
-  header.masthead {
-    padding-top: 14rem;
-    padding-bottom: 3rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 551px) and (max-width: 630px) {
-  header.masthead_wines {
-    padding-top: 14rem;
-    padding-bottom: 3rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 631px) and (max-width: 740px) {
-  header.masthead {
-    padding-top: 14rem;
-    padding-bottom: 6rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 631px) and (max-width: 740px) {
-  header.masthead_wines {
-    padding-top: 14rem;
-    padding-bottom: 6rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 741px) and (max-width: 767px) {
-  header.masthead {
-    padding-top: 14rem;
-    padding-bottom: 9rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 741px) and (max-width: 767px) {
-  header.masthead_wines {
-    padding-top: 14rem;
-    padding-bottom: 9rem;
-    margin-top: 0;
-    text-align: center;
-    color: #fff;
-    background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 900px) {
-header.masthead {
-  padding-top: 14rem;
-  padding-bottom: 10rem;
-  margin-top: 0;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
- }
-}
-
-@media screen and (min-width: 768px) and (max-width: 900px) {
-header.masthead_wines {
-padding-top: 14rem;
-padding-bottom: 10rem;
-margin-top: 0;
-text-align: center;
-color: #fff;
-background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-size: cover;
- }
-}
-
-@media screen and (min-width: 901px) and (max-width: 991px) {
-header.masthead {
-  padding-top: 14rem;
-  padding-bottom: 14rem;
-  margin-top: 0;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
- }
-}
-
-@media screen and (min-width: 901px) and (max-width: 991px) {
-header.masthead_wines {
-padding-top: 14rem;
-padding-bottom: 14rem;
-margin-top: 0;
-text-align: center;
-color: #fff;
-background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-size: cover;
- }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1022px) {
-header.masthead {
-  padding-top: 17rem;
-  padding-bottom: 14rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
- }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1022px) {
-header.masthead_wines {
-padding-top: 17rem;
-padding-bottom: 14rem;
-text-align: center;
-color: #fff;
-background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-size: cover;
- }
-}
-
-@media screen and (min-width: 1023px) and (max-width: 1180px) {
-header.masthead {
-  padding-top: 17rem;
-  padding-bottom: 15rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
- }
-}
-
-@media screen and (min-width: 1023px) and (max-width: 1180px) {
-header.masthead_wines {
-padding-top: 17rem;
-padding-bottom: 15rem;
-text-align: center;
-color: #fff;
-background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-size: cover;
- }
-}
-
-@media screen and (min-width: 1181px) and (max-width: 1370px) {
-header.masthead {
-  padding-top: 22rem;
-  padding-bottom: 17rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
- }
-}
-
-@media screen and (min-width: 1181px) and (max-width: 1370px) {
-header.masthead_wines {
-padding-top: 22rem;
-padding-bottom: 17rem;
-text-align: center;
-color: #fff;
-background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-size: cover;
- }
-}
-
-@media screen and (min-width: 1371px) and (max-width: 1580px) {
-header.masthead {
-  padding-top: 31rem;
-  padding-bottom: 17rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
- }
-}
-
-@media screen and (min-width: 1371px) and (max-width: 1580px) {
-header.masthead_wines {
-padding-top: 31rem;
-padding-bottom: 17rem;
-text-align: center;
-color: #fff;
-background-image: url("../assets/img/spainheader.png", "../assets/img/africaheader.png", "../assets/img/japanheader.png");
-background-repeat: no-repeat;
-background-attachment: scroll;
-background-size: cover;
- }
-} */
-
-.slick-slide img {
-  display: block;
-  width: 100%;
-}
-
-/* header.masthead .masthead-subheading {
-  font-size: 2.25rem;
-  line-height: 2.25rem;
-  margin-bottom: 2rem;
-}
-
-header.masthead .masthead-heading {
-  font-size: 4.5rem;
-  font-weight: 700;
-  line-height: 4.5rem;
-  margin-bottom: 4rem;
- }
-} */
-
 #portfolio .portfolio-item {
   max-width: 20rem;
   margin-left: auto;
@@ -11194,6 +10809,18 @@ left: 55px;
   z-index: 1;
 }
 
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .portfolio-modal .close-modal {
+    position: absolute;
+    top: 8.5rem;
+    right: 2.5rem;
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+}
+
 .modal_fix_info {
   margin-top: 8rem;
 }
@@ -11240,6 +10867,12 @@ left: 55px;
 .suvorov-fluid {
   margin-right: 3px;
   max-width: 85%;
+  height: auto;
+}
+
+.viorica-fluid {
+  margin-right: 3px;
+  max-width: 100%;
   height: auto;
 }
 
@@ -11781,6 +11414,12 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 
 .image-slider .swiper-button-next::after,
 .image-slider .swiper-button-prev::after {
+  color: #882935e6;
+  font-size: 80px;
+}
+
+.viorica-slider .swiper-button-next::after,
+.viorica-slider .swiper-button-prev::after {
   color: #882935e6;
   font-size: 80px;
 }

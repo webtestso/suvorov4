@@ -48,7 +48,7 @@ const swiper = new Swiper('.image-slider', {
   loop: true,
   spaceBetween: 40,
   slidesPerGroup: 1,
-  speed: 3000,
+  speed: 2000,
   autoplay: {
     delay: 3000,
     stopOnLastSlide: false,
@@ -63,6 +63,34 @@ const swiper = new Swiper('.image-slider', {
     },
     992: {
       slidesPerView: 3,
+    }
+  },
+});
+
+new Swiper('.viorica-slider', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  slidesPerView: 4,
+  watchOverflow: true,
+  spaceBetween: 20,
+  slidesPerGroup: 1,
+  speed: 2000,
+  autoplay: {
+    delay: 3000,
+    stopOnLastSlide: false,
+    disableOnInteraction: false
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 4,
     }
   },
 });

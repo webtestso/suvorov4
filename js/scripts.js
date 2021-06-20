@@ -45,12 +45,10 @@ const swiper = new Swiper('.image-slider', {
   },
   slidesPerView: 3,
   watchOverflow: true,
-  loop: true,
-  spaceBetween: 20,
   slidesPerGroup: 1,
   speed: 2000,
   autoplay: {
-    delay: 3000,
+    delay: 5000,
     stopOnLastSlide: false,
     disableOnInteraction: true
   },
@@ -76,7 +74,6 @@ new Swiper('.viorica-slider', {
   },
   slidesPerView: 3,
   watchOverflow: true,
-  spaceBetween: 20,
   slidesPerGroup: 1,
   speed: 2000,
   breakpoints: {

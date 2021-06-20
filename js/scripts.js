@@ -65,6 +65,8 @@ const swiper = new Swiper('.image-slider', {
       slidesPerView: 3,
     }
   },
+  observer: true,
+  observeParents: true,
 });
 
 new Swiper('.viorica-slider', {
@@ -88,6 +90,8 @@ new Swiper('.viorica-slider', {
       slidesPerView: 3,
     }
   },
+  observer: true,
+  observeParents: true,
 });
 
 new Swiper('.header-slider', {
@@ -105,6 +109,16 @@ new Swiper('.header-slider', {
   },
 });
 
+$('.btn-tab ul li button').on('click', function(){
+  var dataid = $(this).data('tag');
+
+  $('.btn-tab ul li button').removeClass('current');
+  $(this).addClass('current');
+
+  $('.swiper-tab-con').removeClass('current');
+  $('#'+dataid).addClass('current');
+
+});
   // Languages
   document.addEventListener('DOMContentLoaded', getLocalLang)
 

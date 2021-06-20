@@ -11187,9 +11187,9 @@ left: 55px;
 .portfolio-modal .close-modal {
   position: absolute;
   top: 4.5rem;
-  right: 1.5rem;
-  width: 3rem;
-  height: 3rem;
+  right: 4.5rem;
+  width: 4rem;
+  height: 4rem;
   cursor: pointer;
   z-index: 1;
 }

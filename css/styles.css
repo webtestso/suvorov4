@@ -10831,6 +10831,16 @@ left: 55px;
   }
 }
 
+.modal_fix_info_less_info {
+  margin-top: 18rem;
+}
+
+@media screen and (min-width: 375px) and (max-width: 430px) {
+  .modal_fix_info_less_info {
+    margin-top: 0rem;
+  }
+}
+
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
@@ -10876,6 +10886,11 @@ left: 55px;
   height: auto;
 }
 
+.barza-fluid {
+  margin-right: 3px;
+  max-width: 60%;
+  height: auto;
+}
 /* CONTACT PART */
 
 .contact4 {

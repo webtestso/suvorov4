@@ -154,6 +154,35 @@ new Swiper('.barza-slider', {
   observeParents: true,
 });
 
+new Swiper('.fifth-slider', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  slidesPerView: 3,
+  watchOverflow: true,
+  slidesPerGroup: 1,
+  speed: 1500,
+  autoplay: {
+    delay: 5000,
+    stopOnLastSlide: false,
+    disableOnInteraction: true
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 3,
+    }
+  },
+  observer: true,
+  observeParents: true,
+});
+
 new Swiper('.header-slider', {
   slidesPerView: 1,
   slidesPerGroup: 1,

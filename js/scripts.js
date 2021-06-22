@@ -46,7 +46,7 @@ const swiper = new Swiper('.image-slider', {
   slidesPerView: 3,
   watchOverflow: true,
   slidesPerGroup: 1,
-  speed: 2000,
+  speed: 1500,
   autoplay: {
     delay: 5000,
     stopOnLastSlide: false,
@@ -75,7 +75,7 @@ new Swiper('.viorica-slider', {
   slidesPerView: 3,
   watchOverflow: true,
   slidesPerGroup: 1,
-  speed: 2000,
+  speed: 1500,
   autoplay: {
     delay: 5000,
     stopOnLastSlide: false,
@@ -104,7 +104,36 @@ new Swiper('.gussy-slider', {
   slidesPerView: 3,
   watchOverflow: true,
   slidesPerGroup: 1,
-  speed: 2000,
+  speed: 1500,
+  autoplay: {
+    delay: 5000,
+    stopOnLastSlide: false,
+    disableOnInteraction: true
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+    },
+    480: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 3,
+    }
+  },
+  observer: true,
+  observeParents: true,
+});
+
+new Swiper('.barza-slider', {
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  },
+  slidesPerView: 3,
+  watchOverflow: true,
+  slidesPerGroup: 1,
+  speed: 1500,
   autoplay: {
     delay: 5000,
     stopOnLastSlide: false,

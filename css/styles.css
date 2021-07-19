@@ -72,7 +72,7 @@ body {
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
-  outline: 0 !important;
+  outline: none !important;
 }
 
 hr {
@@ -11041,6 +11041,14 @@ left: 55px;
   align-items: center;
 }
 
+/* Services White Space */
+
+@media only screen and (min-width: 1200px) {
+  .services-min-width {
+    white-space: nowrap;
+  }
+}
+
 /* NOAH */
 
 @font-face {
@@ -11060,145 +11068,6 @@ left: 55px;
     url("/noah/Noah-Bold.ttf") format('truetype'),
     url("/noah/Noah-Bold.otf") format("opentype");
 }
-
-/* SLICK */
-
-/* .kazayak_slick {
-  display: flex;
-}
-
-.kazayak_slick .items {
-  max-width: 100%;
-  height: 500px;
-  margin: 50px;
-  position: relative;
-}
-
-.kazayak_slick .items img {
-  max-width: 100%;
-  height: 500px;
-  margin-top: 4rem;
-  transform: scale(1.2);
-  transition-timing-function: linear;
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-.kazayak_slick .items img {
-  max-width: 100%;
-  height: 400px;
-  margin-top: 4rem;
-  transform: scale(1.2);
-  transition-timing-function: linear;
-}
- }
-
-@media screen and (min-width: 577px) and (max-width: 991px) {
- .kazayak_slick .items img {
-   max-width: 100%;
-   height: 400px;
-   margin-top: 4rem;
-   transform: scale(1.2);
-   transition-timing-function: linear;
- }
-  }
-
-.kazayak_slick .slick-center img {
-}
-
-.kazayak_slick .prev_arrow {
-  position: absolute;
-  bottom: 0px;
-  font-size: 50px;
-  left: -2%;
-  top: 50%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  display: inline-block;
-  cursor: pointer;
-  z-index: 1;
-}
-
-.kazayak_slick .next_arrow {
-  position: absolute;
-  bottom: 0px;
-  font-size: 50px;
-  right: -2%;
-  top: 50%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  display: inline-block;
-  cursor: pointer;
-}
-
-@media screen and (min-width: 577px) and (max-width: 991px) {
-.kazayak_slick .prev_arrow {
-  position: absolute;
-  bottom: 0px;
-  font-size: 50px;
-  left: -2%;
-  top: 40%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  display: inline-block;
-  cursor: pointer;
-  z-index: 1;
- }
-}
-
-@media screen and (min-width: 577px) and (max-width: 991px) {
-.kazayak_slick .next_arrow {
-  position: absolute;
-  bottom: 0px;
-  font-size: 50px;
-  right: -2%;
-  top: 40%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  display: inline-block;
-  cursor: pointer;
- }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1180px) {
-.kazayak_slick .prev_arrow {
-  position: absolute;
-  bottom: 0px;
-  font-size: 50px;
-  left: -2%;
-  top: 40%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  display: inline-block;
-  cursor: pointer;
-  z-index: 1;
- }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1180px) {
-.kazayak_slick .next_arrow {
-  position: absolute;
-  bottom: 0px;
-  font-size: 50px;
-  right: -2%;
-  top: 40%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  line-height: 50px;
-  display: inline-block;
-  cursor: pointer;
- }
-} */
 
 /* AWARDS PART */
 
@@ -11472,6 +11341,8 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 .image-slider-bottles {
   height: 600px;
 }
+
+/* Tabs for Swiper */
 
 .btn-tab ul {
   list-style: none;

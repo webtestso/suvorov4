@@ -11487,7 +11487,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   padding: 10px 10px 10px;
 }
 
-@media screen and (min-width: 1px) and (max-width: 401px) {
+@media screen and (min-width: 1px) and (max-width: 767px) {
   .btn-tab ul li {
     padding: 5px 5px;
     flex-basis: 200px;

@@ -1,4 +1,4 @@
-@charset "UTF-8";
+#242424@charset "UTF-8";
 
 /*!
 * Start Bootstrap - Agency v6.0.0 (https://startbootstrap.com/template-overviews/agency)
@@ -66,7 +66,7 @@ body {
   font-size: 1.3rem;
   font-weight: 400;
   line-height: 1.5;
-  color: black;
+  color: #242424;
   text-align: left;
   background-color: #fff;
 }
@@ -3078,12 +3078,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: black;
+  color: #242424;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: black;
+  color: #242424;
   text-decoration: underline;
 }
 
@@ -3734,8 +3734,8 @@ input[type=button].btn-block {
 
 .custom-control-input:checked~.custom-control-label::before {
   color: #fff;
-  border-color: black;
-  background-color: black;
+  border-color: #242424;
+  background-color: #242424;
 }
 
 .custom-control-input:focus~.custom-control-label::before {
@@ -10580,12 +10580,12 @@ p {
 }
 
 ::-moz-selection {
-  background: black;
+  background: #242424;
   text-shadow: none;
 }
 
 ::selection {
-  background: black;
+  background: #242424;
   text-shadow: none;
 }
 
@@ -10622,7 +10622,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: black;
+  color: #242424;
   font-family: 'Raleway';
   font-weight: 400;
   text-transform: none;
@@ -10637,7 +10637,7 @@ img::-moz-selection {
   font-family: 'Raleway';
   font-size: 1.6rem;
   text-transform: none;
-  color: black;
+  color: #242424;
   letter-spacing: 0.0925em;
 }
 
@@ -10646,13 +10646,13 @@ img::-moz-selection {
   font-family: 'Raleway';
   font-size: 1.1rem;
   text-transform: none;
-  color: black;
+  color: #242424;
   letter-spacing: 0.0925em;
  }
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: black;
+  color: #242424;
 }
 
 @media (min-width: 992px) {
@@ -10900,7 +10900,7 @@ left: 55px;
 }
 
 .contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
-  color: black;
+  color: #242424;
 }
 
 .contact4 .font-weight-medium {
@@ -10977,12 +10977,12 @@ left: 55px;
 .service-26 {
   font-family: 'Noah-Regular';
   font-weight: 400;
-  color: black;
+  color: #242424;
   text-align: justify;
 }
 
 .service-26 h1, .service-26 h2, .service-26 h3, .service-26 h4, .service-26 h5, .service-26 h6 {
-  color: black;
+  color: #242424;
   font-family: 'Raleway';
 }
 
@@ -11015,7 +11015,7 @@ left: 55px;
 
 .contact3 {
   font-family: 'Noah-Regular';
-  color: black;
+  color: #242424;
   font-weight: 400;
 }
 
@@ -11025,7 +11025,7 @@ left: 55px;
 .contact3 h4,
 .contact3 h5,
 .contact3 h6 {
-  color: black;
+  color: #242424;
 }
 
 .contact3 .font-weight-medium {
@@ -11125,7 +11125,7 @@ left: 55px;
 .content .box .text{
   font-size: 1.3rem;
   font-family: "Noah-Regular";
-  color: black;
+  color: #242424;
 }
 @media screen and (max-width: 1036px) {
   .counter-up{
@@ -11285,13 +11285,17 @@ AOS.init();
 
 .content_toggle:hover {
   background: transparent;
-	color: black;
+	color: #242424;
 }
 
 /* No blue lines */
 
 button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
     outline: none;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  outline: none !important;
 }
 
 /* SWIPER */

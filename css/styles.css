@@ -11442,17 +11442,18 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   width: 350px;
   height: 400px;
   float: left;
-  left: 30%;
+  left: 50%;
   transform: translateX(-30%);
-  margin-right: 35px;
+  margin-right: 50px;
   position: relative;
+  margin-bottom: 3rem;
 }
 
 .cardFront, .cardBack {
   position: absolute;
   width: 350px;
   height: 400px;
-  background: url('https://s.cdpn.io/33073/lorempixel.jpg');
+  background-image: url('/assets/img/chira.jpg');
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;

@@ -10609,7 +10609,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-  background-color: #882935e6;
+  background-color: #660230;
 }
 
 #mainNav .navbar-toggler {
@@ -10674,7 +10674,7 @@ img::-moz-selection {
   }
 
   #mainNav.navbar-shrink {
-    background-color: #882935e6;
+    background-color: #660230;
   }
 
   #mainNav.navbar-shrink .navbar-brand {
@@ -11119,7 +11119,7 @@ left: 55px;
 }
 .content .box .counter{
   font-size: 2.5rem;
-  color: #882935e6;
+  color: #660230;
   font-family: "Noah-Bold";
 }
 .content .box .text{
@@ -11302,31 +11302,31 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 
 .image-slider .swiper-button-next::after,
 .image-slider .swiper-button-prev::after {
-  color: #882935e6;
+  color: #660230;
   font-size: 80px;
 }
 
 .viorica-slider .swiper-button-next::after,
 .viorica-slider .swiper-button-prev::after {
-  color: #882935e6;
+  color: #660230;
   font-size: 80px;
 }
 
 .gussy-slider .swiper-button-next::after,
 .gussy-slider .swiper-button-prev::after {
-  color: #882935e6;
+  color: #660230;
   font-size: 80px;
 }
 
 .barza-slider .swiper-button-next::after,
 .barza-slider .swiper-button-prev::after {
-  color: #882935e6;
+  color: #660230;
   font-size: 80px;
 }
 
 .fifth-slider .swiper-button-next::after,
 .fifth-slider .swiper-button-prev::after {
-  color: #882935e6;
+  color: #660230;
   font-size: 80px;
 }
 

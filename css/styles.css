@@ -11435,3 +11435,44 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
+
+/* Winemakers */
+
+.cardCont {
+  width: 350px;
+  height: 400px;
+  float: left;
+  left: 30%;
+  transform: translateX(-30%);
+  margin-right: 35px;
+  position: relative;
+}
+
+.cardFront, .cardBack {
+  position: absolute;
+  width: 350px;
+  height: 400px;
+  background: url('https://s.cdpn.io/33073/lorempixel.jpg');
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+}
+
+.cardBack {
+  background: url('https://s.cdpn.io/33073/lorempixe1l.jpg');
+}
+
+.playcardFront {
+  background: url("http://unlimitedpotentialnow.com/wp-content/uploads/2012/01/Bouquet-cs.jpg");
+}
+
+.playcardBack {
+  background: url("http://i203.photobucket.com/albums/aa158/Comic1111/ACe.png");
+}
+
+.winemakers-member {
+  margin-bottom: 3rem;
+  text-align: center;
+  display: inline-block;
+}

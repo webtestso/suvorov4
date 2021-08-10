@@ -374,8 +374,47 @@ $(document).ready(function(){
 				<div class="col-lg-12 col-md-12">
 					<div class="wrapper">
 						<div class="row no-gutters">
+							<div class="col-md-7 d-flex align-items-stretch">
+								<div class="contact-wrap w-100 p-md-5 p-4">
+									<h2 class="mb-4">Связать с нами</h2>
+									<div id="form-message-warning" class="mb-4"></div>
+				      		<div id="form-message-success" class="mb-4">
+				            Your message was sent, thank you!
+				      		</div>
+									<form method="POST" id="contactForm" name="contactForm">
+										<div class="row">
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="text" class="form-control" name="name" id="name" placeholder="Имя">
+												</div>
+											</div>
+											<div class="col-md-6">
+												<div class="form-group">
+													<input type="email" class="form-control" name="email" id="email" placeholder="Email">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="text" class="form-control" name="subject" id="subject" placeholder="Тема">
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Сообщение"></textarea>
+												</div>
+											</div>
+											<div class="col-md-12">
+												<div class="form-group">
+													<input type="submit" value="Отправить" class="btn hvr-shutter-out-vertical">
+													<div class="submitting"></div>
+												</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
 							<div class="col-md-5 d-flex align-items-stretch">
-								<div class="info-wrap w-100 p-lg-5 p-4">
+								<div class="info-wrap bg-primary w-100 p-lg-5 p-4">
 									<h3 class="mb-4 mt-md-4"></h3>
 				        	<div class="dbox w-100 d-flex align-items-start">
 				        		<div class="icon d-flex align-items-center justify-content-center">
@@ -396,7 +435,7 @@ $(document).ready(function(){
 				        			<img src="https://img.icons8.com/ios/60/000000/phone-office.png" alt="">
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>Номер телефона:</span><br><a>+373 (22) 22-91-98 / 22-91-39<br>+373 (243) 25-651</a></p>
+					            <p><span>Номер телефона:</span><br><a>+373 (22) 22-91-98 / 22-91-39</a></p>
 					          </div>
 				          </div>
 				        	<div class="dbox w-100 d-flex align-items-center">
@@ -404,51 +443,12 @@ $(document).ready(function(){
 				        			<img src="https://img.icons8.com/ios/60/000000/email.png" alt="">
 				        		</div>
 				        		<div class="text pl-3">
-					            <p><span>Email:</span><br><a>suvorovvin@driada-wine.com</a></p>
+					            <p><span>Email:</span><br><a"justanotherreality@hotmail.com">suvorovvin@driada-wine.com</a></p>
 					          </div>
 				          </div>
 			          </div>
 							</div>
 						</div>
-            <div class="col-md-7 d-flex align-items-stretch">
-              <div class="contact-wrap w-100 p-md-5 p-4">
-                <h2 class="mb-4">Связать с нами</h2>
-                <div id="form-message-warning" class="mb-4"></div>
-                <div id="form-message-success" class="mb-4">
-                  Your message was sent, thank you!
-                </div>
-                <form method="POST" id="contactForm" name="contactForm">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Имя">
-                      </div>
-                    </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Тема">
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <textarea name="message" class="form-control" id="message" cols="30" rows="7" placeholder="Сообщение"></textarea>
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <input type="submit" value="Отправить" class="btn hvr-shutter-out-vertical">
-                        <div class="submitting"></div>
-                      </div>
-                    </div>
-                  </div>
-                </form>
-              </div>
-            </div>
 					</div>
 				</div>
 			</div>

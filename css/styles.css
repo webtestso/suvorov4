@@ -11570,9 +11570,7 @@ textarea.form-control {
 
 @media (min-width: 992px) {
   .info-wrap {
-    margin-top: -20px;
-    margin-bottom: -20px;
-    border-radius: 5px;
+    margin-top: -10px;
   }
 }
 

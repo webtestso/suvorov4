@@ -43,7 +43,7 @@ const swiper = new Swiper('.image-slider', {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev'
   },
-  slidesPerView: 3,
+  slidesPerView: 4,
   watchOverflow: true,
   slidesPerGroup: 1,
   speed: 1500,
@@ -60,7 +60,7 @@ const swiper = new Swiper('.image-slider', {
       slidesPerView: 2,
     },
     992: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     }
   },
   observer: true,

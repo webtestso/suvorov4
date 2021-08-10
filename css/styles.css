@@ -11544,7 +11544,7 @@ textarea.form-control {
 }
 
 .info-wrap .dbox p span {
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
 }
 
@@ -11609,7 +11609,7 @@ textarea.form-control {
 .btn.btn-primary {
   background: #1089ff !important;
   border-color: #1089ff !important;
-  color: #fff;
+  color: black;
 }
 
 .btn.btn-primary:hover, .btn.btn-primary:focus {

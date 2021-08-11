@@ -146,18 +146,6 @@ const swiper = new Swiper('.image-slider', {
   observeParents: true,
 });
 
-let tabInputs = document.querySelectorAll('.tabInput');
-
-tabInputs.forEach(function(input) {
-
-  input.addEventListener('change', function() {
-    let id = input.value;
-    let thisSwiper = document.getElementById('swiper' + id);
-    thisSwiper.swiper.update();
-  });
-
-});
-
 new Swiper('.header-slider', {
   slidesPerView: 1,
   slidesPerGroup: 1,

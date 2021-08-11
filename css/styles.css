@@ -2519,6 +2519,7 @@ textarea.form-control {
   display: inline-block;
   font-weight: 400;
   color: white;
+  background: #dedede;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;

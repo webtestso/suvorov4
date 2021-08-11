@@ -10648,7 +10648,7 @@ img::-moz-selection {
   font-family: 'Raleway';
   font-size: 1.1rem;
   text-transform: none;
-  color: white;
+  color: #242424;
   letter-spacing: 0.0925em;
  }
 }
@@ -11653,9 +11653,6 @@ textarea.form-control {
   }
 }
 
-.paragraph_contact {
-  color: #bb5757;
-}
 /* Full width container custom */
 
 .full-width {

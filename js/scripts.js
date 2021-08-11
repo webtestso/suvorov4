@@ -142,6 +142,7 @@ const swiper = new Swiper('.image-slider', {
       slidesPerView: 3,
     }
   },
+  rebuildOnUpdate: true,
   observer: true,
   observeParents: true,
 });

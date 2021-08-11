@@ -6639,7 +6639,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #fed136 !important;
+  background-color: #dedede !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -10569,6 +10569,8 @@ p {
 .page-section h3.section-subheading {
   font-size: 1.5rem;
   font-weight: 400;
+  font-style: italic;
+  color: #bb5757;
   font-family: 'Noah-Regular';
   margin-bottom: 4rem;
 }
@@ -10646,7 +10648,7 @@ img::-moz-selection {
   font-family: 'Raleway';
   font-size: 1.1rem;
   text-transform: none;
-  color: #242424;
+  color: white;
   letter-spacing: 0.0925em;
  }
 }
@@ -11645,6 +11647,15 @@ textarea.form-control {
   font-weight: bold;
 }
 
+@media (min-width: 992px) {
+  .info-wrap {
+    margin-top: -10px;
+  }
+}
+
+.paragraph.contact {
+  color: #bb5757;
+}
 /* Full width container custom */
 
 .full-width {

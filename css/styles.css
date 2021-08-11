@@ -11169,7 +11169,7 @@ AOS.init();
 
 /* More, Less info */
 
-.content_toggle {
+.content_toggle_new {
   display: inline-block;
   border: none;
 	background: none;
@@ -11189,7 +11189,7 @@ AOS.init();
 }
 
 @media screen and (min-width: 375px) and (max-width: 430px) {
-  .content_toggle {
+  .content_toggle_new {
     display: inline-block;
     border: none;
     color: inherit;
@@ -11209,7 +11209,7 @@ AOS.init();
   }
 }
 
-.content_toggle:hover {
+.content_toggle_new:hover {
   background: transparent;
 	color: #242424;
 }

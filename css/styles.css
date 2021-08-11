@@ -10895,83 +10895,11 @@ left: 55px;
 }
 /* CONTACT PART */
 
-.contact4 {
-  font-family: 'Noah-Regular';
-  color: #8d97ad;
-  font-weight: 400;
-}
-
-.contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
-  color: #242424;
-}
-
-.contact4 .font-weight-medium {
-  font-weight: 400;
-}
-
-.contact4 .form-control {
-  background: transparent;
-  border: 4px solid rgba(255, 255, 255, 0.5);
-  font-size: 1.2rem;
-}
-
-.contact4 .form-control:focus {
-  border-color: #ffffff;
-}
-
-.contact4 input::-webkit-input-placeholder,
-.contact4 textarea::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.contact4 input:-ms-input-placeholder,
-.contact4 textarea:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.contact4 input::placeholder,
-.contact4 textarea::placeholder {
-  color: rgba(255, 255, 255, 0.7);
-}
-
 .contact4 .right-image {
   position: relative;
   right: 0;
   bottom: 0;
   top: 0;
-}
-
-.contact4.bg-info {
-  background-color: transparent !important;
-}
-
-.contact4 .text-inverse {
-  color: #3e4555 !important;
-}
-
-@media (min-width: 1024px) {
-  .contact4 .contact-box {
-    padding: 80px 80px 80px 115px;
-    margin: 0 0 0 -10rem;
-  }
-}
-
-@media (max-width: 767px) {
-  .contact4 .contact-box {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-
-@media (max-width: 1023px) {
-  .contact4 .right-image {
-  }
-}
-
-@media (max-width: 767px) {
-  #sendMessageButton {
-    margin-left: 0.5rem;
-  }
 }
 
 /* ABOUT PART */
@@ -11250,7 +11178,6 @@ AOS.init();
 .content_toggle {
   display: inline-block;
   border: none;
-	color: inherit;
 	background: none;
 	cursor: pointer;
 	font-size: 1.3rem;
@@ -11263,13 +11190,13 @@ AOS.init();
 	transition: all 0.3s;
   border: 4px solid #882935;
   border-radius: 60px;
+  outline: none !important;
 }
 
 @media screen and (min-width: 375px) and (max-width: 430px) {
   .content_toggle {
     display: inline-block;
     border: none;
-  	color: inherit;
   	background: none;
   	cursor: pointer;
   	font-size: 1.3rem;
@@ -11282,6 +11209,7 @@ AOS.init();
   	transition: all 0.3s;
     border: 4px solid #882935;
     border-radius: 60px;
+    outline: none !important;
   }
 }
 
@@ -11583,6 +11511,7 @@ textarea.form-control {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  background-color: #dedede;
 }
 
 @media (prefers-reduced-motion: reduce) {

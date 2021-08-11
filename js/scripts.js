@@ -142,9 +142,20 @@ const swiper = new Swiper('.image-slider', {
       slidesPerView: 3,
     }
   },
-  rebuildOnUpdate: true,
   observer: true,
   observeParents: true,
+});
+
+let tabInputs = document.querySelectorAll('.tabInput');
+
+tabInputs.forEach(function(input) {
+
+  input.addEventListener('change', function() {
+    let id = input.value;
+    let thisSwiper = document.getElementById('swiper' + id);
+    thisSwiper.swiper.update();
+  });
+
 });
 
 new Swiper('.header-slider', {

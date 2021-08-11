@@ -11167,19 +11167,13 @@ left: 55px;
 @import 'aos-master/dist/aos.css';
 AOS.init();
 
-/* Break for Wines */
-
-.break {
-  flex-basis: 100%;
-  height: 0;
-}
-
 /* More, Less info */
 
 .content_toggle {
   display: inline-block;
   border: none;
 	background: none;
+  color: #242424;
 	cursor: pointer;
 	font-size: 1.3rem;
 	padding: 20px 60px;
@@ -11198,6 +11192,7 @@ AOS.init();
   .content_toggle {
     display: inline-block;
     border: none;
+    color: #242424;
   	background: none;
   	cursor: pointer;
   	font-size: 1.3rem;

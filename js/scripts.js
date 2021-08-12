@@ -178,7 +178,7 @@ $('.btn-tab ul li button').on('click', function(){
   var arrLang = {
     'en': {
       'home': 'Home',
-      'about': 'About',
+      'about': 'About us',
       'wines': 'Wines',
       'team': 'Team',
       'blog': 'Blog',

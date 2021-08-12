@@ -11267,7 +11267,6 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 
 .image-slider-bottles {
   height: 600px;
-  width: 100%;
 }
 
 /* Tabs for Swiper */

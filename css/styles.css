@@ -11267,25 +11267,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 
 .image-slider-bottles {
   height: 600px;
-}
-
-.responsive-swiper-holder {
-  position: relative;
-}
-
-.responsive-swiper-shiv {
-  padding-top: 31.25%;
-}
-
-.swiper-container {
-  position: absolute;
-  height: 100%;
   width: 100%;
-  top: 0;
-}
-
-.swiper-wrapper, .swiper-slide {
-  height: 100%;
 }
 
 /* Tabs for Swiper */

@@ -11206,7 +11206,7 @@ AOS.init();
 	transition: all 0.3s;
   border: 4px solid #882935;
   border-radius: 60px;
-  outline: none !important;
+  outline: none;
 }
 
 @media screen and (min-width: 375px) and (max-width: 430px) {
@@ -11226,7 +11226,7 @@ AOS.init();
   	transition: all 0.3s;
     border: 4px solid #882935;
     border-radius: 60px;
-    outline: none !important;
+    outline: none;
   }
 }
 

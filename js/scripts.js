@@ -125,7 +125,7 @@ const swiper = new Swiper('.image-slider', {
   slidesPerView: 3,
   watchOverflow: true,
   slidesPerGroup: 1,
-  speed: 1500,
+  speed: 2000,
   autoplay: {
     delay: 5000,
     stopOnLastSlide: false,
@@ -144,6 +144,7 @@ const swiper = new Swiper('.image-slider', {
   },
   observer: true,
   observeParents: true,
+  slidesPerColumn: 1
 });
 
 new Swiper('.header-slider', {

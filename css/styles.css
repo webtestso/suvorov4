@@ -11190,7 +11190,7 @@ AOS.init();
 
 /* More, Less info */
 
-.content_toggle_new {
+.content_toggle {
   display: inline-block;
   border: none;
 	background: none;
@@ -11210,7 +11210,7 @@ AOS.init();
 }
 
 @media screen and (min-width: 375px) and (max-width: 430px) {
-  .content_toggle_new {
+  .content_toggle {
     display: inline-block;
     border: none;
     color: inherit;
@@ -11230,7 +11230,7 @@ AOS.init();
   }
 }
 
-.content_toggle_new:hover {
+.content_toggle:hover {
   background: transparent;
 	color: #242424;
 }
@@ -11358,8 +11358,6 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
-
-/* Winemakers */
 
 
 

@@ -8785,3 +8785,9 @@ textarea.form-control {
       -webkit-transform: scaleY(1);
       transform: scaleY(1);
     }
+
+    @media screen and (min-width: 1px) and (max-width: 430px) {
+    .blog_flex {
+      flex-wrap: wrap !important;
+     }
+    }

@@ -11610,6 +11610,7 @@ textarea.form-control {
   width: 24rem;
   height: 24rem;
   perspective: 1000px;
+  margin: auto;
 }
 
 .flip-card-inner {

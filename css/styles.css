@@ -11580,6 +11580,18 @@ textarea.form-control {
   }
 }
 
+@media screen and (min-width: 768px) and (max-width: 894px) {
+  .icon_ipad_iphone {
+    margin-left: -60px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 416px) {
+  .icon_ipad_iphone {
+    margin-left: -40px;
+  }
+}
+
 /* Full width container custom */
 
 .full-width {

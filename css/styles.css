@@ -11342,6 +11342,36 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
   display: block;
 }
 
+@media screen and (min-width: 1130px) and (max-width: 1226px) {
+  .presentation-querries {
+    left: 45%;
+  }
+}
+
+@media screen and (min-width: 1040px) and (max-width: 1129px) {
+  .presentation-querries {
+    left: 40%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1128px) {
+  .presentation-querries {
+    left: 35%;
+  }
+}
+
+@media screen and (min-width: 570px) and (max-width: 991px) {
+  .presentation-querries {
+    left: 10%;
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 569px) {
+  .presentation-querries {
+    left: 5%;
+  }
+}
+
 /* Shutter Out Vertical */
 
 .hvr-shutter-out-vertical {

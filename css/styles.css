@@ -10905,6 +10905,7 @@ left: 55px;
   max-width: 55%;
   height: auto;
 }
+
 /* CONTACT PART */
 
 .contact4 .right-image {
@@ -11172,12 +11173,6 @@ left: 55px;
  	color: inherit;
  }
 
- /* AOS */
-
-@import AOS from 'aos';
-@import 'aos-master/dist/aos.css';
-AOS.init();
-
 /* More, Less info */
 
 .content_toggle {
@@ -11348,6 +11343,7 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 }
 
 /* Shutter Out Vertical */
+
 .hvr-shutter-out-vertical {
   display: inline-block;
   vertical-align: middle;

@@ -4286,8 +4286,6 @@ input[type=button].btn-block {
 
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
@@ -10633,7 +10631,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand img {
-  height: 1.5rem;
+  height: 3rem;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {

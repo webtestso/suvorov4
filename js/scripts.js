@@ -173,6 +173,28 @@ $('.btn-tab ul li button').on('click', function(){
 
 });
 
+// Counter
+
+const counterUp = window.counterUp.default
+
+const callback = entries => {
+	entries.forEach( entry => {
+		const el = entry.target
+		if ( entry.isIntersecting && ! el.classList.contains( 'is-visible' ) ) {
+			counterUp( el, {
+				duration: 2000,
+				delay: 16,
+			} )
+			el.classList.add( 'is-visible' )
+		}
+	} )
+}
+
+const IO = new IntersectionObserver( callback, { threshold: 1 } )
+
+const el = document.querySelector( '.counter' )
+IO.observe( el )
+
   // Languages
   document.addEventListener('DOMContentLoaded', getLocalLang)
 
@@ -186,7 +208,7 @@ $('.btn-tab ul li button').on('click', function(){
       'contact': 'Contact us',
       'achievments': 'Achievements',
       'achievments2': 'We are proud of what we have achieved through our joint efforts',
-      'products': 'Products',
+      'products': 'Wines',
       'products2': 'As a source of our inspiration',
       'contact2': 'Contact us',
       'message': 'Send message',
@@ -194,9 +216,10 @@ $('.btn-tab ul li button').on('click', function(){
       'winery': 'Winery Suvorov-Vin:',
       'winery2': 'Winery Kazayak-Vin:',
       'phone': 'Phone number:',
-      'name2': 'Your name *',
-      'email2': 'Your email *',
-      'message2': 'Your message *',
+      'name2': 'Name',
+      'email2': 'Email',
+      'comapny_name': 'Company name',
+      'message2': 'Message',
       'team1': 'Alexandr Neruh',
       'position1': 'Chief director',
       'experience1': 'Work experience 50 years',
@@ -208,6 +231,9 @@ $('.btn-tab ul li button').on('click', function(){
       'experience3': 'Work experience 24 years',
       'position4': 'Engineer-tehnologist',
       'experience4': 'Work experience 25 years',
+      'team5': 'Nicolai Popov',
+      'position5': 'Executive director Suvorov Vin',
+      'experience5': 'Work experience 12 years',
       'experience6': 'Work experience 2 years',
       'team7': 'Victor Chira',
       'position7': 'Winemaker Suvorov-Vin',
@@ -383,7 +409,7 @@ $('.btn-tab ul li button').on('click', function(){
       'contact': 'Контакты',
       'achievments': 'Достижения',
       'achievments2': 'Мы гордимся тем, чего достигли, нашими совместными усилиями',
-      'products': 'Продукция',
+      'products': 'Вина',
       'products2': 'Как источник нашего вдохновления',
       'contact2': 'Связаться с нами',
       'message': 'Отправить',
@@ -391,9 +417,10 @@ $('.btn-tab ul li button').on('click', function(){
       'winery': 'Винзавод Suvorov-Vin:',
       'winery2': 'Винзавод Kazayak-Vin:',
       'phone': 'Номер телефона:',
-      'name2': 'Ваше имя *',
-      'email2': 'Ваш email *',
-      'message2': 'Ваше сообщение *',
+      'name2': 'Имя',
+      'email2': 'Email',
+      'comapny_name': 'Название компании',
+      'message2': 'Сообщение',
       'team1': 'Александр Нерух',
       'position1': 'Главный директор',
       'experience1': 'Опыт работы 50 лет',
@@ -405,6 +432,9 @@ $('.btn-tab ul li button').on('click', function(){
       'experience3': 'Опыт работы 24 года',
       'position4': 'Инженер-технолог',
       'experience4': 'Опыт работы 25 лет',
+      'team5': 'Николай Попов',
+      'position5': 'Исполнительный директор Suvorov Vin',
+      'experience5': 'Опыт работы 12 лет',
       'experience6': 'Опыт работы 2 года',
       'team7': 'Виктор Кира',
       'position7': 'Винодел Suvorov-Vin',
@@ -580,7 +610,7 @@ $('.btn-tab ul li button').on('click', function(){
       'contact': 'Contacte',
       'achievments': 'Premii și realizări',
       'achievments2': 'Suntem mândri de ceea ce am obținut, datorită eforturilor noastre commune',
-      'products': 'Produse',
+      'products': 'Vinuri',
       'products2': 'Ca sursă a inspirației noastre',
       'contact2': 'Contactează-ne',
       'message': 'Trimiteți mesaj',
@@ -588,9 +618,10 @@ $('.btn-tab ul li button').on('click', function(){
       'winery': 'Vinăria Suvorov-Vin:',
       'winery2': 'Vinăria Kazayak-Vin:',
       'phone': 'Telefon:',
-      'name2': 'Nume *',
-      'email2': 'Email *',
-      'message2': 'Mesaj *',
+      'name2': 'Nume',
+      'email2': 'Email',
+      'comapny_name': 'Numele companiei',
+      'message2': 'Mesaj',
       'team1': 'Alexandr Neruh',
       'position1': 'Director',
       'experience1': 'Experiență profesională de 50 de ani',
@@ -602,6 +633,9 @@ $('.btn-tab ul li button').on('click', function(){
       'experience3': 'Experiență profesională 24 de ani',
       'position4': 'Inginer de proces',
       'experience4': 'Experiență profesională 25 de ani',
+      'team5': 'Nicolai Popov',
+      'position5': 'Director executiv Suvorov Vin',
+      'experience5': 'Experiență profesională 12 de ani',
       'experience6': 'Experiență profesională 2 ani',
       'team7': 'Victor Chira',
       'position7': 'Vinificator Suvorov-Vin',

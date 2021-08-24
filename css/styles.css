@@ -10690,6 +10690,12 @@ img::-moz-selection {
   }
 }
 
+@media screen and (min-width: 1px) and (max-width: 991px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: white;
+  }
+}
+
 .translate {
   background: transparent;
   border: none;

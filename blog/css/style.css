@@ -8791,3 +8791,9 @@ textarea.form-control {
       flex-wrap: wrap !important;
      }
     }
+
+    @media screen and (min-width: 992px) and (max-width: 1250px) {
+    .blog_image_fix {
+      height: 350px !important;
+     }
+    }

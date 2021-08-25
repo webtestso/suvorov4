@@ -196,7 +196,7 @@ $('.btn-tab ul li button').on('click', function(){
       'phone': 'Phone number:',
       'name2': 'Name',
       'email2': 'Email',
-      'comapny_name': 'Company name',
+      'company_name': 'Company name',
       'message2': 'Message',
       'team1': 'Alexandr Neruh',
       'position1': 'Chief director',

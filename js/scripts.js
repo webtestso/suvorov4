@@ -837,7 +837,7 @@ $('.btn-tab ul li button').on('click', function(){
   };
 
   $(window).scroll(function(){
-  if ($(this).scrollTop() > 50) {
+  if ($(this).scrollTop() > 100) {
     $('.nav-link').css("color","white");
   } else {
     $('.nav-link').css("color","#242424");

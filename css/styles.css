@@ -10643,7 +10643,7 @@ img::-moz-selection {
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: 'Raleway';
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-transform: none;
   color: #242424;
   letter-spacing: 0.0925em;
@@ -10687,12 +10687,6 @@ img::-moz-selection {
 
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
-  }
-}
-
-@media screen and (min-width: 1px) and (max-width: 991px) {
-  #mainNav .navbar-nav .nav-item .nav-link {
-    color: white;
   }
 }
 
@@ -10859,7 +10853,7 @@ left: 55px;
 }
 
 .team-member_wine h4 {
-  margin-top: 7.5rem;
+  margin-top: 9.5rem;
   margin-bottom: 0;
 }
 
@@ -10870,7 +10864,7 @@ left: 55px;
 
 .team-member_wine img {
   width: 24rem;
-  height: 30rem;
+  height: 32rem;
   box-shadow: 0 1px 2px rgba(0,0,0,0.07),
               0 2px 4px rgba(0,0,0,0.07),
               0 4px 8px rgba(0,0,0,0.07),
@@ -10908,15 +10902,6 @@ left: 55px;
   margin-right: 3px;
   max-width: 55%;
   height: auto;
-}
-
-/* CONTACT PART */
-
-.contact4 .right-image {
-  position: relative;
-  right: 0;
-  bottom: 0;
-  top: 0;
 }
 
 /* ABOUT PART */
@@ -11417,6 +11402,15 @@ button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled)
 .hvr-shutter-out-vertical:hover:before, .hvr-shutter-out-vertical:focus:before, .hvr-shutter-out-vertical:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
+}
+
+/* CONTACT PART */
+
+.contact4 .right-image {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  top: 0;
 }
 
 /* New Contact part */

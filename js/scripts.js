@@ -2,6 +2,7 @@
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing
+
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (
       location.pathname.replace(/^\//, "") ==
@@ -25,6 +26,7 @@
   });
 
   // Closes responsive menu when a scroll trigger link is clicked
+
   $(".js-scroll-trigger").click(function() {
 
     $(".navbar-collapse").collapse("hide");
@@ -32,12 +34,14 @@
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
+
   $("body").scrollspy({
     target: "#mainNav",
     offset: 74,
   });
 
   // Form
+
 	var contactForm = function() {
 		if ($('#contactForm').length > 0 ) {
 			$( "#contactForm" ).validate( {
@@ -117,7 +121,8 @@
 	contactForm();
 
 // Swiper
-var swiper = new Swiper('.image-slider', {
+
+new swiper = new Swiper('.image-slider', {
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev'
@@ -174,6 +179,7 @@ $('.btn-tab ul li button').on('click', function(){
 });
 
   // Languages
+
   document.addEventListener('DOMContentLoaded', getLocalLang)
 
   var arrLang = {
@@ -793,6 +799,7 @@ $('.btn-tab ul li button').on('click', function(){
   });
 
   // Local storage
+
   function saveLocalLang(language) {
     let langs
     if (localStorage.getItem('langs') === null) {
@@ -820,6 +827,7 @@ $('.btn-tab ul li button').on('click', function(){
 }
 
   // Collapse Navbar
+
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
@@ -827,6 +835,15 @@ $('.btn-tab ul li button').on('click', function(){
       $("#mainNav").removeClass("navbar-shrink");
     }
   };
+
+  $(window).scroll(function(){
+  if ($(this).scrollTop() > 50) {
+    $('.nav-link').css("color","white");
+  } else {
+    $('.nav-link').css("color","#242424");
+  }
+});
+
   // Collapse now if page is not at top
   navbarCollapse();
   // Collapse the navbar when page is scrolled

@@ -10221,6 +10221,11 @@ img::-moz-selection {
     max-width: 20rem;
     margin-left: auto;
     margin-right: auto;
+    transition: scale 0.3s;
+}
+
+#portfolio .portfolio-item:hover {
+    scale: 1.1;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -10797,7 +10802,7 @@ button:not(:disabled),
 }
 
 .image-slider-bottles {
-    height: 600px;
+    height: 510px;
 }
 
 

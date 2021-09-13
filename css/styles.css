@@ -10142,7 +10142,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand img {
-    height: 3rem;
+    height: 4rem;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -10156,7 +10156,7 @@ img::-moz-selection {
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     #mainNav .navbar-nav .nav-item .nav-link {
         font-family: 'Raleway';
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         text-transform: none;
         color: #242424;
         letter-spacing: 0.0925em;
@@ -10179,7 +10179,7 @@ img::-moz-selection {
         transition: font-size 0.3s ease-in-out;
     }
     #mainNav .navbar-brand img {
-        height: 6rem;
+        height: 7rem;
         transition: height 0.3s ease-in-out;
         margin: 0 0 0 -1em;
     }
@@ -10191,11 +10191,17 @@ img::-moz-selection {
     }
     #mainNav.navbar-shrink .navbar-brand svg,
     #mainNav.navbar-shrink .navbar-brand img {
-        height: 5rem;
+        height: 6rem;
     }
     #mainNav .navbar-nav .nav-item:last-child {
         margin-right: 0;
     }
+}
+
+@media screen and (min-width: 1px) and (max-width: 991px) {
+  #mainNav .navbar-nav .nav-item .nav-link {
+    color: white;
+  }
 }
 
 .translate {
@@ -10583,9 +10589,6 @@ img::-moz-selection {
 }
 
 @media screen and (max-width: 500px) {
-    .wrapper {
-        padding: 20px;
-    }
     .counter-up {
         padding: 30px 20px 0 20px;
     }
@@ -10854,7 +10857,7 @@ button:not(:disabled),
     display: block;
 }
 
-@media screen and (min-width: 1130px) and (max-width: 1226px) {
+/* @media screen and (min-width: 1130px) and (max-width: 1226px) {
     .presentation-querries {
         left: 45% !important;
     }
@@ -10882,7 +10885,7 @@ button:not(:disabled),
     .presentation-querries {
         left: 5% !important;
     }
-}
+} */
 
 
 /* Shutter Out Vertical */
@@ -11056,6 +11059,7 @@ textarea.form-control {
     -o-transition: 0.3s;
     transition: 0.3s;
     background-color: #dedede;
+    color: #242424 !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11138,7 +11142,7 @@ textarea.form-control {
 
 @media screen and (min-width: 300px) and (max-width: 416px) {
     .icon_ipad_iphone {
-        margin-left: -40px;
+        margin-left: -10px;
     }
 }
 

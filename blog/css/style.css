@@ -8755,8 +8755,3 @@ textarea.form-control {
       height: 350px !important;
      }
     }
-
-    .marquee {
-      position: relative;
-      overflow: hidden;
-    }

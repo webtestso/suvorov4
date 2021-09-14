@@ -2465,7 +2465,7 @@ textarea.form-control.is-invalid {
 .btn {
     display: inline-block;
     font-weight: 400;
-    color: white;
+    color: color: #242424 !important;
     background: #dedede;
     text-align: center;
     vertical-align: middle;
@@ -10857,36 +10857,6 @@ button:not(:disabled),
     display: block;
 }
 
-/* @media screen and (min-width: 1130px) and (max-width: 1226px) {
-    .presentation-querries {
-        left: 45% !important;
-    }
-}
-
-@media screen and (min-width: 1040px) and (max-width: 1129px) {
-    .presentation-querries {
-        left: 40% !important;
-    }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1128px) {
-    .presentation-querries {
-        left: 35% !important;
-    }
-}
-
-@media screen and (min-width: 570px) and (max-width: 991px) {
-    .presentation-querries {
-        left: 10% !important;
-    }
-}
-
-@media screen and (min-width: 1px) and (max-width: 569px) {
-    .presentation-querries {
-        left: 5% !important;
-    }
-} */
-
 
 /* Shutter Out Vertical */
 
@@ -11059,7 +11029,6 @@ textarea.form-control {
     -o-transition: 0.3s;
     transition: 0.3s;
     background-color: #dedede;
-    color: #242424 !important;
 }
 
 @media (prefers-reduced-motion: reduce) {

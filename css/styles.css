@@ -516,7 +516,6 @@ mark,
 }
 
 .img-fluid {
-    margin-right: 3px;
     max-width: 100%;
     height: auto;
 }
@@ -2465,7 +2464,7 @@ textarea.form-control.is-invalid {
 .btn {
     display: inline-block;
     font-weight: 400;
-    color: color: #242424 !important;
+    color: #242424 !important;
     background: #dedede;
     text-align: center;
     vertical-align: middle;
@@ -10121,7 +10120,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-    background-color: #660230;
+    background-color: #ee4d4d;
 }
 
 #mainNav .navbar-toggler {
@@ -10139,6 +10138,18 @@ img::-moz-selection {
     font-weight: 400;
     text-transform: none;
     letter-spacing: 0.0925em;
+    height: 6rem;
+}
+
+@media screen and (min-width: 1px) and (max-width: 991px) {
+  #mainNav .navbar-brand {
+    color: #242424;
+    font-family: 'Raleway';
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0.0925em;
+    height: 3rem;
+  }
 }
 
 #mainNav .navbar-brand img {
@@ -10179,12 +10190,12 @@ img::-moz-selection {
         transition: font-size 0.3s ease-in-out;
     }
     #mainNav .navbar-brand img {
-        height: 7rem;
+        height: 6rem;
         transition: height 0.3s ease-in-out;
         margin: 0 0 0 -1em;
     }
     #mainNav.navbar-shrink {
-        background-color: #660230;
+        background-color: #ee4d4d;
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
@@ -10198,7 +10209,7 @@ img::-moz-selection {
     }
 }
 
-@media screen and (min-width: 1px) and (max-width: 991px) {
+@media screen and (min-width: 0px) and (max-width: 991px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     color: white;
   }
@@ -10396,19 +10407,21 @@ img::-moz-selection {
 }
 
 .suvorov-fluid {
-    margin-right: 3px;
     max-width: 80%;
     height: auto;
 }
 
+.blends-calendar-fluid {
+  max-width: 60%;
+  height: auto;
+}
+
 .viorica-fluid {
-    margin-right: 3px;
     max-width: 100%;
     height: auto;
 }
 
 .barza-fluid {
-    margin-right: 3px;
     max-width: 55%;
     height: auto;
 }
@@ -10501,14 +10514,19 @@ img::-moz-selection {
 
 @font-face {
     font-family: "Noah-Regular";
-    src: url("css/noah/Noah-Regular.eot");
+    src: url("/noah/Noah-Regular.eot");
     src: url("/noah/Noah-Regular.woff") format("woff"), url("/noah/Noah-Regular.ttf") format('truetype'), url("/noah/Noah-Regular.otf") format("opentype");
 }
 
 @font-face {
     font-family: "Noah-Bold";
-    src: url("css/noah/Noah-Bold.eot");
+    src: url("/noah/Noah-Bold.eot");
     src: url("/noah/Noah-Bold.woff") format("woff"), url("/noah/Noah-Bold.ttf") format('truetype'), url("/noah/Noah-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "HermesRegular";
+    src: url("/noah/HermesRegular.ttf") format('truetype');
 }
 
 
@@ -10788,24 +10806,38 @@ button:not(:disabled),
 
 .image-slider .swiper-button-next::after,
 .image-slider .swiper-button-prev::after {
-    color: #660230;
+    color: #ee4d4d;
     font-size: 80px;
 }
 
-.header-images {
-    width: 100%;
-    margin-top: 7rem;
+.header-images-wines {
+  width: 100%;
 }
 
-@media screen and (min-width: 1px) and (max-width: 992px) {
-    .header-images {
-        width: 100%;
-        margin-top: 3.5rem;
-    }
+.header-images {
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 601px) and (max-width: 991px) {
+  .header-images {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1px) and (max-width: 600px) {
+  .header-images {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
 }
 
 .image-slider-bottles {
-    height: 510px;
+  height: 510px;
 }
 
 
@@ -11168,4 +11200,28 @@ textarea.form-control {
     background-color: #bbb;
     color: black;
     transform: rotateY(180deg);
+}
+
+/* Logo Header and More */
+
+.logo_gussy_centred {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: [width of img];
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.blends-calendar-txt {
+  display: flex;
+  justify-content: center;
+  font-family: "HermesRegular";
 }

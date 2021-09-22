@@ -10138,7 +10138,7 @@ img::-moz-selection {
     font-weight: 400;
     text-transform: none;
     letter-spacing: 0.0925em;
-    height: 6rem;
+    height: 5rem;
 }
 
 @media screen and (min-width: 1px) and (max-width: 991px) {
@@ -11004,6 +11004,7 @@ textarea.form-control {
 
 .btn {
     padding: 12px 16px;
+    color: #242424;
     cursor: pointer;
     border-width: 1px;
     border-radius: 5px;

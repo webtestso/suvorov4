@@ -11212,9 +11212,16 @@ textarea.form-control {
   }
 }
 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .medals_flex {
+    display: flex;
+    flex-direction: center;
+  }
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1691px) {
   .medals_flex {
     display: flex;
-    justify-content: start;
+    justify-content: end;
   }
 }

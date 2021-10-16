@@ -130,12 +130,6 @@
         slidesPerView: 4,
         watchOverflow: true,
         slidesPerGroup: 1,
-        speed: 2000,
-        autoplay: {
-            delay: 5000,
-            stopOnLastSlide: false,
-            disableOnInteraction: true
-        },
         breakpoints: {
             320: {
                 slidesPerView: 1,

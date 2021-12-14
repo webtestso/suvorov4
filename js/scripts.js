@@ -360,7 +360,7 @@
             'vioricaneagra2': 'Vintage: 2018',
             'vioricaneagra3': 'Wine type: Red dry',
             'vioricaneagra4': 'Grapes: 100% Merlot',
-            'vioricaneagra5': 'Wine pairing with food: Grilled beef or lamb with black and red peppers.\nRoasted duck with glaze, green cod, baked apples and balsamic vinegar or mashed potatoes. \nChocolate mousse with dark chocolate, hot peppers, paprika and sea salt',
+            'vioricaneagra5': 'Wine pairing with food: Grilled beef or lamb with black and red peppers. Roasted duck with glaze, green cod, baked apples and balsamic vinegar or mashed potatoes. Chocolate mousse with dark chocolate, hot peppers, paprika and sea salt',
             'vioricamerlot1': 'Merlot is a deep ruby ​​color with mysterious tints. Complex aroma with tones of black currant, cherry, blackberry and dark chocolate. It has a full, pleasantly astringent taste with velvety tannins and hints of wild berries. Long fruity aftertaste. The Merlot bunches were grown in vineyards in the Stefan Voda region (South-East) of Moldova, and were carefully selected',
             'vioricamerlot2': 'Vintage: 2016',
             'vioricamerlot3': 'Wine type: Red dry',

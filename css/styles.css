@@ -10120,7 +10120,7 @@ img::-moz-selection {
 }
 
 #mainNav {
-    background-color: #ee4d4d;
+    background-color: #DE0B11;
 }
 
 #mainNav .navbar-toggler {
@@ -10195,7 +10195,7 @@ img::-moz-selection {
         margin: 0 0 0 -1em;
     }
     #mainNav.navbar-shrink {
-        background-color: #ee4d4d;
+        background-color: #DE0B11;
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
@@ -10702,7 +10702,7 @@ button:not(:disabled),
 
 .image-slider .swiper-button-next::after,
 .image-slider .swiper-button-prev::after {
-    color: #ee4d4d;
+    color: #DE0B11;
     font-size: 80px;
 }
 

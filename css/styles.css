@@ -10536,106 +10536,44 @@ img::-moz-selection {
 
 /* AWARDS PART */
 
-.counter-up {
-    min-height: 50vh;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 0 50px;
-    position: relative;
-    display: flex;
-    align-items: center;
+.counter-box {
+    display: block;
+    background: #f6f6f6;
+    padding: 40px 20px 37px;
+    text-align: center
 }
 
-.counter-up::before {
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+.counter-box p {
+    margin: 5px 0 0;
+    padding: 0;
+    color: #909090;
+    font-size: 18px;
+    font-weight: 500
 }
 
-.counter-up .content {
-    z-index: 1;
-    position: relative;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+.counter-box i {
+    font-size: 60px;
+    margin: 0 0 15px;
+    color: #d2d2d2
 }
 
-.counter-up .content .box {
-    width: calc(25% - 30px);
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    padding: 50px;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07), 0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07), 0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #666;
+    line-height: 28px
 }
 
-.content .box .icon {
-    font-size: 48px;
-    color: #e6e6e6;
+.counter-box.colored {
+    background: #3acf87
 }
 
-.content .box .counter {
-    font-size: 2.5rem;
-    color: #bb5757;
-    font-family: "Noah-Bold";
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+    color: #fff
 }
-
-.content .box .text {
-    font-size: 1.3rem;
-    font-family: "Noah-Regular";
-    color: #242424;
-}
-
-@media screen and (max-width: 1036px) {
-    .counter-up {
-        padding: 50px 50px 0 50px;
-    }
-    .counter-up .content .box {
-        width: calc(50% - 30px);
-        margin-bottom: 50px;
-    }
-}
-
-@media screen and (max-width: 580px) {
-    .counter-up .content .box {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .counter-up {
-        padding: 30px 20px 0 20px;
-    }
-}
-
-.svg-inline--fa {
-    vertical-align: -1.5rem;
-}
-
-.svg-inline--fa.fa-stack-2x {
-    width: 1em;
-}
-
-.kazayak_icons {
-    height: 40px;
-    width: 40px;
-    margin-bottom: -3rem;
-}
-
-.awards_info {
-    font-size: 1.3rem;
-    font-family: "Noah-Regular";
-    font-weight: 400;
-}
-
 
 /* Social Icons  */
 

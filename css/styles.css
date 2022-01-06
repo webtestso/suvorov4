@@ -11122,8 +11122,8 @@ textarea.form-control {
 
 .flip-card {
     background-color: transparent;
-    width: 24rem;
-    height: 24rem;
+    width: 23rem;
+    height: 23rem;
     perspective: 1000px;
     margin: auto;
 }

@@ -10274,9 +10274,6 @@ img::-moz-selection {
 }
 
 #portfolio .portfolio-item .portfolio-caption {
-    position: relative;
-    white-space: nowrap;
-    text-align: center;
 }
 
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
@@ -10418,11 +10415,6 @@ img::-moz-selection {
 
 .viorica-fluid {
     max-width: 100%;
-    height: auto;
-}
-
-.barza-fluid {
-    max-width: 55%;
     height: auto;
 }
 

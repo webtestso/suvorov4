@@ -10222,6 +10222,11 @@ img::-moz-selection {
     outline: none !important;
 }
 
+.flags_icons {
+  height: 20px;
+  width: 30px;
+}
+
 @media screen and (min-width: 992px) and (max-width: 1980px) {
     .single-item {
         margin: 100px 0 0 0;
@@ -10273,9 +10278,6 @@ img::-moz-selection {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
-}
-
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
     font-size: 1.4rem;
     font-family: 'Raleway';
@@ -10318,8 +10320,6 @@ img::-moz-selection {
     margin-bottom: 2rem;
     font-size: 1.2rem;
 }
-
-.portfolio-modal .modal-content img {}
 
 .portfolio-modal .close-modal {
     position: absolute;

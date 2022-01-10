@@ -10426,14 +10426,14 @@ img::-moz-selection {
 
 .icons_suvorov {
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .icons_awards {
   width: 100%;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .icons_contact {
@@ -10597,13 +10597,13 @@ img::-moz-selection {
 }
 
 .counter-box.colored {
-    background: #f6f6f6;
+    background: #DE0B11;
 }
 
 .counter-box.colored p,
 .counter-box.colored i,
 .counter-box.colored .counter {
-    color: #FEFBF3;
+    color: #1B1717;
 }
 
 /* Social Icons  */

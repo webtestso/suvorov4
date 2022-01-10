@@ -855,9 +855,9 @@
 
     $(window).scroll(function() {
         if ($(this).scrollTop() > 100) {
-            $('.nav-link').css("color", "white");
+            $('.nav-link').css("color", "#FEFBF3");
         } else {
-            $('.nav-link').css("color", "#242424");
+            $('.nav-link').css("color", "#1B1717");
         }
     });
 

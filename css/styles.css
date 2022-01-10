@@ -10396,8 +10396,6 @@ img::-moz-selection {
 }
 
 .footer {
-    background-color: white;
-    text-align: center;
     font-size: 1.6rem;
     font-family: 'Raleway';
     margin-bottom: 1rem;
@@ -10428,8 +10426,19 @@ img::-moz-selection {
 
 .icons_suvorov {
   width: 100%;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.icons_contact {
+  width: 60px;
+  height: 60px;
+}
+
+@media only screen and (max-width: 800px) {
+  .icons_contact_fix {
+    padding-left: 0rem !important;
+  }
 }
 
 /* Box shadow */
@@ -10595,7 +10604,7 @@ img::-moz-selection {
 
 .social {
     margin: 0;
-    width: 500px;
+    width: 460px;
     text-align: center;
     padding: 50px;
 }
@@ -10943,8 +10952,8 @@ textarea.form-control {
 }
 
 .info-wrap .dbox .icon {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 
 .info-wrap .dbox .icon span {
@@ -11046,19 +11055,6 @@ textarea.form-control {
         margin-top: -10px;
     }
 }
-
-@media screen and (min-width: 768px) and (max-width: 894px) {
-    .icon_ipad_iphone {
-        margin-left: -60px;
-    }
-}
-
-@media screen and (min-width: 300px) and (max-width: 416px) {
-    .icon_ipad_iphone {
-        margin-left: -10px;
-    }
-}
-
 
 /* Full width container custom */
 

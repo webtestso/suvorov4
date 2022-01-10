@@ -10128,7 +10128,7 @@ img::-moz-selection {
     font-family: 'Raleway';
     text-transform: none;
     font-size: 1rem;
-    color: #fff;
+    color: #1B1717;
     border: 0;
 }
 
@@ -10211,7 +10211,7 @@ img::-moz-selection {
 
 @media screen and (min-width: 0px) and (max-width: 991px) {
   #mainNav .navbar-nav .nav-item .nav-link {
-    color: white;
+    color: #FEFBF3;
   }
 }
 
@@ -10271,7 +10271,7 @@ img::-moz-selection {
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     font-size: 1.3rem;
-    color: white;
+    color: #FEFBF3;
 }
 
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
@@ -10430,6 +10430,12 @@ img::-moz-selection {
   padding-right: 50px;
 }
 
+.icons_awards {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
 .icons_contact {
   width: 60px;
   height: 60px;
@@ -10565,21 +10571,21 @@ img::-moz-selection {
     display: block;
     background: #f6f6f6;
     padding: 40px 20px 37px;
-    text-align: center
+    text-align: center;
 }
 
 .counter-box p {
     margin: 5px 0 0;
     padding: 0;
-    color: #909090;
-    font-size: 18px;
-    font-weight: 500
+    color: #1B1717;
+    font-size: 1.3rem;
+    font-weight: 400;
 }
 
 .counter-box i {
     font-size: 60px;
     margin: 0 0 15px;
-    color: #d2d2d2
+    color: #d2d2d2;
 }
 
 .counter {
@@ -10587,17 +10593,17 @@ img::-moz-selection {
     font-size: 32px;
     font-weight: 700;
     color: #DE0B11;
-    line-height: 28px
+    line-height: 28px;
 }
 
 .counter-box.colored {
-    background: #3acf87
+    background: #f6f6f6;
 }
 
 .counter-box.colored p,
 .counter-box.colored i,
 .counter-box.colored .counter {
-    color: #fff
+    color: #FEFBF3;
 }
 
 /* Social Icons  */
@@ -10646,7 +10652,7 @@ img::-moz-selection {
 
 .icon-btn:hover {
     transform: scale(1.10);
-    color: #FFFFFF;
+    color: #FEFBF3;
 }
 
 .facebook:hover {
@@ -10850,7 +10856,7 @@ button:not(:disabled),
 .hvr-shutter-out-vertical:hover,
 .hvr-shutter-out-vertical:focus,
 .hvr-shutter-out-vertical:active {
-    color: white;
+    color: #FEFBF3;
 }
 
 .hvr-shutter-out-vertical:hover:before,
@@ -10864,7 +10870,7 @@ button:not(:disabled),
 
 .form-control {
     height: 52px;
-    background: #fff;
+    background: #FEFBF3;
     color: #000;
     font-size: 14px;
     border-radius: 2px;
@@ -10910,11 +10916,11 @@ textarea.form-control {
 }
 
 .contact-wrap {
-    background: #fff;
+    background: #FEFBF3;
 }
 
 .info-wrap h3 {
-    color: #fff;
+    color: #FEFBF3;
 }
 
 .info-wrap .dbox {
@@ -10947,7 +10953,7 @@ textarea.form-control {
 
 .info-wrap .dbox .icon span {
     font-size: 20px;
-    color: #fff;
+    color: #FEFBF3;
 }
 
 .info-wrap .dbox .text {

@@ -10860,17 +10860,6 @@ button:not(:disabled),
     transform: scaleY(1);
 }
 
-
-/* CONTACT PART */
-
-.contact4 .right-image {
-    position: relative;
-    right: 0;
-    bottom: 0;
-    top: 0;
-}
-
-
 /* New Contact part */
 
 .form-control {

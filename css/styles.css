@@ -10424,6 +10424,14 @@ img::-moz-selection {
   margin-bottom: -3rem;
 }
 
+/* Icons */
+
+.icons_suvorov {
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
 /* Box shadow */
 
 .card-1 {

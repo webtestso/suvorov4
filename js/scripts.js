@@ -56,83 +56,36 @@
 
     // Form
 
-    var contactForm = function() {
-        if ($('#contactForm').length > 0) {
-            $("#contactForm").validate({
-                rules: {
-                    name: "required",
-                    subject: "required",
-                    email: {
-                        required: true,
-                        email: true
-                    },
-                    message: {
-                        required: true,
-                        minlength: 5
-                    }
-                },
-                messages: {
-                    name: "Please enter your name",
-                    subject: "Please enter your subject",
-                    email: "Please enter a valid email address",
-                    message: "Please enter a message"
-                },
-                /* submit via ajax */
+    const form = document.querySelector("form"),
+    statusTxt = form.querySelector(".button-area span");
 
-                submitHandler: function(form) {
-                        var $submit = $('.submitting'),
-                            waitText = 'Submitting...';
+    form.onsubmit = (e)=>{
+      e.preventDefault();
+      statusTxt.style.color = "#0D6EFD";
+      statusTxt.style.display = "block";
+      statusTxt.innerText = "Sending your message...";
+      form.classList.add("disabled");
 
-                        $.ajax({
-                            type: "POST",
-                            url: "php/sendEmail.php",
-                            data: $(form).serialize(),
-
-                            beforeSend: function() {
-                                $submit.css('display', 'block').text(waitText);
-                            },
-                            success: function(msg) {
-                                if (msg == 'OK') {
-                                    $('#form-message-warning').hide();
-                                    setTimeout(function() {
-                                        $('#contactForm').fadeIn();
-                                    }, 1000);
-                                    setTimeout(function() {
-                                        $('#form-message-success').fadeIn();
-                                    }, 1400);
-
-                                    setTimeout(function() {
-                                        $('#form-message-success').fadeOut();
-                                    }, 8000);
-
-                                    setTimeout(function() {
-                                        $submit.css('display', 'none').text(waitText);
-                                    }, 1400);
-
-                                    setTimeout(function() {
-                                        $('#contactForm').each(function() {
-                                            this.reset();
-                                        });
-                                    }, 1400);
-
-                                } else {
-                                    $('#form-message-warning').html(msg);
-                                    $('#form-message-warning').fadeIn();
-                                    $submit.css('display', 'none');
-                                }
-                            },
-                            error: function() {
-                                $('#form-message-warning').html("Something went wrong. Please try again.");
-                                $('#form-message-warning').fadeIn();
-                                $submit.css('display', 'none');
-                            }
-                        });
-                    } // end submitHandler
-
-            });
+      let xhr = new XMLHttpRequest();
+      xhr.open("POST", "message.php", true);
+      xhr.onload = ()=>{
+        if(xhr.readyState == 4 && xhr.status == 200){
+          let response = xhr.response;
+          if(response.indexOf("Email and message field is required!") != -1 || response.indexOf("Enter a valid email address!") != -1 || response.indexOf("Sorry, failed to send your message!") != -1){
+            statusTxt.style.color = "red";
+          }else{
+            form.reset();
+            setTimeout(()=>{
+              statusTxt.style.display = "none";
+            }, 3000);
+          }
+          statusTxt.innerText = response;
+          form.classList.remove("disabled");
         }
-    };
-    contactForm();
+      }
+      let formData = new FormData(form);
+      xhr.send(formData);
+    }
 
     // Swiper
 

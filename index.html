@@ -379,35 +379,35 @@
                                         <div id="form-message-success" class="mb-4">
                                             Your message was sent, thank you!
                                         </div>
-                                        <form method="POST" id="contactForm" name="contactForm">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <textarea type="text" class="form-control lang" key="name2" name="name" id="name" placeholder="Имя"></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <textarea type="email" class="form-control" name="email" id="email" placeholder="Email"></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <textarea type="text" class="form-control lang" key="company_name" name="subject" id="subject" placeholder="Название компании"></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <textarea name="message" class="form-control lang" key="message2" id="message" cols="30" rows="7" placeholder="Сообщение"></textarea>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <button type="submit" value="Отправить" class="btn hvr-shutter-out-vertical lang" key="message" style="background-color: #dedede; color: #242424;"></button>
-                                                        <div class="submitting"></div>
-                                                    </div>
-                                                </div>
+                                        <form action="#">
+                                          <div class="dbl-field">
+                                            <div class="field">
+                                              <input type="text" name="name" placeholder="Enter your name">
+                                              <i class='fas fa-user'></i>
                                             </div>
+                                            <div class="field">
+                                              <input type="text" name="email" placeholder="Enter your email">
+                                              <i class='fas fa-envelope'></i>
+                                            </div>
+                                          </div>
+                                          <div class="dbl-field">
+                                            <div class="field">
+                                              <input type="text" name="phone" placeholder="Enter your phone">
+                                              <i class='fas fa-phone-alt'></i>
+                                            </div>
+                                            <div class="field">
+                                              <input type="text" name="website" placeholder="Enter your website">
+                                              <i class='fas fa-globe'></i>
+                                            </div>
+                                          </div>
+                                          <div class="message">
+                                            <textarea placeholder="Write your message" name="message"></textarea>
+                                            <i class="material-icons">message</i>
+                                          </div>
+                                          <div class="button-area">
+                                            <button type="submit">Send Message</button>
+                                            <span></span>
+                                          </div>
                                         </form>
                                     </div>
                                 </div>

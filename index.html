@@ -373,42 +373,37 @@
                         <div class="wrapper">
                             <div class="row no-gutters">
                                 <div class="col-md-6 d-flex align-items-stretch">
-                                    <div class="contact-wrap w-100 p-md-5 p-4">
-                                        <h2 class="mb-4 lang" key="contact2">Связать с нами:</h2>
-                                        <div id="form-message-warning" class="mb-4"></div>
-                                        <div id="form-message-success" class="mb-4">
-                                            Your message was sent, thank you!
-                                        </div>
-                                        <form action="#">
-                                          <div class="dbl-field">
-                                            <div class="field">
-                                              <input type="text" name="name" placeholder="Enter your name">
-                                              <i class='fas fa-user'></i>
-                                            </div>
-                                            <div class="field">
-                                              <input type="text" name="email" placeholder="Enter your email">
-                                              <i class='fas fa-envelope'></i>
-                                            </div>
-                                          </div>
-                                          <div class="dbl-field">
-                                            <div class="field">
-                                              <input type="text" name="phone" placeholder="Enter your phone">
-                                              <i class='fas fa-phone-alt'></i>
-                                            </div>
-                                            <div class="field">
-                                              <input type="text" name="website" placeholder="Enter your website">
-                                              <i class='fas fa-globe'></i>
-                                            </div>
-                                          </div>
-                                          <div class="message">
-                                            <textarea placeholder="Write your message" name="message"></textarea>
-                                          </div>
-                                          <div class="button-area">
-                                            <button type="submit">Send Message</button>
-                                            <span></span>
-                                          </div>
-                                        </form>
-                                    </div>
+                                  <div class="card mt-5">
+                                      <div class="card-title">
+                                          <h2 class="text-center py-2"> Contact Us </h2>
+                                          <hr>
+                                          <?php
+                                              $Msg = "";
+                                              if(isset($_GET['error']))
+                                              {
+                                                  $Msg = " Please Fill in the Blanks ";
+                                                  echo '<div class="alert alert-danger">'.$Msg.'</div>';
+                                              }
+
+                                              if(isset($_GET['success']))
+                                              {
+                                                  $Msg = " Your Message Has Been Sent ";
+                                                  echo '<div class="alert alert-success">'.$Msg.'</div>';
+                                              }
+
+                                          ?>
+                                      </div>
+                                      <div class="card-body">
+                                          <form action="process.php" method="post">
+                                              <input type="text" name="UName" placeholder="User Name" class="form-control mb-2">
+                                              <input type="email" name="Email" placeholder="Email" class="form-control mb-2">
+                                              <input type="text" name="Subject" placeholder="Subject" class="form-control mb-2">
+                                              <textarea name="msg" class="form-control mb-2" placeholder="Write The Message"></textarea>
+                                              <button class="btn btn-success" name="btn-send"> Send </button>
+                                          </form>
+                                      </div>
+                                  </div>
+                              </div>
                                 </div>
                                 <div class="col-md-6 d-flex align-items-stretch">
                                     <div class="info-wrap bg-primary w-100 p-lg-5">

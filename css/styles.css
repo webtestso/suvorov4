@@ -10635,6 +10635,11 @@ img::-moz-selection {
   margin-left: -25px;
 }
 
+.download_pdf {
+  color: #B00000;
+  font-weight: 500;
+}
+
 .contact form {
  display: grid;
  grid-template-columns: 1fr 1fr;

@@ -10608,10 +10608,12 @@ img::-moz-selection {
     color: #1B1717;
 }
 
+/* CONTACT PART */
+
 .wrapper{
     box-shadow: 0 0 20px 0 #465C72;
 }
-/* All direct elements within wrapper - give padding of 1em*/
+
 .wrapper > *{
     padding: 1em;
 }
@@ -10633,7 +10635,6 @@ img::-moz-selection {
   margin-left: -50px;
 }
 
-/* Form Styling */
 .contact form {
  display: grid;
  grid-template-columns: 1fr 1fr;
@@ -10678,8 +10679,6 @@ img::-moz-selection {
     transition: background-color 2s ease-out;
 }
 
-
-/* Large Screens */
 @media(min-width:700px){
 
     .wrapper{

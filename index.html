@@ -24,8 +24,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -50,7 +48,6 @@
     <link href="css/component.css" rel="stylesheet">
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 
 </head>
 
@@ -360,164 +357,55 @@
     </section>
     <!-- Contact-->
     <section class="page-section" id="contact">
-        <div class="container">
-            <div class="text-center">
-                <h2 class="section-heading lang" style="margin-bottom: 5rem;" key="contact">Контакты</h2>
-            </div>
-                <figure class="full-width">
-                    <iframe src="https://snazzymaps.com/embed/243085" width="100%" height="600px" style="border:none;"></iframe>
-                </figure>
-            <figure class="full-width">
-                <div class="row justify-content-center">
-                    <div class="col-lg-12 col-md-12">
-                        <div class="wrapper">
-                          <div class="row">
-
-                              <!--Grid column-->
-                              <div class="col-md-9 mb-md-0 mb-5">
-                                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                                      <!--Grid row-->
-                                      <div class="row">
-
-                                          <!--Grid column-->
-                                          <div class="col-md-6">
-                                              <div class="md-form mb-0">
-                                                  <input type="text" id="name" name="name" class="form-control">
-                                                  <label for="name" class="">Your name</label>
-                                              </div>
-                                          </div>
-                                          <!--Grid column-->
-
-                                          <!--Grid column-->
-                                          <div class="col-md-6">
-                                              <div class="md-form mb-0">
-                                                  <input type="text" id="email" name="email" class="form-control">
-                                                  <label for="email" class="">Your email</label>
-                                              </div>
-                                          </div>
-                                          <!--Grid column-->
-
-                                      </div>
-                                      <!--Grid row-->
-
-                                      <!--Grid row-->
-                                      <div class="row">
-                                          <div class="col-md-12">
-                                              <div class="md-form mb-0">
-                                                  <input type="text" id="subject" name="subject" class="form-control">
-                                                  <label for="subject" class="">Subject</label>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <!--Grid row-->
-
-                                      <!--Grid row-->
-                                      <div class="row">
-
-                                          <!--Grid column-->
-                                          <div class="col-md-12">
-
-                                              <div class="md-form">
-                                                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                                                  <label for="message">Your message</label>
-                                              </div>
-
-                                          </div>
-                                      </div>
-                                      <!--Grid row-->
-
-                                  </form>
-
-                                  <div class="text-center text-md-left">
-                                      <a class="btn btn-primary" onclick="validateForm();">Send</a>
-                                      <script type="text/javascript">
-                                      function validateForm() {
-                                        var name =  document.getElementById('name').value;
-                                        if (name == "") {
-                                            document.querySelector('.status').innerHTML = "Name cannot be empty";
-                                            return false;
-                                        }
-                                        var email =  document.getElementById('email').value;
-                                        if (email == "") {
-                                            document.querySelector('.status').innerHTML = "Email cannot be empty";
-                                            return false;
-                                        } else {
-                                            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                                            if(!re.test(email)){
-                                                document.querySelector('.status').innerHTML = "Email format invalid";
-                                                return false;
-                                            }
-                                        }
-                                        var subject =  document.getElementById('subject').value;
-                                        if (subject == "") {
-                                            document.querySelector('.status').innerHTML = "Subject cannot be empty";
-                                            return false;
-                                        }
-                                        var message =  document.getElementById('message').value;
-                                        if (message == "") {
-                                            document.querySelector('.status').innerHTML = "Message cannot be empty";
-                                            return false;
-                                        }
-                                        document.querySelector('.status').innerHTML = "Sending...";
-                                      }
-                                        </script>
-                                  </div>
-                                  <div class="status"></div>
-                              </div>
-                              <!--Grid column-->
-
-                          </div>
-                                <div class="col-md-6 d-flex align-items-stretch">
-                                    <div class="info-wrap bg-primary w-100 p-lg-5">
-                                        <h3 class="mb-4 mt-md-4"></h3>
-                                        <div class="dbox w-100 d-flex align-items-start">
-                                            <div class="icon d-flex align-items-center justify-content-center">
-                                                <img class="icons_contact" src="assets/img/icons/noun-location-map.svg" alt="address">
-                                            </div>
-                                            <div class="text pl-3">
-                                                <p><span class="lang" key="address">Главный офис:</span><br><a>str. Columna 108, Chișinău, MD</a></p>
-                                            </div>
-                                            <div class="text pl-3">
-                                                <p><span class="lang" key="winery">Винзавод Suvorov-Vin:</span><br><a>str. Tighina 8a, Căuşeni, MD</a></p>
-                                            </div>
-                                            <div class="text pl-3">
-                                                <p><span class="lang" key="winery2">Винзавод Kazayak-Vin:</span><br><a>str. Lenin 2, s. Cazaclia, r. Gagauza, MD</a></p>
-                                            </div>
-                                        </div>
-                                        <div class="dbox w-100 d-flex align-items-center">
-                                            <div class="icon d-flex align-items-center justify-content-center">
-                                                <img class="icons_contact" src="assets/img/icons/noun-answer.svg" alt="telephone">
-                                            </div>
-                                            <div class="text pl-3">
-                                                <p><span class="lang" key="phone">Номер телефона:</span><br><a>+373 (22) 22-91-98 / 22-91-39</a></p>
-                                            </div>
-                                        </div>
-                                        <div class="dbox w-100 d-flex align-items-center">
-                                            <div class="icon d-flex align-items-center justify-content-center">
-                                                <img class="icons_contact" src="assets/img/icons/noun-email.svg" alt="email">
-                                            </div>
-                                            <div class="text pl-3">
-                                                <p><span>Email:</span><br><a>suvorovvin@driada-wine.com</a></p>
-                                            </div>
-                                        </div>
-                                        <div class="dbox w-100 d-flex align-items-center">
-                                            <div class="icon d-flex align-items-center justify-content-center">
-                                                <img class="icons_contact" src="assets/img/icons/noun-pdf.svg" alt="download">
-                                            </div>
-                                            <div class="text pl-3">
-                                                <p><span class="lang" key="presentation">Презентация компании и полный ассортимент продукции:</span><br><a class="lang" key="download" href="assets/img/Prezent_Suvorov-Vin_2020_Plus_New_Product.pdf" target="_blank"
-                                                        style="color: #B00000;">Скачать PDF</a></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </figure>
+      <div class="text-center">
+        <h2 class="section-heading lang" style="margin-bottom: 5rem;" key="contact">Контакты</h2>
+      </div>
+      <figure class="full-width">
+        <iframe src="https://snazzymaps.com/embed/243085" width="100%" height="600px" style="border:none;"></iframe>
+      </figure>
+      <figure class="full-width">
+        <div class="wrapper animated bounceInLeft">
+          <div class="company-info">
+            <ul>
+              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-location-map.svg" alt="address">Главный офис: str. Columna 108, Chișinău, MD</li>
+              <li class="margin_for_li">Винзавод Suvorov-Vin: str. Tighina 8a, Căuşeni, MD</li>
+              <li class="margin_for_li">Винзавод Kazayak-Vin: str. Lenin 2, s. Cazaclia, r. Gagauza, MD</li>
+              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-answer.svg" alt="telephone">Номер телефона: +373 (22) 22-91-98 / 22-91-39</li>
+              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-email.svg" alt="email">suvorovvin@driada-wine.com</li>
+              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-pdf.svg" alt="download">Презентация компании и полный ассортимент продукции: <a class="lang" key="download"
+                  href="assets/img/Prezent_Suvorov-Vin_2020_Plus_New_Product.pdf" target="_blank">Скачать PDF</a></li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h3 class="form-heading">Связаться с нами</h3>
+            <form>
+              <p>
+                <label>Name</label>
+                <input type="text" name="name">
+              </p>
+              <p>
+                <label>Company</label>
+                <input type="text" name="name">
+              </p>
+              <p>
+                <label>Email</label>
+                <input type="email" name="email">
+              </p>
+              <p>
+                <label>Phone Number</label>
+                <input type="text" name="phone">
+              </p>
+              <p class="full">
+                <label>Message</label>
+                <textarea name="message" rows="5"></textarea>
+                <p>
+                  <button class="full">Submit</button>
+                </p>
+              </p>
+            </form>
+          </div>
         </div>
+      </figure>
     </section>
     <!-- Footer-->
     <footer class="footer">

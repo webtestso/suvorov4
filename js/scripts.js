@@ -54,6 +54,8 @@
       });
     });
 
+    // Contact Form
+
     // Swiper
 
     const swiper = new Swiper('.image-slider', {

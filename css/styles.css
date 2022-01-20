@@ -10635,9 +10635,15 @@ img::-moz-selection {
   margin-left: -25px;
 }
 
+.margin_for_li_more {
+  margin-bottom: 10px;
+  margin-left: 40px;
+}
+
 .download_pdf {
   color: #B00000;
-  font-weight: 500;
+  display: flex;
+  justify-content: center;
 }
 
 .contact form {

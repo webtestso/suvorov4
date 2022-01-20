@@ -391,26 +391,32 @@
           </div>
           <div class="contact">
             <h3 class="form-heading">Связаться с нами</h3>
-            <form>
+            <form id="contact-form" method="post" action="contact.php" role="form">
+              <div class="messages"></div>
               <p>
-                <label>Name<span style="color:#ff0000; margin-left:5px;">*</span></label>
-                <input type="text" name="name">
+                <label for="form_name">Name<span style="color:#ff0000; margin-left:5px;">*</span></label>
+                <input id="form_name" type="text" name="name" required="required" data-error="Name is required">
+                <div class="help-block with-errors"></div>
               </p>
               <p>
-                <label>Company<span style="color:#ff0000; margin-left:5px;">*</span></label>
-                <input type="text" name="company">
+                <label for="form_lastname">Company<span style="color:#ff0000; margin-left:5px;">*</span></label>
+                <input id="form_lastname" type="text" name="company" required="required" data-error="Company name is required">
+                <div class="help-block with-errors"></div>
               </p>
               <p>
-                <label>Email<span style="color:#ff0000; margin-left:5px;">*</span></label>
-                <input type="email" name="email">
+                <label for="form_email">Email<span style="color:#ff0000; margin-left:5px;">*</span></label>
+                <input id="form_email" type="email" name="email" required="required" data-error="Valid email is required">
+                <div class="help-block with-errors"></div>
               </p>
               <p>
-                <label>Phone Number<span style="color:#ff0000; margin-left:5px;">*</span></label>
-                <input type="text" name="phone">
+                <label for="form_need">Phone Number<span style="color:#ff0000; margin-left:5px;">*</span></label>
+                <input id="form_need" type="tel" name="phone" required="required" data-error="Phone number is required">
+                <div class="help-block with-errors"></div>
               </p>
               <p class="full">
-                <label>Message<span style="color:#ff0000; margin-left:5px;">*</span></label>
-                <textarea name="message" rows="5"></textarea>
+                <label for="form_message">Message<span style="color:#ff0000; margin-left:5px;">*</span></label>
+                <textarea id="form_message" name="message" rows="5" required="required" data-error="Please, leave us a message"></textarea>
+                <div class="help-block with-errors"></div>
                 <p>
                   <button class="full">Submit</button>
                 </p>

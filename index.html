@@ -426,8 +426,8 @@
           </div>
           <div class="contact">
             <h3 class="form-heading">Связаться с нами</h3>
+            <h4 class="sent-notification"></h4>
             <form id="myForm">
-              <h4 class="sent-notification"></h4>
               <p>
                 <label>Name<span style="color:#ff0000; margin-left:5px;">*</span></label>
                 <input id="name" type="text" name="name">
@@ -443,6 +443,12 @@
               <p class="full">
                 <label>Message<span style="color:#ff0000; margin-left:5px;">*</span></label>
                 <textarea id="body" name="message" rows="5"></textarea>
+                <div class="contain">
+                  <input type="text" id="capt" readonly="readonly">
+                  <div id="refresh"> <img src="refresh.png" width="50px" onclick="cap()"></div>
+                  <input type="text" id="textinput" placeholder="Captcha verify" required>
+                  <button onclick="validcap()">Check</button>
+                </div>
                 <p>
                   <button class="full" onclick="sendEmail()" value="Send An Email">Submit</button>
                 </p>

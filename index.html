@@ -475,14 +475,16 @@
               <p class="full">
                 <label>Message<span style="color:#ff0000; margin-left:5px;">*</span></label>
                 <textarea id="body" name="message" rows="5"></textarea>
-                <input type="text" id="capt" readonly="readonly">
-                <div id="refresh"> <img src="assets/img/icons/refresh.png" alt="refresh" width="50px" onclick="cap()"></div>
-                <input type="text" id="textinput" placeholder="Captcha verify" required>
-                <button onclick="validcap()">Check</button>
+              </p>
+                <div class="contain">
+                  <input type="text" id="capt" readonly="readonly">
+                  <div id="refresh"> <img src="assets/img/icons/refresh.png" alt="refresh" width="50px" onclick="cap()"></div>
+                  <input type="text" id="textinput" placeholder="Captcha verify" required>
+                  <button onclick="validcap()">Check</button>
+                </div>
                 <p>
                   <button class="full" onclick="sendEmail()" value="Send An Email">Submit</button>
                 </p>
-              </p>
             </form>
           </div>
         </div>

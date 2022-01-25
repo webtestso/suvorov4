@@ -480,11 +480,8 @@
                   <input type="text" id="capt" readonly="readonly">
                   <div id="refresh"> <img src="assets/img/icons/refresh.png" alt="refresh" width="50px" onclick="cap()"></div>
                   <input type="text" id="textinput" placeholder="Captcha verify" required>
-                  <button type="button" onclick="validcap()">Check</button>
+                  <button onclick="validcap()" onclick="sendEmail()">Check</button>
                 </div>
-                <p>
-                  <button class="full" onclick="sendEmail()" value="Send An Email">Submit</button>
-                </p>
             </form>
           </div>
         </div>

@@ -6,7 +6,6 @@
         $email = $_POST['email'];
         $subject = $_POST['subject'];
         $body = $_POST['body'];
-        $textinput = $_POST['textinput'];
 
         require_once "PHPMailer/PHPMailer.php";
         require_once "PHPMailer/SMTP.php";

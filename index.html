@@ -59,36 +59,84 @@
           }
       </script>
       <script type="text/javascript">
-		function cap() {
+      function captchaCode() {
+        var Numb1, Numb2, Numb3, Numb4, Code;
+        Numb1 = (Math.ceil(Math.random() * 10)-1).toString();
+        Numb2 = (Math.ceil(Math.random() * 10)-1).toString();
+        Numb3 = (Math.ceil(Math.random() * 10)-1).toString();
+        Numb4 = (Math.ceil(Math.random() * 10)-1).toString();
 
-			var alpha=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V'
-			           ,'W','X','Y','Z','1','2','3','4','5','6','7','8','9','0','a','b','c','d','e','f','g','h','i',
-			           'j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
+        Code = Numb1 + Numb2 + Numb3 + Numb4;
+        $("#captcha span").remove();
+        $("#captcha input").remove();
+        $("#captcha").append("<span id='code'>" + Code + "</span><input type='button' onclick='captchaCode();'>");
+      }
 
-			var a=alpha[Math.floor(Math.random()*62)];
-			var b=alpha[Math.floor(Math.random()*62)];
-			var c=alpha[Math.floor(Math.random()*62)];
-			var d=alpha[Math.floor(Math.random()*62)];
-			var e=alpha[Math.floor(Math.random()*62)];
-			var f=alpha[Math.floor(Math.random()*62)];
+      $(function() {
+        captchaCode();
 
-			var sum=a + b + c + d + e + f;
+        $('#contactForm').submit(function(){
+          var captchaVal = $("#code").text();
+          var captchaCode = $(".captcha").val();
+          if (captchaVal == captchaCode) {
+            $(".captcha").css({
+              "color" : "#609D29"
+            });
+          }
+          else {
+            $(".captcha").css({
+              "color" : "#CE3B46"
+            });
+          }
 
-			document.getElementById("capt").value=sum;
-		}
+          var emailFilter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,10})+$/;
+          var emailText = $(".email").val();
+          if (emailFilter.test(emailText)) {
+            $(".email").css({
+              "color" : "#609D29"
+            });
+          }
+          else {
+            $(".email").css({
+              "color" : "#CE3B46"
+            });
+          }
 
-		function validcap() {
-			var string1 = document.getElementById('capt').value;
-			var string2 = document.getElementById('textinput').value;
-			if (string1 == string2){
-				alert("Form is validated Succesfully");
-				return true;
-			}
-			else {
-				alert("Please enter a valid captcha");
-				return false;
-			}
-		}
+          var nameFilter = /^([a-zA-Z \t]{3,15})+$/;
+          var nameText = $(".name").val();
+          if (nameFilter.test(nameText)) {
+            $(".name").css({
+              "color" : "#609D29"
+            });
+          }
+          else {
+            $(".name").css({
+              "color" : "#CE3B46"
+            });
+          }
+
+          var messageText = $(".message").val().length;
+          if (messageText > 50) {
+            $(".message").css({
+              "color" : "#609D29"
+            });
+          }
+          else {
+            $(".message").css({
+              "color" : "#CE3B46"
+            });
+          }
+
+          if ((captchaVal !== captchaCode) || (!emailFilter.test(emailText)) || (!nameFilter.test(nameText)) || (messageText < 50)) {
+            return false;
+          }
+          if ((captchaVal == captchaCode) && (emailFilter.test(emailText)) && (nameFilter.test(nameText)) && (messageText > 50)) {
+            $("#contactForm").css("display", "none");
+            $("#form").append("<h2>Message sent!</h2>");
+            return false;
+          }
+        });
+      });
 	</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
@@ -478,15 +526,10 @@
                 <label>Message<span style="color:#ff0000; margin-left:5px;">*</span></label>
                 <textarea id="body" name="message" rows="5" required></textarea>
               </p>
-              <div class="contain">
-                <input type="text" id="capt" readonly="readonly">
-                <div id="refresh"> <img src="assets/img/icons/refresh.png" alt="refresh" width="50px" onclick="cap()"></div>
-
-                <input type="text" id="textinput" placeholder="Refresh to type Captcha" required>
-                <button type="button" onclick="validcap()">Check</button>
-              </div>
+              <span id="captcha"></span>
+              <input type="text" name="captcha" class="captcha" maxlength="4" size="4" placeholder="Enter captcha code" />
                 <p>
-                  <button class="full" onclick="sendEmail()" onclick="validcap()" value="Send An Email">Submit</button>
+                  <button class="full submit" onclick="sendEmail()" value="Send An Email">Submit</button>
                 </p>
             </form>
           </div>

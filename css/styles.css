@@ -10714,7 +10714,6 @@ img::-moz-selection {
 .contain {
   display: flex;
   justify-content: center;
-  margin-top: 100px;
 }
 
 #capt {
@@ -10722,10 +10721,7 @@ img::-moz-selection {
 }
 
 #refresh {
-  float: left;
-  background-color: #2C31CF;
   height: 82px;
-  border-radius: 0 5px 5px 0;
 }
 
 #refresh img {

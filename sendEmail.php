@@ -5,7 +5,8 @@
         $name = $_POST['name'];
         $email = $_POST['email'];
         $subject = $_POST['subject'];
-        $body = $_POST['body'];
+        $body = $_POST['form_message'];
+        $phone = $_POST['phone'];
 
         require_once "PHPMailer/PHPMailer.php";
         require_once "PHPMailer/SMTP.php";
@@ -17,15 +18,15 @@
         $mail->isSMTP();
         $mail->Host = "mail.suvorov-vin.md";
         $mail->SMTPAuth = true;
-        $mail->Username = "alexandr.neruh@suvorov-vin.md"; //enter you email address
-        $mail->Password = 'w$d38lA0'; //enter you email password
+        $mail->Username = "alexandr.neruh@suvorov-vin.md";
+        $mail->Password = 'Tx9nm88$';
         $mail->Port = 465;
         $mail->SMTPSecure = "ssl";
 
         //Email Settings
         $mail->isHTML(true);
         $mail->setFrom($email, $name);
-        $mail->addAddress("alexandr.neruh@suvorov-vin.md"); //enter you email address
+        $mail->addAddress("alexandr.neruh@suvorov-vin.md");
         $mail->Subject = ("$email ($subject)");
         $mail->Body = $body;
 

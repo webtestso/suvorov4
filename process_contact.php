@@ -1,8 +1,8 @@
 <?php
 // require ReCaptcha class
 require('recaptcha/src/autoload.php');
-$from_email = '<alexandr.neruh@suvorov-vin.md>';
-$send_to_email = '<alexandr.neruh@suvorov-vin.md>';
+$from_email = '<justanotherreality@hotmail.com>';
+$send_to_email = '<justanotherreality@hotmail.com>';
 $subject = 'New message from contact form';
 $form_fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
 $mail_send_suceess = 'Contact form successfully submitted. Thank you, I will get back to you soon!';

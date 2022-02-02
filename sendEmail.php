@@ -19,7 +19,7 @@
         $mail->Host = "mail.suvorov-vin.md";
         $mail->SMTPAuth = true;
         $mail->Username = "alexandr.neruh@suvorov-vin.md";
-        $mail->Password = 'Tx9nm88$';
+        $mail->Password = '';
         $mail->Port = 465;
         $mail->SMTPSecure = "ssl";
 

@@ -58,8 +58,8 @@
 
     const swiper = new Swiper('.image-slider', {
         navigation: {
-            nextEl: '#button-next-relacionados"',
-            prevEl: '#button-prev-relacionados'
+            nextEl: '.swiper-button-next"',
+            prevEl: '.swiper-button-prev'
         },
         slidesPerView: 4,
         watchOverflow: true,

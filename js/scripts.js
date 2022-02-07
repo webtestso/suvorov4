@@ -83,8 +83,6 @@
         slidesPerColumn: 1
     });
 
-    document.getElementsByTagName("TOP")[0].removeAttribute(".swiper-button-next, .swiper-button-prev");
-
     new Swiper('.header-slider', {
         slidesPerView: 1,
         slidesPerGroup: 1,

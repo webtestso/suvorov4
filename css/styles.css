@@ -10840,7 +10840,7 @@ img::-moz-selection {
 } */
 
 .swiper-button-next {
-  background-image: url(assets/img/icons/noun-next.png);
+  background-image: url("assets/img/icons/noun-next.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -10851,7 +10851,7 @@ img::-moz-selection {
 }
 
 .swiper-button-prev {
-  background-image: url(assets/img/icons/noun-back.png);
+  background-image: url("assets/img/icons/noun-back.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;

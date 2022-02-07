@@ -84,6 +84,10 @@
     });
 
     new Swiper('.header-slider', {
+      navigation: {
+          nextEl: '.swiper-button-next-header',
+          prevEl: '.swiper-button-prev-header'
+      },
         slidesPerView: 1,
         slidesPerGroup: 1,
         speed: 2000,

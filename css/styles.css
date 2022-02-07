@@ -10852,7 +10852,7 @@ img::-moz-selection {
 
 .swiper-button-next, .swiper-button-prev {
   margin-top: -340px !important;
-  top: none !important;
+  top: inherit !important;
 }
 
 .header-images-wines {

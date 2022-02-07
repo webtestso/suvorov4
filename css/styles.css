@@ -10840,6 +10840,20 @@ img::-moz-selection {
     font-size: 80px;
 }
 
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: 30px;
+  left: auto;
+}
+
+.swiper-button-prev, .swiper-rtl .swiper-button-next {
+  left: 30px;
+  right: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  margin-top: -340px;
+}
+
 .header-images-wines {
   width: 100%;
 }

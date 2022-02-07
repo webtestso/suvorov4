@@ -58,8 +58,8 @@
 
     const swiper = new Swiper('.image-slider', {
         navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev'
+            nextEl: '#button-next-relacionados"',
+            prevEl: '#button-prev-relacionados'
         },
         slidesPerView: 4,
         watchOverflow: true,
@@ -84,10 +84,6 @@
     });
 
     new Swiper('.header-slider', {
-      navigation: {
-          nextEl: '.swiper-button-next-header',
-          prevEl: '.swiper-button-prev-header'
-      },
         slidesPerView: 1,
         slidesPerGroup: 1,
         speed: 2000,

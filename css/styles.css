@@ -10868,10 +10868,7 @@ img::-moz-selection {
 
 .image-slider-bottles {
   height: 510px;
-}
-
-.swiper-slide {
-  outline: none;
+  outline: none !important;
 }
 
 /* Tabs for Swiper */

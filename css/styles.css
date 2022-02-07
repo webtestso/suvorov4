@@ -10136,6 +10136,7 @@ img::-moz-selection {
     font-size: 1rem;
     color: #1B1717;
     border: 0;
+    outline: none !important;
 }
 
 #mainNav .navbar-brand {
@@ -10833,32 +10834,10 @@ img::-moz-selection {
 
 /* SWIPER */
 
-/* .image-slider .swiper-button-next::after,
+.image-slider .swiper-button-next::after,
 .image-slider .swiper-button-prev::after {
     color: #B00000;
     font-size: 80px;
-} */
-
-.swiper-button-next {
-  background-image: url("assets/img/icons/noun-next.png");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center;
-}
-
-.swiper-button-next::after {
-  display: none;
-}
-
-.swiper-button-prev {
-  background-image: url("assets/img/icons/noun-back.png");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center;
-}
-
-.swiper-button-prev::after {
-  display: none;
 }
 
 .header-images-wines {

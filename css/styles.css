@@ -10832,12 +10832,6 @@ img::-moz-selection {
     color: #882935;
 }
 
-/* No blue lines */
-
-button:not(:disabled), [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled) {
-  outline: none;
-}
-
 /* SWIPER */
 
 .image-slider .swiper-button-next::after,

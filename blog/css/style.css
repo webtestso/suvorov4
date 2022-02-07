@@ -4249,6 +4249,7 @@ input[type="button"].btn-block {
   background: transparent;
   border: none;
   margin-left: 12px;
+  outline: none !important;
 }
 
 /* NOAH */

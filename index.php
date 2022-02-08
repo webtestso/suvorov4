@@ -66,40 +66,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js"></script>
-    <script>
-    $(document).ready(function (e){
-      $("#frmContact").on('submit',(function(e){
-        e.preventDefault();
-        $("#mail-status").hide();
-        $('#send-message').hide();
-        $('#loader-icon').show();
-        $.ajax({
-          url: "contact.php",
-          type: "POST",
-          dataType:'json',
-          data: {
-          "name":$('input[name="name"]').val(),
-          "email":$('input[name="email"]').val(),
-          "phone":$('input[name="phone"]').val(),
-          "content":$('textarea[name="content"]').val(),
-          "g-recaptcha-response":$('textarea[id="g-recaptcha-response"]').val()},
-          success: function(response){
-          $("#mail-status").show();
-          $('#loader-icon').hide();
-          if(response.type == "error") {
-            $('#send-message').show();
-            $("#mail-status").attr("class","error");
-          } else if(response.type == "message"){
-            $('#send-message').hide();
-            $("#mail-status").attr("class","success");
-          }
-          $("#mail-status").html(response.text);
-          },
-          error: function(){}
-        });
-      }));
-    });
-    </script>
     <!-- Preloader -->
     <script src="js/queryloader2.min.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -456,34 +422,39 @@
         </div>
       </div>
           </div>
-          <div class="content">
-        		<h1>Contact Form</h1>
-        		<p>Send your comments through this form and we will get back to you. </p>
-        		<div id="message">
-        		<form id="frmContact" action="" method="POST" novalidate="novalidate">
-        			<div class="label">Name:</div>
-        			<div class="field">
-        				<input type="text" id="name" name="name" placeholder="enter your name here" title="Please enter your name" class="required" aria-required="true" required>
-        			</div>
-        			<div class="label">Email:</div>
-        			<div class="field">
-        				<input type="text" id="email" name="email" placeholder="enter your email address here" title="Please enter your email address" class="required email" aria-required="true" required>
-        			</div>
-        			<div class="label">Phone Number:</div>
-        			<div class="field">
-        				<input type="text" id="phone" name="phone" placeholder="enter your phone number here" title="Please enter your phone number" class="required phone" aria-required="true" required>
-        			</div>
-        			<div class="label">Comments:</div>
-        			<div class="field">
-        				<textarea id="comment-content" name="content" placeholder="enter your comments here"></textarea>
-        			</div>
-        			<div class="g-recaptcha" data-sitekey="<?php echo SITE_KEY; ?>"></div>
-        			<div id="mail-status"></div>
-        			<button type="Submit" id="send-message" style="clear:both;">Send Message</button>
-        		</form>
-        		<div id="loader-icon" style="display:none;"><img src="assets/img/icons/refresh.png" /></div>
-        		</div>
-        	</div>
+          <?php
+// Include form submission script
+include_once 'submit.php';
+?>
+          <!-- Status message -->
+          <?php if(!empty($statusMsg)){ ?>
+              <div class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
+          <?php } ?>
+
+          <!-- Contact form fields -->
+          <form action="" method="post" class="cnt-form">
+              <div class="form-input">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" placeholder="Enter your name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" required="">
+              </div>
+              <div class="form-input">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" placeholder="Enter your email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" required="">
+              </div>
+              <div class="form-input">
+                  <label for="subject">Subject</label>
+                  <input type="text" name="subject" placeholder="Enter subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" required="">
+              </div>
+              <div class="form-input">
+                  <label for="message">Message</label>
+                  <textarea name="message" placeholder="Type your message here" required=""><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
+              </div>
+              <div class="form-input">
+                  <!-- Google reCAPTCHA box -->
+                  <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
+              </div>
+              <input type="submit" name="submit" class="btn" value="Submit">
+          </form>
         </div>
       </figure>
     </section>

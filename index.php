@@ -423,59 +423,45 @@
         </div>
       </div>
           </div>
-          // Form submission script
-          include_once 'form-submit.php';
+          <div class="container mt-5">
 
-          // Print form errors
-          if(!empty($errors)) {
-          echo "<ul class="errors">";
-            foreach($errors as $error) {
-            echo "<li>".$error."</li>";
-            }
-            echo "</ul>";
-          }
-
-          //Print success message
-          if(!empty($response)) {
-          echo "<ul class="success">";
-            foreach($response as $res) {
-            echo "<li>".$res."</li>";
-            }
-            echo "</ul>";
-          }
-          <form id="form-id" class="form-class" method="post" action="">
-            <div class="form-group">
-              <label for="name" class="label">Full name</label>
-              <div class="input-group">
-                <input type="text" id="name" name="name" class="form-control" required>
+            <h2>Implement Google reCAPTCHA in PHP Contact Form</h2>
+            <?php include('scripts/form.php'); ?>
+            <!-- Error messages -->
+            <?php if(!empty($response)) {?>
+            <div class="form-group col-12 text-center">
+              <div class="alert text-center <?php echo $response['status']; ?>">
+                <?php echo $response['message']; ?>
               </div>
             </div>
-            <div class="form-group">
-              <label for="email" class="label">Email</label>
-              <div class="input-group">
-                <input type="email" id="email" name="email" class="form-control" required>
+            <?php }?>
+            <!-- Contact form -->
+            <form action="" name="contactForm" id="contactForm" method="post" enctype="multipart/form-data" novalidate>
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" name="name" id="name">
               </div>
-            </div>
-            <div class="form-group">
-              <label for="subject" class="label">Company name</label>
-              <div class="input-group">
-                <input type="text" id="subject" name="subject" class="form-control" required>
+              <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" name="email" id="email">
               </div>
-            </div>
-            <div class="form-group">
-              <label for="message" class="label">Message</label>
-              <div class="input-group">
-                <textarea id="message" name="message" class="form-control" rows="6" maxlength="3000" required></textarea>
+              <div class="form-group">
+                <label>Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject">
               </div>
-            </div>
-            <div class="form-group">
-              <!-- Google reCAPTCHA block -->
-              <div class="g-recaptcha" data-sitekey="6LdWmkEeAAAAADMiZOJIrEPEhRRPVV18p9e0tv3Z"></div>
-            </div>
-            <div class="form-group">
-              <button type="submit" name="submit" id="button" class="btn btn-primary btn-lg btn-block">Send</button>
-            </div>
-          </form>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" rows="4" name="message" id="message"></textarea>
+              </div>
+              <div class="form-group">
+                <!-- Google reCAPTCHA block -->
+                <div class="g-recaptcha" data-sitekey="6LdcoGYeAAAAAGTTFWKcvw5LwkpHLSUkHzti-UoZ"></div>
+              </div>
+              <div class="form-group">
+                <input type="submit" name="send" value="Send" class="btn btn-dark btn-block">
+              </div>
+            </form>
+          </div>
         </div>
       </figure>
     </section>

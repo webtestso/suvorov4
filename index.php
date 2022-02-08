@@ -423,7 +423,6 @@
         </div>
       </div>
           </div>
-          <?php
           // Form submission script
           include_once 'form-submit.php';
 
@@ -444,7 +443,6 @@
             }
             echo "</ul>";
           }
-          ?>
           <form id="form-id" class="form-class" method="post" action="">
             <div class="form-group">
               <label for="name" class="label">Full name</label>

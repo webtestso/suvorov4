@@ -16,7 +16,7 @@
                 // Decode JSON data
                 $response = json_decode($verifyResponse);
                     if($response->success){
-                        $toMail = "justanotherreality@hotmail.com";
+                        $toMail = "alcomarketcz@gmail.com";
                         $header = "From: " . $name . "<". $email .">\r\n";
                         mail($toMail, $subject, $message, $header);
                         $response = array(

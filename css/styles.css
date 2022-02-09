@@ -10598,10 +10598,6 @@ img::-moz-selection {
     line-height: 28px;
 }
 
-.counter-box.colored {
-    background: #B00000;
-}
-
 .counter-box.colored p,
 .counter-box.colored i,
 .counter-box.colored .counter {
@@ -10716,7 +10712,7 @@ img::-moz-selection {
 .icon-btn {
     height: 85px;
     width: 85px;
-    font-size: 50px;
+    font-size: 60px;
     border: 0;
     cursor: pointer;
     line-height: 85px;
@@ -10816,6 +10812,7 @@ img::-moz-selection {
 .swiper-button-next, .swiper-button-prev {
   margin-top: -340px !important;
   top: inherit !important;
+  outline: none !important;
 }
 
 .header-images-wines {

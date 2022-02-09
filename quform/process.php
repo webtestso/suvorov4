@@ -171,8 +171,8 @@ $config['uploadUrl'] = '';
 $config['smtp'] = array(
     'host' => 'mail.suvorov-vin.md',
     'port' => 465,
-    'username' => 'alexandr.neruh@suvorov-vin.md',
-    'password' => 'Tx9nm88$',
+    'username' => 'contact.form@suvorov-vin.md',
+    'password' => '1p$isS69',
     'encryption' => 'ssl'
 );
 

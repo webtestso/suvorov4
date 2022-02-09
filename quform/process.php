@@ -1,7 +1,5 @@
 <?php
 
-// This is Google ReCaptcha v2
-
 $recaptcha = new Quform_Element('g-recaptcha-response', 'reCAPTCHA');
 $recaptcha->addValidator('required');
 $recaptcha->addValidator('recaptcha', array('secretKey' => '6LdcoGYeAAAAAAJ7HR1pY5cU_7JnkZEb46IbsTTS'));

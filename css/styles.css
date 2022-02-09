@@ -10753,14 +10753,6 @@ img::-moz-selection {
     color: #FEFBF3;
 }
 
-.facebook:hover {
-    background-color: #B00000;
-}
-
-.instagram:hover {
-    background-color: #B00000;
-}
-
 /* More, Less info */
 
 .btn_more_less {

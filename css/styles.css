@@ -10716,6 +10716,7 @@ img::-moz-selection {
 .icon-btn {
     height: 85px;
     width: 85px;
+    font-size: 50px;
     border: 0;
     cursor: pointer;
     line-height: 85px;
@@ -10736,11 +10737,11 @@ img::-moz-selection {
     }
 }
 
-.facebook {
+.fa-facebook {
     color: #3B5998;
 }
 
-.instagram {
+.fa-instagram {
     color: #5C3D2E;
 }
 
@@ -10750,13 +10751,12 @@ img::-moz-selection {
 }
 
 .facebook:hover {
-    background-color: #3B5998;
+    background-color: #B00000;
 }
 
 .instagram:hover {
-    background-color: #5C3D2E;
+    background-color: #B00000;
 }
-
 
 /* More, Less info */
 

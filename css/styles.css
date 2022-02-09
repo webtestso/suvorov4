@@ -10720,6 +10720,7 @@ img::-moz-selection {
     border: 0;
     cursor: pointer;
     line-height: 85px;
+    border-radius: 50%;
     transition: ease-in-out .3s;
     margin-left: 30px;
     background-color: transparent;
@@ -10729,9 +10730,11 @@ img::-moz-selection {
     .icon-btn {
         height: 85px;
         width: 85px;
+        font-size: 50px;
         border: 0;
         cursor: pointer;
         line-height: 85px;
+        border-radius: 50%;
         transition: ease-in-out .3s;
         background-color: transparent;
     }

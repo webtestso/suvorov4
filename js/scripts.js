@@ -109,8 +109,6 @@
 
     });
 
-    // Contact
-
     // Languages
 
     document.addEventListener('DOMContentLoaded', getLocalLang)

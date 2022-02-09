@@ -14,7 +14,7 @@
     <!-- Font Awesome icons-->
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function() {
             $('.content_toggle').click(function() {
@@ -372,7 +372,6 @@
               <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-email.svg" alt="email"> Email: suvorovvin@driada-wine.com</li>
               <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-pdf.svg" alt="download">Презентация компании и полный ассортимент продукции: <br>
               <a class="download_pdf" href="assets/img/Prezent_Suvorov-Vin_2020_Plus_New_Product.pdf" target="_blank">Скачать PDF</a></li>
-
             </ul>
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -387,22 +386,16 @@
         </div>
       </div>
           </div>
-					<!-- To copy the form HTML, start here -->
 					<div class="quform-outer quform-theme-light-light">
 						<form class="quform" action="quform/process.php" method="post" enctype="multipart/form-data">
-
 							<div class="quform-inner">
 								<h3 class="quform-title">Contact form</h3>
 								<p class="quform-description">Please get in touch using the form below</p>
-
 								<div class="quform-elements">
-
 									<!-- Begin 2 column Group -->
 									<div class="quform-group-wrap quform-group-style-plain quform-group-alignment-left">
 										<div class="quform-group-elements">
-
 											<div class="quform-group-row quform-group-row-2cols">
-
 												<!-- Begin Text input element -->
 												<div class="quform-element quform-element-text">
 													<div class="quform-spacer">
@@ -413,7 +406,6 @@
 													</div>
 												</div>
 												<!-- End Text input element -->
-
 												<!-- Begin Text input element -->
 												<div class="quform-element quform-element-text">
 													<div class="quform-spacer">
@@ -424,13 +416,10 @@
 													</div>
 												</div>
 												<!-- End Text input element -->
-
 											</div>
-
 										</div>
 									</div>
 									<!-- End 2 column Group -->
-
 									<!-- Begin Textarea element -->
 									<div class="quform-element quform-element-textarea quform-full-width">
 										<div class="quform-spacer">
@@ -441,7 +430,6 @@
 										</div>
 									</div>
 									<!-- End Textarea element -->
-
 									<!-- Begin Captcha element -->
 									<div class="quform-element quform-element-recaptcha">
 									    <div class="quform-spacer">
@@ -453,7 +441,6 @@
 									    </div>
 									</div>
 									<!-- End Captcha element -->
-
 									<!-- Begin Submit button -->
 									<div class="quform-submit">
 										<div class="quform-submit-inner">
@@ -466,7 +453,6 @@
 							</div>
 						</form>
 					</div>
-					<!-- To copy the form HTML, end here -->
         </div>
       </figure>
     </section>
@@ -723,8 +709,8 @@
   </div>
   <!-- Third party plugin JS-->
   <script src="js/scripts.js"></script>
-	<script type="text/javascript" src="quform/js/plugins.js"></script>
-  <script type="text/javascript" src="quform/js/scripts.js"></script>
+	<script src="quform/js/plugins.js"></script>
+  <script src="quform/js/scripts.js"></script>
 	<script>
 		window.QuformRecaptchaLoaded = function() {
 			if (window.grecaptcha && window.jQuery) {

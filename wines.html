@@ -34,6 +34,8 @@
     <link href="css/demo.css" rel="stylesheet">
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="quform/css/base.css" />
+    <link rel="stylesheet" href="quform/themes/light/light.css" />
 </head>
 
 <body id="page-top">
@@ -668,61 +670,102 @@
         <div class="wrapper animated bounceInLeft">
           <div class="company-info">
             <ul>
-              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-location-map.svg" alt="address">Главный офис: str. Columna 108, Chișinău, MD</li>
-              <li class="margin_for_li">Винзавод Suvorov-Vin: str. Tighina 8a, Căuşeni, MD</li>
-              <li class="margin_for_li">Винзавод Kazayak-Vin: str. Lenin 2, s. Cazaclia, r. Gagauza, MD</li>
-              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-answer.svg" alt="telephone">Номер телефона: +373 (22) 22-91-98 / 22-91-39</li>
-              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-email.svg" alt="email">suvorovvin@driada-wine.com</li>
-              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-pdf.svg" alt="download">Презентация компании и полный ассортимент продукции: <a class="lang" key="download"
-                  href="assets/img/Prezent_Suvorov-Vin_2020_Plus_New_Product.pdf" target="_blank">Скачать PDF</a></li>
+              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-location-map.svg" alt="address"> Главный офис: str. Columna 108, Chișinău, MD</li>
+              <li class="margin_for_li_more"> Винзавод Suvorov-Vin: str. Tighina 8a, Căuşeni, MD</li>
+              <li class="margin_for_li_more"> Винзавод Kazayak-Vin: str. Lenin 2, s. Cazaclia, r. Gagauza, MD</li>
+              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-answer.svg" alt="telephone"> Номер телефона: +373 (22) 22-91-98 / 22-91-39</li>
+              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-email.svg" alt="email"> Email: suvorovvin@driada-wine.com</li>
+              <li class="margin_for_li"><img class="icons_contact" src="assets/img/icons/noun-pdf.svg" alt="download">Презентация компании и полный ассортимент продукции: <br>
+              <a class="download_pdf" href="assets/img/Prezent_Suvorov-Vin_2020_Plus_New_Product.pdf" target="_blank">Скачать PDF</a></li>
             </ul>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <button class="icon-btn facebook">
+            <a class="link" href="https://www.facebook.com/KazayakWinery/" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <button class="icon-btn instagram">
+              <a class="link" href="https://www.instagram.com/kazayakvin/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+        </div>
+      </div>
           </div>
-          <div class="contact">
-            <h3 class="form-heading">Связаться с нами</h3>
-            <form>
-              <p>
-                <label>Name</label>
-                <input type="text" name="name">
-              </p>
-              <p>
-                <label>Company</label>
-                <input type="text" name="name">
-              </p>
-              <p>
-                <label>Email</label>
-                <input type="email" name="email">
-              </p>
-              <p>
-                <label>Phone Number</label>
-                <input type="text" name="phone">
-              </p>
-              <p class="full">
-                <label>Message</label>
-                <textarea name="message" rows="5"></textarea>
-                <p>
-                  <button class="full">Submit</button>
-                </p>
-              </p>
-            </form>
-          </div>
+					<div class="quform-outer quform-theme-light-light">
+						<form class="quform" action="quform/process.php" method="post" enctype="multipart/form-data">
+							<div class="quform-inner">
+								<h3 class="quform-title">Contact form</h3>
+								<p class="quform-description">Please get in touch using the form below</p>
+								<div class="quform-elements">
+									<!-- Begin 2 column Group -->
+									<div class="quform-group-wrap quform-group-style-plain quform-group-alignment-left">
+										<div class="quform-group-elements">
+											<div class="quform-group-row quform-group-row-2cols">
+												<!-- Begin Text input element -->
+												<div class="quform-element quform-element-text">
+													<div class="quform-spacer">
+														<label for="name">Full name <span class="quform-required">*</span></label>
+														<div class="quform-input">
+															<input id="name" type="text" name="name" />
+														</div>
+													</div>
+												</div>
+												<!-- End Text input element -->
+												<!-- Begin Text input element -->
+												<div class="quform-element quform-element-text">
+													<div class="quform-spacer">
+														<label for="email">Email address <span class="quform-required">*</span></label>
+														<div class="quform-input">
+															<input id="email" type="text" name="email" />
+														</div>
+													</div>
+												</div>
+												<!-- End Text input element -->
+											</div>
+										</div>
+									</div>
+									<!-- End 2 column Group -->
+									<!-- Begin Textarea element -->
+									<div class="quform-element quform-element-textarea quform-full-width">
+										<div class="quform-spacer">
+											<label for="message">Your message <span class="quform-required">*</span></label>
+											<div class="quform-input">
+												<textarea id="message" name="message" class="quform-textarea"></textarea>
+											</div>
+										</div>
+									</div>
+									<!-- End Textarea element -->
+									<!-- Begin Captcha element -->
+									<div class="quform-element quform-element-recaptcha">
+									    <div class="quform-spacer">
+									        <label>Are you human? <span class="quform-required">*</span></label>
+									        <div class="quform-input">
+									            <div class="g-recaptcha" data-sitekey="6LdcoGYeAAAAAGTTFWKcvw5LwkpHLSUkHzti-UoZ"></div>
+									            <noscript>Please enable JavaScript to submit this form</noscript>
+									        </div>
+									    </div>
+									</div>
+									<!-- End Captcha element -->
+									<!-- Begin Submit button -->
+									<div class="quform-submit">
+										<div class="quform-submit-inner">
+											<button type="submit"><span><em>Send message</em></span></button>
+										</div>
+										<div class="quform-loading-wrap"><span class="quform-loading"></span></div>
+									</div>
+									<!-- End Submit button -->
+								</div>
+							</div>
+						</form>
+					</div>
         </div>
       </figure>
     </section>
     <!-- Footer-->
     <footer class="footer">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-6-lg social">
-                    <button class="icon-btn facebook">
-            <a class="link" href="https://www.facebook.com/KazayakWinery/" target="_blank">
-              <img class="icons_contact" src="assets/img/icons/noun-facebook.svg" alt="facebook">
-            </a>
-            <button class="icon-btn instagram">
-              <a class="link" href="https://www.instagram.com/kazayakvin/" target="_blank">
-                <img class="icons_contact" src="assets/img/icons/noun-instagram.svg" alt="instagram">
-              </a>
-        </div>
-        <div class="col-lg-6 text-lg-left">Copyright © Suvorov and Kazayak 2020-2022</div>
+            <div class="row text-center">
+        <div class="col-lg-12">Copyright © Suvorov and Kazayak 2020-2022</div>
       </div>
     </div>
   </footer>
@@ -2065,7 +2108,7 @@
     </div>
   </div>
     <!-- Bootstrap core JS-->
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
   $(document).ready(function(){
     $('.content_toggle').click(function(){
@@ -2087,6 +2130,22 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+    <script src="quform/js/plugins.js"></script>
+    <script src="quform/js/scripts.js"></script>
+    <script>
+      window.QuformRecaptchaLoaded = function() {
+        if (window.grecaptcha && window.jQuery) {
+          jQuery('.g-recaptcha').each(function() {
+            var $recaptcha = jQuery(this);
+
+            if ($recaptcha.is(':empty')) {
+              $recaptcha.data('recaptcha-id', grecaptcha.render($recaptcha[0]));
+            }
+          });
+        }
+      };
+    </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=QuformRecaptchaLoaded&render=explicit" async defer></script>
 </body>
 
 </html>

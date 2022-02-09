@@ -161,7 +161,7 @@ $config['uploadUrl'] = '';
  * encryption - SMTP encryption (e.g. ssl or tls)
  */
 $config['smtp'] = array(
-    'host' => 'localhost:3306',
+    'host' => 'mail.suvorov-vin.md',
     'port' => 465,
     'username' => 'alexandr.neruh@suvorov-vin.md',
     'password' => 'Tx9nm88$',

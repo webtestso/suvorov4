@@ -215,12 +215,6 @@ $form->addElement($message);
  * Filters: Trim
  * Validators: Required, Identical
  */
-$captcha = new Quform_Element('type_the_word', 'Type the word');
-$captcha->addFilter('trim');
-$captcha->addValidator('required');
-$captcha->addValidator('identical', array('token' => 'catch'));
-$captcha->setIsHidden(true);
-$form->addElement($captcha);
 
 $recaptcha = new Quform_Element('g-recaptcha-response', 'reCAPTCHA');
 $recaptcha->addValidator('required');

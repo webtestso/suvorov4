@@ -108,8 +108,8 @@
 }
 /*Required*/
 .quform-element label span.quform-required {
-	color: #cc0101;
-	font-size: 10px;
+	color: #B00000;
+	font-size: 20px;
 }
 
 /*Default input, selects and textareas*/
@@ -139,7 +139,7 @@
 .quform-elements .quform-element-password input:focus,
 .quform-elements .quform-element select:focus,
 .quform-elements .quform-element textarea:focus
-{color: #000;}
+{color: #1B1717;}
 
 /* Helper class to increase the height on textarea */
 .quform-textarea  {
@@ -148,7 +148,7 @@
 
 /* Default Label*/
 .quform-element > label {
-	font-weight: bold;
+	font-weight: 500;
 	padding-bottom: 10px;
 	position: relative;
 	display: inline-block;
@@ -159,22 +159,22 @@
 /*Element Description*/
 .quform-element p.quform-description {
 	padding: 2px 0 0;
-	font-size: 11px;
-	line-height: 15px;
+	font-size: 1.3rem;
 	font-style: italic;
+	color: #1B1717;
 }
 
 /*Headings*/
 h3.quform-title {
-	font-size: 22px;
-	font-weight: bold;
+	font-size: 1.4rem;
+	font-weight: 500;
 	margin: 0;
 	padding-bottom: 8px;
 }
 
 /*Form Description*/
 p.quform-description {
-	font-size: 12px;
+	font-size: 1.3rem;
 	margin: 0;
 	padding-bottom: 20px;
 }
@@ -228,7 +228,7 @@ p.quform-description {
 .quform-group-title {
 	font-size: 17px;
 	line-height: 25px;
-	font-weight: bold;
+	font-weight: 500;
 	margin: 0;
 	padding-bottom: 2px;
 }
@@ -494,7 +494,7 @@ p.quform-group-description {
 	margin: 0;
 	line-height: 16px;
 	background: #F3CAC7 url('../images/error.png') no-repeat 3px center;
-	color: #000;
+	color: #1B1717;
 	font-size: 12px;
 	font-weight: normal;
 	display: inline-block;
@@ -513,14 +513,14 @@ p.quform-group-description {
 	margin: 10px 0;
 	border: 1px solid #80bb48;
 	font-weight: normal;
-	color: #000;
+	color: #1B1717;
 }
 
 /*Fixes for consistent browsing*/
 .quform-input .selector select {margin: 0!important; width: auto!important; height: 30px;}
 .quform-input .quform-element-file-inner input[type="file"] {text-shadow: none !important;}
-*:first-child+html .quform-input select {background: transparent !important; color:#000 !important;}
-*:first-child+html .quform-input select option {background: #fff !important; color:#000 !important;}
+*:first-child+html .quform-input select {background: transparent !important; color:#1B1717 !important;}
+*:first-child+html .quform-input select option {background: #fff !important; color:#1B1717 !important;}
 .quform-element-radio input[type="radio"] {background: transparent !important; border: none transparent !important;}
 .quform-element-checkbox input[type="checkbox"] {background: transparent !important; border: none transparent !important;}
 
@@ -609,7 +609,7 @@ p.quform-group-description {
 /* Form processing error  */
 .quform-error-title {
 	font-size: 13px;
-	font-weight: bold;
+	font-weight: 500;
 	color: #CC0000;
 	margin-bottom: 8px;
 }
@@ -681,7 +681,7 @@ p.quform-group-description {
 	padding: 10px 10px 10px 0;
 }
 .quform-outer-no-js .quform-error-label {
-	font-weight: bold;
+	font-weight: 500;
 	font-size: 12px;
 	margin-bottom: 2px;
 }

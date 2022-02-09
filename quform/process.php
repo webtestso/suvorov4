@@ -1,11 +1,5 @@
 <?php
 
-$recaptcha = new Quform_Element('g-recaptcha-response', 'reCAPTCHA');
-$recaptcha->addValidator('required');
-$recaptcha->addValidator('recaptcha', array('secretKey' => '6LdcoGYeAAAAAAJ7HR1pY5cU_7JnkZEb46IbsTTS'));
-$recaptcha->setIsHidden(true);
-$form->addElement($recaptcha);
-
 /**
  * Enable debug mode. Quform will try to display any fatal PHP errors or exceptions at
  * your form. It's useful to have this enabled while developing your form, but
@@ -227,6 +221,12 @@ $captcha->addValidator('required');
 $captcha->addValidator('identical', array('token' => 'catch'));
 $captcha->setIsHidden(true);
 $form->addElement($captcha);
+
+$recaptcha = new Quform_Element('g-recaptcha-response', 'reCAPTCHA');
+$recaptcha->addValidator('required');
+$recaptcha->addValidator('recaptcha', array('secretKey' => '6LdcoGYeAAAAAAJ7HR1pY5cU_7JnkZEb46IbsTTS'));
+$recaptcha->setIsHidden(true);
+$form->addElement($recaptcha);
 
 /** END FORM ELEMENT CONFIGURATION **/
 

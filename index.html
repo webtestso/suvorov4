@@ -49,6 +49,8 @@
     <link href="css/component.css" rel="stylesheet">
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="quform/css/base.css" />
+		<link rel="stylesheet" href="quform/themes/light/light.css" />
 
 </head>
 
@@ -384,6 +386,90 @@
         </div>
       </div>
           </div>
+					<!-- To copy the form HTML, start here -->
+					<div class="quform-outer quform-theme-light-light">
+						<form class="quform" action="quform/process.php" method="post" enctype="multipart/form-data">
+
+							<div class="quform-inner">
+								<h3 class="quform-title">Contact form</h3>
+								<p class="quform-description">Please get in touch using the form below</p>
+
+								<div class="quform-elements">
+
+									<!-- Begin 2 column Group -->
+									<div class="quform-group-wrap quform-group-style-plain quform-group-alignment-left">
+										<div class="quform-group-elements">
+
+											<div class="quform-group-row quform-group-row-2cols">
+
+												<!-- Begin Text input element -->
+												<div class="quform-element quform-element-text">
+													<div class="quform-spacer">
+														<label for="name">Name <span class="quform-required">*</span></label>
+														<div class="quform-input">
+															<input id="name" type="text" name="name" />
+														</div>
+													</div>
+												</div>
+												<!-- End Text input element -->
+
+												<!-- Begin Text input element -->
+												<div class="quform-element quform-element-text">
+													<div class="quform-spacer">
+														<label for="email">Email address <span class="quform-required">*</span></label>
+														<div class="quform-input">
+															<input id="email" type="text" name="email" />
+														</div>
+													</div>
+												</div>
+												<!-- End Text input element -->
+
+											</div>
+
+										</div>
+									</div>
+									<!-- End 2 column Group -->
+
+									<!-- Begin Textarea element -->
+									<div class="quform-element quform-element-textarea quform-huge">
+										<div class="quform-spacer">
+											<label for="message">Message <span class="quform-required">*</span></label>
+											<div class="quform-input">
+												<textarea id="message" name="message" class="quform-textarea"></textarea>
+											</div>
+										</div>
+									</div>
+									<!-- End Textarea element -->
+
+									<!-- Begin Captcha element -->
+									<div class="quform-element quform-element-captcha">
+										<div class="quform-spacer">
+											<label for="type_the_word">Type the word <span class="quform-required">*</span></label>
+											<div class="quform-input">
+												<input id="type_the_word" type="text" name="type_the_word" />
+											</div>
+											<div class="quform-captcha">
+												<div class="quform-captcha-inner">
+													<img src="quform/images/captcha/courier-new-light.png" alt="" />
+												</div>
+											</div>
+										</div>
+									</div>
+									<!-- End Captcha element -->
+
+									<!-- Begin Submit button -->
+									<div class="quform-submit">
+										<div class="quform-submit-inner">
+											<button type="submit"><span><em>Send</em></span></button>
+										</div>
+										<div class="quform-loading-wrap"><span class="quform-loading"></span></div>
+									</div>
+									<!-- End Submit button -->
+								</div>
+							</div>
+						</form>
+					</div>
+					<!-- To copy the form HTML, end here -->
         </div>
       </figure>
     </section>
@@ -640,6 +726,8 @@
   </div>
   <!-- Third party plugin JS-->
   <script src="js/scripts.js"></script>
+	<script type="text/javascript" src="quform/js/plugins.js"></script>
+  <script type="text/javascript" src="quform/js/scripts.js"></script>
   <script src="node_modules/wowjs/dist/wow.min.js"></script>
   <script src="js/animation-modal.js"></script>
   <script>

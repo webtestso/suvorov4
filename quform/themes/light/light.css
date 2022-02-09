@@ -11,15 +11,15 @@
 ******************************************************/
 /*Set global fonts*/
 .quform-theme-light-light {
-	color: #000;
+	color: #1B1717;
 }
 /*Form Heading*/
 .quform-theme-light-light h3.quform-title {
-	color: #000;
+	color: #1B1717;
 }
 /*Form description*/
 .quform-theme-light-light p.quform-description {
-	color: #666;
+	color: #1B1717;
 }
 
 /*****************************************************
@@ -32,7 +32,7 @@
 }
 /*Element description*/
 .quform-theme-light-light .quform-element p.quform-description {
-	color: #000;
+	color: #1B1717;
 }
 /*Default state input, selects and textareas*/
 .quform-theme-light-light .quform-elements .quform-element-text input,
@@ -59,7 +59,7 @@
 .quform-theme-light-light .quform-elements .quform-element-password input:hover,
 .quform-theme-light-light .quform-elements .quform-element select:hover,
 .quform-theme-light-light .quform-elements .quform-element textarea:hover {
-	color: #000;
+	color: #1B1717;
 	border: solid 1px #CACACA;
 }
 /*Active element*/
@@ -68,7 +68,7 @@
 .quform-theme-light-light .quform-elements .quform-element-password input:active,
 .quform-theme-light-light .quform-elements .quform-element select:active,
 .quform-theme-light-light .quform-elements .quform-element textarea:active {
-	color: #000;
+	color: #1B1717;
 }
 /*Focused element*/
 .quform-theme-light-light .quform-elements .quform-element-text input:focus,
@@ -76,7 +76,7 @@
 .quform-theme-light-light .quform-elements .quform-element-password input:focus,
 .quform-theme-light-light .quform-elements .quform-element select:focus,
 .quform-theme-light-light .quform-elements .quform-element textarea:focus {
-	color: #000;
+	color: #1B1717;
 	background: #fff url(images/input-active-bg-rep.png) repeat-x top left;
 	border: solid 1px #CACACA;
 	-webkit-box-shadow: 1px 1px 0 0 rgba(255, 255, 255, 0.4);
@@ -91,7 +91,7 @@
 /* Default Label*/
 .quform-theme-light-light .quform-element > .quform-spacer > label {
 	font-weight: bold;
-	color: #000;
+	color: #1B1717;
 	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.4);
 }
 /*Tooltip icon*/
@@ -240,12 +240,12 @@
 /*Hover*/
 .quform-theme-light-light .quform-submit button:hover em {
 	background: transparent; /*right image*/
-	color: #000;
+	color: #1B1717;
 }
 /*Active*/
 .quform-theme-light-light .quform-submit button:active em {
 	background: transparent; /*right image*/
-	color: #000;
+	color: #1B1717;
 }
 /*Loading the submit*//*You will want this float:right if the button is right*/
 .quform-theme-light-light .quform-loading-wrap {margin-top: 9px;}

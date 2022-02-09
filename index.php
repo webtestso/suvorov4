@@ -1,3 +1,32 @@
+<?php
+
+session_name("fancyform");
+session_start();
+
+
+$_SESSION['n1'] = rand(1,20);
+$_SESSION['n2'] = rand(1,20);
+$_SESSION['expect'] = $_SESSION['n1']+$_SESSION['n2'];
+
+
+$str='';
+if($_SESSION['errStr'])
+{
+	$str='<div class="error">'.$_SESSION['errStr'].'</div>';
+	unset($_SESSION['errStr']);
+}
+
+$success='';
+if($_SESSION['sent'])
+{
+	$success='<h1>Thank you!</h1>';
+
+	$css='<style type="text/css">#contact-form{display:none;}</style>';
+
+	unset($_SESSION['sent']);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,50 +51,14 @@
             });
         });
     </script>
-    <script type="text/javascript">
-          function sendEmail() {
-              var name = $("#name");
-              var email = $("#email");
-              var subject = $("#subject");
-              var body = $("#form_message");
-              var phone = $("#phone");
-
-              if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(form_message) && isNotEmpty(phone)) {
-                  $.ajax({
-                     url: 'sendEmail.php',
-                     method: 'POST',
-                     dataType: 'json',
-                     data: {
-                         name: name.val(),
-                         email: email.val(),
-                         subject: subject.val(),
-                         form_message: form_message.val(),
-                         phone: phone.val()
-                     }, success: function (response) {
-                          $('#contact_form')[0].reset();
-                          $('.sent-notification').text("Message Sent Successfully");
-                     }
-                  });
-              }
-          }
-
-          function isNotEmpty(caller) {
-              if (caller.val() == "") {
-                  caller.css('border', '1px solid red');
-                  return false;
-              } else
-                  caller.css('border', '');
-
-              return true;
-          }
-      </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script type="text/javascript" src="jqtransformplugin/jquery.jqtransform.js"></script>
+    <script type="text/javascript" src="formValidator/jquery.validationEngine.js"></script>
     <!-- Preloader -->
     <script src="js/queryloader2.min.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -87,6 +80,9 @@
     <link href="css/component.css" rel="stylesheet">
     <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="jqtransformplugin/jqtransform.css" />
+    <link rel="stylesheet" type="text/css" href="formValidator/validationEngine.jquery.css" />
+    <link rel="stylesheet" type="text/css" href="demo.css" />
 
 </head>
 
@@ -422,39 +418,66 @@
         </div>
       </div>
           </div>
-          <?php
-// Include form submission script
-include_once 'submit.php';
-?>
-          <!-- Status message -->
-          <?php if(!empty($statusMsg)){ ?>
-              <div class="status-msg <?php echo $status; ?>"><?php echo $statusMsg; ?></div>
-          <?php } ?>
+          <div id="form-container">
+            <!-- Контейнер формы -->
+            <h1>Fancy Contact Form</h1> <!-- Заголовки -->
+            <h2>Drop us a line and we will get back to you</h2>
+            <form id="contact-form" name="contact-form" method="post" action="submit.php">
+              <!-- The form, sent to submit.php -->
+              <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                <tr>
+                  <td width="18%"><label for="name">Name</label></td> <!-- Text label for the input field -->
+                  <td width="45%"><input type="text" class="validate[required,custom[onlyLetter]]" name="name" id="name" value="<?=$_SESSION['post']['name']?>" /></td>
+                  <!-- Мы используем сессии для того, чтобы не потерять данные при редиректах -->
+                  <td width="37%" id="errOffset">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td><label for="email">Email</label></td>
+                  <td><input type="text" class="validate[required,custom[email]]" name="email" id="email" value="<?=$_SESSION['post']['email']?>" /></td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
 
-          <!-- Contact form fields -->
-          <form action="" method="post" class="cnt-form">
-              <div class="form-input">
-                  <label for="name">Name</label>
-                  <input type="text" name="name" placeholder="Enter your name" value="<?php echo !empty($postData['name'])?$postData['name']:''; ?>" required="">
-              </div>
-              <div class="form-input">
-                  <label for="email">Email</label>
-                  <input type="email" name="email" placeholder="Enter your email" value="<?php echo !empty($postData['email'])?$postData['email']:''; ?>" required="">
-              </div>
-              <div class="form-input">
-                  <label for="subject">Subject</label>
-                  <input type="text" name="subject" placeholder="Enter subject" value="<?php echo !empty($postData['subject'])?$postData['subject']:''; ?>" required="">
-              </div>
-              <div class="form-input">
-                  <label for="message">Message</label>
-                  <textarea name="message" placeholder="Type your message here" required=""><?php echo !empty($postData['message'])?$postData['message']:''; ?></textarea>
-              </div>
-              <div class="form-input">
-                  <!-- Google reCAPTCHA box -->
-                  <div class="g-recaptcha" data-sitekey="<?php echo $siteKey; ?>"></div>
-              </div>
-              <input type="submit" name="submit" class="btn" value="Submit">
-          </form>
+                  <td><label for="subject">Subject</label></td>
+                  <!-- Этот элемент select полностью заменен jqtransorm plugin -->
+                  <td><select name="subject" id="subject">
+                      <option value="" selected="selected"> - Choose -</option>
+                      <option value="Question">Question</option>
+                      <option value="Business proposal">Business proposal</option>
+                      <option value="Advertisement">Advertising</option>
+                      <option value="Complaint">Complaint</option>
+                    </select> </td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top"><label for="message">Message</label></td>
+                  <td><textarea name="message" id="message" class="validate[required]" cols="35" rows="5"><?=$_SESSION['post']['message']?></textarea></td>
+                  <td valign="top">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td><label for="captcha"><?=$_SESSION['n1']?> + <?=$_SESSION['n2']?> =</label></td>
+                  <!-- Простой пример каптчи -->
+                  <td><input type="text" class="validate[required,custom[onlyNumber]]" name="captcha" id="captcha" /></td>
+                  <td valign="top">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="top">&nbsp;</td>
+                  <!-- Эти кнопки также заменены с помощью плагина -->
+                  <td colspan="2"><input type="submit" name="button" id="button" value="Submit" />
+                    <input type="reset" name="button2" id="button2" value="Reset" />
+
+                    <?=$str?>
+                    <!-- $str содержит ошибки, если форма обрабатывалась с выключенным JS -->
+                    <img id="loading" src="img/ajax-load.gif" width="16" height="16" alt="loading" />
+                    <!-- the rotating gif animation, hidden by default -->
+
+                  </td>
+                </tr>
+              </table>
+            </form>
+            <?=$success?>
+            <!-- Переменная $success содержит сообщение об успехе, если форма успешно обработалась с выключенным JS -->
+          </div>
         </div>
       </figure>
     </section>

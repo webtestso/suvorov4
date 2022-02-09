@@ -442,18 +442,14 @@
 									<!-- End Textarea element -->
 
 									<!-- Begin Captcha element -->
-									<div class="quform-element quform-element-captcha">
-										<div class="quform-spacer">
-											<label for="type_the_word">Type the word <span class="quform-required">*</span></label>
-											<div class="quform-input">
-												<input id="type_the_word" type="text" name="type_the_word" />
-											</div>
-											<div class="quform-captcha">
-												<div class="quform-captcha-inner">
-													<img src="quform/images/captcha/courier-new-light.png" alt="" />
-												</div>
-											</div>
-										</div>
+									<div class="quform-element quform-element-recaptcha">
+									    <div class="quform-spacer">
+									        <label>Are you human? <span class="quform-required">*</span></label>
+									        <div class="quform-input">
+									            <div class="g-recaptcha" data-sitekey="6LdcoGYeAAAAAGTTFWKcvw5LwkpHLSUkHzti-UoZ"></div>
+									            <noscript>Please enable JavaScript to submit this form</noscript>
+									        </div>
+									    </div>
 									</div>
 									<!-- End Captcha element -->
 
@@ -728,6 +724,20 @@
   <script src="js/scripts.js"></script>
 	<script type="text/javascript" src="quform/js/plugins.js"></script>
   <script type="text/javascript" src="quform/js/scripts.js"></script>
+	<script>
+		window.QuformRecaptchaLoaded = function() {
+			if (window.grecaptcha && window.jQuery) {
+				jQuery('.g-recaptcha').each(function() {
+					var $recaptcha = jQuery(this);
+
+					if ($recaptcha.is(':empty')) {
+						$recaptcha.data('recaptcha-id', grecaptcha.render($recaptcha[0]));
+					}
+				});
+			}
+		};
+	</script>
+	<script src="https://www.google.com/recaptcha/api.js?onload=QuformRecaptchaLoaded&render=explicit" async defer></script>
   <script src="node_modules/wowjs/dist/wow.min.js"></script>
   <script src="js/animation-modal.js"></script>
   <script>

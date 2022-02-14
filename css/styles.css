@@ -11067,9 +11067,9 @@ img::-moz-selection {
 /* reCaptcha */
 
 .rc-anchor-normal .rc-anchor-pt, .rc-anchor-invisible .rc-anchor-pt, .rc-anchor-compact .rc-anchor-pt {
-  font-size: 12px;
+  font-size: 12px !important;
 }
 
 .rc-anchor-logo-text {
-  font-size: 12px;
+  font-size: 12px !important;
 }

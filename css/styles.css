@@ -10796,7 +10796,7 @@ img::-moz-selection {
 .image-slider .swiper-button-next::after,
 .image-slider .swiper-button-prev::after {
     color: #B00000;
-    font-size: 80px;
+    font-size: 58px;
 }
 
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
@@ -11062,4 +11062,14 @@ img::-moz-selection {
     display: flex;
     justify-content: end;
   }
+}
+
+/* reCaptcha */
+
+.rc-anchor-normal .rc-anchor-pt, .rc-anchor-invisible .rc-anchor-pt, .rc-anchor-compact .rc-anchor-pt {
+  font-size: 12px;
+}
+
+.rc-anchor-logo-text {
+  font-size: 12px;
 }

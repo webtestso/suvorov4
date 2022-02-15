@@ -10807,8 +10807,9 @@ img::-moz-selection {
   margin-top: -340px !important;
   top: inherit !important;
   outline: none !important;
-  color: #B00000;
-  font-size: 58px;
+  color: #B00000 !important;
+  height: 58px !important;
+  width: 58px !important;
 }
 
 .header-images-wines {

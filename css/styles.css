@@ -10793,12 +10793,6 @@ img::-moz-selection {
 
 /* SWIPER */
 
-.image-slider .swiper-button-next::after,
-.image-slider .swiper-button-prev::after {
-    color: #B00000;
-    font-size: 58px;
-}
-
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
   right: 30px !important;
   left: auto;
@@ -10813,6 +10807,8 @@ img::-moz-selection {
   margin-top: -340px !important;
   top: inherit !important;
   outline: none !important;
+  color: #B00000;
+  font-size: 58px;
 }
 
 .header-images-wines {

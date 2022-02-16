@@ -30,8 +30,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <!-- Preloader -->
-    <script src="js/queryloader2.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
+    <script src="js/queryloader2.min.js"></script>
+    <script>
         window.addEventListener('DOMContentLoaded', function() {
             new QueryLoader2(document.querySelector("body"), {
                 barColor: "#FEFBF3",
@@ -63,15 +63,15 @@
                 aria-expanded="false" aria-label="Toggle navigation">Menu<img class="icons_contact" src="assets/img/icons/noun-menu.svg" alt="hamburger"></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav" style="margin-left: 5rem;">
-                    <li class="active nav-item cl-effect-4"><a class="nav-link js-scroll-trigger lang" key="home" href="index.html">Главная</a></li>
-                    <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger lang" key="about" href="#about">О нас</a></li>
-                    <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger lang" key="wines" href="wines.html">Вина</a></li>
-                    <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger lang" key="team" href="#team">Команда</a></li>
-                    <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger lang" key="blog" href="blog/index.html">Новости</a></li>
-                    <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger lang" key="contact" href="#contact">Контакты</a></li>
-                    <li class="header-item-lang-en"><button id="en" class="translate"><img class="flags_icons" src="assets/img/english_flag.png" alt="english_flag"></button></li>
-                    <li class="header-item-lang-en"><button id="ru" class="translate"><img class="flags_icons" src="assets/img/russian.svg" alt="russian_flag"></button></li>
-                    <li class="header-item-lang-en"><button id="ro" class="translate"><img class="flags_icons" src="assets/img/romanian.png" alt="romanian_flag"></button></li>
+                    <li class="active nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="index.html">Главная</a></li>
+                    <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="#about">О нас</a></li>
+                    <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="wines.html">Вина</a></li>
+                    <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="#team">Команда</a></li>
+                    <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="blog/index.html">Новости</a></li>
+                    <li class="nav-item cl-effect-4"><a class="nav-link js-scroll-trigger" href="#contact">Контакты</a></li>
+										<li class="header-item-lang-en"><a href="en.index.html" class="translate button"><img class="flags_icons" src="assets/img/english_flag.png" alt="english_flag"></a></li>
+                    <li class="header-item-lang-en"><a href="index.html" class="translate button"><img class="flags_icons" src="assets/img/russian.svg" alt="russian_flag"></a></li>
+                    <li class="header-item-lang-en"><a href="ro.index.html" class="translate button"><img class="flags_icons" src="assets/img/romanian.png" alt="romanian_flag"></a></li>
                 </ul>
             </div>
         </div>
@@ -80,7 +80,7 @@
     <div class="logo_gussy_centred">
       <div class="img-with-text">
           <img class="blends-calendar-fluid" src="assets/img/logo_gussy.png" alt="Kazayak-Vin">
-          <p class="blends-calendar-txt lang" key="blends_calendar">Произведено в Молдове – Признано во всем мире</p>
+          <p class="blends-calendar-txt" style="font-family: Hermes_Rus;">Произведено в Молдове – Признано во всем мире</p>
         </div>
     </div>
                 <img class="header-images" src="assets/img/merlot_barik.webp" alt="merlot_barik">
@@ -88,12 +88,12 @@
     <section class="page-section" id="about">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading lang" style="margin-bottom: 3rem;" key="about">О нас</h2>
+                <h2 class="section-heading" style="margin-bottom: 3rem;">О нас</h2>
             </div>
             <div class="row wrap-service-26">
                 <div class="col-md-6 align-self-center wow animate__animated animate__slideInLeft">
                     <div class="max-box">
-                        <p class="mt-3 lang" key="about1">Холдинг включает в себя две винные компании „Suvorov – Vin” (2003г) и „Kazayak – Vin” (1958г). Первая ассоциация с холдингом „Suvorov – Vin” – это обширная линейка вин и современные технологии. Под нашим владением 500 гектаров
+                        <p class="mt-3">Холдинг включает в себя две винные компании „Suvorov – Vin” (2003г) и „Kazayak – Vin” (1958г). Первая ассоциация с холдингом „Suvorov – Vin” – это обширная линейка вин и современные технологии. Под нашим владением 500 гектаров
                             виноградников, располагающихся в южной части Молдовы, где климат совершенен для качественного выращивания винограда. Стратегия компании заключается в раскрытии всему миру исключительного качества молдавских вин, через умелый
                             маркетинг и различные культурные аспекты Молдовы</p>
                     </div>
@@ -107,7 +107,7 @@
                     <img class="img-fluid card-1" src="assets/img/about/about_2.webp" alt="about_2">
                 </div>
                 <div class="col-md-6 align-self-center wow animate__animated animate__slideInRight">
-                    <p class="mt-3 lang" key="about2">„Kazayak–Vin” „Suvorov–Vin” производит широкий ассортимент сухих, полусухих, полусладких, десертных вин, а так же натуральные фруктовые вина, глинтвейн (натуральное вливание 16 целебных трав и красной смородины), крюшон (натуральное
+                    <p class="mt-3">„Kazayak–Vin” „Suvorov–Vin” производит широкий ассортимент сухих, полусухих, полусладких, десертных вин, а так же натуральные фруктовые вина, глинтвейн (натуральное вливание 16 целебных трав и красной смородины), крюшон (натуральное
                         вино с добавлением фруктовых соков), вина с низким содержанием алкоголя, игристые вина, вермуты и ликеры. Наше портфолио раскрывается во внушительных коллекциях, таких как: Green Lee, Storks, Kazayak, Nicole, Bon Voyage, Sang de
                         Terre, Monteco и др.</p>
                 </div>
@@ -115,8 +115,8 @@
             <div class="row wrap-service-26">
                 <div class="col-md-6 align-self-center wow animate__animated animate__slideInLeft">
                     <div class="max-box">
-                        <h3 class="mt-3 align-self-center lang" style="display: flex; justify-content: center;" key="about3.1">2008 год для „Suvorov – Vin”</h3>
-                        <p class="mt-3 lang" key="about3">Ознаменовал подъем компании на новый уровень, став лидером в производстве и экспорте бутылочных вин из Республики Молдова, с годовым объёмом около 10 000 000 бутылок и 20% от общего объёма экспорта. Наши вина нашли призвание в
+                        <h3 class="mt-3 align-self-center" style="display: flex; justify-content: center;">2008 год для „Suvorov – Vin”</h3>
+                        <p class="mt-3">Ознаменовал подъем компании на новый уровень, став лидером в производстве и экспорте бутылочных вин из Республики Молдова, с годовым объёмом около 10 000 000 бутылок и 20% от общего объёма экспорта. Наши вина нашли призвание в
                             таких странах как Польша, Германия, Чехия, Словакия, Литва, Латвия, Румыния, Хорватия, Босния, Беларусь, Украина, Росиия, Казахстан, Израиль, Греция, Гана, Нигерия, Китай, Япония, США, и конечно же в Молдове
                         </p>
                     </div>
@@ -130,8 +130,8 @@
                     <img class="img-fluid card-1" src="assets/img/about/about_4.webp" alt="about_4">
                 </div>
                 <div class="col-md-6 align-self-center wow animate__animated animate__slideInRight">
-                    <h3 class="mt-3 lang" key="about4.1" style="display: flex; justify-content: center;">Категория „IGP"</h3>
-                    <p class="mt-3 lang" key="about4">Наши вина производятся в строгом соответствии с европейскими требованиями виноделия. С 2015 года красным винам предоставили категорию IGP (защищенные географические обозначения). Компания применяет современые методы и технологии переработки
+                    <h3 class="mt-3" style="display: flex; justify-content: center;">Категория „IGP"</h3>
+                    <p class="mt-3">Наши вина производятся в строгом соответствии с европейскими требованиями виноделия. С 2015 года красным винам предоставили категорию IGP (защищенные географические обозначения). Компания применяет современые методы и технологии переработки
                         винограда, используя мембранную фильтрацию, холодную обработку и стерильные процессы розлива. Процесс производства подлежит постоянному контролю в сочетании с национальными традициями молдавского виноделия, практического опыта
                         и инновационных технологий</p>
                 </div>
@@ -142,25 +142,25 @@
     <section class="page-section" id="services">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading lang" key="achievments">Достижения</h2>
-                <h3 class="section-subheading lang" key="achievments2">Мы гордимся тем, чего достигли, нашими совместными усилиями</h3>
+                <h2 class="section-heading">Достижения</h2>
+                <h3 class="section-subheading">Мы гордимся тем, чего достигли, нашими совместными усилиями</h3>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="wow animate__animated animate__zoomIn"><img class="icons_suvorov" src="assets/img/icons/noun-product-quality-ring.svg" alt="product-quality"></span>
-                    <h4 class="my-3 lang" key="service1">Высокое качество продукции</h4>
-                    <p class="lang" key="serviceinfo1">Самый современный технологический комплекс по переработке винограда и виноградного сусла, позволяет сохранить и передать вину все имеющиеся в винограде полезные вещества, витамины, а также особую органическую силу заложенную природой
+                    <h4 class="my-3">Высокое качество продукции</h4>
+                    <p>Самый современный технологический комплекс по переработке винограда и виноградного сусла, позволяет сохранить и передать вину все имеющиеся в винограде полезные вещества, витамины, а также особую органическую силу заложенную природой
                         в почву</p>
                 </div>
                 <div class="col-md-4">
                     <span class="wow animate__animated animate__zoomIn"><img class="icons_suvorov" src="assets/img/icons/noun-price.svg" alt="fair-pricing"></span>
-                    <h4 class="my-3 lang" key="service2">Честная ценовая политика</h4>
-                    <p class="lang" key="serviceinfo2">Наша компания внимательно следит за изменениями условий рынка. За каждым продуктом стоит честная твердая цена, подтверждающаяся качеством и иновациооными технологиями</p>
+                    <h4 class="my-3">Честная ценовая политика</h4>
+                    <p>Наша компания внимательно следит за изменениями условий рынка. За каждым продуктом стоит честная твердая цена, подтверждающаяся качеством и иновациооными технологиями</p>
                 </div>
                 <div class="col-md-4">
                     <span class="wow animate__animated animate__zoomIn"><img class="icons_suvorov" src="assets/img/icons/noun-efficiency.svg" alt="efficiency"></span>
-                    <h4 class="my-3 services-min-width lang" key="service3">Оперативность выполнения заказов</h4>
-                    <p class="lang" key="serviceinfo3">Большая часть вин разливается в эксклюзивные бутылки, отменного дизайна, а торговая политика ориентирована на любые запросы клиента, вплоть до возможности выпуска авторского ассортимента с выполнением заказа в течение 25 дней</p>
+                    <h4 class="my-3 services-min-width">Оперативность выполнения заказов</h4>
+                    <p>Большая часть вин разливается в эксклюзивные бутылки, отменного дизайна, а торговая политика ориентирована на любые запросы клиента, вплоть до возможности выпуска авторского ассортимента с выполнением заказа в течение 25 дней</p>
                 </div>
             </div>
         </div>
@@ -169,8 +169,8 @@
     <section class="page-section" style="background-image: url('assets/img/background_wine.webp'); background-size: cover;" id="portfolio">
         <div class="container-fluid">
             <div class="text-center">
-                <h2 class="section-heading lang" key="products">Продукция</h2>
-                <h3 class="section-subheading lang" key="products2">Как источник нашего вдохновления</h3>
+                <h2 class="section-heading">Продукция</h2>
+                <h3 class="section-subheading">Как источник нашего вдохновления</h3>
             </div>
             <div class="image-slider swiper-container">
                 <div class="swiper-wrapper">
@@ -248,53 +248,53 @@
     <section class="page-section" id="team">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading lang" style="margin-bottom: 5rem;" key="team">Команда</h2>
+                <h2 class="section-heading" style="margin-bottom: 5rem;">Команда</h2>
             </div>
             <div class="row">
                 <div class="col-lg-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle wow animate__animated animate__zoomIn" src="assets/img/team/alexandr_neruh.webp" alt="alexandr_neruh">
-                        <h4 class="lang" key="team1">Александр Нерух</h4>
-                        <p class="lang" key="position1" style="font-style: italic; color: #B00000;">Основатель холдинга</p>
-                        <p class="lang" key="experience1">Опыт работы 50 лет</p>
+                        <h4>Александр Нерух</h4>
+                        <p style="font-style: italic; color: #B00000;">Основатель холдинга</p>
+                        <p>Опыт работы 50 лет</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle wow animate__animated animate__zoomIn" src="assets/img/team/nikolai_popov.webp" alt="nikolai_popov">
-                        <h4 class="lang" key="team5">Николай Попов</h4>
-                        <p class="lang" key="position5" style="font-style: italic; color: #B00000;">Исполнительный директор Suvorov-Vin</p>
-                        <p class="lang" key="experience5">Опыт работы 12 лет</p>
+                        <h4>Николай Попов</h4>
+                        <p style="font-style: italic; color: #B00000;">Исполнительный директор Suvorov-Vin</p>
+                        <p>Опыт работы 12 лет</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle wow animate__animated animate__zoomIn" src="assets/img/team/viktor_florika.webp" alt="viktor_florika">
-                        <h4 class="lang" key="team3">Виктор Флорика</h4>
-                        <p class="lang" key="position3" style="font-style: italic; color: #B00000;">Исполнительный директор Kazayak-Vin</p>
-                        <p class="lang" key="experience3">Опыт работы 24 года</p>
+                        <h4>Виктор Флорика</h4>
+                        <p style="font-style: italic; color: #B00000;">Исполнительный директор Kazayak-Vin</p>
+                        <p>Опыт работы 24 года</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle wow animate__animated animate__zoomIn" src="assets/img/team/andrian_cojovaru.webp" alt="andrian_cojovaru">
-                        <h4 class="lang" key="team2">Адриан Кожокару</h4>
-                        <p class="lang" key="position2" style="font-style: italic; color: #B00000;">Начальник отдела продаж</p>
-                        <p class="lang" key="experience2">Опыт работы 16 лет</p>
+                        <h4>Адриан Кожокару</h4>
+                        <p style="font-style: italic; color: #B00000;">Начальник отдела продаж</p>
+                        <p>Опыт работы 16 лет</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
                     <div class="team-member">
                         <img class="mx-auto rounded-circle wow animate__animated animate__zoomIn" src="assets/img/team/inga.webp" alt="inga">
                         <h4>Inga Manuilenco</h4>
-                        <p class="lang" key="position4" style="font-style: italic; color: #B00000;">Инженер-технолог</p>
-                        <p class="lang" key="experience4">Опыт работы 25 лет</p>
+                        <p style="font-style: italic; color: #B00000;">Инженер-технолог</p>
+                        <p>Опыт работы 25 лет</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <p class="large lang" key="teaminfo">Более 300 сотрудников трудится на предприятиях для создания первоклассных вин. Изо дня в день каждый из нас вносит неоценимый вклад в развитие компании. Именно наше единство мысли, идей и безграничной любви к производству вина помогает
+                    <p class="large">Более 300 сотрудников трудится на предприятиях для создания первоклассных вин. Изо дня в день каждый из нас вносит неоценимый вклад в развитие компании. Именно наше единство мысли, идей и безграничной любви к производству вина помогает
                         нам достигать поставленных целей и быть единным целым</p>
                 </div>
             </div>
@@ -304,7 +304,7 @@
     <section class="page-section">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading lang" style="margin-bottom: 5rem;" key="winemaker">Виноделы</h2>
+                <h2 class="section-heading" style="margin-bottom: 5rem;">Виноделы</h2>
             </div>
             <div class="row">
                 <div class="col-lg-6">
@@ -319,10 +319,10 @@
                                 </div>
                             </div>
                         </div>
-                        <h4 class="lang" key="team7">Виктор Кира</h4>
-                        <p class="lang" key="position7" style="font-style: italic; color: #B00000;">Винодел Suvorov-Vin</p>
-                        <p class="lang" key="experience7">Опыт работы 46 лет</p>
-                        <p class="lang" key="winemaker2">Лучший винодел Республики Молдова 2019 года</p>
+                        <h4>Виктор Кира</h4>
+                        <p style="font-style: italic; color: #B00000;">Винодел Suvorov-Vin</p>
+                        <p>Опыт работы 46 лет</p>
+                        <p>Лучший винодел Республики Молдова 2019 года</p>
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -337,16 +337,16 @@
                                 </div>
                             </div>
                         </div>
-                        <h4 class="lang" key="team8">Анатолий Коджебаш</h4>
-                        <p class="lang" key="position8" style="font-style: italic; color: #B00000;">Винодел Kazayak-Vin</p>
-                        <p class="lang" key="experience8">Опыт работы 26 лет</p>
-                        <p class="lang" key="winemaker3">Лучший винодел Республики Молдова 2020 года</p>
+                        <h4>Анатолий Коджебаш</h4>
+                        <p style="font-style: italic; color: #B00000;">Винодел Kazayak-Vin</p>
+                        <p>Опыт работы 26 лет</p>
+                        <p>Лучший винодел Республики Молдова 2020 года</p>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 mx-auto text-center">
-                    <p class="large lang" key="winemaker_info">«Хорошее вино — как хороший фильм: быстро заканчивается, оставляя великолепное послевкусие; с каждым глотком в нем открывается что-то новое, и как это часто бывает с фильмами — оно рождается и возрождается в каждом новом ценителе»
+                    <p class="large">«Хорошее вино — как хороший фильм: быстро заканчивается, оставляя великолепное послевкусие; с каждым глотком в нем открывается что-то новое, и как это часто бывает с фильмами — оно рождается и возрождается в каждом новом ценителе»
                         Так и наши виноделы, как наиболее искусные и опытные режиссёры, из года в год, трудятся над созданием своего лучшего творения. А мы смакуем кадры и наслаждаемся нотками великого произведения и жаждем, чтобы в следующий раз, наш
                         Творец получил очередной трофей - Золотую медаль!</p>
                 </div>
@@ -356,7 +356,7 @@
     <!-- Contact-->
     <section class="page-section" id="contact">
       <div class="text-center">
-        <h2 class="section-heading lang" style="margin-bottom: 5rem;" key="contact">Контакты</h2>
+        <h2 class="section-heading" style="margin-bottom: 5rem;">Контакты</h2>
       </div>
       <figure class="full-width">
         <iframe src="https://snazzymaps.com/embed/243085" width="100%" height="600px" style="border:none;"></iframe>
@@ -389,8 +389,8 @@
 					<div class="quform-outer quform-theme-light-light">
 						<form class="quform" action="quform/process.php" method="post" enctype="multipart/form-data">
 							<div class="quform-inner">
-								<h3 class="quform-title">Contact form</h3>
-								<p class="quform-description">Please get in touch using the form below</p>
+								<h3 class="quform-title">Контактная форма</h3>
+								<p class="quform-description">Пожалуйста, свяжитесь с нами, используя форму ниже</p>
 								<div class="quform-elements">
 									<!-- Begin 2 column Group -->
 									<div class="quform-group-wrap quform-group-style-plain quform-group-alignment-left">
@@ -399,7 +399,7 @@
 												<!-- Begin Text input element -->
 												<div class="quform-element quform-element-text">
 													<div class="quform-spacer">
-														<label for="name">Full name <span class="quform-required">*</span></label>
+														<label for="name">Полное имя <span class="quform-required">*</span></label>
 														<div class="quform-input">
 															<input id="name" type="text" name="name" />
 														</div>
@@ -423,7 +423,7 @@
 									<!-- Begin Textarea element -->
 									<div class="quform-element quform-element-textarea quform-full-width">
 										<div class="quform-spacer">
-											<label for="message">Your message <span class="quform-required">*</span></label>
+											<label for="message">Ваше сообщение <span class="quform-required">*</span></label>
 											<div class="quform-input">
 												<textarea id="message" name="message" class="quform-textarea"></textarea>
 											</div>
@@ -433,10 +433,10 @@
 									<!-- Begin Captcha element -->
 									<div class="quform-element quform-element-recaptcha">
 									    <div class="quform-spacer">
-									        <label>Are you human? <span class="quform-required">*</span></label>
+									        <label>Вы человек? <span class="quform-required">*</span></label>
 									        <div class="quform-input">
 									            <div class="g-recaptcha" data-sitekey="6LdcoGYeAAAAAGTTFWKcvw5LwkpHLSUkHzti-UoZ"></div>
-									            <noscript>Please enable JavaScript to submit this form</noscript>
+									            <noscript>Пожалуйста, включите JavaScript, чтобы отправить эту форму</noscript>
 									        </div>
 									    </div>
 									</div>
@@ -444,7 +444,7 @@
 									<!-- Begin Submit button -->
 									<div class="quform-submit">
 										<div class="quform-submit-inner">
-											<button type="submit"><span><em>Send message</em></span></button>
+											<button type="submit"><span><em>Отправить сообщение</em></span></button>
 										</div>
 										<div class="quform-loading-wrap"><span class="quform-loading"></span></div>
 									</div>
@@ -493,22 +493,22 @@
                   <div class="col-sm" style="text-align: left;">
                     <ul class="list-inline">
                       <div class="align-self-center modal_fix_info"><img class="modal_inside_icons" src="assets/img/grape.png" alt="grape">
-                        <li class="lang" key="alb2" style="margin-left: 4rem;">Год урожая: 2019</li>
+                        <li style="margin-left: 4rem;">Год урожая: 2019</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/bar.png" alt="bar">
-                        <li class="lang" key="alb3" style="margin-left: 4rem;">Тип вина: Белое сухое</li>
+                        <li style="margin-left: 4rem;">Тип вина: Белое сухое</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/grapes.png" alt="grapes">
-                        <li class="lang" key="alb4" style="margin-left: 4rem;">Виноград: Aligote 33% Muscat Ottonel 33% Sauvignon Blanc 33%</li>
+                        <li style="margin-left: 4rem;">Виноград: Aligote 33% Muscat Ottonel 33% Sauvignon Blanc 33%</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/food.png" alt="food">
-                        <li class="lang" key="alb5" style="margin-left: 4rem;">Сочетание вина с едой: Его можно подавать как закуску, но он идеально сочетается с мягкими сырами, белым мясом, нежной говядиной, рыбой, морепродуктами и овощами на гриле,
+                        <li style="margin-left: 4rem;">Сочетание вина с едой: Его можно подавать как закуску, но он идеально сочетается с мягкими сырами, белым мясом, нежной говядиной, рыбой, морепродуктами и овощами на гриле,
                           фруктами, сладостями. Подавать при температуре 8-10°C</li>
                       </div>
                     </ul>
-                    <a class="btn_more_less content_toggle lang hvr-shutter-out-vertical" key="knowmore" href="#">Узнать больше</a>
+                    <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Узнать больше</a>
                     <div class="content_block" style="display: none;">
-                      <p class="item-intro lang" key="alb1">Вино светло-соломенного цвета с зеленоватым оттенком, отражает изящную комбинацию между Aligote и Muscat Ottonel, прекрасно подчеркнутым нежным Sauvignon Blanc. Сложный аромат
+                      <p class="item-intro">Вино светло-соломенного цвета с зеленоватым оттенком, отражает изящную комбинацию между Aligote и Muscat Ottonel, прекрасно подчеркнутым нежным Sauvignon Blanc. Сложный аромат
                         покоряет тонкими
                         нотами барбариса, цитрусовых и экзотических фруктов. Обладает свежим, полным, гармоничным вкусом, в котором сбалансированная кислотность и карамельные оттенки находятся в идеальном равновесии. Послевкусие приходит к вам с
                         ароматами белой вишни и крыжовника, усиленными цитрусовыми и экзотическими нотками</p>
@@ -548,28 +548,28 @@
                   <div class="col-sm" style="text-align: left;">
                     <ul class="list-inline">
                       <div class="align-self-center modal_fix_info"><img class="modal_inside_icons" src="assets/img/grape.png" alt="grape">
-                        <li class="lang" key="negru2" style="margin-left: 4rem;">Год урожая: 2018 Вино выдержанное</li>
+                        <li style="margin-left: 4rem;">Год урожая: 2018 Вино выдержанное</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/bar.png" alt="bar">
-                        <li class="lang" key="negru3" style="margin-left: 4rem;">Тип вина: Красное сухое</li>
+                        <li style="margin-left: 4rem;">Тип вина: Красное сухое</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/grapes.png" alt="grapes">
-                        <li class="lang" key="negru4" style="margin-left: 4rem;">Виноград: Saperavi 40% Cabernet Sauvignon 30% Merlot 30%</li>
+                        <li style="margin-left: 4rem;">Виноград: Saperavi 40% Cabernet Sauvignon 30% Merlot 30%</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/food.png" alt="food">
-                        <li class="lang" key="negru5" style="margin-left: 4rem;">Сочетание вина с едой: Предлагаем его в качестве дополнения к традиционным аутентичным блюдам: пастрами из баранины, утка или гусь в духовке с капустой или свиные
+                        <li style="margin-left: 4rem;">Сочетание вина с едой: Предлагаем его в качестве дополнения к традиционным аутентичным блюдам: пастрами из баранины, утка или гусь в духовке с капустой или свиные
                           ребрышки с арахисом</li>
                       </div>
                     </ul>
-                    <a class="btn_more_less content_toggle lang hvr-shutter-out-vertical" key="knowmore" href="#">Узнать больше</a>
+                    <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Узнать больше</a>
                     <div class="content_block" style="display: none;">
-                      <p class="item-intro lang" key="negru1">Мужское вино, со сбалансированной и четко выраженной структурой. Потомок сортов Саперави, Каберне-Совиньон и Мерло. Это вино - событие, в аромате которого интенсивно и приятно сочетаются
+                      <p class="item-intro">Мужское вино, со сбалансированной и четко выраженной структурой. Потомок сортов Саперави, Каберне-Совиньон и Мерло. Это вино - событие, в аромате которого интенсивно и приятно сочетаются
                         ягоды, черная смородина и черника, тонко подчеркнутые нотами дуба. После того, как глаз созерцает цвет, очаровательный темно-рубиновый вкус, в котором преобладают черные фрукты, инжир и лакрица, открывается крепкое,
                         сбалансированное вино с хорошо созревшими танинами, гармонично интегрированное в Каберне Совиньон. При благоприятных условиях хранения это вино можно заложить в коллекцию на выдержку</p>
                     </div>
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/TlkD4-hhqRs?controls=0" title="Kazayak video player" frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      <a class="btn_more_less content_toggle lang hvr-shutter-out-vertical" key="videomore" href="#">Следующее видео/Румынский перевод</a>
+                      <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Следующее видео/Румынский перевод</a>
                       <div class="content_block" style="display: none; margin-top: 1rem;">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/5gcEUvyaIFE?controls=0" title="Kazayak video player" frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -611,28 +611,28 @@
                   <div class="col-sm" style="text-align: left;">
                     <ul class="list-inline">
                       <div class="align-self-center modal_fix_info"><img class="modal_inside_icons" src="assets/img/grape.png" alt="grape">
-                        <li class="lang" key="rose2" style="margin-left: 4rem;">Год урожая: 2019</li>
+                        <li style="margin-left: 4rem;">Год урожая: 2019</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/bar.png" alt="bar">
-                        <li class="lang" key="rose3" style="margin-left: 4rem;">Тип вина: Розовое сухое</li>
+                        <li style="margin-left: 4rem;">Тип вина: Розовое сухое</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/grapes.png" alt="grapes">
-                        <li class="lang" key="rose4" style="margin-left: 4rem;">Виноград: 40% Cabernet Sauvignon 60 % Merlot</li>
+                        <li style="margin-left: 4rem;">Виноград: 40% Cabernet Sauvignon 60 % Merlot</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/food.png" alt="food">
-                        <li class="lang" key="rose5" style="margin-left: 4rem;">Сочетание вина с едой: Мы рекомендуем подавать это розовое при температуре 8°-10°C в сочетании с легкими летними салатами, морепродуктами, красной рыбой или карпачо из
+                        <li style="margin-left: 4rem;">Сочетание вина с едой: Мы рекомендуем подавать это розовое при температуре 8°-10°C в сочетании с легкими летними салатами, морепродуктами, красной рыбой или карпачо из
                           телятины. Идеально подходит для долгих летних вечеров или романтических мероприятий!</li>
                       </div>
                     </ul>
-                    <a class="btn_more_less content_toggle lang hvr-shutter-out-vertical" key="knowmore" href="#">Узнать больше</a>
+                    <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Узнать больше</a>
                     <div class="content_block" style="display: none;">
-                      <p class="item-intro lang" key="rose1">Как и другие вина в этой коллекции, это розовое вино представляет собой кристаллический купаж, характерный для розовой винификации сортов Мерло и Каберне-Совиньон, собранных при полной
+                      <p class="item-intro">Как и другие вина в этой коллекции, это розовое вино представляет собой кристаллический купаж, характерный для розовой винификации сортов Мерло и Каберне-Совиньон, собранных при полной
                         зрелости. В результате получается вино с собственным характером, приятной кислотностью, энергичным, фруктовым и пленительным вкусом. Приятный и тонкий аромат цветов шиповника, а также красных ягод ( клубники и малины ). Вкус
                         тонкий и минеральный, но в то же время насыщенный, фруктовые ноты спелой клубники и персика гармонично сочетаются с легкими цитрусовыми ощущениями</p>
                     </div>
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/UOf8N3-uyi8?controls=0" title="Kazayak video player" frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      <a class="btn_more_less content_toggle lang hvr-shutter-out-vertical" key="videomore" href="#">Следующее видео/Румынский перевод</a>
+                      <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Следующее видео/Румынский перевод</a>
                       <div class="content_block" style="display: none; margin-top: 1rem;">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/H1fjMKn4Qzg?controls=0" title="Kazayak video player" frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -671,21 +671,21 @@
                   <div class="col-sm" style="text-align: left;">
                     <ul class="list-inline">
                       <div class="align-self-center modal_fix_info"><img class="modal_inside_icons" src="assets/img/grape.png" alt="grape" />
-                        <li class="lang" key="rosu2" style="margin-left: 4rem;">Год урожая: 2018 Вино выдержанное</li>
+                        <li style="margin-left: 4rem;">Год урожая: 2018 Вино выдержанное</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/bar.png" alt="bar">
-                        <li class="lang" key="rosu3" style="margin-left: 4rem;">Тип вина: Красное сухое</li>
+                        <li style="margin-left: 4rem;">Тип вина: Красное сухое</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/grapes.png" alt="grapes">
-                        <li class="lang" key="rosu4" style="margin-left: 4rem;">Виноград: Feteasca Neagra 40% Cabernet Sauvignon 30% Merlot 30%</li>
+                        <li style="margin-left: 4rem;">Виноград: Feteasca Neagra 40% Cabernet Sauvignon 30% Merlot 30%</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/food.png" alt="food">
-                        <li class="lang" key="rosu5" style="margin-left: 4rem;">Сочетание вина с едой: Идеальный гастрономический вызов для этого вина - свиная отбивная с запеченным картофелем, стейк с легким острым соусом, нежный стейк из говядины</li>
+                        <li style="margin-left: 4rem;">Сочетание вина с едой: Идеальный гастрономический вызов для этого вина - свиная отбивная с запеченным картофелем, стейк с легким острым соусом, нежный стейк из говядины</li>
                       </div>
                     </ul>
-                    <a class="btn_more_less content_toggle lang hvr-shutter-out-vertical" key="knowmore" href="#">Узнать больше</a>
+                    <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Узнать больше</a>
                     <div class="content_block" style="display: none;">
-                      <p class="item-intro lang" key="rosu1">Подарок для знаменательных дней, призванный соблазнить вас здоровой «смесью» сортов Фетяска Нягра, Каберне-Совиньон и Мерло. У каждого сорта есть свой вклад: один привносит прочность и
+                      <p class="item-intro">Подарок для знаменательных дней, призванный соблазнить вас здоровой «смесью» сортов Фетяска Нягра, Каберне-Совиньон и Мерло. У каждого сорта есть свой вклад: один привносит прочность и
                         интенсивность, другой - элегантность, грациозно подчеркиваемый тонкими и бархатистыми ароматами. Привлекательный цвет, как у спелого граната, в аромате преобладают сладкие красные и черные фрукты ( чернослив, вишня и черная
                         вишня ) в сопровождении тонких нот ванили и табака. Он впечатляет своей бархатистой и сложной текстурой, мягким и сбалансированным вкусом, фруктово-пряным, с элегантными оттенками дуба. Длинный и запоминающийся финал. Он
                         обещает
@@ -693,7 +693,7 @@
                     </div>
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/Yqrepixddow?controls=0" title="Kazayak video player" frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      <a class="btn_more_less content_toggle lang hvr-shutter-out-vertical" key="videomore" href="#">Следующее видео/Румынский перевод</a>
+                      <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Следующее видео/Румынский перевод</a>
                       <div class="content_block" style="display: none; margin-top: 1rem;">
                     <iframe width="100%" height="315" src="https://www.youtube.com/embed/nrmMS9BBCyw?controls=0" title="Kazayak video player" frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

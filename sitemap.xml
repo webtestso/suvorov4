@@ -24,7 +24,7 @@
 </url>
 <url>
   <loc>https://www.suvorov-vin.md/blog/index.html</loc>
-  <lastmod>2022-02-16T12:48:51+00:00</lastmod>
+  <lastmod>2022-03-03T23:23:27+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -54,12 +54,17 @@
 </url>
 <url>
   <loc>https://www.suvorov-vin.md/blog/en.index.html</loc>
-  <lastmod>2022-02-16T12:48:51+00:00</lastmod>
+  <lastmod>2022-03-03T23:23:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.suvorov-vin.md/blog/ro.index.html</loc>
-  <lastmod>2022-02-16T12:48:51+00:00</lastmod>
+  <lastmod>2022-03-03T23:23:27+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.suvorov-vin.md/blog/mundus.html</loc>
+  <lastmod>2022-03-03T23:23:27+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -73,8 +78,13 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://www.suvorov-vin.md/blog/en.mundus.html</loc>
+  <lastmod>2022-03-03T23:23:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
   <loc>https://www.suvorov-vin.md/blog/en.decanter.html</loc>
-  <lastmod>2022-02-16T12:48:51+00:00</lastmod>
+  <lastmod>2022-02-22T12:16:41+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
@@ -83,8 +93,13 @@
   <priority>0.51</priority>
 </url>
 <url>
+  <loc>https://www.suvorov-vin.md/blog/ro.mundus.html</loc>
+  <lastmod>2022-03-03T23:23:27+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
   <loc>https://www.suvorov-vin.md/blog/ro.decanter.html</loc>
-  <lastmod>2022-02-16T12:48:51+00:00</lastmod>
+  <lastmod>2022-02-22T12:16:41+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>

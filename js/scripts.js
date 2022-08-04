@@ -56,7 +56,7 @@
 
   // Swiper
 
-  const swiper = new Swiper('.image-slider', {
+  const Swiper = new Swiper('.image-slider', {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
@@ -97,7 +97,7 @@
     },
   });
 
-  new Swiper('.home-slider', {
+  const Swiper = new Swiper('.home-slider', {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'

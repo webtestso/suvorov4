@@ -72,10 +72,10 @@
         slidesPerView: 2,
       },
       979: {
-        slidesPerView: 3,
+        slidesPerView: 2,
       },
       1300: {
-        slidesPerView: 4,
+        slidesPerView: 2,
       }
     },
     observer: true,

@@ -79,8 +79,7 @@
       }
     },
     observer: true,
-    observeParents: true,
-    slidesPerColumn: 1
+    observeParents: true
   });
 
   new Swiper('.header-slider', {
@@ -100,7 +99,6 @@
 
   new Swiper('.home-slider', {
     slidesPerView: 2,
-    slidesPerGroup: 1,
     observer: true,
     observeParents: true,
     watchOverflow: true

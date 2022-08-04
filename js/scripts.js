@@ -103,6 +103,20 @@
       prevEl: '.swiper-button-prev'
     },
     slidesPerView: 2,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+      },
+      480: {
+        slidesPerView: 2,
+      },
+      979: {
+        slidesPerView: 2,
+      },
+      1300: {
+        slidesPerView: 2,
+      }
+    },
     observer: true,
     observeParents: true,
     watchOverflow: true

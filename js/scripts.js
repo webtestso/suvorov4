@@ -98,6 +98,10 @@
   });
 
   new Swiper('.home-slider', {
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
     slidesPerView: 2,
     observer: true,
     observeParents: true,

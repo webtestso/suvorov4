@@ -61,7 +61,7 @@
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev'
     },
-    slidesPerView: 2,
+    slidesPerView: 4,
     watchOverflow: true,
     slidesPerGroup: 1,
     breakpoints: {
@@ -72,10 +72,10 @@
         slidesPerView: 2,
       },
       979: {
-        slidesPerView: 2,
+        slidesPerView: 3,
       },
       1300: {
-        slidesPerView: 2,
+        slidesPerView: 4,
       }
     },
     observer: true,
@@ -96,6 +96,14 @@
     fadeEffect: {
       crossFade: true
     },
+  });
+
+  new Swiper('.home-slider', {
+    slidesPerView: 2,
+    slidesPerGroup: 1,
+    observer: true,
+    observeParents: true,
+    watchOverflow: true
   });
 
   $('.btn-tab ul li button').on('click', function() {

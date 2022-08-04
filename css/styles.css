@@ -10379,7 +10379,7 @@ img::-moz-selection {
 .team-member img {
     width: 16rem;
     height: 16rem;
-    filter: drop-shadow( 1px 2px 4px hsl(0deg 100% 34%) );
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .team-member_wine h4 {
@@ -10395,7 +10395,7 @@ img::-moz-selection {
 .team-member_wine img {
     width: 23rem;
     height: 32rem;
-    filter: drop-shadow( 1px 2px 4px hsl(0deg 100% 34%) );
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   }
 
 .team-member h4 {
@@ -10458,7 +10458,7 @@ img::-moz-selection {
 /* Box shadow */
 
 .card-1 {
-  filter: drop-shadow( 1px 2px 4px hsl(0deg 100% 34%) );
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 /* ABOUT PART */
@@ -10573,7 +10573,7 @@ img::-moz-selection {
     background: #f6f6f6;
     padding: 40px 20px 37px;
     text-align: center;
-    filter: drop-shadow( 1px 2px 4px hsl(0deg 100% 34%) );
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 .counter-box p {

@@ -25,7 +25,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <!-- Preloader -->
@@ -47,7 +47,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
     <link href="css/demo.css" rel="stylesheet">
     <link href="css/component.css" rel="stylesheet">
-    <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
 		<link href="quform/css/base.css" rel="stylesheet" />
 		<link href="quform/themes/light/light.css" rel="stylesheet" />
@@ -168,75 +168,43 @@
                 <h2 class="section-heading">Vinuri</h2>
                 <h3 class="section-subheading">Ca sursă a inspirației noastre</h3>
             </div>
-            <div class="image-slider swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="col-lg-12 mb-4">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="image-slider-bottles" src="assets/img/wines/alb_de_kazayak.png" alt="alb_de_kazayak">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading" style="margin-left: 75px; white-space: nowrap;">Alb de Kazayak</div>
-                                    <div class="portfolio-caption-subheading"></div>
-                                </div>
-                            </div>
+            <div class="home-slider swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="col-lg-12 mb-4">
+                    <div class="portfolio-item">
+                      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                        <div class="portfolio-hover">
+                          <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                         </div>
+                        <img class="image-slider-bottles" src="assets/img/wines/chardonnay_barrik.webp" alt="chardonnay_barrik">
+                      </a>
+                      <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading" style="margin-left: 75px; white-space: nowrap;">Chardonnay Barrik</div>
+                        <div class="portfolio-caption-subheading"></div>
+                      </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="col-lg-12 mb-4">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="image-slider-bottles" src="assets/img/wines/negru_de_kazayak.png" alt="negru_de_kazayak">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading" style="margin-left: 75px; white-space: nowrap;">Negru de Kazayak</div>
-                                    <div class="portfolio-caption-subheading"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="col-lg-12 mb-4">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="image-slider-bottles" src="assets/img/wines/rose_de_kazayak.png" alt="rose_de_kazayak">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading" style="margin-left: 75px; white-space: nowrap;">Rose de Kazayak</div>
-                                    <div class="portfolio-caption-subheading"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="col-lg-12 mb-4">
-                            <div class="portfolio-item">
-                                <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                                    </div>
-                                    <img class="image-slider-bottles" src="assets/img/wines/rosu_de_kazayak.png" alt="rosu_de_kazayak">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-caption-heading" style="margin-left: 75px; white-space: nowrap;">Rosu de Kazayak</div>
-                                    <div class="portfolio-caption-subheading"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-slide">
+                  <div class="col-lg-12 mb-4">
+                    <div class="portfolio-item">
+                      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                        <div class="portfolio-hover">
+                          <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="image-slider-bottles" src="assets/img/wines/pinot_noir_barrik.webp" alt="pinot_noir_barrik">
+                      </a>
+                      <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading" style="margin-left: 75px; white-space: nowrap;">Pinot Noir Barrik</div>
+                        <div class="portfolio-caption-subheading"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
             </div>
         </div>
     </section>
@@ -470,18 +438,9 @@
                 <!-- Project Details Go Here-->
                 <div class="row">
                   <div class="col-sm">
-                    <h2 class="text-uppercase">Alb de Kazayak</h2>
+                    <h2 class="text-uppercase">Chardonnay Barrik</h2>
                     <p class="item-intro"></p>
-                    <img class="suvorov-fluid d-block mx-auto" src="assets/img/wines/alb_de_kazayak.png" alt="alb_de_kazayak">
-                    <div class="medals_flex" style="margin-top: -2rem;">
-                      <img class="medals" src="assets/img/medals/berliner_gold_2020_new.png" alt="berliner_gold_2020" style="margin-left: -1rem;">
-                      <img class="medals" src="assets/img/medals/viorica_chel_du_vin_2019.jpg" alt="viorica_chel_du_vin_2019" style="margin-right: 1rem;">
-                      <img class="medals" src="assets/img/medals/berliner_silver_2021.png" alt="berliner_silver_2021">
-                      <img class="medals" src="assets/img/medals/silver_mundus_2020_new.png" alt="silver_mundus_2020">
-                    </div>
-                   <div class="medals_flex">
-                      <img class="medals" src="assets/img/medals/international-wine-challenge-bronze-2021.png" alt="">
-                    </div>
+                    <img class="suvorov-fluid d-block mx-auto" src="assets/img/wines/chardonnay_barrik.webp" alt="chardonnay_barrik">
                   </div>
                   <div class="col-sm" style="text-align: left;">
                     <ul class="list-inline">
@@ -492,18 +451,19 @@
                         <li style="margin-left: 4rem;">Tipul de vin: Alb sec</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/grapes.png" alt="grapes">
-                        <li style="margin-left: 4rem;">Soi: Aligote 33% Muscat Ottonel 33% Sauvignon Blanc 33%</li>
-                      </div>
-                      <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/food.png" alt="food">
-                        <li style="margin-left: 4rem;">Combinarea vinurilor cu mâncarea: Poate fi servit ca un aperitiv, dar formează asocieri ideale cu cașcavaluri moi, carnea albă, carnea de vită fragedă, pește, fructe de mare și legume la grătar, fructe, dulciuri. Se servește la o temperatură de 8-10°C</li>
+                        <li style="margin-left: 4rem;">Soi: 100% Chardonnay</li>
                       </div>
                     </ul>
-                    <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Afla mai mult</a>
-                    <div class="content_block" style="display: none;">
-                      <p class="item-intro">Acest ALB, distins printr-o culoare galben pai cu tente verzi și strălucitoare, reflectă combinația grațioasă dintre Afinitatea Aligote și Feminitatea Muscat Ottonel, subliniată frumos de Gentilul Sauvignon Blanc. Sufletul citric, cu intonaţii profunde de flori albe de salcâm, se înveleşte în arome plăcute de busuioc și fructe exotice. Gustul complex, proaspăt și mineral, dezvelind stropi de coajă de grapefruit și limetă, invadează exploziv papilele gustative. În schimb, postgustul revine cu arome de cireșe albe și agrișe, sporite de inflexiuni citrice și exotice</p>
-                    </div>
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/N8VUQpl8Rbs?controls=0" title="Kazayak video player" frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p class="item-intro">Este un proiect de suflet, în care cuvântul ,,Ambitios” are o Filosofie personală puternică.<br>
+                      Un vin devenit melodie - o simfonie de ganduri, sentimente și traditie.<br>
+                      Așadar, un stil de Chardonnay împlinit și bogat de la Kazayak.<br>
+                      Chardonnay posedă o culoare aurie deschisă, surprinde prin aroma bogată în nuanțe de flori albe, grapefruit și caise coapte. Gustul persistent şi crocant, propune un joc intre complexitate si prospețime cu un final ce
+                      impresionează în orice ocazie. Vinul este corpolent şi cremos, mineral cu tușe de baric, cu un bun potențial de invechire.<br>
+                      Măiestria și atenția la detalii a oenologului atrag dupa sine calitatea acestui Chardonnay distinct.<br>
+                      Vă recomandăm să il consumați la o temperatură de 8°-9°C pentru a vă bucura de o intensitate aromatică maximă.<br>
+                      Se asociază ideal cu carnea albă, preparate din pește, aperitive sofisticate sau salate aromatice, dar formează şi o pereche armonioasă cu brânză topită, pâine albă, fructe, măsline, ﬁstic, nuci şi dulciuri.<br>
+                      Produs fabricat într-un sistem de management al calitații și siguranței alimentului conform<br>
+                      ISO 9001, ISO 22000</p>
                   </div>
                 </div>
               </div>
@@ -525,74 +485,9 @@
                 <!-- Project Details Go Here-->
                 <div class="row">
                   <div class="col-sm">
-                    <h2 class="text-uppercase">Negru de Kazayak</h2>
+                    <h2 class="text-uppercase">Pinot Noir Barrik</h2>
                     <p class="item-intro"></p>
-                    <img class="suvorov-fluid d-block mx-auto" src="assets/img/wines/negru_de_kazayak.png" alt="negru_de_kazayak">
-                    <div class="medals_flex" style="margin-top: -2rem;">
-                      <img class="medals" src="assets/img/medals/cmb2021-gold-medal.png" alt="cmb2021-gold-medal">
-                      <img class="medals" src="assets/img/medals/decanter_bronze_2021.webp" alt="decanter_bronze_2021">
-                      <img class="medals" src="assets/img/medals/decanter_commended_2021.webp" alt="decanter_commended">
-                    </div>
-                  </div>
-                  <div class="col-sm" style="text-align: left;">
-                    <ul class="list-inline">
-                      <div class="align-self-center modal_fix_info"><img class="modal_inside_icons" src="assets/img/grape.png" alt="grape">
-                        <li style="margin-left: 4rem;">Anul recoltei: 2018 Imbătrânit cu vin</li>
-                      </div>
-                      <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/bar.png" alt="bar">
-                        <li style="margin-left: 4rem;">Tipul de vin: Roșu sec</li>
-                      </div>
-                      <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/grapes.png" alt="grapes">
-                        <li style="margin-left: 4rem;">Soi: Saperavi 40% Cabernet Sauvignon 30% Merlot 30%</li>
-                      </div>
-                      <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/food.png" alt="food">
-                        <li style="margin-left: 4rem;">Combinarea vinurilor cu mâncarea: Îl sugerăm ca însoțitor de mâncăruri tradiționale de la țară: șuncă afumată, pastramă de oaie, rață sau gâscă la cuptor cu varză, sau coaste de porc cu cartofi țărănești</li>
-                      </div>
-                    </ul>
-                    <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Afla mai mult</a>
-                    <div class="content_block" style="display: none;">
-                      <p class="item-intro">Un vin bărbătos, o structură echilibrată și bine definită. Descendent al soiurilor Saperavi, Cabernet-Sauvignon și Merlot, acesta este un vin-eveniment a cărui aromă intensă şi plăcută îmbină fructe de pădure, coacăze negre afine, conturate subtil de note de stejar. După ce ochiul contemplă culoarea, un fermecător rubiniu-închis, gustul, dominat de fructe negre, smochine și lemn dulce, descoperă un vin puternic, echilibrat, cu tanini bine copți, integrați într-o structură elegantă în care condimentele Saperavi-ului sunt asociate armonios cu catifelarea Merlot-ului și forța Cabernet-ului Sauvignon. Un postgust lung, fructat și condimentat. În condiții optime de păstrare, acest vin poate îmbătrâni frumos</p>
-                    </div>
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/TlkD4-hhqRs?controls=0" title="Kazayak video player" frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Următorul videoclip/Traducere română</a>
-                      <div class="content_block" style="display: none; margin-top: 1rem;">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/5gcEUvyaIFE?controls=0" title="Kazayak video player" frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal 3-->
-  <div class="portfolio-modal modal animate__animated" data-animate-in='animate__lightSpeedInRight' data-animate-out='animate__lightSpeedOutRight' id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="close-icon"></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-12">
-              <div class="modal-body">
-                <!-- Project Details Go Here-->
-                <div class="row">
-                  <div class="col-sm">
-                    <h2 class="text-uppercase">Rose de Kazayak</h2>
-                    <p class="item-intro"></p>
-                    <img class="suvorov-fluid d-block mx-auto" src="assets/img/wines/rose_de_kazayak.png" alt="rose_de_kazayak">
-                    <div class="medals_flex" style="margin-top: -2rem;">
-                      <img class="medals" src="assets/img/medals/berliner_gold_2020_new.png" alt="berliner_gold_2020">
-                      <img class="medals" src="assets/img/medals/silver_mundus_2020_new.png" alt="silver_mundus_2020">
-                      <img class="medals" src="assets/img/medals/mundus_silver_2021.jpeg" alt="mundus_silver_2021">
-                      <img class="medals" src="assets/img/medals/france_silver_2021.jpg" alt="france_silver_2021">
-                    </div>
-                    <div class="medals_flex">
-                        <img class="medals" src="assets/img/medals/international-wine-challenge-bronze-2021.png" alt="international-wine-challenge-bronze-2021">
-                      </div>
+                    <img class="suvorov-fluid d-block mx-auto" src="assets/img/wines/pinot_noir_barrik.webp" alt="pinot_noir_barrik">
                   </div>
                   <div class="col-sm" style="text-align: left;">
                     <ul class="list-inline">
@@ -600,83 +495,22 @@
                         <li style="margin-left: 4rem;">Anul recoltei: 2019</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/bar.png" alt="bar">
-                        <li style="margin-left: 4rem;">Tipul de vin: Rose sec</li>
-                      </div>
-                      <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/grapes.png" alt="grapes">
-                        <li style="margin-left: 4rem;">Soi: 40% Cabernet Sauvignon 60 % Merlot</li>
-                      </div>
-                      <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/food.png" alt="food">
-                        <li style="margin-left: 4rem;">Combinarea vinurilor cu mâncarea: Vă recomandăm să serviți acest rosé de 8°-10°C, asociat cu salate ușoare de vară, fructe de mare, pește roșu sau șuncă crudă. Ideal pentru serile lungi de vară sau pentru ocazii romantice!</li>
-                      </div>
-                    </ul>
-                    <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Afla mai mult</a>
-                    <div class="content_block" style="display: none;">
-                      <p class="item-intro">Ca și alte vinuri din această colecție, acest Rosé este un blend cristalin, caracteristic vinificării în rosé a soiurilor Merlot și Cabernet-Sauvignon culeși la maturitate deplină. Rezultatul este un vin cu caracter propriu, aciditate revigorantă, energic, fructuos și captivant. Parfum plăcut și delicat de flori de măceș, pe lângă fructe roșii de pădure ( fragi și zmeură ). Gustativ este delicat și mineral, dar în același timp intens, notele fructate de căpșune coapte și piersici îmbinându-se armonios cu senzații ușoare de citrice</p>
-                    </div>
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/UOf8N3-uyi8?controls=0" title="Kazayak video player" frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Următorul videoclip/Traducere română</a>
-                      <div class="content_block" style="display: none; margin-top: 1rem;">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/H1fjMKn4Qzg?controls=0" title="Kazayak video player" frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Modal 4-->
-  <div class="portfolio-modal modal animate__animated" data-animate-in='animate__lightSpeedInRight' data-animate-out='animate__lightSpeedOutRight' id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="close-icon"></div>
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-12">
-              <div class="modal-body">
-                <!-- Project Details Go Here-->
-                <div class="row">
-                  <div class="col-sm">
-                    <h2 class="text-uppercase">Rosu de Kazayak</h2>
-                    <p class="item-intro"></p>
-                    <img class="suvorov-fluid d-block mx-auto" src="assets/img/wines/rosu_de_kazayak.png" alt="rosu_de_kazayak">
-                    <div class="medals_flex" style="margin-top: -2rem;">
-                      <img class="medals" src="assets/img/medals/berliner_gold_2020_new.png" alt="berliner_gold_2020">
-                      <img class="medals" src="assets/img/medals/mundus_gold_2019.png" alt="mundus_gold_2019">
-                      <img class="medals" src="assets/img/medals/mundus_silver_2021.jpeg" alt="mundus_silver_2021">
-                      <img class="medals" src="assets/img/medals/decanter_bronze_2020.webp" alt="decanter_bronze_2020">
-                    </div>
-                  </div>
-                  <div class="col-sm" style="text-align: left;">
-                    <ul class="list-inline">
-                      <div class="align-self-center modal_fix_info"><img class="modal_inside_icons" src="assets/img/grape.png" alt="grape" />
-                        <li style="margin-left: 4rem;">Anul recoltei: 2018 Imbătrânit cu vin</li>
-                      </div>
-                      <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/bar.png" alt="bar">
                         <li style="margin-left: 4rem;">Tipul de vin: Roșu sec</li>
                       </div>
                       <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/grapes.png" alt="grapes">
-                        <li style="margin-left: 4rem;">Soi: Feteasca Neagra 40% Cabernet Sauvignon 30% Merlot 30%</li>
-                      </div>
-                      <div class="align-self-center"><img class="modal_inside_icons" src="assets/img/food.png" alt="food">
-                        <li style="margin-left: 4rem;">Combinarea vinurilor cu mâncarea: Provocarea gastronomică perfectă pentru acest vin - cotlet de porc cu cartofi la cuptor, steak cu sos puțin condimentat, friptură fragedă de vită</li>
+                        <li style="margin-left: 4rem;">Soi: 100% Pinot Noir</li>
                       </div>
                     </ul>
-                    <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Afla mai mult</a>
-                    <div class="content_block" style="display: none;">
-                      <p class="item-intro">Un Cadou de zile mari, hotărât să vă îmbie cu un “cupaj” sănătos din soiurile Feteasca Neagră, Cabernet-Sauvignon și Merlot. Fiecare soi își are aportul: unul aduce robustețe și intensitate, celălalt eleganță, fiind conturate grațios de parfumuri subtile și catifelate. O culoare atrăgătoare asemenea unei rodii coapte, aroma este dominată de fructe roșii și negre dulci (prune uscate, vișine și cireșe negre), acompaniate de note fine de vanilie și tutun. Impresionează prin textura catifelată și complexă, gust moale și echilibrat, fructat și condimentat, cu nuanțe elegante de stejar. Un final lung şi memorabil. Promite experienţe satisfăcătoare şi după învechire</p>
-                    </div>
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Yqrepixddow?controls=0" title="Kazayak video player" frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      <a class="btn_more_less content_toggle hvr-shutter-out-vertical" href="#">Următorul videoclip/Traducere română</a>
-                      <div class="content_block" style="display: none; margin-top: 1rem;">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/nrmMS9BBCyw?controls=0" title="Kazayak video player" frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                    <p class="item-intro">Este un proiect de suflet, în care cuvântul ,,Ambitios” are o Filosofie personală puternică.<br>
+                      Un vin devenit melodie - o simfonie de ganduri, sentimente și traditie.<br>
+                      Așadar, un stil de Pinot Noir de la Kazayak - Sfînt Graal al lumii vinurilor.<br>
+                      Pinot Noir posedă o culoare roșie cu nunțe cărămizii, seduce cu un buchet complex cu nuanțe de cireşe negre, mure, căpșune, subliniat de arome marochine, terestre și condimente. Gust elegant, catifelat ușor, mătăsos, în post
+                      gust persistent cu nuanțe fine de trufe.<br>
+                      Este unul din cele mai versatile vinuri aducînd un plus de nobleță și eleganță fiecărei mese, dar poate fi servit și de sine stătător.
+                      Ca sugestii se potriveşte excelent cu diversitatea brînzeturilor, bucatele din pește cu legime coapte, rizzoto din ciuperci cu sparanghel, prepelițe coapte umplute cu fructe uscate și rozmarin, precum și cu deserturi din fructe.<br>
+                      Vă recomandăm să il consumați la o temperatură de +18°+20°C pentru a vă bucura de o intensitate aromatică maximă.<br>
+                      Produs fabricat într-un sistem de management al calitații și siguranței alimentului conform<br>
+                      ISO 9001, ISO 22000</p>
                   </div>
                 </div>
               </div>

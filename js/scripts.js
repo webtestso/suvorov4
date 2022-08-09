@@ -35,10 +35,9 @@
 
   // Activate scrollspy to add active class to navbar items on scroll
 
-  $("body").scrollspy({
-    target: "#mainNav",
-    offset: 74,
-  });
+  var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+    target: '#mainNav', offset: 74
+  })
 
   // Counter
 
